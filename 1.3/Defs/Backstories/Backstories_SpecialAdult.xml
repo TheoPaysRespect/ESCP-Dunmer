@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_JiubBackstory</defName>
+		<title>reformed degenerate</title>
+		<titleShort>reformed degenerate</titleShort>
+		<baseDescription>[PAWN_nameDef] was once a filthy degenerate, who would do anything for skooma, even commit murder. While committing a heinous crime [PAWN_possessive] life was almost lost.\n\n[PAWN_nameDef] was saved in an act of unexpected kindness. Afterwards, [PAWN_pronoun] vowed to commit [PAWN_possessive]self to one goal. The protection of the Dunmeri people from a hellish abomination.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>1</maleCommonality>
+		<femaleCommonality>1</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_FathisBackstory</defName>
+		<title>false Nerevarine</title>
+		<titleShort>false Nerevarine</titleShort>
+		<baseDescription>[PAWN_nameDef] was lead to believe that [PAWN_pronoun] was Nerevarine reborn by a local Blades agent. This turned out to not be the case, but [PAWN_possessive] still believed. The locals of Sadrith Mora came to call [PAWN_nameDef] 'The Deranged', as [PAWN_pronoun] would constantly spout off about how [PAWN_possessive] was going to save Morrowind.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+		<maleCommonality>1</maleCommonality>
+		<femaleCommonality>1</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+</Defs>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_DagothBackstory</defName>
+		<title>house Dagoth member</title>
+		<titleShort>Dagoth member</titleShort>
+		<baseDescription>[PAWN_nameDef] was a member of the Great House Dagoth. [PAWN_pronoun] doesn't know whether it was by choice or not. What [PAWN_pronoun] does know, is that [PAWN_pronoun] has been irrevocably changed by it.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<!--
+			<li>
+				<defName>MorrowRim_TouchedByDagothUr</defName>
+				<chance>100</chance>
+			</li>
+			-->
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>

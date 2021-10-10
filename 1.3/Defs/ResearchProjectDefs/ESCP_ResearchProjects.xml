@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ESCP_DunmerBurialPit</defName>
+		<label>ash burial pit</label>
+		<description>Allows the construction of traditional Dunmeri ash burial pit.\n\nA Dunmer with the Ancestor Speaker ideoreligion role is capable of calling upon those buried within these pits.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>ESCP_DunmerTab</tab>
+		<tags>
+		  <li>ESCP_DunmerStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+</Defs>

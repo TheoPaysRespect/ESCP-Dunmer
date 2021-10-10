@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_IndorilBackstory</defName>
+		<title>house Indoril member</title>
+		<titleShort>Indoril member</titleShort>
+		<baseDescription>[PAWN_nameDef] was a member of the Great House Indoril, the great house of Indoril Nerevar himself. Like most members of House Indoril, [PAWN_nameDef] firmly believes that Dunmer culture must be respected and preserved, even the less desirable parts of it.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Cannibal</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>

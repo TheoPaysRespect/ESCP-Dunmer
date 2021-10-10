@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="MorrowRim_AshBurialPitBase" ParentName="BuildingBase">
+		<defName>ESCP_AshBurialPit</defName>
+		<label>ash burial pit</label>
+		<description>An ash burial pit, made in the traditional Dunmeri style. Dunmer very rarely bury the dead in graves or sarcophagi. Instead they cremate the bodies and spread the ashes and bones into a burial pit in a family tomb, thus returning the dead to the ash they came from.</description>
+		<thingClass>Building_Sarcophagus</thingClass>
+		<graphicData>
+		  <texPath>Things/Building/Misc/ESCP_AshBurialPitEmpty</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <drawSize>(3.9,3.9)</drawSize>
+		  <damageData>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+		  </damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<pathCost>70</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<tickerType>Rare</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<building>
+		  <ai_chillDestination>false</ai_chillDestination>
+		  <preventDeteriorationInside>true</preventDeteriorationInside>
+		  <haulToContainerDuration>500</haulToContainerDuration>
+		  <fullGraveGraphicData>
+			<texPath>Things/Building/Misc/ESCP_AshBurialPitFull</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3.9,3.9)</drawSize>
+		  </fullGraveGraphicData>
+		  <fixedStorageSettings>
+			<filter>
+			  <categories>
+				<li>Corpses</li>
+			  </categories>
+			</filter>
+		  </fixedStorageSettings>
+		  <defaultStorageSettings>
+			<priority>Important</priority>
+			<filter>
+			  <categories>
+				<li>CorpsesHumanlike</li>
+			  </categories>
+			  <specialFiltersToDisallow>
+				<li>AllowCorpsesStranger</li>
+			  </specialFiltersToDisallow>
+			</filter>
+		  </defaultStorageSettings>
+		</building>
+		<statBases>
+		  <WorkToBuild>2400</WorkToBuild>
+		  <MaxHitPoints>250</MaxHitPoints>
+		  <Flammability>1.0</Flammability>
+		  <Beauty>-3</Beauty>
+		  <MeditationFocusStrength>0.10</MeditationFocusStrength>
+		</statBases>
+		<stuffCategories>
+		  <li>Woody</li>
+		  <li>Metallic</li>
+		  <li>Stony</li>
+		</stuffCategories>
+		<inspectorTabs>
+		  <li>ITab_Storage</li>
+		  <li>ITab_Art</li>
+		  <li>ITab_ContentsCasket</li>
+		</inspectorTabs>
+		<comps>
+		  <li>
+			<compClass>CompQuality</compClass>
+		  </li>
+		  <li Class="CompProperties_Art">
+			<nameMaker>NamerArtSarcophagusPlate</nameMaker>
+			<descriptionMaker>ArtDescription_AshBurialPit</descriptionMaker>
+			<mustBeFullGrave>true</mustBeFullGrave>
+		  </li>
+		  <li Class="CompProperties_AssignableToPawn">
+			<drawAssignmentOverlay>false</drawAssignmentOverlay>
+			<compClass>CompAssignableToPawn_Grave</compClass>
+		  </li>
+		  <li Class="CompProperties_MeditationFocus">
+			<statDef>MeditationFocusStrength</statDef>
+			<focusTypes>
+			  <li>Morbid</li>
+			</focusTypes>
+			<offsets>
+			  <li Class="FocusStrengthOffset_GraveFull">
+				<offset>0.12</offset>
+			  </li>
+			  <li Class="FocusStrengthOffset_GraveCorpseRelationship">
+				<offset>0.14</offset>
+			  </li>
+			  <li Class="FocusStrengthOffset_NearbyGraves">
+				<defs>
+				  <li>ESCP_AshBurialPit</li>
+				</defs>
+				<offsetPerBuilding>0.01</offsetPerBuilding>
+				<radius>9.9</radius>
+				<maxBuildings>4</maxBuildings>
+				<focusPerFullGrave>0.01</focusPerFullGrave>
+				<explanationKey>MeditationFocusPerGrave</explanationKey>
+				<explanationKeyAbstract>MeditationFocusPerGraveAbstract</explanationKeyAbstract>
+		     </li>
+			</offsets>
+		  </li>
+		</comps>
+		<costStuffCount>60</costStuffCount>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<blockWind>false</blockWind>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<staticSunShadowHeight>0.0</staticSunShadowHeight>
+		<designationCategory>Misc</designationCategory>
+		<designationHotKey>Misc9</designationHotKey>
+		<researchPrerequisites>
+		  <li>ESCP_DunmerBurialPit</li>
+		</researchPrerequisites>
+		<placeWorkers>
+		  <li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+		</placeWorkers>
+	</ThingDef>
+
+</Defs>

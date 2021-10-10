@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_TwinLampsBackstory</defName>
+		<title>Twin Lamps member</title>
+		<titleShort>Twin Lamps member</titleShort>
+		<baseDescription>[PAWN_nameDef] always thought slavery a necessary evil. [PAWN_pronoun] had a change of heart After watching an Argonian slave get beaten to near death. After that moment [PAWN_nameDef] decided to join the Twin Lamps, and vowed to do anything to protect slaves.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Nimble</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Ascetic</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Xenophobia</defName>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>ESCP_Slaver</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+</Defs>

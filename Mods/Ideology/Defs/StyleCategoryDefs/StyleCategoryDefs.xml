@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Generic styles -->
+
+	<StyleCategoryDef>
+		<defName>ESCP_AshlanderStyle</defName>
+		<label>Ashlander</label>
+		<iconPath>World/WorldObjects/Expanding/ESCP_AshlanderSettlement</iconPath>
+		<!--
+		<soundOngoingRitual>RitualSustainer_Hindu</soundOngoingRitual>
+		<ritualVisualEffectDef>Hindu</ritualVisualEffectDef>
+		-->
+		<thingDefStyles>
+
+		</thingDefStyles>
+	</StyleCategoryDef>
+
+	<StyleCategoryDef>
+		<defName>ESCP_DunmerStyle</defName>
+		<label>Dunmeri</label>
+		<iconPath>World/WorldObjects/Expanding/ESCP_DunmerReaverSettlement</iconPath>
+
+		<thingDefStyles>
+
+		</thingDefStyles>
+	</StyleCategoryDef>
+	
+	<!-- Origin styles -->
+	
+	<StyleCategoryDef>
+		<defName>ESCP_DunmerTribunal</defName>
+		<label>Almsivi</label>
+		<iconPath>UI/Structures/ESCP_OriginTribunal</iconPath>
+
+		<thingDefStyles>
+
+		</thingDefStyles>
+	</StyleCategoryDef>
+
+	<!-- Great house styles -->
+	<!--
+	<StyleCategoryDef>
+		<defName>ESCP_DunmerDresStyle</defName>
+		<label>Dres</label>
+		<iconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementSlaver</iconPath>
+
+		<thingDefStyles>
+
+		</thingDefStyles>
+	</StyleCategoryDef>
+
+	
+	<StyleCategoryDef>
+		<defName>ESCP_DunmerHlaaluStyle</defName>
+		<label>Hlallu</label>
+		<iconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementDiplomatic</iconPath>
+
+		<thingDefStyles>
+
+		</thingDefStyles>
+	</StyleCategoryDef>
+	
+	<StyleCategoryDef>
+		<defName>ESCP_DunmerIndorilStyle</defName>
+		<label>Indoril</label>
+		<iconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementFaithful</iconPath>
+
+		<thingDefStyles>
+
+		</thingDefStyles>
+	</StyleCategoryDef>
+	
+	<StyleCategoryDef>
+		<defName>ESCP_DunmerRedoranStyle</defName>
+		<label>Redoran</label>
+		<iconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementHonourable</iconPath>
+
+		<thingDefStyles>
+
+		</thingDefStyles>
+	</StyleCategoryDef>
+	
+	<StyleCategoryDef>
+		<defName>ESCP_DunmerTelvanniStyle</defName>
+		<label>Telvanni</label>
+		<iconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementScientific</iconPath>
+
+		<thingDefStyles>
+
+		</thingDefStyles>
+	</StyleCategoryDef>
+	-->
+</Defs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MorrowRim - Moon Sugar and Skooma</li>
+		</mods> 
+				
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- Add to trader -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/TraderKindDef[defName="ESCP_DunmerCaravan_CamonnaTongFence"]/stockGenerators</xpath>
+					<value>
+						
+						<li Class="StockGenerator_SingleDef">
+							<thingDef>MorrowRim_MoonSugar</thingDef>
+							<countRange>75~300</countRange>
+						</li>
+	  
+						<li Class="StockGenerator_SingleDef">
+							<thingDef>Skooma</thingDef>
+							<countRange>25~125</countRange>
+						</li>
+						
+					</value>
+				</li>
+		
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

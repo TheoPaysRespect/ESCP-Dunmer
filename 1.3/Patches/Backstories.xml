@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MorrowRim</li>
+		</mods> 
+				
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_KwamaBackstory"]/forcedItems</xpath>
+					<value>
+						<MorrowRim_KwamaEgg>0~10</MorrowRim_KwamaEgg>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_StriderBackstory"]/forcedItems</xpath>
+					<value>
+						<MorrowRim_Egg_SiltStriderFertilized>-1~1</MorrowRim_Egg_SiltStriderFertilized>	
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MorrowRim - Moon Sugar and Skooma</li>
+			<li>ESCP - Moon Sugar and Skooma</li>
+		</mods> 
+				
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_SkoomaBackstory"]/forcedItems</xpath>
+					<value>
+						<Skooma>2~10</Skooma>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_SkoomaBackstory"]</xpath>
+					<value>
+						<forcedHediffs>
+						  <li>SkoomaAddiction</li>
+						</forcedHediffs>
+					</value>
+				</li>
+
+				
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>
+

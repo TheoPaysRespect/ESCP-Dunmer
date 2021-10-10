@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IdeoIconDef>
+    <defName>ESCP_DunmerA</defName>
+    <iconPath>UI/Ideoligions/ESCP_DunmerA</iconPath>
+    <memes>
+      <li>ESCP_Cursed</li>
+    </memes>
+  </IdeoIconDef> 
+  
+  <IdeoIconDef>
+    <defName>ESCP_DunmerB</defName>
+    <iconPath>UI/Ideoligions/ESCP_DunmerB</iconPath>
+    <memes>
+      <li>ESCP_Cursed</li>
+    </memes>
+  </IdeoIconDef> 
+  
+  <IdeoIconDef>
+    <defName>ESCP_DunmerC</defName>
+    <iconPath>UI/Ideoligions/ESCP_DunmerC</iconPath>
+    <memes>
+      <li>ESCP_Cursed</li>
+    </memes>
+  </IdeoIconDef> 
+  
+  <IdeoIconDef>
+    <defName>ESCP_DunmerD</defName>
+    <iconPath>UI/Ideoligions/ESCP_DunmerD</iconPath>
+    <memes>
+      <li>ESCP_Cursed</li>
+    </memes>
+  </IdeoIconDef> 
+  
+  <IdeoIconDef>
+    <defName>ESCP_DunmerE</defName>
+    <iconPath>UI/Ideoligions/ESCP_DunmerE</iconPath>
+    <memes>
+      <li>ESCP_Cursed</li>
+    </memes>
+  </IdeoIconDef> 
+ 
+</Defs>

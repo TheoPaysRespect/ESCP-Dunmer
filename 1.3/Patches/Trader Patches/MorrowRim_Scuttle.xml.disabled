@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MorrowRim - Scuttle</li>
+		</mods> 
+				
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- Add to trader -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/TraderKindDef[defName="MorrowRim_DunmerCaravan_Neolithic_ShamanMerchant" or defName="MorrowRim_DunmerCaravan_Neolithic_CamonnaTongFence" or defName="MorrowRim_DunmerCaravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
+					<value>
+						
+						<li Class="StockGenerator_SingleDef">
+							<thingDef>MorrowRim_Scuttle</thingDef>
+							<countRange>0~30</countRange>
+						</li>
+						
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/TraderKindDef[defName="MorrowRim_DunmerBase_Neolithic_Standard"]/stockGenerators</xpath>
+					<value>
+						
+						<li Class="StockGenerator_SingleDef">
+							<thingDef>MorrowRim_Scuttle</thingDef>
+							<countRange>20~50</countRange>
+						</li>
+						
+					</value>
+				</li>
+		
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef>
+    <defName>ESCP_Slaver</defName>
+    <commonality>0.7</commonality>
+    <degreeDatas>
+      <li>
+        <label>slaver</label>
+        <description>[PAWN_nameDef] sees nothing wrong with owning a slave or two, and won't mind if something unfortunate happens to one.</description>
+		<statOffsets>
+			<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.10</SuppressionPower>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+	<conflictingTraits>
+      <li>Kind</li>
+      <li>Psychopath</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <!-- blessings -->
+
+  <TraitDef>
+    <defName>ESCP_AlmalexiaBlessing</defName>
+    <commonality>0.05</commonality>
+    <degreeDatas>
+      <li>
+        <label>blessing of Almalexia</label>
+        <description>{PAWN_nameDef} has received the blessing of Almalexia. {PAWN_nameDef} knows that even in death, the Lady of Mercy is with them.</description>
+		<statOffsets>
+			<MentalBreakThreshold>-0.10</MentalBreakThreshold>
+			<ImmunityGainSpeed>+0.10</ImmunityGainSpeed>
+        </statOffsets>
+		<marketValueFactorOffset>+0.15</marketValueFactorOffset>
+	  </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>ESCP_VivecBlessing</defName>
+    <commonality>0.05</commonality>
+    <degreeDatas>
+      <li>
+        <label>blessing of Vivec</label>
+        <description>{PAWN_nameDef} has received the blessing of Vivec. {PAWN_nameDef} knows that even in death, the Warrior-Poet is with them.</description>
+		<statOffsets>
+			<PainShockThreshold>+0.10</PainShockThreshold>
+			<NegotiationAbility>+0.10</NegotiationAbility>
+        </statOffsets>
+		<marketValueFactorOffset>+0.15</marketValueFactorOffset>
+	  </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>ESCP_SothaSilBlessing</defName>
+    <commonality>0.05</commonality>
+    <degreeDatas>
+      <li>
+        <label>blessing of Sotha Sil</label>
+        <description>{PAWN_nameDef} has received the blessing of Sotha Sil. {PAWN_nameDef} knows that even in death, the Clockwork God is with them.</description>
+		<statOffsets>
+			<GlobalLearningFactor>+0.10</GlobalLearningFactor>
+			<WorkSpeedGlobal>+0.10</WorkSpeedGlobal>
+        </statOffsets>
+		<marketValueFactorOffset>+0.15</marketValueFactorOffset>
+	  </li>
+    </degreeDatas>
+  </TraitDef>
+
+</Defs>

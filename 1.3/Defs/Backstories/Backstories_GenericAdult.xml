@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Generic -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_SlaverBackstory</defName>
+		<title>plantation owner</title>
+		<titleShort>plantation owner</titleShort>
+		<baseDescription>[PAWN_nameDef] once owned a bustling moon sugar cane plantation. Many slaves passed through [PAWN_possessive] plantation, all of them equally disgusting vermin.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Slaver</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_NetchBackstory</defName>
+		<title>netch rancher</title>
+		<titleShort>netch rancher</titleShort>
+		<baseDescription>[PAWN_nameDef] worked on a netch ranch for many years. [PAWN_pronoun] suffered many stings during these years, and learnt some basic medical skills in the process.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_KwamaBackstory</defName>
+		<title>kwama egg miner</title>
+		<titleShort>egg miner</titleShort>
+		<baseDescription>[PAWN_nameDef] worked tirelessly in a kwama egg mine for a considerable number of years. In this time [PAWN_pronoun] harvested many kwama eggs, and  may have even kept a few as souvenirs.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>Undergrounder</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_StriderBackstory</defName>
+		<title>silt strider trainer</title>
+		<titleShort>silt strider trainer</titleShort>
+		<baseDescription>[PAWN_nameDef] raised silt striders from nymph to adult. It was good work, until the red year arrived. Sadly, [PAWN_pronoun] was unable to save any silt strider eggs.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>DunmerRedYearBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_GlassBackstory</defName>
+		<title>volcanic glass miner</title>
+		<titleShort>glass miner</titleShort>
+		<baseDescription>[PAWN_nameDef] spent many years working in the glass mines around Red Mountain. [PAWN_pronoun] always thought glass was fascinating to look at, and always wanted to keep some for [PAWN_possessive]self.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<defName>Mining</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>Undergrounder</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Greedy</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_EbonyBackstory</defName>
+		<title>volcanic ebony miner</title>
+		<titleShort>ebony miner</titleShort>
+		<baseDescription>[PAWN_nameDef] spent what felt like decades working in the Vassir-Didanat ebony mine. In reality it was only months. These months, for better or worse, took a toll on [PAWN_possessive] body.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+			<li>
+				<defName>Nimble</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<li>Caring</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Undergrounder</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_MoragTongMarkedBackstory</defName>
+		<title>marked by the Morag Tong</title>
+		<titleShort>marked</titleShort>
+		<baseDescription>[PAWN_nameDef] may have 'borrowed' from a shop keeper in Vivec City. Turns out the shop keeper knew someone rather high up in the Morag Tong. Now [PAWN_nameDef] has fled for [PAWN_possessive] life to lands unknown, hoping that the Morag Tong won't follow.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-2</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>-1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_SkoomaBackstory</defName>
+		<title>skooma seller</title>
+		<titleShort>entrepreneur</titleShort>
+		<baseDescription>[PAWN_nameDef] had the brilliant idea of starting [PAWN_pronoun] own skooma buisness, a bustling market with profit margins most could only dream of. After a run in with an Ordinator, [PAWN_nameDef] decided to sample [PAWN_possessive] own product, leaving the past few years a blur.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>DrugDesire</defName>
+				<degree>2</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-2</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>2</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>NaturalMood</defName>
+				<degree>-2</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_BonemoldBackstory</defName>
+		<title>bonemold smith</title>
+		<titleShort>bonemold smith</titleShort>
+		<baseDescription>[PAWN_nameDef] was always fascinated with the process of constructing armor from bonemold. Following their lifelong dream, [PAWN_pronoun] decided to become one of the best bonemold smiths in Vivec. Sadly, [PAWN_possessive] fledgling business was in Camonna Tong territory. [PAWN_nameDef] barely saw a sliver of gold for [PAWN_possessive] hard work, but that never stopped [PAWN_possessive] from enjoying life.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<li>Caring</li>
+		</workDisables>
+		<forcedItems>
+			<!--<ESCP_Bonemold>5~15</ESCP_Bonemold>-->
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>NaturalMood</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_ScuttleBackstory</defName>
+		<title>scuttle cook</title>
+		<titleShort>scuttle cook</titleShort>
+		<baseDescription>[PAWN_nameDef] has always maintained that [PAWN_pronoun] invented scuttle, due to [PAWN_possessive] dislike of insect meat. Everyone around [PAWN_possessive] knew it was a lie, but the scuttle was very tasty, so they feigned belief in [PAWN_nameDef] anyway.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>4</amount>
+			</li>
+
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Mining</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>Gourmand</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_PackRatBackstory</defName>
+		<title>rat trainer</title>
+		<titleShort>rat trainer</titleShort>
+		<baseDescription>One day [PAWN_nameDef] woke up and decided that [PAWN_pronoun] would train pack rats. Over [PAWN_possessive] years working in this emerging industry, [PAWN_pronoun] made a surprising amount of gold. Turns out rats are rather easy to train, and even easier to breed. And when times were tough, [PAWN_nameDef] always had something to eat.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+			<li>
+				<defName>Gourmand</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_GhostFenceBackstory</defName>
+		<title>ghost fence maintainer</title>
+		<titleShort>ghost fence</titleShort>
+		<baseDescription>[PAWN_nameDef] spent quite a few years maintaining Ghostfence, a difficult, but highly rewarding job. It was a bittersweet moment when Ghostfence was lowered. While [PAWN_nameDef] knew that the blight was gone, [PAWN_nameDef] also knew [PAWN_pronoun] was about to become unemployed.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_SmithBackstory</defName>
+		<title>steel smith</title>
+		<titleShort>steel smith</titleShort>
+		<baseDescription>[PAWN_nameDef] was a master of steel, and made a small fortune selling steel armaments. [PAWN_possessive] blades adorned the hips of many Dunmer nobles.\n\nOf course this all came to an end when a competitor emerged. This may not have been a problem for [PAWN_nameDef], except that [PAWN_possessive] competitor forged Akaviri style blades. Soon [PAWN_nameDef] was left with only a pouch half-full of drakes.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_ScribCircusBackstory</defName>
+		<title>scrib trainer</title>
+		<titleShort>scrib trainer</titleShort>
+		<baseDescription>[PAWN_nameDef] ran the most prestigious scrib circus in Mournhold. Dozens of Dunmer strolled past every day, completely oblivious to the supposed performance mere metres from them.\n\nOf course [PAWN_nameDef] was equally oblivious to the lack of attention, and simply enjoyed watching [PAWN_possessive] scrib shake their abdomens.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Cooking</li>
+			<li>Caring</li>
+			<li>Hunting</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>NaturalMood</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_SlaughterfishBackstory</defName>
+		<title>slaughterfish eradicator</title>
+		<titleShort>eradicator</titleShort>
+		<baseDescription>[PAWN_nameDef] was part of a group tasked with clearing the Vivec canals of slaughterfish. Many slaughterfish were slain, and many members of the group were lost to their jaws. But [PAWN_nameDef] managed to survive the ordeal.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_SlaughterfishBackstoryAlt</defName>
+		<title>slaughterfish eradicator</title>
+		<titleShort>eradicator</titleShort>
+		<baseDescription>[PAWN_nameDef] was part of a group tasked with clearing the Vivec canals of slaughterfish. Many slaughterfish were slain, and many members of the group were lost to their jaws. But [PAWN_nameDef] managed to survive the ordeal, albeit missing a leg.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+			<li>PegLeg</li>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_GondolaBackstory</defName>
+		<title>vivec gondolier</title>
+		<titleShort>gondolier</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the many gondoliers working in the Vivec canals, and spent many days transporting Dunmer, and some N'wah, between the cantons. Whilst [PAWN_nameDef] found the job enjoyable, [PAWN_pronoun] was always annoyed watching all the potential customers simply walk past, and over a bridge to the next canton.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_AshYamBackstory</defName>
+		<title>ash yam farmer</title>
+		<titleShort>ash yam farmer</titleShort>
+		<baseDescription>Back in Vvardenfell [PAWN_nameDef] had a magnificent ash yam farm. The products of [PAWN_possessive] hard labour fed many slaves, up until a wild guar herd decided they were hungry.\n\n[PAWN_nameDef] slew every last guar that was even remotely close to [PAWN_possessive] farm. Of course this simply attracted a flock of cliff racers, and [PAWN_nameDef]'s farm was soon uninhabitable.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_BloatsporeBackstory</defName>
+		<title>bloat farmer</title>
+		<titleShort>farmer</titleShort>
+		<baseDescription>[PAWN_nameDef] once worked in one of the largest bloatspore mines in Vvardenfell. The days were spent harvesting bloat, expanding caves, and sometimes even building supports or platforms. Of course this all came to an end during the blight.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+			<li>Hunting</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>Undergrounder</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_WickwheatBackstory</defName>
+		<title>wickwheat farmer</title>
+		<titleShort>wickwheat farmer</titleShort>
+		<baseDescription>[PAWN_nameDef] spent [PAWN_possessive] early adulthood working in a wickwheat farm in the Grazelands. Many long days were spent under the blazing sun, sowing, harvesting, and shooting arrows at cliff racers. [PAWN_nameDef] finally had enough of the constant interruptions, and decided to look for a life somewhere else.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_MarshmerrowBackstory</defName>
+		<title>marshmerrow farmer</title>
+		<titleShort>marshmerrow farmer</titleShort>
+		<baseDescription>[PAWN_nameDef] worked on one of the marshmerrow plantations in the Ascadian Isles. Harvesting marshmerrow was hard work, but at the end of the day [PAWN_nameDef] earnt a sizable puch of drakes, and even got to keep some marshmerrow to cook up for snacks.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_KreshWeedBackstory</defName>
+		<title>kresh weed farmer</title>
+		<titleShort>kresh farmer</titleShort>
+		<baseDescription>One day [PAWN_nameDef] decided to start [PAWN_possessive] own business selling kresh fiber clothing. This proved to be significantly more difficult than [PAWN_nameDef] anticipated. Not only was kresh weed suprisingly difficult to grow, but good slaves were rather expensive, and harvesting kresh fiber was a laborious process.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_MuckSpongeBackstory</defName>
+		<title>muck scooper</title>
+		<titleShort>muck scooper</titleShort>
+		<baseDescription>[PAWN_nameDef] spent slightly too much of [PAWN_possessive] life scooping muck out of muck sponges. At the end of every day, [PAWN_nameDef] was covered in a thick layer of muck. The only natural response to this daily occurrence was to never clean again.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_GuarBackstory</defName>
+		<title>guar rancher</title>
+		<titleShort>guar rancher</titleShort>
+		<baseDescription>[PAWN_nameDef] used to work on a guar ranch back in Vvardenfell. Many hours each day were spent herding the guar, whom often wound up getting their oversized heads stuck in strange places. [PAWN_nameDef] also spent most afternoons crafting new pairs of boots, as [PAWN_possessive] boots were often ruined whilst wandering the fields.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_NixHoundBackstory</defName>
+		<title>nix hound trainer</title>
+		<titleShort>nix hound trainer</titleShort>
+		<baseDescription>[PAWN_nameDef] used to own a quant little hovel in Hla Oad, where [PAWN_pronoun] spent many hours each day training nix hound pups. [PAWN_nameDef] quickly found out that [PAWN_pronoun] was quite good at this, and quickly earnt enough drakes to start a new life, outside of that awful swamp.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_VvardvarkBackstory</defName>
+		<title>vvardvark breeder</title>
+		<titleShort>vvardvark breeder</titleShort>
+		<baseDescription>[PAWN_nameDef] once owned a small housepod in Sadrith Mora, where [PAWN_pronoun] bred vvardvarks for the local Telvanni. The sheer amount of filth produced by these tiny creatures swiftly broke [PAWN_possessive], and since then [PAWN_nameDef] refuses to clean even the smallest of messes.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_AshlanderBackstory</defName>
+		<title>ashlander</title>
+		<titleShort>ashlander</titleShort>
+		<baseDescription>[PAWN_nameDef] used to be an ashlander from the Ahemmusa Tribe. [PAWN_nameDef] enjoyed living a relatively simple life, where death awaited around every corner. Though [PAWN_pronoun] eventually got sick of all the ash and blight storms, and decided to look for greener pastures, with actual grass.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_CorprusRefugeeBackstory</defName>
+		<title>corprus refugee</title>
+		<titleShort>corprus refugee</titleShort>
+		<baseDescription>[PAWN_nameDef] was forced out of [PAWN_possessive] old home when the town was quarantined due to a corprus outbreak. [PAWN_nameDef] decided to help the other refugees, and learnt some useful skills on the road to Vivec.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_BookstoreBackstory</defName>
+		<title>book shop owner</title>
+		<titleShort>book seller</titleShort>
+		<baseDescription>[PAWN_nameDef] owned a small bookshop in Vivec city, which specialised in selling rare books. One day the Ordinators visited [PAWN_possessive] shop, as they had heard certain heretical tomes were being sold there. Luckily [PAWN_nameDef] managed to escape before they arrived, though without a single drake to [PAWN_possessive] name.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>Animals</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_PoetBackstory</defName>
+		<title>wandering poet</title>
+		<titleShort>poet</titleShort>
+		<baseDescription>Inspired by the wonderful tales told by Vivec, [PAWN_nameDef] became a wandering poet. [PAWN_nameDef]'s adventures were quite dull and uneventful, though the stories [PAWN_pronoun] told were anything but. Sadly, at the end of the day, [PAWN_possessive] tales were nothing compared to those told b Vivec, and [PAWN_pronoun] often had to cook dinner for [PAWN_possessive]self.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+
+</Defs>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_DresBackstory</defName>
+		<title>house Dres member</title>
+		<titleShort>Dres member</titleShort>
+		<baseDescription>[PAWN_nameDef] was a member of the Great House Dres. An often forgotten Great House, but a highly important one. House Dres was known for slavery, and nothing else. Any Argonian in House Dres territory was a slave, and [PAWN_nameDef] liked it that way.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Slaver</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Xenophobia</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Mining</li>
+			<li>PlantWork</li>
+			<li>Animals</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+</Defs>

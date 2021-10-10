@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Categories -->
+
+  <StyleItemCategoryDef>
+    <defName>ESCP_AshlanderStyle</defName>
+    <label>Ashlander</label>
+  </StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
+    <defName>ESCP_DunmerStyle</defName>
+    <label>Dunmeri</label>
+  </StyleItemCategoryDef>
+  
+   <StyleItemCategoryDef>
+    <defName>ESCP_DunmerTribunal</defName>
+    <label>Almsivi</label>
+  </StyleItemCategoryDef>
+  <!--
+  <StyleItemCategoryDef>
+    <defName>ESCP_DunmerDresStyle</defName>
+    <label>Dres</label>
+  </StyleItemCategoryDef>
+  
+  <StyleItemCategoryDef>
+    <defName>ESCP_DunmerHlaaluStyle</defName>
+    <label>Hlaalu</label>
+  </StyleItemCategoryDef>
+  
+  <StyleItemCategoryDef>
+    <defName>ESCP_DunmerIndorilStyle</defName>
+    <label>Indoril</label>
+  </StyleItemCategoryDef>
+  
+  <StyleItemCategoryDef>
+    <defName>ESCP_DunmerRedoranStyle</defName>
+    <label>Redoran</label>
+  </StyleItemCategoryDef>
+  
+  <StyleItemCategoryDef>
+    <defName>ESCP_DunmerTelvanniStyle</defName>
+    <label>Telvanni</label>
+  </StyleItemCategoryDef>
+  -->
+</Defs>
+

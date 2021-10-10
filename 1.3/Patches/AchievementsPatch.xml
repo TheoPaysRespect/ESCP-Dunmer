@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Achievements Expanded</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs</xpath>
+					<value>
+
+						<AchievementsExpanded.AchievementTabDef>
+							<defName>ESCP_AchievementsTab</defName>
+							<label>ESCP</label>
+						</AchievementsExpanded.AchievementTabDef>
+						
+						<AchievementsExpanded.Reward_MapIncident>
+							<defName>ESCP_RewardAshlanderJoins</defName>
+							<label>Dunmer Ashlander Joins</label>
+							<tab>ESCP_AchievementsTab</tab>
+							
+							<cost>150</cost>
+							<incident>ESCP_AshlanderJoins</incident>
+						</AchievementsExpanded.Reward_MapIncident>
+						
+						<AchievementsExpanded.Reward_MapIncident>
+							<defName>ESCP_RewardDunmerJoins</defName>
+							<label>Tribal Dunmer Joins</label>
+							<tab>ESCP_AchievementsTab</tab>
+							
+							<cost>150</cost>
+							<incident>ESCP_DunmerJoins</incident>
+						</AchievementsExpanded.Reward_MapIncident>
+	
+						<!-- Building -->
+
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementAshPit</defName>
+							<label>Not For Playing In</label>
+							<description>Build an Ash Burial Pit</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.BuildingTracker">
+								<def>ESCP_AshBurialPit</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementAshPit</texPath>
+							<points>5</points>
+						</AchievementsExpanded.AchievementDef>
+						<!--
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementTribunalSculpture</defName>
+							<label>Tribunal Faithful</label>
+							<description>Craft and place three Tribunal Sculptures made out of gold</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.BuildingTracker">
+								<def>ESCP_SculptureGrand_Tribunal_a</def>
+								<madeFrom>Gold</madeFrom>
+								<count>3</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementTribunalSculpture</texPath>
+							<points>50</points>
+						</AchievementsExpanded.AchievementDef>
+						-->
+
+						<!-- Crafting -->
+
+						<!-- Colonist -->
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementDunmerColonists</defName>
+							<label>Building Your Own Great House</label>
+							<description>Have 12 Dunmer in your colony at the same time</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<raceDefs>
+									<li>
+										<key>ESCP_DunmerRace</key>
+										<value>12</value>
+									</li>
+								</raceDefs>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementDunmerColonists</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementAshlanderColonists</defName>
+							<label>The New Ashkhan on The Block</label>
+							<description>Have 12 Ashlanders in your colony at the same time</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<raceDefs>
+									<li>
+										<key>ESCP_AshlanderRace</key>
+										<value>12</value>
+									</li>
+								</raceDefs>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementAshlanderColonists</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementRecruitDunmerMaster</defName>
+							<label>Did Someone Say Scuttle?</label>
+							<description>Recruit a Dunmer Master</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KindDefTracker">
+								<kindDefs>
+									<li>
+										<key>ESCP_DunmerTribal_ChiefMelee</key>
+										<value>1</value>
+									</li>
+								</kindDefs>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementRecruitDunmerMaster</texPath>
+							<points>50</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementDunmerNamedFathis</defName>
+							<label>A Bit of a Bastard</label>
+							<description>Recruit a Dunmer named Fathis</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="Mashed_VanillaAchievementsExpanded.PawnNamedTracker">
+								<key>ESCP_DunmerRace</key>
+								<firstName>Fathis</firstName>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementDunmerNamedFathis</texPath>
+							<points>75</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<!-- Items -->
+
+						<!-- Kills -->
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_DunmerSlayer</defName>
+							<label>They Were Wheezing On Me</label>
+							<description>Slay 50 Dunmer</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<raceDef>ESCP_DunmerRace</raceDef>
+								<count>50</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_DunmerSlayer</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementSlayGreatHouse</defName>
+							<label>Not So Great Any More</label>
+							<description>Slay 150 Dunmer from any Dunmer Great House</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<factionDefs>
+									<li>ESCP_DunmerGreatHouseHonourable</li>
+									<li>ESCP_DunmerGreatHouseMercantile</li>
+									<li>ESCP_DunmerGreatHouseScientific</li>
+									<li>ESCP_DunmerGreatHouseFaithful</li>
+									<li>ESCP_DunmerGreatHouseSlaver</li>
+									<li>ESCP_DunmerGreatHouseForgotten</li>
+								</factionDefs>
+								<count>150</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementSlayGreatHouse</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementSlayReavers</defName>
+							<label>Reaver Cleaver</label>
+							<description>Slay 150 Dunmer Reavers</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<factionDefs>
+									<li>ESCP_DunmerReavers</li>
+								</factionDefs>
+								<count>150</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementSlayReavers</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<!-- Research -->
+
+						<!-- Trade -->
+						
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

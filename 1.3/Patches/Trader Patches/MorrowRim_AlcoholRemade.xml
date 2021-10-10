@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MorrowRim - Alcohol Remade</li>
+		</mods> 
+				
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+
+				<!-- Add new trader -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						
+						<TraderKindDef>
+							<defName>MorrowRim_DunmerCaravan_AlcoholTrader</defName>
+							<label>alcohol trader</label>
+							<stockGenerators>
+							  
+							  <!-- Resources -->
+							  <li Class="StockGenerator_SingleDef">
+								<thingDef>Silver</thingDef>
+								<countRange>900~1500</countRange>
+							  </li>
+							  <li Class="StockGenerator_SingleDef">
+								<thingDef>Pemmican</thingDef>
+								<countRange>150~300</countRange>
+							  </li>
+							  <li Class="StockGenerator_Tag">
+								<tradeTag>DunmerBoozeCrop</tradeTag>
+								<thingDefCountRange>1~3</thingDefCountRange>
+								<totalPriceRange>100~300</totalPriceRange>
+							  </li>
+	
+							  <!-- Drugs -->
+							  <li Class="StockGenerator_Tag">
+								<tradeTag>DunmerBooze</tradeTag>
+								<thingDefCountRange>3~5</thingDefCountRange>
+								<totalPriceRange>900~1800</totalPriceRange>
+							  </li>
+	
+							  <!-- Techprints -->
+							  <li Class="StockGenerator_Techprints">
+								<countChances>
+								  <li>
+									<count>1</count>
+									<chance>1</chance>
+								  </li>
+								</countChances>
+							  </li>
+							  
+							  <!-- Weapons -->
+							  <!-- none -->
+							  
+							  <!-- Apparel -->
+							  <!-- none -->
+
+							  <!-- Implants -->
+							  <!-- none -->
+
+							  <!-- Buildings -->
+							  <!-- none -->
+
+							  <!-- Exotic -->
+
+							  <!-- Slaves -->
+							  <li Class="StockGenerator_Slaves">
+							  <respectPopulationIntent>true</respectPopulationIntent>
+								<countRange>0~2</countRange>
+							  </li>
+							  
+							  <!-- Buying -->
+							  <li Class="StockGenerator_BuySlaves" />
+							  <li Class="StockGenerator_BuyExpensiveSimple" />
+							  <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+							  <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+							  
+							</stockGenerators>
+						</TraderKindDef>
+						
+					</value>
+				</li>
+				
+				<!-- Add to trader -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/TraderKindDef[defName="ESCP_DunmerCaravan_CamonnaTongFence"]/stockGenerators</xpath>
+					<value>
+						
+						<li Class="StockGenerator_Tag">
+							<tradeTag>DunmerBooze</tradeTag>
+							<thingDefCountRange>3~5</thingDefCountRange>
+							<totalPriceRange>300~700</totalPriceRange>
+						</li>
+
+					</value>
+				</li>
+		
+				<!-- Add to factions -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/FactionDef[@Name="ESCP_DunmerTribeBase" or defName="ESCP_DunmerGreatHouseSlaver"]/caravanTraderKinds</xpath>
+					<value>
+						<li>MorrowRim_DunmerCaravan_AlcoholTrader</li>
+					</value>
+				</li>
+		
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

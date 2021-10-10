@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_HlaaluBackstory</defName>
+		<title>house Hlaalu member</title>
+		<titleShort>Hlaalu member</titleShort>
+		<baseDescription>[PAWN_nameDef] was a member of the Great House Hlaalu. Members of the Great House Hlaalu are notorious for valuing wealth above all else, even morals. [PAWN_nameDef] once thought [PAWN_pronoun] was different, now [PAWN_pronoun] is not so sure.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Ascetic</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<forcedItems>
+			<Silver>0~50</Silver>	
+		</forcedItems>
+	</AlienRace.BackstoryDef>
+
+</Defs>

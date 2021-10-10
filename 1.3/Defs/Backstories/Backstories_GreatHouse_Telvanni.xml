@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_TelvanniBackstory</defName>
+		<title>house Telvanni member</title>
+		<titleShort>Telvanni member</titleShort>
+		<baseDescription>[PAWN_nameDef] was a member of the Great House Telvanni. Great House Telvanni is known for its wonderful and magical craftsmanship, creating houses out of the strangest materials. [PAWN_nameDef] learnt many wonderous things during [PAWN_possessive] time with House Telvanni, such as socialising is a waste of precious time and that caring about people is pointless.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Social</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>

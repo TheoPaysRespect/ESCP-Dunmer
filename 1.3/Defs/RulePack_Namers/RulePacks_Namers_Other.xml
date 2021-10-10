@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Ash pit art -->
+	<RulePackDef>
+		<defName>ArtDescription_AshBurialPit</defName>
+		<rulePack>
+		  <rulesStrings>
+			<li>physical_description_root->The ash burial pit is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
+			<li>physical_description_root->The ash burial pit bears a [depiction] of [image]. [desc_sentence_group]</li>
+			<li>physical_description_root->The ash burial pit is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
+			<li>physical_description_root->An engraving on this ash burial pit [depicts] [image]. [desc_sentence_group]</li>
+		  </rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+
+</Defs>

@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Tribal -->
+
+  <FactionDef ParentName="ESCP_FactionBase" Name="ESCP_DunmerTribeBase" Abstract="True">
+    <leaderTitle>archmaster</leaderTitle>
+    <factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementHonourable</factionIconPath>
+    <factionNameMaker>ESCP_NamerFactionDunmerHouse</factionNameMaker>
+    <settlementNameMaker>ESCP_NamerSettlementDunmerHouse</settlementNameMaker>
+    <allowedCultures>
+		<li>ESCP_Dunmeri</li>
+	</allowedCultures>
+	<structureMemeWeights>
+		  <ESCP_Structure_OriginTribunal MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginTribunal>
+		  <ESCP_Structure_OriginGoodDaedra MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginGoodDaedra>
+		  <ESCP_Structure_OriginHouseOfTroubles MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginHouseOfTroubles>
+	</structureMemeWeights>
+	<backstoryFilters>
+		<li>
+			<categories>
+			  <li>Tribal</li>
+			  <li>ESCP_DunmerTribal</li>
+			  <li>ESCP_DunmerBackstory</li>
+			</categories>
+			<commonality>1</commonality>
+		</li>
+	</backstoryFilters>
+
+    <caravanTraderKinds>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+    </baseTraderKinds>
+    <raidLootMaker>ESCP_DunmerTribeRaidLootMaker</raidLootMaker>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <ESCP_DunmerTribal_Penitent>5</ESCP_DunmerTribal_Penitent>
+          <ESCP_DunmerTribal_Warrior>5</ESCP_DunmerTribal_Warrior>
+          <ESCP_DunmerTribal_Archer>10</ESCP_DunmerTribal_Archer>
+          <ESCP_DunmerTribal_Hunter>10</ESCP_DunmerTribal_Hunter>
+          <ESCP_DunmerTribal_HeavyArcher>10</ESCP_DunmerTribal_HeavyArcher>
+          <ESCP_DunmerTribal_Berserker>5</ESCP_DunmerTribal_Berserker>
+
+          <ESCP_DunmerTribal_ChiefMelee>1.5</ESCP_DunmerTribal_ChiefMelee>
+	   </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <ESCP_DunmerTribal_Archer>10</ESCP_DunmerTribal_Archer>
+          <ESCP_DunmerTribal_Hunter>10</ESCP_DunmerTribal_Hunter>
+          <ESCP_DunmerTribal_HeavyArcher>10</ESCP_DunmerTribal_HeavyArcher>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <options>
+          <ESCP_DunmerTribal_Penitent>10</ESCP_DunmerTribal_Penitent>
+          <ESCP_DunmerTribal_Warrior>10</ESCP_DunmerTribal_Warrior>
+          <ESCP_DunmerTribal_Berserker>10</ESCP_DunmerTribal_Berserker>
+          <ESCP_DunmerTribal_ChiefMelee>5</ESCP_DunmerTribal_ChiefMelee>
+      </options>
+      </li>
+      <li>
+        <!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>5</commonality>
+        <options>
+          <ESCP_DunmerTribal_Breacher>5</ESCP_DunmerTribal_Breacher>
+          <ESCP_DunmerTribal_Penitent>5</ESCP_DunmerTribal_Penitent>
+          <ESCP_DunmerTribal_Warrior>5</ESCP_DunmerTribal_Warrior>
+          <ESCP_DunmerTribal_Archer>10</ESCP_DunmerTribal_Archer>
+          <ESCP_DunmerTribal_Hunter>10</ESCP_DunmerTribal_Hunter>
+          <ESCP_DunmerTribal_HeavyArcher>10</ESCP_DunmerTribal_HeavyArcher>
+          <ESCP_DunmerTribal_Berserker>5</ESCP_DunmerTribal_Berserker>
+          <ESCP_DunmerTribal_ChiefMelee>1.5</ESCP_DunmerTribal_ChiefMelee>
+      </options>
+      </li>
+      <li>
+        <!-- Peaceful -->
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <ESCP_DunmerTribal_Warrior>20</ESCP_DunmerTribal_Warrior>
+          <ESCP_DunmerTribal_Archer>10</ESCP_DunmerTribal_Archer>
+          <ESCP_DunmerTribal_Hunter>10</ESCP_DunmerTribal_Hunter>
+          <ESCP_DunmerTribal_HeavyArcher>10</ESCP_DunmerTribal_HeavyArcher>
+          <ESCP_DunmerTribal_Berserker>5</ESCP_DunmerTribal_Berserker>
+          <ESCP_DunmerTribal_ChiefMelee>1.5</ESCP_DunmerTribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <ESCP_DunmerTribal_Trader>1</ESCP_DunmerTribal_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <ESCP_DunmerTribal_Warrior>7</ESCP_DunmerTribal_Warrior>
+          <ESCP_DunmerTribal_Archer>10</ESCP_DunmerTribal_Archer>
+          <ESCP_DunmerTribal_Hunter>10</ESCP_DunmerTribal_Hunter>
+          <ESCP_DunmerTribal_HeavyArcher>10</ESCP_DunmerTribal_HeavyArcher>
+          <ESCP_DunmerTribal_Berserker>7</ESCP_DunmerTribal_Berserker>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <ESCP_DunmerTribal_Warrior>7</ESCP_DunmerTribal_Warrior>
+          <ESCP_DunmerTribal_Archer>10</ESCP_DunmerTribal_Archer>
+          <ESCP_DunmerTribal_Hunter>10</ESCP_DunmerTribal_Hunter>
+          <ESCP_DunmerTribal_HeavyArcher>10</ESCP_DunmerTribal_HeavyArcher>
+          <ESCP_DunmerTribal_Berserker>7</ESCP_DunmerTribal_Berserker>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement_RangedOnly</kindDef>
+        <options>
+          <ESCP_DunmerTribal_Archer>10</ESCP_DunmerTribal_Archer>
+          <ESCP_DunmerTribal_Hunter>10</ESCP_DunmerTribal_Hunter>
+          <ESCP_DunmerTribal_HeavyArcher>10</ESCP_DunmerTribal_HeavyArcher>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <ESCP_DunmerTribal_Miner>1</ESCP_DunmerTribal_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <ESCP_DunmerTribal_Hunter>1</ESCP_DunmerTribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <ESCP_DunmerTribal_Farmer>1</ESCP_DunmerTribal_Farmer>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+  </FactionDef>
+
+  <ThingSetMakerDef>
+    <defName>ESCP_DunmerTribeRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+            <li>Jade</li>
+            <li>MedicineHerbal</li>
+            <li>Pemmican</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>
+  
+  <!-- great houses -->
+  <!--
+  <FactionDef ParentName="ESCP_DunmerTribeBase">
+    <defName>ESCP_DunmerRefugees</defName>
+    <label>Dunmer refugees</label>
+	<description>Refugees that fled Red Mouuntan's Eruption, and have since formed a new Great House</description>
+	<modExtensions>
+		<li Class="ESCP_RaceTools.SettlementPreference">
+			<chance>1.0</chance>
+			<onlyCoastal>true</onlyCoastal>
+        </li>
+	</modExtensions>
+	<colorSpectrum>
+      <li>(0.65, 0.50, 0.20)</li>
+      <li>(0.75, 0.60, 0.50)</li>
+	  <li>(0.85, 0.70, 0.60)</li>
+    </colorSpectrum>
+	<requiredMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+	</requiredMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+    </disallowedMemes>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>40</configurationListOrderPriority>
+  </FactionDef>
+  -->
+  <FactionDef ParentName="ESCP_DunmerTribeBase">
+    <defName>ESCP_DunmerGreatHouseHonourable</defName>
+    <label>honourable great house</label>
+	<description>One of the Dunmer Great Houses. They are wary of outsiders, making earning their trust a long and arduous process. However once this trust is gained they can be useful allies.\n\nThere are rumors that the Morag Tong are still operating. If these rumors are true, then angering the Great Houses may be ill advised. The Morag Tong are a completely sanctioned guild of assassins, that operate within the law of the Great Houses. If you find out a Great House has taken out a writ for your life, you best keep a watchful eye on the shadows.\n\nThis great houses values honour above all else, and is alway willing to help those with similair ideals.</description>
+	<modExtensions>
+		<li Class="ESCP_RaceTools.SettlementPreference">
+			<chance>1.0</chance>
+			<likedBiomeList>
+				<li>MorrowRim_Ashlands</li>
+				<li>MorrowRim_VolcanicAshlands</li>
+				<li>MorrowRim_AshSwamp</li>
+				<li>MorrowRim_Grazelands</li>
+			</likedBiomeList>
+        </li>
+	</modExtensions>
+	<colorSpectrum>
+      <li>(0.65, 0.50, 0.20)</li>
+      <li>(0.75, 0.60, 0.50)</li>
+	  <li>(0.85, 0.70, 0.60)</li>
+    </colorSpectrum>
+	<requiredMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+	</requiredMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+    </disallowedMemes>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>40</configurationListOrderPriority>
+  </FactionDef>
+
+  <FactionDef ParentName="ESCP_DunmerTribeBase">
+    <defName>ESCP_DunmerGreatHouseMercantile</defName>
+    <label>mercantile great house</label>
+	<description>One of the Dunmer Great Houses. They are wary of outsiders, making earning their trust a long and arduous process. However once this trust is gained they can be useful allies.\n\nThere are rumors that the Morag Tong are still operating. If these rumors are true, then angering the Great Houses may be ill advised. The Morag Tong are a completely sanctioned guild of assassins, that operate within the law of the Great Houses. If you find out a Great House has taken out a writ for your life, you best keep a watchful eye on the shadows.\n\nThis great houses values profit above all else, and is willing to do anything for a pouch of gold, even dealing in illicit goods and slaves.</description>
+	<modExtensions>
+		<li Class="ESCP_RaceTools.SettlementPreference">
+			<chance>1.0</chance>
+			<likedBiomeList>
+				<li>MorrowRim_Ashlands</li>
+				<li>MorrowRim_AshSwamp</li>
+				<li>MorrowRim_Grazelands</li>
+				<li>TemperateForest</li>
+			</likedBiomeList>
+        </li>
+	</modExtensions>
+	<colorSpectrum>
+      <li>(0.65, 0.50, 0.20)</li>
+      <li>(0.75, 0.60, 0.50)</li>
+	  <li>(0.85, 0.70, 0.60)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementDiplomatic</factionIconPath>
+	<caravanTraderKinds>
+      <li>ESCP_DunmerCaravan_CamonnaTongFence</li>
+    </caravanTraderKinds>
+	<requiredMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+		<!-- trader in patches -->
+	</requiredMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+    </disallowedMemes>
+	<disallowedPrecepts>
+		<li>Slavery_Abhorrent</li>
+		<li>Slavery_Horrible</li>
+		<li>Slavery_Disapproved</li>
+    </disallowedPrecepts>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>40</configurationListOrderPriority>
+  </FactionDef>
+  
+  <FactionDef ParentName="ESCP_DunmerTribeBase">
+    <defName>ESCP_DunmerGreatHouseScientific</defName>
+    <label>scientific great house</label>
+	<description>One of the Dunmer Great Houses. They are wary of outsiders, making earning their trust a long and arduous process. However once this trust is gained they can be useful allies.\n\nThere are rumors that the Morag Tong are still operating. If these rumors are true, then angering the Great Houses may be ill advised. The Morag Tong are a completely sanctioned guild of assassins, that operate within the law of the Great Houses. If you find out a Great House has taken out a writ for your life, you best keep a watchful eye on the shadows.\n\nThis great houses values knowledge above all else, and is willing to do anything for scientific progress. Members of this Great House are often inhospitable to outsiders, not because they hate them, but because they simply have more important matters to focus on.</description>
+	<settlementNameMaker>ESCP_NamerSettlementTelvanni</settlementNameMaker>
+	<modExtensions>
+		<li Class="ESCP_RaceTools.SettlementPreference">
+			<chance>1.0</chance>
+			<likedBiomeList>
+				<li>MorrowRim_Ashlands</li>
+				<li>MorrowRim_VolcanicAshlands</li>
+				<li>MorrowRim_AshSwamp</li>
+				<li>MorrowRim_Grazelands</li>
+				<li>TemperateForest</li>
+			</likedBiomeList>
+			<requiresWater>true</requiresWater>
+        </li>
+	</modExtensions>
+	<colorSpectrum>
+      <li>(0.70, 0.65, 0.20)</li>
+      <li>(0.70, 0.75, 0.50)</li>
+	  <li>(0.80, 0.85, 0.60)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementScientific</factionIconPath>
+	<requiredMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+	</requiredMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+    </disallowedMemes>
+	<disallowedPrecepts>
+		<li>Slavery_Abhorrent</li>
+		<li>Slavery_Horrible</li>
+    </disallowedPrecepts>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>40</configurationListOrderPriority>
+  </FactionDef>
+  
+  <FactionDef ParentName="ESCP_DunmerTribeBase">
+    <defName>ESCP_DunmerGreatHouseFaithful</defName>
+    <label>faithful great house</label>
+	<description>One of the Dunmer Great Houses. They are wary of outsiders, making earning their trust a long and arduous process. However once this trust is gained they can be useful allies.\n\nThere are rumors that the Morag Tong are still operating. If these rumors are true, then angering the Great Houses may be ill advised. The Morag Tong are a completely sanctioned guild of assassins, that operate within the law of the Great Houses. If you find out a Great House has taken out a writ for your life, you best keep a watchful eye on the shadows.\n\nThis great houses is ever faithful to the Tribunal, and is the source of all trained Ordinators. It would be best not to anger this great house, as it may bring the wrath of it's beliefs upon you.</description>
+	<modExtensions>
+		<li Class="ESCP_RaceTools.SettlementPreference">
+			<chance>1.0</chance>
+			<useTemperatureRange>true</useTemperatureRange>
+			<temperatureRangeMin>0</temperatureRangeMin>
+			<temperatureRangeMax>45</temperatureRangeMax>
+			<useRainfallRange>true</useRainfallRange>
+			<rainfallRangeMin>500</rainfallRangeMin>
+			<rainfallRangeMax>2000</rainfallRangeMax>
+        </li>
+	</modExtensions>
+	<colorSpectrum>
+      <li>(0.7, 1.0, 0.8)</li>
+	  <li>(0.8, 1.0, 1.0)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementFaithful</factionIconPath>
+	<requiredMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+	</requiredMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+    </disallowedMemes>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>40</configurationListOrderPriority>
+  </FactionDef>
+  
+  <FactionDef ParentName="ESCP_DunmerTribeBase">
+    <defName>ESCP_DunmerGreatHouseSlaver</defName>
+    <label>slaver great house</label>
+	<description>One of the Dunmer Great Houses. They are wary of outsiders, making earning their trust a long and arduous process. However once this trust is gained they can be useful allies.\n\nThere are rumors that the Morag Tong are still operating. If these rumors are true, then angering the Great Houses may be ill advised. The Morag Tong are a completely sanctioned guild of assassins, that operate within the law of the Great Houses. If you find out a Great House has taken out a writ for your life, you best keep a watchful eye on the shadows.\n\nThis great houses is well known for it's role in slavery. In fact, almost all the slaves employed by the Dunmer are trained by members of this Great House.</description>
+	<modExtensions>
+		<li Class="ESCP_RaceTools.SettlementPreference">
+			<chance>1.0</chance>
+			<useTemperatureRange>true</useTemperatureRange>
+			<temperatureRangeMin>0</temperatureRangeMin>
+			<temperatureRangeMax>45</temperatureRangeMax>
+			<useRainfallRange>true</useRainfallRange>
+			<rainfallRangeMin>800</rainfallRangeMin>
+			<rainfallRangeMax>5000</rainfallRangeMax>
+        </li>
+	</modExtensions>
+	<colorSpectrum>
+      <li>(0.3, 0.3, 0.5)</li>
+	  <li>(0.5, 0.4, 0.3)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementSlaver</factionIconPath>
+	<caravanTraderKinds Inherit="False">
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Neolithic_ShamanMerchant</li>
+    </caravanTraderKinds>
+	<requiredMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+	</requiredMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+    </disallowedMemes>
+	<disallowedPrecepts>
+		<li>Slavery_Abhorrent</li>
+		<li>Slavery_Horrible</li>
+		<li>Slavery_Disapproved</li>
+		<li>Slavery_Acceptable</li>
+    </disallowedPrecepts>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>40</configurationListOrderPriority>
+  </FactionDef>
+  
+  <FactionDef ParentName="ESCP_DunmerTribeBase">
+    <defName>ESCP_DunmerGreatHouseForgotten</defName>
+    <label>forgotten great house</label>
+	<description>One of the Dunmer Great Houses. They are wary of outsiders, making earning their trust a long and arduous process. However once this trust is gained they can be useful allies.\n\nThere are rumors that the Morag Tong are still operating. If these rumors are true, then angering the Great Houses may be ill advised. The Morag Tong are a completely sanctioned guild of assassins, that operate within the law of the Great Houses. If you find out a Great House has taken out a writ for your life, you best keep a watchful eye on the shadows.\n\nThis particular Great House has been forgotten to time itself. They are openly hostile to any who do not follow the calling of Dagoth Ur, though they may be reasoned with by those who seek the truth.</description>
+	<modExtensions>
+		<li Class="ESCP_RaceTools.SettlementPreference">
+			<chance>1.0</chance>
+			<likedBiomeList>
+				<li>MorrowRim_BlightedAshlands</li>
+				<li>MorrowRim_Ashlands</li>
+				<li>MorrowRim_VolcanicAshlands</li>
+			</likedBiomeList>
+        </li>
+	</modExtensions>
+	<colorSpectrum>
+      <li>(0.8, 0.4, 0.3)</li>
+      <li>(0.8, 0.5, 0.2)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementForgotten</factionIconPath>
+	<naturalEnemy>true</naturalEnemy>
+	<requiredMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+	</requiredMemes>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>50</configurationListOrderPriority>
+  </FactionDef>
+
+	<!-- reavers -->
+
+  <FactionDef ParentName="ESCP_DunmerTribeBase">
+    <defName>ESCP_DunmerReavers</defName>
+    <label>Dunmer reavers</label>
+    <description>A loose confederation of those who, either by choice or by force, have left behind the Great Houses.\n\nUnder the guidance of their War Boss, they have managed to claim several settlements from the Great Houses. Even with these fine trophies, they are still eager to claim more land and wealth.\n\nReavers are driven by a blood-and-honor culture; you will not be able to ally with them!</description>
+	<modExtensions>
+		<li Class="ESCP_RaceTools.SettlementPreference">
+			<chance>0.5</chance>
+			<likedBiomeList>
+				<li>MorrowRim_Ashlands</li>
+				<li>MorrowRim_BlightedAshlands</li>
+				<li>MorrowRim_VolcanicAshlands</li>
+				<li>MorrowRim_AshSwamp</li>
+				<li>MorrowRim_Grazelands</li>
+			</likedBiomeList>
+        </li>
+	</modExtensions>
+	<colorSpectrum>
+      <li>(0.85, 0, 0)</li>
+      <li>(0.85, 0.7, 0.7)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerReaverSettlement</factionIconPath>
+    <permanentEnemy>true</permanentEnemy>
+	<factionNameMaker>ESCP_NamerFactionDunmerReaver</factionNameMaker>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+    </requiredMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>60</configurationListOrderPriority>
+  </FactionDef>
+
+</Defs>
