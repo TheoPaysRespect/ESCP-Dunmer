@@ -205,6 +205,7 @@
     <configurationListOrderPriority>40</configurationListOrderPriority>
   </FactionDef>
   -->
+  
   <FactionDef ParentName="ESCP_DunmerTribeBase">
     <defName>ESCP_DunmerGreatHouseHonourable</defName>
     <label>honourable great house</label>
@@ -390,7 +391,7 @@
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementSlaver</factionIconPath>
 	<caravanTraderKinds Inherit="False">
-      <li>Caravan_Neolithic_Slaver</li>
+      <li>ESCP_DunmerCaravan_DresSlaver</li>
       <li>Caravan_Neolithic_ShamanMerchant</li>
     </caravanTraderKinds>
 	<requiredMemes>
@@ -471,6 +472,7 @@
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
     </requiredMemes>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>

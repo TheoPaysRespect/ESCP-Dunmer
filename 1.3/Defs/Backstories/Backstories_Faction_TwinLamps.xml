@@ -2,7 +2,7 @@
 <Defs>
 
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_TwinLampsBackstory</defName>
+		<defName>ESCP_Dunmer_TwinLampsBackstory</defName>
 		<title>Twin Lamps member</title>
 		<titleShort>Twin Lamps member</titleShort>
 		<baseDescription>[PAWN_nameDef] always thought slavery a necessary evil. [PAWN_pronoun] had a change of heart After watching an Argonian slave get beaten to near death. After that moment [PAWN_nameDef] decided to join the Twin Lamps, and vowed to do anything to protect slaves.</baseDescription>

@@ -2,7 +2,7 @@
 <Defs>
 
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RedoranBackstory</defName>
+		<defName>ESCP_Dunmer_RedoranBackstory</defName>
 		<title>house Redoran member</title>
 		<titleShort>Redoran member</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Great House Redoran. Members of The Great House Redoran were always considered to be more compassionate than those of other Great Houses, likely due to House Redoran valuing honour rather highly. [PAWN_nameDef] likes to believe this is true of [PAWN_possessive]self.</baseDescription>

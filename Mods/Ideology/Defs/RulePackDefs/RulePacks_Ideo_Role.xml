@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>ESCP_DunmerNamerRoleAncestorSpeaker</defName>
+    <include><li>NamerRoleSpecialistUtility</li></include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_roleName->speaker</li>
+        <li>r_roleName->whisperer</li>
+        <li>r_roleName->voice</li>
+        <li>r_roleName->mouth</li>
+        <li>firstPart->ancestor</li>
+        <li>firstPart->ancestral</li>
+        <li>firstPart->divine</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

@@ -21,5 +21,11 @@
   <ResearchProjectTagDef>
     <defName>ESCP_DunmerStart_Industrial</defName>
   </ResearchProjectTagDef>
+  
+  <!-- For compatability with MorrowRim -->
+  
+  <ResearchProjectTagDef>
+    <defName>DunmerStart</defName>
+  </ResearchProjectTagDef>
 
 </Defs>

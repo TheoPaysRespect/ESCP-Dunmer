@@ -2,7 +2,7 @@
 <Defs>
 
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_JiubBackstory</defName>
+		<defName>ESCP_Dunmer_JiubBackstory</defName>
 		<title>reformed degenerate</title>
 		<titleShort>reformed degenerate</titleShort>
 		<baseDescription>[PAWN_nameDef] was once a filthy degenerate, who would do anything for skooma, even commit murder. While committing a heinous crime [PAWN_possessive] life was almost lost.\n\n[PAWN_nameDef] was saved in an act of unexpected kindness. Afterwards, [PAWN_pronoun] vowed to commit [PAWN_possessive]self to one goal. The protection of the Dunmeri people from a hellish abomination.</baseDescription>
@@ -31,7 +31,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_FathisBackstory</defName>
+		<defName>ESCP_Dunmer_FathisBackstory</defName>
 		<title>false Nerevarine</title>
 		<titleShort>false Nerevarine</titleShort>
 		<baseDescription>[PAWN_nameDef] was lead to believe that [PAWN_pronoun] was Nerevarine reborn by a local Blades agent. This turned out to not be the case, but [PAWN_possessive] still believed. The locals of Sadrith Mora came to call [PAWN_nameDef] 'The Deranged', as [PAWN_pronoun] would constantly spout off about how [PAWN_possessive] was going to save Morrowind.</baseDescription>
@@ -64,6 +64,40 @@
 		<workDisables>
 			<li>PlantWork</li>
 			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+		<maleCommonality>1</maleCommonality>
+		<femaleCommonality>1</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_EddieBackstory</defName>
+		<title>Telvanni Mouth</title>
+		<titleShort>Mouth</titleShort>
+		<baseDescription>Once a disgraced member of the Mages Guild, [PAWN_nameDef] was recruited by an up-and-coming member of Great House Telvanni, quickly rising to the rank of Mouth. [PAWN_possessive] skills, and general lack of care for the concept of ownership, proved highly useful for the soon-to-be Archmagister.\n\nThough, eventually [PAWN_nameDef] decided to move on in life, and pursue other desires.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
 			<li>Caring</li>
 		</workDisables>
 		<maleCommonality>1</maleCommonality>

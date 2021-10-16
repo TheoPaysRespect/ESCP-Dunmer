@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_PsychicallyGiftedBackstory_Child</defName>
+		<title>psychically gifted</title>
+		<titleShort>gifted</titleShort>
+		<baseDescription>[PAWN_nameDef] was born with a greater awareness of the unseen. After many years at the temple [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift, and hear the whispers of the ancestors.</baseDescription>
+		<slot>Childhood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
 
 </Defs>

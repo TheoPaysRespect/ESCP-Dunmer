@@ -10,22 +10,13 @@
 			<operations>
 				
 				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_DunmerRace"]</xpath>
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name="ESCP_BaseDunmerRace"]</xpath>
 					<value>
 						<li Class="MorrowRim.ExtendedRaceProperties">
 							<ashResistant>Resistant</ashResistant>
 						</li>
 					</value>
 				</li>		
-
-				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_AshlanderRace"]</xpath>
-					<value>
-						<li Class="MorrowRim.ExtendedRaceProperties">
-							<ashResistant>Resistant</ashResistant>
-						</li>
-					</value>
-				</li>	
 
 				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs/FactionDef[@Name="ESCP_DunmerTribeBase"]/pawnGroupMakers/li[kindDef="Trader"]/carriers</xpath>

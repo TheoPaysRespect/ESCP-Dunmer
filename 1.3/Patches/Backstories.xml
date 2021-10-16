@@ -10,14 +10,14 @@
 			<operations>
 			
 				<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_KwamaBackstory"]/forcedItems</xpath>
+				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_KwamaBackstory"]/forcedItems</xpath>
 					<value>
 						<MorrowRim_KwamaEgg>0~10</MorrowRim_KwamaEgg>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_StriderBackstory"]/forcedItems</xpath>
+				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_StriderBackstory"]/forcedItems</xpath>
 					<value>
 						<MorrowRim_Egg_SiltStriderFertilized>-1~1</MorrowRim_Egg_SiltStriderFertilized>	
 					</value>
@@ -37,14 +37,14 @@
 			<operations>
 			
 				<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_SkoomaBackstory"]/forcedItems</xpath>
+				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_SkoomaBackstory"]/forcedItems</xpath>
 					<value>
 						<Skooma>2~10</Skooma>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_SkoomaBackstory"]</xpath>
+				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_SkoomaBackstory"]</xpath>
 					<value>
 						<forcedHediffs>
 						  <li>SkoomaAddiction</li>

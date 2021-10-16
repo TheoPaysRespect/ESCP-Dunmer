@@ -524,6 +524,9 @@
 				<traitList>
 
 				</traitList> 
+				<blackTraitList>
+					<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_AshAdapted</li>
+				</blackTraitList>
 			</raceRestriction>
 			
 			<compatibility>

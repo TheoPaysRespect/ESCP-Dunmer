@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- buffs -->
+	
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_DunmerAncestralGuidance</defName>
+		<label>ancestral guidance</label>
+		<description>Using knowledge imparted by the ancestors, this pawn is more resistant to mental breaks.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>True</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <MentalBreakThreshold>-0.50</MentalBreakThreshold>
+			</statOffsets>
+		  </li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_DunmerAncestralProtection</defName>
+		<label>ancestral protection</label>
+		<description>Using knowledge imparted by the ancestors, this pawn is more resistant to damage from all sources.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>True</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <IncomingDamageFactor>-0.25</IncomingDamageFactor>
+			</statOffsets>
+		  </li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_DunmerAncestralSight</defName>
+		<label>ancestral sight</label>
+		<description>Using knowledge imparted by the ancestors, this pawn is more sensitive to psychic effects.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>True</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<statOffsets>
+				<PsychicSensitivity>0.50</PsychicSensitivity>
+			</statOffsets>
+		  </li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_DunmerAncestralWisdom</defName>
+		<label>ancestral wisdom</label>
+		<description>Using knowledge imparted by the ancestors, this pawn will gain skill experience faster.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>True</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <GlobalLearningFactor>0.50</GlobalLearningFactor>
+			</statOffsets>
+		  </li>
+		</stages>
+	</HediffDef>
+
+	<!-- other -->
+
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_DunmerPawnOverwhelmed</defName>
+		<label>overwhelmed</label>
+		<description>This pawn has been mentally overwhelmed by the ancestors. Its manipulation and moving have been greatly reduced.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>True</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<isBad>true</isBad>
+		<stages>
+		  <li>
+			<capMods>
+				<li>
+					<capacity>Manipulation</capacity>
+					<offset>-0.15</offset>
+				</li>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.15</offset>
+				</li>
+			</capMods>
+		  </li>
+		</stages>
+	</HediffDef>
+
+</Defs>

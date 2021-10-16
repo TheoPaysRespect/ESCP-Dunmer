@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RitualVisualEffectDef>
+		<defName>ESCP_Dunmeri</defName>
+		<tintColor>(26, 20, 20)</tintColor>
+		<comps>
+		  <li>
+			<compClass>CompRitualEffect_ConstantCenter</compClass>
+			<moteDef>Mote_RitualSmokeThick</moteDef>
+			<scaleWithRoom>true</scaleWithRoom>
+		  </li>
+		  <li Class="CompProperties_RitualEffectIntervalSpawnCircle">
+			<fleckDef>Skull</fleckDef>
+			<area>(27, 28)</area>
+			<radius>6</radius>
+			<concentration>1</concentration>
+			<spawnIntervalTicks>9</spawnIntervalTicks>
+			<spawnCount>1</spawnCount>
+			<rotation>-15~15</rotation>
+			<scalePositionWithRoom>true</scalePositionWithRoom>
+			<onlySpawnInSameRoom>true</onlySpawnInSameRoom>
+		  </li>
+		</comps>
+	</RitualVisualEffectDef>
+
+</Defs>

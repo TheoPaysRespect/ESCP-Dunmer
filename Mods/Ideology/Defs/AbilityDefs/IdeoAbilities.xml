@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AbilityGroupDef>
+		<defName>ESCP_DunmerRole</defName>
+		<cooldownTicks>600000</cooldownTicks>
+	</AbilityGroupDef>
+	
+	<!-- pawn buffs -->
+	
+	<AbilityDef Name="ESCP_DunmerAncestralBase" Abstract = "true">
+		<jobDef>CastAbilityOnThingMelee</jobDef>
+		<iconPath>UI/Abilities/WorkDrive</iconPath>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<showPsycastEffects>False</showPsycastEffects>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<groupDef>ESCP_DunmerRole</groupDef>
+		<hotKey>Misc12</hotKey>
+		<uiOrder>2</uiOrder>
+		<warmupStartSound>WorkDrive_Warmup</warmupStartSound>
+		<statBases>
+		  <Ability_Duration>3000</Ability_Duration>
+		</statBases>
+		<verbProperties>
+		  <verbClass>Verb_CastAbilityTouch</verbClass>
+		  <drawAimPie>False</drawAimPie>
+		  <range>-1</range>
+		  <warmupTime>3.0</warmupTime>
+		  <targetParams>
+			<canTargetAnimals>false</canTargetAnimals>
+			<canTargetSelf>false</canTargetSelf>
+			<canTargetBuildings>false</canTargetBuildings>
+			<canTargetMechs>false</canTargetMechs>
+			<onlyTargetColonists>true</onlyTargetColonists>
+		  </targetParams>
+		</verbProperties>
+		<comps>
+		  <li Class="CompProperties_AbilitySocialInteraction">
+			<interactionDef>ESCP_AncestralKnowledge</interactionDef>
+		  </li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="ESCP_DunmerAncestralBase">
+		<defName>ESCP_DunmerAncestralGuidance</defName>
+		<label>ancestral guidance</label>
+		<description>Call upon the knowledge of the ancestors, passing it onto another. The target will be more resilient to mental breaks for three days.</description>
+		<jobDef>CastAbilityOnThingMelee</jobDef>
+		<iconPath>UI/Abilities/ESCP_DunmerAncestralGuidance</iconPath>
+		<warmupMoteSocialSymbol>UI/Abilities/ESCP_DunmerAncestralGuidance</warmupMoteSocialSymbol>
+		<comps>
+		  <li Class="CompProperties_AbilityGiveHediff">
+			<compClass>CompAbilityEffect_GiveHediff</compClass>
+			<hediffDef>ESCP_DunmerAncestralGuidance</hediffDef>
+			<onlyBrain>True</onlyBrain>
+			<applicableToMechs>False</applicableToMechs>
+		  </li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="ESCP_DunmerAncestralBase">
+		<defName>ESCP_DunmerAncestralProtection</defName>
+		<label>ancestral protection</label>
+		<description>Call upon the knowledge of the ancestors, passing it onto another. The target will be more adept at resisting damage for three days.</description>
+		<jobDef>CastAbilityOnThingMelee</jobDef>
+		<iconPath>UI/Abilities/ESCP_DunmerAncestralProtection</iconPath>
+		<warmupMoteSocialSymbol>UI/Abilities/ESCP_DunmerAncestralProtection</warmupMoteSocialSymbol>
+		<comps>
+		  <li Class="CompProperties_AbilityGiveHediff">
+			<compClass>CompAbilityEffect_GiveHediff</compClass>
+			<hediffDef>ESCP_DunmerAncestralProtection</hediffDef>
+			<onlyBrain>True</onlyBrain>
+			<applicableToMechs>False</applicableToMechs>
+		  </li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="ESCP_DunmerAncestralBase">
+		<defName>ESCP_DunmerAncestralSight</defName>
+		<label>ancestral sight</label>
+		<description>Call upon the knowledge of the ancestors, passing it onto another. The target will be more open to psychic phenomena for three days.</description>
+		<jobDef>CastAbilityOnThingMelee</jobDef>
+		<iconPath>UI/Abilities/ESCP_DunmerAncestralSight</iconPath>
+		<warmupMoteSocialSymbol>UI/Abilities/ESCP_DunmerAncestralSight</warmupMoteSocialSymbol>
+		<comps>
+		  <li Class="CompProperties_AbilityGiveHediff">
+			<compClass>CompAbilityEffect_GiveHediff</compClass>
+			<hediffDef>ESCP_DunmerAncestralSight</hediffDef>
+			<onlyBrain>True</onlyBrain>
+			<applicableToMechs>False</applicableToMechs>
+		  </li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="ESCP_DunmerAncestralBase">
+		<defName>ESCP_DunmerAncestralWisdom</defName>
+		<label>ancestral wisdom</label>
+		<description>Call upon the knowledge of the ancestors, passing it onto another. The target will gain skill experience faster for three days.</description>
+		<jobDef>CastAbilityOnThingMelee</jobDef>
+		<iconPath>UI/Abilities/ESCP_DunmerAncestralWisdom</iconPath>
+		<warmupMoteSocialSymbol>UI/Abilities/ESCP_DunmerAncestralWisdom</warmupMoteSocialSymbol>
+		<comps>
+		  <li Class="CompProperties_AbilityGiveHediff">
+			<compClass>CompAbilityEffect_GiveHediff</compClass>
+			<hediffDef>ESCP_DunmerAncestralWisdom</hediffDef>
+			<onlyBrain>True</onlyBrain>
+			<applicableToMechs>False</applicableToMechs>
+		  </li>
+		</comps>
+	</AbilityDef>
+
+	<!-- other -->
+	
+	<AbilityDef>
+		<defName>ESCP_DunmerAncestralWrath</defName>
+		<label>ancestral wrath</label>
+		<description>Call upon the power of the ancestors, unleashing a shockwave of energy. Any nearby hostile pawns will be temporarily stunned and mentally overwhelmed, decreasing manipulation and movement, for 24 hours.</description>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<targetRequired>False</targetRequired>
+		<canUseAoeToGetTargets>true</canUseAoeToGetTargets>
+		<iconPath>UI/Abilities/ESCP_DunmerAncestralWrath</iconPath>
+		<warmupMoteSocialSymbol>UI/Abilities/ESCP_DunmerAncestralWrath</warmupMoteSocialSymbol>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<showPsycastEffects>False</showPsycastEffects>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<groupDef>ESCP_DunmerRole</groupDef>
+		<hotKey>Misc12</hotKey>
+		<uiOrder>3</uiOrder>
+		<warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+		<statBases>
+		  <Ability_Duration>1000</Ability_Duration>
+		  <Ability_EffectRadius>9.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+		  <verbClass>Verb_CastAbility</verbClass>
+		  <warmupTime>0.5</warmupTime>
+		  <range>9.9</range>
+		  <drawAimPie>False</drawAimPie>
+		  <requireLineOfSight>False</requireLineOfSight>
+		  <targetParams>
+			<canTargetSelf>true</canTargetSelf>
+			<canTargetPawns>true</canTargetPawns>
+			<canTargetBuildings>false</canTargetBuildings>
+			<canTargetAnimals>true</canTargetAnimals>
+			<canTargetHumans>true</canTargetHumans>
+			<canTargetMechs>false</canTargetMechs>
+		  </targetParams>
+		</verbProperties>
+		<comps>
+		  <li Class="CompProperties_AbilityGiveHediff">
+			<compClass>ESCP_RaceTools.CompAbilityEffect_GiveHediffAndStun</compClass>
+			<hediffDef>ESCP_DunmerPawnOverwhelmed</hediffDef>
+			<onlyBrain>True</onlyBrain>
+			<applyToSelf>false</applyToSelf>
+			<onlyApplyToSelf>false</onlyApplyToSelf>
+			<replaceExisting>false</replaceExisting>
+		  </li>
+		  <li Class="ESCP_RaceTools.CompProperties_AbilityEffectCameraShakerOneOff">
+		  </li>
+		</comps>
+	</AbilityDef>
+
+</Defs>

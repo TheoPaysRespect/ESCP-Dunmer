@@ -31,6 +31,7 @@
 		<forageabilityFactor>1.7</forageabilityFactor>
 		<startingResearchTags>
 		  <li>TribalStart</li>
+		  <li>DunmerStart</li>
 		  <li>ESCP_AshlanderStart</li>
 		</startingResearchTags>
 		<startingTechprintsResearchTags>
@@ -77,6 +78,7 @@
 		<geneticVariance>1</geneticVariance>
 		<startingResearchTags>
 		  <li>ClassicStart</li>
+		  <li>DunmerStart</li>
 		  <li>ESCP_DunmerStart</li>
 		  <li>ESCP_DunmerStart_Industrial</li>
 		</startingResearchTags>
@@ -120,6 +122,7 @@
 		<forageabilityFactor>1.7</forageabilityFactor>
 		<startingResearchTags>
 		  <li>TribalStart</li>
+		  <li>DunmerStart</li>
 		  <li>ESCP_DunmerStart</li>
 		  <li>ESCP_DunmerStart_Tribal</li>
 		</startingResearchTags>
@@ -165,6 +168,7 @@
 		<geneticVariance>1</geneticVariance>
 		<startingResearchTags>
 		  <li>TribalStart</li>
+		  <li>DunmerStart</li>
 		  <li>ESCP_DunmerStart</li>
 		  <li>ESCP_DunmerStart_Medieval</li>
 		</startingResearchTags>

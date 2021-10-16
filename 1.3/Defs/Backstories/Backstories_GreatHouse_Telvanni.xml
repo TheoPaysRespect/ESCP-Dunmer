@@ -2,7 +2,7 @@
 <Defs>
 
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_TelvanniBackstory</defName>
+		<defName>ESCP_Dunmer_TelvanniBackstory</defName>
 		<title>house Telvanni member</title>
 		<titleShort>Telvanni member</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Great House Telvanni. Great House Telvanni is known for its wonderful and magical craftsmanship, creating houses out of the strangest materials. [PAWN_nameDef] learnt many wonderous things during [PAWN_possessive] time with House Telvanni, such as socialising is a waste of precious time and that caring about people is pointless.</baseDescription>

@@ -4,7 +4,7 @@
 	<!-- Child -->
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RefugeeChildBackstoryA</defName>
+		<defName>ESCP_Dunmer_RefugeeChildBackstoryA</defName>
 		<title>Red Year refugee</title>
 		<titleShort>child refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was simply a child during the Red Year. Though [PAWN_possessive] memories of the event are hazy, every night [PAWN_pronoun] wakes up in a cold sweat, as [PAWN_possessive] nightmares force her to relive the horror.</baseDescription>
@@ -45,7 +45,7 @@
 	<!-- Generic -->
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RefugeeBackstoryA</defName>
+		<defName>ESCP_Dunmer_RefugeeBackstoryA</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind many good slaves in the process. It was a very emotional time for [PAWN_nameDef], as replacing those slaves will be hard work.</baseDescription>
@@ -84,7 +84,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RefugeeBackstoryB</defName>
+		<defName>ESCP_Dunmer_RefugeeBackstoryB</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind a prosperous netch ranch in the process. While simple beasts, [PAWN_nameDef] considered the netch to be [PAWN_possessive] best friends, and shed many tears while leaving Vvardenfell.</baseDescription>
@@ -112,7 +112,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RefugeeBackstoryC</defName>
+		<defName>ESCP_Dunmer_RefugeeBackstoryC</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local egg mine. Whilst [PAWN_nameDef] doesn't miss the claustrophobic tunnels, a small part of [PAWN_possessive] does miss the strange sounds the kwama made.</baseDescription>
@@ -143,7 +143,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RefugeeBackstoryD</defName>
+		<defName>ESCP_Dunmer_RefugeeBackstoryD</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local glass mine. [PAWN_nameDef] is still annoyed that [PAWN_pronoun] was unable to steal any glass before being forced out.</baseDescription>
@@ -181,7 +181,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RefugeeBackstoryE</defName>
+		<defName>ESCP_Dunmer_RefugeeBackstoryE</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local ebony mine. [PAWN_nameDef] tried to pocket some ebony before leaving, but severly underestimated how heavy small chunks were, and lost [PAWN_possessive] bag in the process.</baseDescription>
@@ -222,7 +222,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RefugeeBackstoryF</defName>
+		<defName>ESCP_Dunmer_RefugeeBackstoryF</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job as a skooma runner. In all the chaos [PAWN_nameDef] decided to finally try some skooma, hoping it would relax [PAWN_possessive].</baseDescription>
@@ -259,7 +259,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RefugeeBackstoryG</defName>
+		<defName>ESCP_Dunmer_RefugeeBackstoryG</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] highly popular corner club in Balmora. [PAWN_nameDef] often looks back fondly at [PAWN_pronoun] time spent running the corner club, and imagines what life may have been like if [PAWN_pronoun] was still in Balmora.</baseDescription>
@@ -294,7 +294,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RefugeeBackstoryH</defName>
+		<defName>ESCP_Dunmer_RefugeeBackstoryH</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job as a gondolier in Vivec city. [PAWN_nameDef] often yearns for the simple days, peacefully rowing [PAWN_possessive] gondala between the cantons.</baseDescription>
@@ -326,7 +326,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RefugeeBackstoryI</defName>
+		<defName>ESCP_Dunmer_RefugeeBackstoryI</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] prized ash yam farm. Of course several slaves were also left behind, but [PAWN_nameDef] only cared about the ash yams.</baseDescription>
@@ -359,7 +359,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RefugeeBackstoryJ</defName>
+		<defName>ESCP_Dunmer_RefugeeBackstoryJ</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] life in Ald'Ruhn. [PAWN_nameDef] still remembers that day as if it were yesterday. The sounds, sights, and smells are permanently etched into [PAWN_possessive] mind, and grow much stronger at the sight of fire.</baseDescription>
@@ -396,7 +396,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_RefugeeBackstoryK</defName>
+		<defName>ESCP_Dunmer_RefugeeBackstoryK</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] guar ranch. While [PAWN_nameDef] may miss herding the guar, [PAWN_pronoun] certainly does not miss replacing [PAWN_possessive] boots every few days.</baseDescription>

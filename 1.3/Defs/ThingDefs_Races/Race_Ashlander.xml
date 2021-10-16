@@ -38,12 +38,16 @@
 			</relationSettings>
 			
 			<raceRestriction>
+				<buildingList>
+					<li>ESCP_DunmerAshlanderMummy</li>
+				</buildingList>
 				<researchList>
 
 				</researchList>
 				<traitList>
 
 				</traitList> 
+				
 			</raceRestriction>
 			
 			<compatibility>

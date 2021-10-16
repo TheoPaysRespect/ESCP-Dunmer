@@ -7,12 +7,35 @@
 		<defName>ESCP_AshlanderStyle</defName>
 		<label>Ashlander</label>
 		<iconPath>World/WorldObjects/Expanding/ESCP_AshlanderSettlement</iconPath>
-		<!--
-		<soundOngoingRitual>RitualSustainer_Hindu</soundOngoingRitual>
-		<ritualVisualEffectDef>Hindu</ritualVisualEffectDef>
-		-->
+		<soundOngoingRitual>RitualSustainer_Morbid</soundOngoingRitual>
+		<ritualVisualEffectDef>ESCP_Dunmeri</ritualVisualEffectDef>
 		<thingDefStyles>
-
+			<li>
+			<thingDef>StandingLamp</thingDef>
+			<styleDef>ESCP_Ashlander_StandingLamp</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp_Red</thingDef>
+			<styleDef>ESCP_Ashlander_StandingLamp_Red</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp_Green</thingDef>
+			<styleDef>ESCP_Ashlander_StandingLamp_Green</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp_Blue</thingDef>
+			<styleDef>ESCP_Ashlander_StandingLamp_Blue</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Darklamp</thingDef>
+			<styleDef>ESCP_Ashlander_DarklampStanding</styleDef>
+		  </li>
+		  <!--
+		  <li>
+			<thingDef>TorchLamp</thingDef>
+			<styleDef>ESCP_Dunmeri_TorchLamp</styleDef>
+		  </li>
+		  -->
 		</thingDefStyles>
 	</StyleCategoryDef>
 
@@ -20,10 +43,81 @@
 		<defName>ESCP_DunmerStyle</defName>
 		<label>Dunmeri</label>
 		<iconPath>World/WorldObjects/Expanding/ESCP_DunmerReaverSettlement</iconPath>
-
+		<soundOngoingRitual>RitualSustainer_Morbid</soundOngoingRitual>
+		<ritualVisualEffectDef>ESCP_Dunmeri</ritualVisualEffectDef>
 		<thingDefStyles>
+		  <li>
+			<thingDef>Altar_Small</thingDef>
+			<styleDef>ESCP_Dunmeri_AltarSmall</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Altar_Medium</thingDef>
+			<styleDef>ESCP_Dunmeri_AltarMedium</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Altar_Large</thingDef>
+			<styleDef>ESCP_Dunmeri_AltarLarge</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Altar_Grand</thingDef>
+			<styleDef>ESCP_Dunmeri_AltarGrand</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp</thingDef>
+			<styleDef>ESCP_Dunmeri_StandingLamp</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp_Red</thingDef>
+			<styleDef>ESCP_Dunmeri_StandingLamp_Red</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp_Green</thingDef>
+			<styleDef>ESCP_Dunmeri_StandingLamp_Green</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp_Blue</thingDef>
+			<styleDef>ESCP_Dunmeri_StandingLamp_Blue</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Darklamp</thingDef>
+			<styleDef>ESCP_Dunmeri_DarklampStanding</styleDef>
+		  </li>
+		  <li>
+			<thingDef>KneelPillow</thingDef>
+			<styleDef>ESCP_Dunmeri_KneelPillow</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Column</thingDef>
+			<styleDef>ESCP_Dunmeri_Column</styleDef>
+		  </li>
 
+		  <li>
+			<thingDef>Table1x2c</thingDef>
+			<styleDef>ESCP_Dunmeri_Table1x2c</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Table2x2c</thingDef>
+			<styleDef>ESCP_Dunmeri_Table2x2c</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Table2x4c</thingDef>
+			<styleDef>ESCP_Dunmeri_Table2x4c</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Table3x3c</thingDef>
+			<styleDef>ESCP_Dunmeri_Table3x3c</styleDef>
+		  </li>
+		  <!--
+		  <li>
+			<thingDef>TorchLamp</thingDef>
+			<styleDef>ESCP_Dunmeri_TorchLamp</styleDef>
+		  </li>
+		  -->
 		</thingDefStyles>
+		<addDesignators>
+		  <li>ESCP_DunmerAshPlanter</li>
+		  <li>ESCP_DunmerAshPlanterSmall</li>
+		</addDesignators>
 	</StyleCategoryDef>
 	
 	<!-- Origin styles -->
@@ -32,9 +126,25 @@
 		<defName>ESCP_DunmerTribunal</defName>
 		<label>Almsivi</label>
 		<iconPath>UI/Structures/ESCP_OriginTribunal</iconPath>
-
+		<soundOngoingRitual>RitualSustainer_Morbid</soundOngoingRitual>
+		<ritualVisualEffectDef>ESCP_Dunmeri</ritualVisualEffectDef>
 		<thingDefStyles>
-
+		  <li>
+			<thingDef>SculptureSmall</thingDef>
+			<styleDef>ESCP_Almsivi_SculptureSmall</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Altar_Grand</thingDef>
+			<styleDef>ESCP_Almsivi_AltarGrand</styleDef>
+		  </li>
+		  <li>
+			<thingDef>SculptureTerror</thingDef>
+			<styleDef>ESCP_Almsivi_SculptureTerror</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Ideogram</thingDef>
+			<styleDef>ESCP_Almsivi_IdeogramA</styleDef>
+		  </li>
 		</thingDefStyles>
 	</StyleCategoryDef>
 

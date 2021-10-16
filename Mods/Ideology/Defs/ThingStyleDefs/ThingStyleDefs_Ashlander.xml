@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingStyleDef>
+    <defName>ESCP_Ashlander_StandingLamp</defName>
+	<graphicData>
+      <texPath>Things/Building/BuildingStyles/ESCP_Ashlander/ESCP_AshlanderLampStanding</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>ESCP_Ashlander_StandingLamp_Red</defName>
+	<graphicData>
+      <texPath>Things/Building/BuildingStyles/ESCP_Ashlander/ESCP_AshlanderLampStanding_Red</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>ESCP_Ashlander_StandingLamp_Blue</defName>
+	<graphicData>
+      <texPath>Things/Building/BuildingStyles/ESCP_Ashlander/ESCP_AshlanderLampStanding_Blue</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>ESCP_Ashlander_StandingLamp_Green</defName>
+	<graphicData>
+      <texPath>Things/Building/BuildingStyles/ESCP_Ashlander/ESCP_AshlanderLampStanding_Green</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>ESCP_Ashlander_DarklampStanding</defName>
+    <graphicData>
+      <texPath>Things/Building/BuildingStyles/ESCP_Ashlander/ESCP_AshlanderLampStanding_Dark</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+	<!--
+  <ThingStyleDef>
+    <defName>ESCP_Ashlander_TorchLamp</defName>
+    <graphicData>
+      <texPath>Things/Building/BuildingStyles/ESCP_Ashlander/ESCP_AshlanderTorchLamp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Building/BuildingStyles/ESCP_Ashlander/ESCP_AshlanderTorchLamp</uiIconPath>
+  </ThingStyleDef>
+  -->
+
+</Defs>

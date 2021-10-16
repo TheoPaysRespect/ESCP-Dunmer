@@ -2,7 +2,7 @@
 <Defs>
 
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_IndorilBackstory</defName>
+		<defName>ESCP_Dunmer_IndorilBackstory</defName>
 		<title>house Indoril member</title>
 		<titleShort>Indoril member</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Great House Indoril, the great house of Indoril Nerevar himself. Like most members of House Indoril, [PAWN_nameDef] firmly believes that Dunmer culture must be respected and preserved, even the less desirable parts of it.</baseDescription>

@@ -42,7 +42,14 @@
       <!-- none -->
       
       <!-- Apparel -->
-      <!-- none -->
+      <li Class="StockGenerator_Tag" MayRequire="Ludeon.RimWorld.Ideology">
+        <tradeTag>ESCP_DresSlaveShackles</tradeTag>
+        <thingDefCountRange>-1~3</thingDefCountRange>
+        <countRange>2~5</countRange>
+        <excludedThingDefs>
+        </excludedThingDefs>
+		<maxTechLevelGenerate>Medieval</maxTechLevelGenerate>
+      </li>
 
       <!-- Implants -->
       <!-- none -->

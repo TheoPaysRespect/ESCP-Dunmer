@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>ESCP_DunmerDresShackles</defName>
+		<label>Dres slave shackles</label>
+		<description>Special slave shackles, originally created by Great House Dres. They seem to hum with a strange, some might say magical, energy.\n\nThe special design of these shackles not only suppresses the slave physically, but also mentally, reducing the chance of a slave rebellion.</description>
+		<equippedStatOffsets>
+		  <SlaveSuppressionFallRate>+0.15</SlaveSuppressionFallRate>
+		  <PsychicSensitivity>-0.2</PsychicSensitivity>
+		</equippedStatOffsets>
+		<graphicData>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <texPath>Things/Item/Equipment/ESCP_DunmerDresShackles</texPath>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<tradeTags>
+		  <li>ESCP_DresSlaveShackles</li>
+		</tradeTags>
+		<statBases>
+		  <MarketValue>80</MarketValue>
+		  <Mass>0.5</Mass>
+		  <EquipDelay>2</EquipDelay>
+		  <MaxHitPoints>80</MaxHitPoints>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+		  <li>ApparelUtility</li>
+		</thingCategories>
+		<apparel>
+		  <tags>
+			<li>ESCP_SlaveShackles</li>
+		  </tags>
+		  <defaultOutfitTags>
+			<li>Slave</li>
+		  </defaultOutfitTags>
+		  <careIfWornByCorpse>false</careIfWornByCorpse>
+		  <careIfDamaged>false</careIfDamaged>
+		  <wearPerDay>0</wearPerDay>
+		  <bodyPartGroups>
+			<li>Waist</li>
+		  </bodyPartGroups>
+		  <layers>
+			<li>Belt</li>
+		  </layers>
+		</apparel>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<tradeNeverStack>true</tradeNeverStack>
+		<smeltable>true</smeltable>
+		<burnableByRecipe>false</burnableByRecipe>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<verbs>
+		</verbs>
+		<comps>
+		</comps>
+	</ThingDef>
+
+</Defs>

@@ -2,7 +2,7 @@
 <Defs>
 
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_ArmigerBackstory</defName>
+		<defName>ESCP_Dunmer_ArmigerBackstory</defName>
 		<title>buoyant armiger member</title>
 		<titleShort>buoyant armiger member</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Buoyant Armigers, a mercenary faction of sorts working for the Tribunal Temple. After the fall of the Tribunal [PAWN_nameDef] decided that [PAWN_pronoun] wanted to explore foreign lands.</baseDescription>
@@ -41,7 +41,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_OrdinatorBackstory</defName>
+		<defName>ESCP_Dunmer_OrdinatorBackstory</defName>
 		<title>ordinator</title>
 		<titleShort>ordinator</titleShort>
 		<baseDescription>[PAWN_nameDef] was an ordinator in service of the tribunal temple. [PAWN_pronoun] spent many a day watching scum, looking for any reason to lock them up.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Vvardenfell.</baseDescription>
@@ -75,7 +75,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_HandOfTheQueenBackstory</defName>
+		<defName>ESCP_Dunmer_HandOfTheQueenBackstory</defName>
 		<title>hand of Almalexia</title>
 		<titleShort>hand of Almalexia</titleShort>
 		<baseDescription>[PAWN_nameDef] wasn't just an ordinary ordinator, [PAWN_pronoun] was on the hands of Almalexia. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Mournhold.</baseDescription>
@@ -113,7 +113,7 @@
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_TempleBackstory</defName>
+		<defName>ESCP_Dunmer_TempleBackstory</defName>
 		<title>Tribunal temple member</title>
 		<titleShort>Temple member</titleShort>
 		<baseDescription>[PAWN_nameDef] joined the Tribunal Temple at [PAWN_possessive] lowest point in life. Ever since then [PAWN_pronoun] has been a steadfast believer of the Tribunal, even after certain slanderous lies were spread about them.</baseDescription>

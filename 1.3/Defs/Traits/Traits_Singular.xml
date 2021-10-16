@@ -7,7 +7,7 @@
     <degreeDatas>
       <li>
         <label>slaver</label>
-        <description>[PAWN_nameDef] sees nothing wrong with owning a slave or two, and won't mind if something unfortunate happens to one.</description>
+        <description>[PAWN_nameDef] has plenty of experience dealing with slaves, and knows well what makes them tick. [PAWN_nameDef] also doesn't really care if something... unfortunate happens to one.</description>
 		<statOffsets>
 			<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.10</SuppressionPower>
         </statOffsets>
