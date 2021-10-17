@@ -1038,5 +1038,144 @@
 		<forcedHediffs>
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_ChairMakerBackstory</defName>
+		<title>chair crafter</title>
+		<titleShort>crafter</titleShort>
+		<baseDescription>[PAWN_nameDef] earned a living making and selling chairs, with the occasional table thrown in too. [PAWN_possessive] work caught even managed to catch the eye of a rather high ranking member of Great House Telvanni. One day [PAWN_nameDef] woke up, ready to fulfil the days orders, only to find every single chair, and table, missing.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_CorprusariumBackstory</defName>
+		<title>corprusarium worker</title>
+		<titleShort>corprusarium</titleShort>
+		<baseDescription>[PAWN_nameDef] was always willing to help people, no matter the circumstances. This somehow lead [PAWN_pronoun] to Tel Fyr, or more accurately the halls under it. [PAWN_nameDef] quickly learnt how to tend to the corprus victims, and became quite adept at it.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Slightly special -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_WerewolfHunterBackstory</defName>
+		<title>werewolf hunter</title>
+		<titleShort>hunter</titleShort>
+		<baseDescription>There are many great beasts in Morrowind, and [PAWN_nameDef] has hunted them all. On a quest for new challenges, [PAWN_pronoun] set sail to Solstheim. [PAWN_nameDef] hunted everything [PAWN_pronoun] found, from rieklings to grahl, and even an uderfrykte. However there was one elusive beast left on [PAWN_possessive] list, the werewolf.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_BladesAgentBackstory</defName>
+		<title>blades agent</title>
+		<titleShort>agent</titleShort>
+		<baseDescription>The locals knew [PAWN_nameDef] as a carpenter, a fisherman, or sometimes a member of the local guild. [PAWN_nameDef], assuming that is [PAWN_possessive] real name, was acutally an agent of the Emperor's Blades, whose sole purpose was to monitor the Nerevarine prophecies.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
 
 </Defs>

@@ -28,5 +28,38 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_SlaverBackstory_Child</defName>
+		<title>child slaver</title>
+		<titleShort>slaver</titleShort>
+		<baseDescription>[PAWN_nameDef] was practically born to be a slaver master. As soon as [PAWN_pronoun] could form coherent sentences [PAWN_nameDef] was bossing around the other children. Within a few years [PAWN_pronoun] had amassed a reasonable number of slaves, most of which were other children.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Slaver</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
 
 </Defs>
