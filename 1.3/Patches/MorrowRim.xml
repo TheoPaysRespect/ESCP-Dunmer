@@ -16,7 +16,16 @@
 							<ashResistant>Resistant</ashResistant>
 						</li>
 					</value>
-				</li>		
+				</li>	
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name="ESCP_BaseDunmerRace"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+					<value>
+						<li>MorrowRim_ateNixOxMilk</li>
+						<li>MorrowRim_ateInsectEggDirect</li>
+						<li>MorrowRim_ateInsectEggAsIngredient</li>
+					</value>
+				</li>
 
 				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs/FactionDef[@Name="ESCP_DunmerTribeBase"]/pawnGroupMakers/li[kindDef="Trader"]/carriers</xpath>
@@ -38,6 +47,7 @@
 
 						</value>
 				</li>
+
 				
 			</operations>
 		</match>
