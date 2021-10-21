@@ -120,10 +120,10 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_HandOfTheQueenBackstory</defName>
-		<title>hand of Almalexia</title>
-		<titleShort>hand of Almalexia</titleShort>
-		<baseDescription>[PAWN_nameDef] wasn't just an ordinary ordinator, [PAWN_pronoun] was one of the hands of Almalexia. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Mournhold.</baseDescription>
+		<defName>ESCP_Dunmer_HighOrdinatorBackstory</defName>
+		<title>high ordinator</title>
+		<titleShort>high ordinator</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the elite ordinators tasked with protecting the citizens of Mournhold. [PAWN_pronoun] nearly lost [PAWN_possessive] life during the chaos caused by Sotha Sil's attack on Mournhold. Not by a fabricant, but from some peasant with a pitchfork.\n\n[PAWN_nameDef] began contemplating life once the peasant had been dealt with, and decided Mournhold wasn't for [PAWN_objective].</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -141,6 +141,41 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+			<li>Social</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_HandOfTheQueenBackstory</defName>
+		<title>hand of Almalexia</title>
+		<titleShort>hand of Almalexia</titleShort>
+		<baseDescription>[PAWN_nameDef] wasn't just an ordinary ordinator, [PAWN_pronoun] was one of the hands of Almalexia. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Mournhold.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>10</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
 			<li>
 				<defName>ESCP_AlmalexiaBlessing</defName>
 				<chance>100</chance>
@@ -148,7 +183,7 @@
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
-		<maleCommonality>10</maleCommonality>
+		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<workDisables>
 			<li>PlantWork</li>
