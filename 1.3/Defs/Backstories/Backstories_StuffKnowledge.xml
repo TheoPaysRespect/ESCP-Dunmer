@@ -91,7 +91,6 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
-			<li>Animals</li>
 			<li>PlantWork</li>
 		</workDisables>
 		<forcedItems>
