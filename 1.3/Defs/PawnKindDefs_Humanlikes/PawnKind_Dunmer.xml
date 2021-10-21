@@ -8,6 +8,7 @@
 		<backstoryCategories>
 		  <li>Outlander</li>
 		  <li>ESCP_DunmerOutlander</li>
+		  <li>ESCP_DunmerBackstory</li>
 		</backstoryCategories>	
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.65</baseRecruitDifficulty>
@@ -38,9 +39,8 @@
 		<label>Dunmer tribal</label>
 		<race>ESCP_DunmerRace</race>
 		<backstoryCategories>
-		  <li>Tribal</li>
 		  <li>ESCP_DunmerTribal</li>
-		  <li>MorrowRim_DunmerBackstory</li>
+		  <li>ESCP_DunmerBackstory</li>
 		</backstoryCategories>
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.80</baseRecruitDifficulty>
@@ -70,13 +70,12 @@
 	
 	<PawnKindDef>
 		<defName>ESCP_DunmerMedievalKind</defName>
-		<label>Dunmer peasant</label>
+		<label>Dunmer commoner</label>
 		<race>ESCP_DunmerRace</race>
 		<backstoryCategories>
-		  <li>Tribal</li>
 		  <li>ESCP_DunmerTribal</li>
 		  <li>ESCP_DunmerMedieval</li>
-		  <li>MorrowRim_DunmerBackstory</li>
+		  <li>ESCP_DunmerBackstory</li>
 		</backstoryCategories>
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.80</baseRecruitDifficulty>

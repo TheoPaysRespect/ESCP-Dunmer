@@ -19,8 +19,6 @@
 	<backstoryFilters>
 		<li>
 			<categories>
-			  <li>Tribal</li>
-			  <li>ESCP_DunmerTribal</li>
 			  <li>ESCP_DunmerBackstory</li>
 			</categories>
 			<commonality>1</commonality>

@@ -5,6 +5,49 @@
 		<defName>ESCP_DunmerRace</defName>
 		<label>Dunmer</label>
 		<description>An elven race that calls the ashlands their home. Stories say that the Dunmer were tainted after a great betrayal, leaving them with ash coloured skin and fire coloured eyes. After the eruption of Red Mountain many Dunmer fled their ancestral homeland.\n\nDunmer culture is rather resistant to change, continuing to uphold traditions from many years ago. The dead are treated with great respect, as it is believed that in a time of need they may return to this plane to provide aid. The corpses themselves are cremated. The ash and bones are then spread in a ash pit, often in a family tomb. This is thought to return the dead to the fires they were born from. Dunmer are prone to xenophobia, often seeing other races as nothing more than a taint to be eradicated or enslaved. In more recent times they have, begrudgingly, opened trade routes between more cultured races.\n\nDunmer, either through a curse or simply adaptation, are relatively resistant to both heat and fire. They suffer no ill effects from breathing in ash, though that doesn't mean they enjoy being outside in an ash storm.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.StuffKnowledge">
+				<stuffKnowledgeList>
+					<li>
+						<stuffList>
+							<li>MorrowRim_Glass</li>	<!-- MorrowRim Glass and Ebony -->
+							<li>ESCP_RawGlass</li>	<!-- ESCP Core Resources -->
+						</stuffList>
+						<skillList>
+							<li>Crafting</li>
+						</skillList>
+						<notJustStuff>true</notJustStuff>
+						<requiredBackstory>ESCP_Dunmer_StuffKnowledge_GlassBackstory</requiredBackstory>
+						<chance>1.0</chance>
+					</li>
+					<li>
+						<stuffList>
+							<li>MorrowRim_Bonemold</li>
+							<li>ESCP_Bonemold</li>
+						</stuffList>
+						<skillList>
+							<li>Crafting</li>
+						</skillList>
+						<notJustStuff>true</notJustStuff>
+						<requiredBackstory>ESCP_Dunmer_StuffKnowledge_BonemoldBackstory</requiredBackstory>
+						<chance>1.0</chance>
+					</li>
+					<li>
+						<stuffList>
+							<li>InsectChitin</li>	<!-- Insects Have Chitin -->
+							<li>MorrowRim_SiltStriderChitin</li>	<!-- MorrowRim -->
+							<li>MorrowRim_NixHoundLeather</li>	<!-- MorrowRim -->
+						</stuffList>
+						<skillList>
+							<li>Crafting</li>
+						</skillList>
+						<notJustStuff>true</notJustStuff>
+						<requiredBackstory>ESCP_Dunmer_StuffKnowledge_ChitinBackstory</requiredBackstory>
+						<chance>1.0</chance>
+					</li>
+				</stuffKnowledgeList>
+            </li>
+		</modExtensions>
 		<statBases>
 
 		</statBases>

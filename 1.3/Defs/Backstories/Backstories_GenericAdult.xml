@@ -234,6 +234,10 @@
 		</forcedItems>
 		<forcedTraits>
 			<li>
+				<defName>QuickSleeper</defName>
+				<chance>50</chance>
+			</li>
+			<li>
 				<defName>Nerves</defName>
 				<degree>-2</degree>
 				<chance>100</chance>
@@ -1074,7 +1078,7 @@
 		<defName>ESCP_Dunmer_CorprusariumBackstory</defName>
 		<title>corprusarium worker</title>
 		<titleShort>corprusarium</titleShort>
-		<baseDescription>[PAWN_nameDef] was always willing to help people, no matter the circumstances. This somehow lead [PAWN_pronoun] to Tel Fyr, or more accurately the halls under it. [PAWN_nameDef] quickly learnt how to tend to the corprus victims, and became quite adept at it.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was always willing to help people, no matter the circumstances. This somehow lead [PAWN_nameDef] to Tel Fyr, or more accurately the halls under it. [PAWN_pronoun] quickly learnt how to tend to the corprus victims, and became quite adept at it.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -1098,11 +1102,151 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_ArenaFighterBackstory</defName>
+		<title>arena fighter</title>
+		<titleShort>fighter</titleShort>
+		<baseDescription>[PAWN_nameDef] frequently visited the arena in Vivec. In fact [PAWN_pronoun] spent many hours a day fighting in the pit, so many in fact that [PAWN_pronoun] had accrued quite the fanbase. Sadly all the blows to [PAWN_possessive] head has left a lasting impact.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Social</li>
+			<li>Caring</li>
+			<li>Intellectual</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_AlchemistBackstory</defName>
+		<title>alchemist</title>
+		<titleShort>alchemist</titleShort>
+		<baseDescription>[PAWN_nameDef] was always willing to do anything to advance [PAWN_possessive] alchemical knowledge, even if it meant consuming somewhat... unconventional items. At the end of the day any pain [PAWN_nameDef] suffered was worth it, as the pouches of coin that accompanied fulfilled orders were quite heavy.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_AlchemistBackstoryAlt</defName>
+		<title>alchemist</title>
+		<titleShort>alchemist</titleShort>
+		<baseDescription>[PAWN_nameDef] was always willing to do anything to advance [PAWN_possessive] alchemical knowledge, even if it meant consuming somewhat... unconventional items. This willingness ended very abruptly one fateful day, when [PAWN_nameDef] bit down on a piece of Dwemer scrap metal.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+			<li>Denture</li>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_FloristBackstory</defName>
+		<title>florist</title>
+		<titleShort>florist</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the few tasked with caring for Mournhold's exotic flowers. A highly important job, as without [PAWN_nameDef], Mournhold wouldn't look nearly as nice.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
 	<!-- Slightly special -->
 	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_WerewolfHunterBackstory</defName>
-		<title>werewolf hunter</title>
+		<title>trophy hunter</title>
 		<titleShort>hunter</titleShort>
 		<baseDescription>There are many great beasts in Morrowind, and [PAWN_nameDef] has hunted them all. On a quest for new challenges, [PAWN_pronoun] set sail to Solstheim. [PAWN_nameDef] hunted everything [PAWN_pronoun] found, from rieklings to grahl, and even an uderfrykte. However there was one elusive beast left on [PAWN_possessive] list, the werewolf.</baseDescription>
 		<slot>Adulthood</slot>
@@ -1171,6 +1315,45 @@
 		<forcedItems>
 		</forcedItems>
 		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_ArenaChampionBackstory</defName>
+		<title>arena champion</title>
+		<titleShort>champion</titleShort>
+		<baseDescription>Many have entered the pit in the Vivec arena in search of fame, fortune and glory. Many felt the same sinking feeling in their stomach when faced with the sight of [PAWN_nameDef], and usually felt absolutely nothing shortly after.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName> <!-- + 4 from brawler -->
+				<amount>10</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Commoner</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>Brawler</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Tough</defName>
+				<chance>100</chance>
+			</li>
 		</forcedTraits>
 		<forcedHediffs>
 		</forcedHediffs>

@@ -245,6 +245,11 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>

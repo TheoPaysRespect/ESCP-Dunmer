@@ -34,7 +34,7 @@
 		<title>child slaver</title>
 		<titleShort>slaver</titleShort>
 		<baseDescription>[PAWN_nameDef] was practically born to be a slaver master. As soon as [PAWN_pronoun] could form coherent sentences [PAWN_nameDef] was bossing around the other children. Within a few years [PAWN_pronoun] had amassed a reasonable number of slaves, most of which were other children.</baseDescription>
-		<slot>Adulthood</slot>
+		<slot>Childhood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
