@@ -34,7 +34,7 @@
 		<defName>ESCP_Dunmer_FathisBackstory</defName>
 		<title>false Nerevarine</title>
 		<titleShort>false Nerevarine</titleShort>
-		<baseDescription>[PAWN_nameDef] was lead to believe that [PAWN_pronoun] was Nerevarine reborn by a local Blades agent. This turned out to not be the case, but [PAWN_possessive] still believed. The locals of Sadrith Mora came to call [PAWN_nameDef] 'The Deranged', as [PAWN_pronoun] would constantly spout off about how [PAWN_possessive] was going to save Morrowind.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was lead to believe that [PAWN_pronoun] was Nerevarine reborn by a local Blades agent. This turned out to not be the case, but [PAWN_pronoun] still believed. The locals of Sadrith Mora came to call [PAWN_nameDef] 'The Deranged', as [PAWN_pronoun] would constantly spout off about how [PAWN_pronoun] was going to save Morrowind.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>

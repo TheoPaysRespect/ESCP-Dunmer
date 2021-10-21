@@ -7,7 +7,7 @@
 		<defName>ESCP_Dunmer_RefugeeChildBackstoryA</defName>
 		<title>Red Year refugee</title>
 		<titleShort>child refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was simply a child during the Red Year. Though [PAWN_possessive] memories of the event are hazy, every night [PAWN_pronoun] wakes up in a cold sweat, as [PAWN_possessive] nightmares force her to relive the horror.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was simply a child during the Red Year. Though [PAWN_possessive] memories of the event are hazy, every night [PAWN_pronoun] wakes up in a cold sweat, as [PAWN_possessive] nightmares force [PAWN_objective] to relive the horror.</baseDescription>
 		<slot>Childhood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -115,7 +115,7 @@
 		<defName>ESCP_Dunmer_RefugeeBackstoryC</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local egg mine. Whilst [PAWN_nameDef] doesn't miss the claustrophobic tunnels, a small part of [PAWN_possessive] does miss the strange sounds the kwama made.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local egg mine. Whilst [PAWN_nameDef] doesn't miss the claustrophobic tunnels, a small part of [PAWN_objective] does miss the strange sounds the kwama made.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -225,7 +225,7 @@
 		<defName>ESCP_Dunmer_RefugeeBackstoryF</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job as a skooma runner. In all the chaos [PAWN_nameDef] decided to finally try some skooma, hoping it would relax [PAWN_possessive].</baseDescription>
+		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job as a skooma runner. In all the chaos [PAWN_nameDef] decided to finally try some skooma, hoping it would relax [PAWN_objective].</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -262,7 +262,7 @@
 		<defName>ESCP_Dunmer_RefugeeBackstoryG</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] highly popular corner club in Balmora. [PAWN_nameDef] often looks back fondly at [PAWN_pronoun] time spent running the corner club, and imagines what life may have been like if [PAWN_pronoun] was still in Balmora.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] highly popular corner club in Balmora. [PAWN_nameDef] often looks back fondly at [PAWN_possessive] time spent running the corner club, and imagines what life may have been like if [PAWN_pronoun] was still in Balmora.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -297,7 +297,7 @@
 		<defName>ESCP_Dunmer_RefugeeBackstoryH</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job as a gondolier in Vivec city. [PAWN_nameDef] often yearns for the simple days, peacefully rowing [PAWN_possessive] gondala between the cantons.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job as a gondolier in Vivec city. [PAWN_nameDef] often yearns for the simple days, peacefully rowing [PAWN_possessive] gondola between the cantons.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>

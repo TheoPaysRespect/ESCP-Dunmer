@@ -5,7 +5,7 @@
 		<defName>ESCP_Dunmer_DresBackstory</defName>
 		<title>house Dres member</title>
 		<titleShort>Dres member</titleShort>
-		<baseDescription>[PAWN_nameDef] was a member of the Great House Dres. An often forgotten Great House, but a highly important one. House Dres was known for slavery, and nothing else. Any Argonian in House Dres territory was a slave, and [PAWN_nameDef] liked it that way.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was a member of the Great House Dres, a traditionalist house famous for its slave plantations. Any Argonian in House Dres territory was a slave, and [PAWN_nameDef] liked it that way.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>

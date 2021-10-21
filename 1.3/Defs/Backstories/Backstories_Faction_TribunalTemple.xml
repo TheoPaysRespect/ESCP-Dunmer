@@ -7,7 +7,7 @@
 		<defName>ESCP_Dunmer_ArmigerBackstory</defName>
 		<title>buoyant armiger member</title>
 		<titleShort>buoyant armiger member</titleShort>
-		<baseDescription>[PAWN_nameDef] was a member of the Buoyant Armigers, a mercenary faction of sorts working for the Tribunal Temple. After the fall of the Tribunal [PAWN_nameDef] decided that [PAWN_pronoun] wanted to explore foreign lands.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was a member of the Buoyant Armigers, a militant order of the Tribunal Temple. After the fall of the Tribunal [PAWN_nameDef] decided that [PAWN_pronoun] wanted to explore foreign lands.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -123,7 +123,7 @@
 		<defName>ESCP_Dunmer_HandOfTheQueenBackstory</defName>
 		<title>hand of Almalexia</title>
 		<titleShort>hand of Almalexia</titleShort>
-		<baseDescription>[PAWN_nameDef] wasn't just an ordinary ordinator, [PAWN_pronoun] was on the hands of Almalexia. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Mournhold.</baseDescription>
+		<baseDescription>[PAWN_nameDef] wasn't just an ordinary ordinator, [PAWN_pronoun] was one of the hands of Almalexia. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Mournhold.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>

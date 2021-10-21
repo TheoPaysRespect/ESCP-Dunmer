@@ -66,7 +66,7 @@
 		<defName>ESCP_Dunmer_KwamaBackstory</defName>
 		<title>kwama egg miner</title>
 		<titleShort>egg miner</titleShort>
-		<baseDescription>[PAWN_nameDef] worked tirelessly in a kwama egg mine for a considerable number of years. In this time [PAWN_pronoun] harvested many kwama eggs, and  may have even kept a few as souvenirs.</baseDescription>
+		<baseDescription>[PAWN_nameDef] worked tirelessly in a kwama egg mine for a considerable number of years. In this time [PAWN_pronoun] harvested many kwama eggs, and may have even kept a few as souvenirs.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -254,7 +254,7 @@
 		<defName>ESCP_Dunmer_SkoomaBackstory</defName>
 		<title>skooma seller</title>
 		<titleShort>entrepreneur</titleShort>
-		<baseDescription>[PAWN_nameDef] had the brilliant idea of starting [PAWN_pronoun] own skooma buisness, a bustling market with profit margins most could only dream of. After a run in with an Ordinator, [PAWN_nameDef] decided to sample [PAWN_possessive] own product, leaving the past few years a blur.</baseDescription>
+		<baseDescription>[PAWN_nameDef] had the brilliant idea of starting [PAWN_possessive] own skooma buisness, a bustling market with profit margins most could only dream of. After a run in with an Ordinator, [PAWN_nameDef] decided to sample [PAWN_possessive] own product, leaving the past few years a blur.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -354,7 +354,7 @@
 		<defName>ESCP_Dunmer_ScuttleBackstory</defName>
 		<title>scuttle cook</title>
 		<titleShort>scuttle cook</titleShort>
-		<baseDescription>[PAWN_nameDef] has always maintained that [PAWN_pronoun] invented scuttle, due to [PAWN_possessive] dislike of insect meat. Everyone around [PAWN_possessive] knew it was a lie, but the scuttle was very tasty, so they feigned belief in [PAWN_nameDef] anyway.</baseDescription>
+		<baseDescription>[PAWN_nameDef] has always maintained that [PAWN_pronoun] invented scuttle, due to [PAWN_possessive] dislike of insect meat. Everyone around [PAWN_objective] knew it was a lie, but the scuttle was very tasty, so they feigned belief in [PAWN_nameDef] anyway.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -419,7 +419,7 @@
 		<defName>ESCP_Dunmer_GhostFenceBackstory</defName>
 		<title>ghost fence maintainer</title>
 		<titleShort>ghost fence</titleShort>
-		<baseDescription>[PAWN_nameDef] spent quite a few years maintaining Ghostfence, a difficult, but highly rewarding job. It was a bittersweet moment when Ghostfence was lowered. While [PAWN_nameDef] knew that the blight was gone, [PAWN_nameDef] also knew [PAWN_pronoun] was about to become unemployed.</baseDescription>
+		<baseDescription>[PAWN_nameDef] spent quite a few years maintaining the Great Ghostfence, a difficult, but highly rewarding job. It was a bittersweet moment when the Ghostfence was lowered. While [PAWN_nameDef] knew that the blight was gone, [PAWN_nameDef] also knew [PAWN_pronoun] was about to become unemployed.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -587,7 +587,7 @@
 		<defName>ESCP_Dunmer_GondolaBackstory</defName>
 		<title>vivec gondolier</title>
 		<titleShort>gondolier</titleShort>
-		<baseDescription>[PAWN_nameDef] was one of the many gondoliers working in the Vivec canals, and spent many days transporting Dunmer, and some N'wah, between the cantons. Whilst [PAWN_nameDef] found the job enjoyable, [PAWN_pronoun] was always annoyed watching all the potential customers simply walk past, and over a bridge to the next canton.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was one of the many gondoliers working in the Vivec canals, and spent many days transporting Dunmer, and some n'wah, between the cantons. Whilst [PAWN_nameDef] found the job enjoyable, [PAWN_pronoun] was always annoyed watching all the potential customers simply walk past, and over a bridge to the next canton.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -618,7 +618,7 @@
 		<defName>ESCP_Dunmer_AshYamBackstory</defName>
 		<title>ash yam farmer</title>
 		<titleShort>ash yam farmer</titleShort>
-		<baseDescription>Back in Vvardenfell [PAWN_nameDef] had a magnificent ash yam farm. The products of [PAWN_possessive] hard labour fed many slaves, up until a wild guar herd decided they were hungry.\n\n[PAWN_nameDef] slew every last guar that was even remotely close to [PAWN_possessive] farm. Of course this simply attracted a flock of cliff racers, and [PAWN_nameDef]'s farm was soon uninhabitable.</baseDescription>
+		<baseDescription>Back in Vvardenfell [PAWN_nameDef] had a magnificent ash yam farm. The products of [PAWN_possessive] hard labour fed many slaves, up until a herd of wild guar decided they were hungry.\n\n[PAWN_nameDef] slew every last guar that was even remotely close to [PAWN_possessive] farm. Of course this simply attracted a flock of cliff racers, and [PAWN_nameDef]'s farm was soon uninhabitable.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -881,7 +881,7 @@
 		<defName>ESCP_Dunmer_VvardvarkBackstory</defName>
 		<title>vvardvark breeder</title>
 		<titleShort>vvardvark breeder</titleShort>
-		<baseDescription>[PAWN_nameDef] once owned a small housepod in Sadrith Mora, where [PAWN_pronoun] bred vvardvarks for the local Telvanni. The sheer amount of filth produced by these tiny creatures swiftly broke [PAWN_possessive], and since then [PAWN_nameDef] refuses to clean even the smallest of messes.</baseDescription>
+		<baseDescription>[PAWN_nameDef] once owned a small housepod in Sadrith Mora, where [PAWN_pronoun] bred vvardvarks for the local Telvanni. The sheer amount of filth produced by these tiny creatures swiftly broke [PAWN_objective], and since then [PAWN_nameDef] refuses to clean even the smallest of messes.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -1016,7 +1016,7 @@
 		<defName>ESCP_Dunmer_PoetBackstory</defName>
 		<title>wandering poet</title>
 		<titleShort>poet</titleShort>
-		<baseDescription>Inspired by the wonderful tales told by Vivec, [PAWN_nameDef] became a wandering poet. [PAWN_nameDef]'s adventures were quite dull and uneventful, though the stories [PAWN_pronoun] told were anything but. Sadly, at the end of the day, [PAWN_possessive] tales were nothing compared to those told b Vivec, and [PAWN_pronoun] often had to cook dinner for [PAWN_possessive]self.</baseDescription>
+		<baseDescription>Inspired by the wonderful tales told by Vivec, [PAWN_nameDef] became a wandering poet. [PAWN_nameDef]'s adventures were quite dull and uneventful, though the stories [PAWN_pronoun] told were anything but. Sadly, at the end of the day, [PAWN_possessive] tales were nothing compared to those told by Vivec, and [PAWN_pronoun] often had to cook dinner for [PAWN_possessive]self.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -1047,7 +1047,7 @@
 		<defName>ESCP_Dunmer_ChairMakerBackstory</defName>
 		<title>chair crafter</title>
 		<titleShort>crafter</titleShort>
-		<baseDescription>[PAWN_nameDef] earned a living making and selling chairs, with the occasional table thrown in too. [PAWN_possessive] work caught even managed to catch the eye of a rather high ranking member of Great House Telvanni. One day [PAWN_nameDef] woke up, ready to fulfil the days orders, only to find every single chair, and table, missing.</baseDescription>
+		<baseDescription>[PAWN_nameDef] earned a living making and selling chairs, with the occasional table thrown in too. [PAWN_possessive] work even managed to catch the eye of a rather high ranking member of Great House Telvanni. One day [PAWN_nameDef] woke up, ready to fulfil the days orders, only to find every single chair, and table, missing.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
@@ -1078,7 +1078,7 @@
 		<defName>ESCP_Dunmer_CorprusariumBackstory</defName>
 		<title>corprusarium worker</title>
 		<titleShort>corprusarium</titleShort>
-		<baseDescription>[PAWN_nameDef] was always willing to help people, no matter the circumstances. This somehow lead [PAWN_nameDef] to Tel Fyr, or more accurately the halls under it. [PAWN_pronoun] quickly learnt how to tend to the corprus victims, and became quite adept at it.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was always willing to help people, no matter the circumstances. This somehow led [PAWN_nameDef] to Tel Fyr, or more accurately the halls under it. [PAWN_pronoun] quickly learnt how to tend to the corprus victims, and became quite adept at it.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
