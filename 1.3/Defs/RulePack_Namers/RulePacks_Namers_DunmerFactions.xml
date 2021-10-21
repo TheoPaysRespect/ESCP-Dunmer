@@ -69,6 +69,18 @@
     </rulePack>
   </RulePackDef>
   
+  <RulePackDef>
+    <defName>ESCP_NamerSettlementRefugee</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->new [DunmerCities]</li>
+      </rulesStrings>
+	  <rulesFiles>
+        <li>DunmerCities->ESCP_DunmerNames/DunmerCities</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
   <!-- Reavers -->
   
   <RulePackDef>

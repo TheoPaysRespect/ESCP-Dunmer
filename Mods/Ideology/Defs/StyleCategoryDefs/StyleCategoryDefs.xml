@@ -117,7 +117,11 @@
 		<addDesignators>
 		  <li>ESCP_DunmerAshPlanter</li>
 		  <li>ESCP_DunmerAshPlanterSmall</li>
+		  <li>ESCP_DunmerSmoothStoneWall</li>
 		</addDesignators>
+		<addDesignatorGroups>
+		  <li>ESCP_Floor_Dunmeri_Stone</li>
+		</addDesignatorGroups>
 	</StyleCategoryDef>
 	
 	<!-- Origin styles -->
