@@ -371,7 +371,7 @@
   <FactionDef ParentName="ESCP_DunmerTribeBase">
     <defName>ESCP_DunmerGreatHouseSlaver</defName>
     <label>slaver great house</label>
-	<description>One of the Dunmer Great Houses. They are wary of outsiders, making earning their trust a long and arduous process. However once this trust is gained they can be useful allies.\n\nThere are rumors that the Morag Tong are still operating. If these rumors are true, then angering the Great Houses may be ill advised. The Morag Tong are a completely sanctioned guild of assassins, that operate within the law of the Great Houses. If you find out a Great House has taken out a writ for your life, you best keep a watchful eye on the shadows.\n\nThis great houses is well known for it's role in slavery. In fact, almost all the slaves employed by the Dunmer are trained by members of this Great House.</description>
+	<description>One of the Dunmer Great Houses. They are wary of outsiders, making earning their trust a long and arduous process. However once this trust is gained they can be useful allies.\n\nThere are rumors that the Morag Tong are still operating. If these rumors are true, then angering the Great Houses may be ill advised. The Morag Tong are a completely sanctioned guild of assassins, that operate within the law of the Great Houses. If you find out a Great House has taken out a writ for your life, you best keep a watchful eye on the shadows.\n\nThis Great House is well known for it's role in slavery. In fact, almost all the slaves employed by the Dunmer are trained by members of this Great House.</description>
 	<modExtensions>
 		<li Class="ESCP_RaceTools.SettlementPreference">
 			<chance>1.0</chance>
