@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- Armigers -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_ArmigerBackstory</defName>
 		<title>buoyant armiger member</title>
@@ -39,6 +41,49 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_ArmigerSharpshotBackstory</defName>
+		<title>armiger sharp-shot</title>
+		<titleShort>sharp-shot</titleShort>
+		<baseDescription>Every morning [PAWN_nameDef] would climb to the top of ghostfence, ready [PAWN_possessive] arrow, and wait. [PAWN_nameDef] was one of the most renowned archers among the Boyant Armigers, and for good reason.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>10</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Commoner</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Ordinators -->
 	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_OrdinatorBackstory</defName>
@@ -111,6 +156,8 @@
 			<li>Caring</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+	
+	<!-- Temple -->
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_TempleBackstory</defName>
