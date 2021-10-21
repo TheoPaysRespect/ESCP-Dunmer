@@ -54,23 +54,6 @@
 							<texPath>Achievements/ESCP_AchievementAshPit</texPath>
 							<points>5</points>
 						</AchievementsExpanded.AchievementDef>
-						<!--
-						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementTribunalSculpture</defName>
-							<label>Tribunal Faithful</label>
-							<description>Craft and place three Tribunal Sculptures made out of gold</description>
-							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
-							<tab>ESCP_AchievementsTab</tab>
-							<tracker Class="AchievementsExpanded.BuildingTracker">
-								<def>ESCP_SculptureGrand_Tribunal_a</def>
-								<madeFrom>Gold</madeFrom>
-								<count>3</count>
-							</tracker>
-
-							<texPath>Achievements/ESCP_AchievementTribunalSculpture</texPath>
-							<points>50</points>
-						</AchievementsExpanded.AchievementDef>
-						-->
 
 						<!-- Crafting -->
 
@@ -207,7 +190,27 @@
 						</AchievementsExpanded.AchievementDef>
 						
 						<!-- Research -->
+						<!-- Real stupid
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementDunmerIntoSpace</defName>
+							<label>Dunmer Can Into Space</label>
+							<description>Complete the starflight basics research as any Dunmer faction</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="Mashed_VanillaAchievementsExpanded.ResearchTracker_FactionRequirement">
+								<def>ShipBasics</def>
+								<factionsList>
+									<li>ESCP_AshlanderPlayerTribe</li>
+									<li>ESCP_DunmerPlayerColony</li>
+									<li>ESCP_DunmerPlayerTribe</li>
+									<li>ESCP_DunmerPlayerKingdom</li>
+								</factionsList>
+							</tracker>
 
+							<texPath>Achievements/ESCP_AchievementDunmerIntoSpace</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+						-->
 						<!-- Trade -->
 						
 					</value>
