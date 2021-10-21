@@ -417,8 +417,8 @@
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_GhostFenceBackstory</defName>
-		<title>ghost fence maintainer</title>
-		<titleShort>ghost fence</titleShort>
+		<title>Ghostfence maintainer</title>
+		<titleShort>maintainer</titleShort>
 		<baseDescription>[PAWN_nameDef] spent quite a few years maintaining the Great Ghostfence, a difficult, but highly rewarding job. It was a bittersweet moment when the Ghostfence was lowered. While [PAWN_nameDef] knew that the blight was gone, [PAWN_nameDef] also knew [PAWN_pronoun] was about to become unemployed.</baseDescription>
 		<slot>Adulthood</slot>
 		<spawnCategories>
