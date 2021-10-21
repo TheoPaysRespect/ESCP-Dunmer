@@ -42,7 +42,6 @@
 		<workDisables>
 			<li>Mining</li>
 			<li>PlantWork</li>
-			<li>Animals</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
 	
