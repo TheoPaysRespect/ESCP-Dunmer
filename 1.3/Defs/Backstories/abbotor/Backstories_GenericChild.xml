@@ -88,7 +88,7 @@
 		<defName>ESCP_abbator_Dunmer_HouseNoble</defName>
 		<title>Dunmer house noble</title>
 		<titleShort>noble</titleShort>
-		<baseDescription>[PAWN_nameDef] was born into a noble family, a wealthy dunmer House of some repute. [PAWN_pronoun] has known the taste of the silver spoon and is used to getting [PAWN_possessive] way, but [PAWN_possessive] status also brought the privilege of a quality education and the ability to lead with a commanding presence.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was born into a noble Dunmer family of some repute. [PAWN_pronoun] has known the taste of the silver spoon and is used to getting [PAWN_possessive] way, but [PAWN_possessive] status also brought the privilege of a quality education and the ability to lead with a commanding presence.</baseDescription>
 		<slot>Childhood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
