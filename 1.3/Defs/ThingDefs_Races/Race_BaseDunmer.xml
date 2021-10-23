@@ -493,6 +493,10 @@
                     <original>KnowBuriedInSarcophagus</original>
                     <replacer>ESCP_DunmerKnowBuriedInSarcophagus</replacer> 
                 </li>
+				<li MayRequire="SirMashedPotato.MorrowRim">
+                    <original>MorrowRim_ashCovered</original>
+                    <replacer>ESCP_DunmerAshCovered</replacer> 
+                </li>
 				</replacerList>
 				<butcherThoughtSpecific>
 					<li>

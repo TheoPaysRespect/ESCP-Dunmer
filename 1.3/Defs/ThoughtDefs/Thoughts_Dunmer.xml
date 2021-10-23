@@ -99,5 +99,18 @@
 		  </li>
 		</stages>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>ESCP_DunmerAshCovered</defName>
+		<durationDays>0.2</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+		  <li>
+			<label>covered in ash</label>
+			<description>Just another day in the ashlands</description>
+			<baseMoodEffect>-2</baseMoodEffect>
+		  </li>
+		</stages>
+	</ThoughtDef>
 	  
 </Defs>
