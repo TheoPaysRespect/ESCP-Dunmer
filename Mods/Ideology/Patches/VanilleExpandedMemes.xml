@@ -19,7 +19,7 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs/FactionDef[defName="ESCP_DunmerGreatHouseFaithful"]/requiredMemes</xpath>
 					<value>
-						<li MayRequire="Ludeon.RimWorld.Ideology">VME_GodEmperor</li>
+						<li MayRequire="Ludeon.RimWorld.Ideology">VME_ExaltedPriesthood</li>
 					</value>
 				</li>
 				
