@@ -40,5 +40,13 @@
       <li>ESCP_Cursed</li>
     </memes>
   </IdeoIconDef> 
+  
+  <IdeoIconDef>
+    <defName>ESCP_DunmerF</defName>
+    <iconPath>UI/Ideoligions/ESCP_DunmerF</iconPath>
+    <memes>
+      <li>ESCP_Cursed</li>
+    </memes>
+  </IdeoIconDef> 
  
 </Defs>
