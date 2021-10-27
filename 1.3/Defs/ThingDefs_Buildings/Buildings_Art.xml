@@ -115,7 +115,7 @@
 
 	<ThingDef ParentName="ESCP_SculptureDunmerShrineBase">
 		<defName>ESCP_DunmerSaintShrine</defName>
-		<label>dunmeri saint shrine</label>
+		<label>Dunmeri saint shrine</label>
 		<description>A shrine in the traditional Dunmeri style, often used to commemorate heroic and selfless deeds.</description>
 		<graphicData>
 		  <graphicClass>Graphic_Multi</graphicClass>

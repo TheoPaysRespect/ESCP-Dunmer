@@ -277,9 +277,10 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
     </disallowedMemes>
 	<disallowedPrecepts>
-		<li>Slavery_Abhorrent</li>
-		<li>Slavery_Horrible</li>
-		<li>Slavery_Disapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Abhorrent</li>
     </disallowedPrecepts>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>40</configurationListOrderPriority>
@@ -324,8 +325,9 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
     </disallowedMemes>
 	<disallowedPrecepts>
-		<li>Slavery_Abhorrent</li>
-		<li>Slavery_Horrible</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Abhorrent</li>
     </disallowedPrecepts>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>40</configurationListOrderPriority>
@@ -403,10 +405,13 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
     </disallowedMemes>
 	<disallowedPrecepts>
-		<li>Slavery_Abhorrent</li>
-		<li>Slavery_Horrible</li>
-		<li>Slavery_Disapproved</li>
-		<li>Slavery_Acceptable</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Abhorrent</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Disapproved</li>
+		
     </disallowedPrecepts>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>40</configurationListOrderPriority>

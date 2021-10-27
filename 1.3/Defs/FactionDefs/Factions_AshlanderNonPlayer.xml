@@ -218,7 +218,7 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
     </disallowedMemes>
 	<disallowedPrecepts>
-		<li>SlabBed_Preferred</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
     </disallowedPrecepts>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>40</configurationListOrderPriority>
@@ -246,7 +246,7 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
     </disallowedMemes>
 	<disallowedPrecepts>
-		<li>SlabBed_Preferred</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
     </disallowedPrecepts>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>50</configurationListOrderPriority>
