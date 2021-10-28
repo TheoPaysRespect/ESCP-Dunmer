@@ -175,6 +175,13 @@
 						<li>MorrowRim_DunmerCaravan_AshlandsTrader</li>
 					</value>
 				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/FactionDef[defName="ESCP_DunmerGreatHouseSlaver"]/caravanTraderKinds</xpath>
+					<value>
+						<li>MorrowRim_DunmerCaravan_AshlandsTrader</li>
+					</value>
+				</li>
 		
 			</operations>
 		</match>
