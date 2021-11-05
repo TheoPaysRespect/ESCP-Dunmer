@@ -21,7 +21,7 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
-			<!--
+			<!-- In patch
 			<li>
 				<defName>MorrowRim_TouchedByDagothUr</defName>
 				<chance>100</chance>

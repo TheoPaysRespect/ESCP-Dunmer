@@ -19,6 +19,11 @@
 		<forcedTraits>
 			<li>
 				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
 				<degree>1</degree>
 				<chance>100</chance>
 			</li>

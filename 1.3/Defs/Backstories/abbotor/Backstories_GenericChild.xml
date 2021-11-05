@@ -50,6 +50,11 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -218,6 +223,16 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -245,6 +260,11 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>15</chance>
+			</li>
 			<li>
 				<defName>PsychicSensitivity</defName>
 				<degree>1</degree>
@@ -277,6 +297,11 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
