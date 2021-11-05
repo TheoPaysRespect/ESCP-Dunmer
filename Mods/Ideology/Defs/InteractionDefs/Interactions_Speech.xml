@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>ESCP_DunmerSpeechUtility</defName>
+		<rulePack>
+		  <rulesStrings>
+				<!-- animals -->
+				<li>ashlandAnimal->alit</li>
+				<li>ashlandAnimal->ash hopper</li>
+				<li>ashlandAnimal->bantam guar</li>
+				<li>ashlandAnimal->cliff racer</li>
+				<li>ashlandAnimal->durzog</li>
+				<li>ashlandAnimal->guar</li>
+				<li>ashlandAnimal->tiger guar</li>
+				<li>ashlandAnimal->kwama</li>
+				<li>ashlandAnimal->kagouti</li>
+				<li>ashlandAnimal->netch</li>
+				<li>ashlandAnimal->retching netch</li>
+				<li>ashlandAnimal->nix hound</li>
+				<li>ashlandAnimal->nix ox</li>
+				<li>ashlandAnimal->scuttler</li>
+				<li>ashlandAnimal->shalk</li>
+				<li>ashlandAnimal->fungal shalk</li>
+				<li>ashlandAnimal->silt strider</li>
+				<li>ashlandAnimal->vvardvark</li>
+				<li>ashlandAnimal->wormmouth</li>
+				<li>ashlandAnimal->thunderbug</li>
+				<li>ashlandAnimal->hoarvor</li>
+				<li>ashlandAnimal->swamp jelly</li>
+				<li>ashlandAnimal->horker</li>
+				<li>ashlandAnimal->trolls</li>
+
+				<!-- plants -->
+				<li>ashlandPlant->ash yam</li>
+				<li>ashlandPlant->corkbulb</li>
+				<li>ashlandPlant->emperor parasol</li>
+				<li>ashlandPlant->funnel cap</li>
+				<li>ashlandPlant->grazelands haygrass</li>
+				<li>ashlandPlant->hackle-lo</li>
+				<li>ashlandPlant->kreshweed</li>
+				<li>ashlandPlant->marshmerrow</li>
+				<li>ashlandPlant->scathecraw</li>
+				<li>ashlandPlant->trama shrub</li>
+				<li>ashlandPlant->bittergreen</li>
+				<li>ashlandPlant->wickwheat</li>
+				<li>ashlandPlant->comberry</li>
+				<li>ashlandPlant->saltrice</li>
+				<!-- fish -->
+				<li>ashlandFish->slaughterfish</li>
+				<li>ashlandFish->dreugh</li>
+				<li>ashlandFish->siltfish</li>
+				<li>ashlandFish->Telvannis cephalopod</li>
+				<li>ashlandFish->crabeater</li>
+				<li>ashlandFish->foyoda fish</li>
+				<li>ashlandFish->juvenile mudcrab</li>
+				<li>ashlandFish->Resdaynian sailfin</li>
+				<li>ashlandFish->Redoran shieldcrab</li>
+				<li>ashlandFish->Vivec crayfish</li>
+				<li>ashlandFish->sea netch</li>
+				<!-- Beasts -->
+				<li>ashlandBeast->clannfear</li>
+				<li>ashlandBeast->daedroth</li>
+				<li>ashlandBeast->scamp</li>
+				<li>ashlandBeast->ogrim</li>
+				<li>ashlandBeast->hunger</li>
+				<li>ashlandBeast->wamasu</li>
+				<li>ashlandBeast->haj mota</li>
+				<li>ashlandBeast->swamp leviathan</li>
+				<li>ashlandBeast->werewolves</li>
+				<li>ashlandBeast->grahl</li>
+				<li>ashlandBeast->uderfrykte</li>
+				<li>ashlandBeast->cliff racers</li>
+		  </rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<InteractionDef>
+		<defName>ESCP_DunmerSpeech_Seance</defName>
+		<label>ancestor seance</label>
+		<workerClass>InteractionWorker</workerClass>
+		<ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>
+		<symbol>Things/Mote/SpeechSymbols/ESCP_DunmerSymbolSeance</symbol>
+		<logRulesInitiator>
+		  <include>
+			<li>SpeechUtility</li>
+			<li>ESCP_DunmerSpeechUtility</li>
+		  </include>
+		  <rulesStrings>
+			<li>r_logentry->[INITIATOR_nameDef] [shared] [speechtopic].</li>
+			
+			<li>shared->shared the ancestors knowledge of</li>
+			<li>shared->relayed the ancestors knowledge of</li>
+			<li>shared->shared the ancestors wisdom about</li>
+			<li>shared->relayed the ancestors wisdom about</li>
+				
+			<!-- kinda generic shite -->
+			<li>speechtopic->following in their footsteps</li>
+			<li>speechtopic->hunting [ashlandAnimal]</li>
+			<li>speechtopic->growing [ashlandPlant]</li>
+			<li>speechtopic->harvesting [ashlandAnimal]</li>
+			<li>speechtopic->harvesting [ashlandPlant]</li>
+			<li>speechtopic->farming [ashlandAnimal]</li>
+			<li>speechtopic->farming [ashlandPlant]</li>
+			<li>speechtopic->catching [ashlandFish]</li>
+			<li>speechtopic->slaying [ashlandBeast]</li>
+
+			<!-- somewhat Dunmery -->
+			<li>speechtopic->avoiding losing an arm to slaughterfish</li>
+			<li>speechtopic->how to manage a kwama egg mine</li>
+			<li>speechtopic->optimal techniques for mining glass</li>
+			<li>speechtopic->how to mine ebony without breaking your pick</li>
+			<li>speechtopic->herding guar, and avoiding the traps they leave behind</li>
+			<li>speechtopic->holding your own in a sujamma drinking contest</li>
+			<li>speechtopic->cleaning up after your vvardvark</li>
+			<li>speechtopic->how to treat slaves properly</li>
+			<li>speechtopic->the winged menace</li>
+			<li>speechtopic->the soothing calls of a silt strider</li>
+			<li>speechtopic->the dangers of breathing ash</li>
+			<li>speechtopic->the dangers of skooma</li>
+			<li>speechtopic->the blight</li>
+			<li>speechtopic->how to clean your boots after an ash storm</li>
+			<li>speechtopic->crafting with bonemold</li>
+			<li>speechtopic->surviving the ashlands</li>
+			<li>speechtopic->living in the ashlands</li>
+			<li>speechtopic->what happens when you punch an ogrim, and why you shouldn't do it</li>
+			<li>speechtopic->how to tell the difference between an ash storm, and a cliff racer swarm</li>
+			<li>speechtopic->the wonders of skooma</li>
+			<!-- the memey fun stuff, which should probably include everything here -->
+			<li>speechtopic->where guar milk comes from</li>
+			<li>speechtopic->the lusty Argonain maid</li>
+			<li>speechtopic->why only Dunmer can ruin Resdayn</li>
+		  </rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>
+ 
+</Defs>

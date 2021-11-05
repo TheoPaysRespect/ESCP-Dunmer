@@ -6,6 +6,7 @@
     <iconPath>UI/Ideoligions/ESCP_DunmerA</iconPath>
     <memes>
       <li>ESCP_Cursed</li>
+      <li>ESCP_Structure_OriginTribunal</li>
     </memes>
   </IdeoIconDef> 
   
@@ -38,6 +39,7 @@
     <iconPath>UI/Ideoligions/ESCP_DunmerE</iconPath>
     <memes>
       <li>ESCP_Cursed</li>
+      <li>ESCP_Structure_OriginTribunal</li>
     </memes>
   </IdeoIconDef> 
   
@@ -46,6 +48,15 @@
     <iconPath>UI/Ideoligions/ESCP_DunmerF</iconPath>
     <memes>
       <li>ESCP_Cursed</li>
+    </memes>
+  </IdeoIconDef> 
+  
+  <IdeoIconDef>
+    <defName>ESCP_DunmerG</defName>
+    <iconPath>UI/Ideoligions/ESCP_DunmerG</iconPath>
+    <memes>
+      <li>ESCP_Cursed</li>
+      <li>ESCP_Structure_OriginGoodDaedra</li>
     </memes>
   </IdeoIconDef> 
  

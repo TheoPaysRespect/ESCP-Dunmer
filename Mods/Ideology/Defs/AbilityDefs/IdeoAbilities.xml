@@ -10,7 +10,6 @@
 	
 	<AbilityDef Name="ESCP_DunmerAncestralBase" Abstract = "true">
 		<jobDef>CastAbilityOnThingMelee</jobDef>
-		<iconPath>UI/Abilities/WorkDrive</iconPath>
 		<stunTargetWhileCasting>True</stunTargetWhileCasting>
 		<showPsycastEffects>False</showPsycastEffects>
 		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>

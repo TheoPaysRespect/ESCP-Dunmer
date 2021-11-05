@@ -2,7 +2,7 @@
 <Defs>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_PsychicallyGiftedBackstory_Child</defName>
+		<defName>ESCP_Dunmer_PsychicallyGiftedBackstory_Child</defName>
 		<title>psychically gifted</title>
 		<titleShort>gifted</titleShort>
 		<baseDescription>[PAWN_nameDef] was born with a greater awareness of the unseen. After many years at the temple [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift, and hear the whispers of the ancestors.</baseDescription>
@@ -30,7 +30,7 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_SlaverBackstory_Child</defName>
+		<defName>ESCP_Dunmer_SlaverBackstory_Child</defName>
 		<title>child slaver</title>
 		<titleShort>slaver</titleShort>
 		<baseDescription>[PAWN_nameDef] was practically born to be a slaver master. As soon as [PAWN_pronoun] could form coherent sentences [PAWN_nameDef] was bossing around the other children. Within a few years [PAWN_pronoun] had amassed a reasonable number of slaves, most of which were other children.</baseDescription>
@@ -60,6 +60,39 @@
 			<li>ManualDumb</li>
 			<li>Caring</li>
 		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_ChimerBackstory_Child</defName>
+		<title>Chimer</title>
+		<titleShort>Chimer</titleShort>
+		<baseDescription>[PAWN_nameDef] was born long before the Great Betrayal, before the Dunmer even existed, possibly even before the pilgramage to Resdayn. Needless to say, [PAWN_nameDef] is quite old.</baseDescription>
+		<slot>Childhood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+		<bioAgeRange>
+			<min>250</min>
+			<max>999</max>
+		</bioAgeRange>
 	</AlienRace.BackstoryDef>
 
 </Defs>

@@ -6,7 +6,7 @@
     <label>ancestral knowledge</label>
     <workerClass>InteractionWorker</workerClass>
     <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>
-    <symbol>UI/Abilities/WorkDrive</symbol>
+    <symbol>Things/Mote/SpeechSymbols/ESCP_DunmerSymbolSeance</symbol>
     <logRulesInitiator>
       <rulesStrings>
         <li>r_logentry->[INITIATOR_nameDef] called upon the ancestors, imparting their knowledge to [RECIPIENT_nameDef].</li>

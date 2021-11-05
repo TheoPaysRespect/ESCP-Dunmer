@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RitualBehaviorDef>
+		<defName>ESCP_DunmerSeance</defName>
+		<durationTicks>5000</durationTicks>
+		<workerClass>RitualBehaviorWorker_Funeral</workerClass>
+		<roles>
+		  <li Class="RitualRoleTag">
+			<label>speaker</label>
+			<id>ESCP_DunmerSpeaker</id>
+			<precept>ESCP_DunmerIdeoRole_AncestorSpeaker</precept>
+			<tag>ESCP_DunmerIdeoRole_AncestorSpeaker</tag>
+			<maxCount>1</maxCount>
+			<substitutable>false</substitutable>
+			<countsAsParticipant>False</countsAsParticipant>
+		  </li>
+		</roles>
+		<stages>
+		  <li>
+			<defaultDuty>Spectate</defaultDuty>
+			<endTriggers>
+			  <li Class="StageEndTrigger_DurationPercentage">
+				<percentage>1</percentage>
+			  </li>
+			</endTriggers>
+			<roleBehaviors>
+			  <li>
+				<roleId>ESCP_DunmerSpeaker</roleId>
+				<dutyDef>SpeakOnCellFuneral</dutyDef>
+				<speakerInteraction>ESCP_DunmerSpeech_Seance</speakerInteraction>
+				<customPositions>
+				  <li Class="RitualPosition_Lectern">
+					<maxDistanceToFocus>5</maxDistanceToFocus>
+				  </li>
+				  <li Class="RitualPosition_BesideThing" />
+				</customPositions>
+			  </li>
+			</roleBehaviors>
+			<!--<visualEffectDef>ESCP_DunmeriSeance</visualEffectDef>-->
+		  </li>
+		</stages>
+	</RitualBehaviorDef>
+
+</Defs>

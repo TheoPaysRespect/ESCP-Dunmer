@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- Precepts -->
+
+	<PreceptDef>
+		<defName>ESCP_DunmerSeance</defName>
+		<label>ancestor seance</label>
+		<description>A ritual that allows the living to commune with their ancestors, and potentially gain their knowledge.</description>
+		<issue>Ritual</issue>
+		<impact>Medium</impact>
+		<iconPath>UI/Icons/Rituals/ESCP_DunmerRitualSeance</iconPath>
+		<preceptClass>Precept_Ritual</preceptClass>
+		<ritualPatternBase>ESCP_DunmerSeance</ritualPatternBase>
+		<allowDuplicates>false</allowDuplicates>
+		<countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+		<selectionWeight>1.0</selectionWeight>
+		<displayOrderInImpact>100</displayOrderInImpact>
+		<ignoreLimitsInEditMode>false</ignoreLimitsInEditMode>
+		<receivesExpectationsQualityOffset>true</receivesExpectationsQualityOffset>
+		<canGenerateAsSpecialPrecept>false</canGenerateAsSpecialPrecept>
+		<requiredMemes>
+			<li>ESCP_Structure_OriginTribunal</li>
+			<li>ESCP_Structure_OriginGoodDaedra</li>
+			<li>ESCP_Structure_OriginHouseOfTroubles</li>
+			<li>ESCP_Structure_OriginNerevarine</li>
+		</requiredMemes>
+	</PreceptDef>
+
+</Defs>

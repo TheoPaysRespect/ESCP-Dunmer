@@ -3,7 +3,8 @@
 
 	<RitualVisualEffectDef>
 		<defName>ESCP_Dunmeri</defName>
-		<tintColor>(26, 20, 20)</tintColor>
+		<!--<tintColor>(20, 20, 36)</tintColor>-->
+		<tintColor>(36, 20, 25)</tintColor>
 		<comps>
 		  <li>
 			<compClass>CompRitualEffect_ConstantCenter</compClass>
@@ -11,11 +12,28 @@
 			<scaleWithRoom>true</scaleWithRoom>
 		  </li>
 		  <li Class="CompProperties_RitualEffectIntervalSpawnCircle">
-			<fleckDef>Skull</fleckDef>
+			<fleckDef>ESCP_DunmerRitual</fleckDef>
 			<area>(27, 28)</area>
 			<radius>6</radius>
 			<concentration>1</concentration>
-			<spawnIntervalTicks>9</spawnIntervalTicks>
+			<spawnIntervalTicks>3</spawnIntervalTicks>
+			<spawnCount>5</spawnCount>
+			<rotation>-25~25</rotation>
+			<scalePositionWithRoom>true</scalePositionWithRoom>
+			<onlySpawnInSameRoom>true</onlySpawnInSameRoom>
+		  </li>
+		</comps>
+	</RitualVisualEffectDef>
+	<!--  Only works if room is built a certain way
+			Otherwise they're all off-centre and gross
+	<RitualVisualEffectDef>
+		<defName>ESCP_DunmeriSeance</defName>
+		<comps>
+		  <li Class="CompProperties_RitualEffectIntervalSpawnCircle">
+			<fleckDef>ESCP_DunmerSeanceParticle</fleckDef>
+			<area>(5, 6)</area>
+			<radius>5</radius>
+			<spawnIntervalTicks>3</spawnIntervalTicks>
 			<spawnCount>1</spawnCount>
 			<rotation>-15~15</rotation>
 			<scalePositionWithRoom>true</scalePositionWithRoom>
@@ -23,5 +41,5 @@
 		  </li>
 		</comps>
 	</RitualVisualEffectDef>
-
+	-->
 </Defs>

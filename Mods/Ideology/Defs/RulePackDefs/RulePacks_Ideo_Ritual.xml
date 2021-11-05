@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>ESCP_DunmerNamerRitualSeance</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ritualName(p=2)->[memeAdjective] [seance]</li>
+        <li>r_ritualName->[seance] of [chosenTheme]</li>
+        <li>r_ritualName->[whispers] of [chosenTheme]</li>
+        <li>r_ritualName->[chosenAdjective] [seance]</li>
+        <li>r_ritualName->[keyDeity]'s [seance]</li>
+        <li>r_ritualName->[seance] of [keyDeity]</li>
+        <li>r_ritualName->[seance] of [memeConcept]</li>
+        <li>r_ritualName->[seance] of [chosenIdeoName]</li>
+
+
+        <li>seance->seance</li>
+        <li>seance->whispers</li>
+        <li>seance->whispering</li>
+        <li>seance->gathering</li>
+        <li>seance->ritual</li>
+        <li>seance->session</li>
+        <li>seance->guidance</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

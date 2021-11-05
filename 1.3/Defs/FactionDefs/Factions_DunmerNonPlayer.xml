@@ -16,7 +16,7 @@
 		  <ESCP_Structure_OriginGoodDaedra MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginGoodDaedra>
 		  <ESCP_Structure_OriginHouseOfTroubles MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginHouseOfTroubles>
 	</structureMemeWeights>
-	<backstoryFilters>
+	<backstoryFilters Inherit = "false">
 		<li>
 			<categories>
 			  <li>ESCP_DunmerBackstory</li>
