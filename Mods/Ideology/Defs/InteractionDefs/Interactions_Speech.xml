@@ -95,15 +95,15 @@
 			<li>shared->relayed the ancestors wisdom about</li>
 				
 			<!-- kinda generic shite -->
-			<li>speechtopic->following in their footsteps</li>
-			<li>speechtopic->hunting [ashlandAnimal]</li>
-			<li>speechtopic->growing [ashlandPlant]</li>
-			<li>speechtopic->harvesting [ashlandAnimal]</li>
-			<li>speechtopic->harvesting [ashlandPlant]</li>
-			<li>speechtopic->farming [ashlandAnimal]</li>
-			<li>speechtopic->farming [ashlandPlant]</li>
-			<li>speechtopic->catching [ashlandFish]</li>
-			<li>speechtopic->slaying [ashlandBeast]</li>
+			<li>speechtopic(priority=1)->following in their footsteps</li>
+			<li>speechtopic(priority=3)->hunting [ashlandAnimal]</li>
+			<li>speechtopic(priority=3)->growing [ashlandPlant]</li>
+			<li>speechtopic(priority=3)->harvesting [ashlandAnimal]</li>
+			<li>speechtopic(priority=3)->harvesting [ashlandPlant]</li>
+			<li>speechtopic(priority=3)->farming [ashlandAnimal]</li>
+			<li>speechtopic(priority=3)->farming [ashlandPlant]</li>
+			<li>speechtopic(priority=3)->catching [ashlandFish]</li>
+			<li>speechtopic(priority=3)->slaying [ashlandBeast]</li>
 
 			<!-- somewhat Dunmery -->
 			<li>speechtopic->avoiding losing an arm to slaughterfish</li>
