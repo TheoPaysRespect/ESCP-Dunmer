@@ -100,5 +100,71 @@
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>5</femaleCommonality>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_StuffKnowledge_EbonyBackstory</defName>
+		<title>master ebony smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDescription>Trained by some of the best Imperial smiths, [PAWN_nameDef] has developed [PAWN_possessive] knack for working ebony into a fine art.\n\nAnything [PAWN_nameDef] crafts out of ebony will be one quality level higher than normal.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_StuffKnowledge_AdamantiumBackstory</defName>
+		<title>master adamantium smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDescription>[PAWN_nameDef] was always quite the skilled smith, and eagerly jumped at the opportunity to craft armour for the Hands of the Queen. It took [PAWN_objective] quite some time, but the final products were perfect. [PAWN_nameDef] had clearly mastered working adamantium.\n\nAnything [PAWN_nameDef] crafts out of adamantium will be one quality level higher than normal.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
 
 </Defs>

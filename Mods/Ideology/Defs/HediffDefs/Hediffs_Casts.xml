@@ -25,6 +25,27 @@
 	</HediffDef>
 	
 	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_DunmerAncestralHealing</defName>
+		<label>ancestral healing</label>
+		<description>Using knowledge imparted by the ancestors, this pawn will heal injuries faster.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>True</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <InjuryHealingFactor>0.25</InjuryHealingFactor>
+			</statOffsets>
+		  </li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="RoleStatBuff">
 		<defName>ESCP_DunmerAncestralProtection</defName>
 		<label>ancestral protection</label>
 		<description>Using knowledge imparted by the ancestors, this pawn is more resistant to damage from all sources.</description>

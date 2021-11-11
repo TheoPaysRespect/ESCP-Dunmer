@@ -13,6 +13,7 @@
 		<fillPercent>0.5</fillPercent>
 		<tickerType>Rare</tickerType>
 		<canOverlapZones>false</canOverlapZones>
+		<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_DunmerStyle</dominantStyleCategory>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 		<graphicData>
 		  <texPath>Things/Building/Misc/ESCP_DunmerBurialUrn/ESCP_DunmerBurialUrnEmpty</texPath>

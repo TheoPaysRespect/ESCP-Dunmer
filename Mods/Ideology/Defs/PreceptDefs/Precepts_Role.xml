@@ -54,6 +54,7 @@
 		</roleEffects>
 		<grantedAbilities>
 		  <li>ESCP_DunmerAncestralGuidance</li>
+		  <li>ESCP_DunmerAncestralHealing</li>
 		  <li>ESCP_DunmerAncestralProtection</li>
 		  <li>ESCP_DunmerAncestralSight</li>
 		  <li>ESCP_DunmerAncestralWisdom</li>

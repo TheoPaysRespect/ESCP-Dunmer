@@ -39,7 +39,7 @@
 				<disallowedTraits>
 
 				</disallowedTraits>
-				<allowHumanBios>true</allowHumanBios>
+				<allowHumanBios>false</allowHumanBios>
 				<humanRecipeImport>true</humanRecipeImport>
 				<alienPartGenerator>
 					<aliencrowntypes>

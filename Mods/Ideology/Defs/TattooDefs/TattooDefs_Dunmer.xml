@@ -2,7 +2,32 @@
 <Defs>
 
   <!-- Dunmer -->
-<!--
+	<!-- Generic Dunmer tats -->
+	<TattooDef>
+		<defName>Face_DunmerTribunal</defName>
+		<label>Tribunal hand</label>
+		<texPath>Things/Pawn/Humanlike/ESCP_Tattoos/Face_DunmerTribunal/Face_DunmerTribunal</texPath>
+		<tattooType>Face</tattooType>
+		<category>ESCP_DunmerTribunal</category>
+		<visibleNorth>false</visibleNorth>
+		<styleTags>
+			<li>TattooFaceDunmer</li>
+		</styleTags>
+	</TattooDef>
+	<!--	Real bad misalignment with eyes
+	<TattooDef>
+		<defName>Face_DunmerDaedric</defName>
+		<label>Dunmer Daedric mark</label>
+		<texPath>Things/Pawn/Humanlike/ESCP_Tattoos/Face_DunmerDaedric/Face_DunmerDaedric</texPath>
+		<tattooType>Face</tattooType>
+		<category>ESCP_DunmerStyle</category>
+		<visibleNorth>false</visibleNorth>
+		<styleTags>
+			<li>TattooFaceDunmer</li>
+		</styleTags>
+	</TattooDef>
+	-->
+	<!--	Shows up on eyes
 	<TattooDef>
 		<defName>Face_Dunmer1</defName>
 		<label>Dunmer 1</label>
@@ -14,7 +39,7 @@
 			<li>TattooFaceDunmer</li>
 		</styleTags>
 	</TattooDef>
-	
+
 	<TattooDef>
 		<defName>Face_Dunmer2</defName>
 		<label>Dunmer 2</label>
@@ -74,5 +99,5 @@
 			<li>TattooFaceDunmer</li>
 		</styleTags>
 	</TattooDef>
--->
+	-->
 </Defs>

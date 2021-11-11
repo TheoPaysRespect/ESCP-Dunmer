@@ -59,6 +59,23 @@
 	</AbilityDef>
 	
 	<AbilityDef ParentName="ESCP_DunmerAncestralBase">
+		<defName>ESCP_DunmerAncestralHealing</defName>
+		<label>ancestral healing</label>
+		<description>Call upon the knowledge of the ancestors, passing it onto another. The target will heal injuries faster for three days.</description>
+		<jobDef>CastAbilityOnThingMelee</jobDef>
+		<iconPath>UI/Abilities/ESCP_DunmerAncestralHealing</iconPath>
+		<warmupMoteSocialSymbol>UI/Abilities/ESCP_DunmerAncestralHealing</warmupMoteSocialSymbol>
+		<comps>
+		  <li Class="CompProperties_AbilityGiveHediff">
+			<compClass>CompAbilityEffect_GiveHediff</compClass>
+			<hediffDef>ESCP_DunmerAncestralHealing</hediffDef>
+			<onlyBrain>True</onlyBrain>
+			<applicableToMechs>False</applicableToMechs>
+		  </li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="ESCP_DunmerAncestralBase">
 		<defName>ESCP_DunmerAncestralProtection</defName>
 		<label>ancestral protection</label>
 		<description>Call upon the knowledge of the ancestors, passing it onto another. The target will be more adept at resisting damage for three days.</description>

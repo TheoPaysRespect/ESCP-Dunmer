@@ -438,11 +438,12 @@
     <factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementForgotten</factionIconPath>
 	<naturalEnemy>true</naturalEnemy>
 	<requiredMemes>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
 	</requiredMemes>
+	<disallowedMemes Inherit="false"/>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>50</configurationListOrderPriority>
   </FactionDef>

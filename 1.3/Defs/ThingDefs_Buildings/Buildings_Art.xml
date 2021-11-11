@@ -10,6 +10,7 @@
 		<pathCost>50</pathCost>
 		<useHitPoints>true</useHitPoints>
 		<minifiedDef>MinifiedThing</minifiedDef>
+		<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_DunmerStyle</dominantStyleCategory>
 		<thingCategories>
 		  <li>BuildingsArt</li>
 		</thingCategories>
