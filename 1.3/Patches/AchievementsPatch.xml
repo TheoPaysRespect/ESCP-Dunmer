@@ -100,7 +100,7 @@
 						<AchievementsExpanded.AchievementDef>
 							<defName>ESCP_AchievementRecruitDunmerMaster</defName>
 							<label>Did Someone Say Scuttle?</label>
-							<description>Recruit a Dunmer Master</description>
+							<description>Recruit, or enslave, a Dunmer Master</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
 							<tab>ESCP_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.KindDefTracker">
