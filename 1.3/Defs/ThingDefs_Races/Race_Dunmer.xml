@@ -47,7 +47,7 @@
 					<li>
 						<stuffList>
 							<li>MorrowRim_Bonemold</li>
-							<li>ESCP_Bonemold</li>
+							<li>ESCP_BonemoldItem</li>	<!-- MorrowRim - Simple bonemold -->
 						</stuffList>
 						<skillList>
 							<li>Crafting</li>
