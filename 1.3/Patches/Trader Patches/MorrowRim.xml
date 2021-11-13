@@ -49,6 +49,11 @@
 								<countRange>0~10</countRange>
 							  </li>
 							  
+							  <li Class="StockGenerator_SingleDef" MayRequire="SirMashedPotato.MorrowRim.SimpleBonemold">
+								<thingDef>ESCP_BonemoldItem</thingDef>
+								<countRange>50~150</countRange>
+							  </li>
+							  
 							  <li Class="StockGenerator_Tag">
 								<tradeTag>AshlandCommon</tradeTag>
 								<thingDefCountRange>5~8</thingDefCountRange>

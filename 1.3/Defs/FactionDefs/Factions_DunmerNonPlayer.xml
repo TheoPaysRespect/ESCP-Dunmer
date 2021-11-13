@@ -168,6 +168,7 @@
             <li>Jade</li>
             <li>MedicineHerbal</li>
             <li>Pemmican</li>
+            <li MayRequire="SirMashedPotato.MorrowRim.SimpleBonemold">ESCP_BonemoldItem</li>
           </thingDefs>
         </filter>
       </fixedParams>

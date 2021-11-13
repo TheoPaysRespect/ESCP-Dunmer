@@ -1102,6 +1102,11 @@
 		<forcedItems>
 		</forcedItems>
 		<forcedTraits>
+			<li>
+				<defName>Immunity</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
 		</forcedTraits>
 		<forcedHediffs>
 		</forcedHediffs>
@@ -1233,6 +1238,41 @@
 			<li>
 				<defName>Plants</defName>
 				<amount>5</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_BrewerBackstory</defName>
+		<title>brewer</title>
+		<titleShort>brewer</titleShort>
+		<baseDescription>[PAWN_nameDef] oversaw a reasonably sized brewery in the Ascadian Isles. Many of the finest Dunmeri beverages were created there, all under [PAWN_nameDef]'s watchful eyes.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
 			</li>
 		</skillGains>
 		<disallowedTraits>

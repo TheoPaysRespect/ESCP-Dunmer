@@ -11,6 +11,7 @@
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -51,6 +52,7 @@
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -95,6 +97,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -123,17 +126,18 @@
 			<li>Caring</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_HighOrdinatorBackstory</defName>
 		<title>high ordinator</title>
-		<titleShort>high ordinator</titleShort>
+		<titleShort>ordinator</titleShort>
 		<baseDescription>[PAWN_nameDef] was one of the elite ordinators tasked with protecting the citizens of Mournhold. [PAWN_pronoun] nearly lost [PAWN_possessive] life during the chaos caused by Sotha Sil's attack on Mournhold. Not by a fabricant, but from some peasant with a pitchfork.\n\n[PAWN_nameDef] began contemplating life once the peasant had been dealt with, and decided Mournhold wasn't for [PAWN_objective].</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -174,6 +178,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -207,6 +212,50 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_VivecGuardBackstory</defName>
+		<title>palace guard</title>
+		<titleShort>palace guard</titleShort>
+		<baseDescription>[PAWN_nameDef] was once one a highly esteemed member of the Tribunal Temple, whose sole purpose was to guard Vivec's palace. A highly important job, as the Warrior Poet was not to be disturbed, not even by someone claiming to be the Incarnate.\n\n.After the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Vvardenfell.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_VivecBlessing</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
 	<!-- Temple -->
 
 	<AlienRace.BackstoryDef>
@@ -217,6 +266,7 @@
 		<slot>Adulthood</slot>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -245,6 +295,128 @@
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TempleLibrarianBackstory</defName>
+		<title>Tribunal temple librarian</title>
+		<titleShort>temple librarian</titleShort>
+		<baseDescription>Many thought that [PAWN_nameDef] was simply one of the librarians in charge of tending the Library of Vivec. While this was, at least partly, the case, [PAWN_nameDef] was also in charge of dealing with certain heretical tomes.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Ascetic</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TempleWitchHunterBackstory</defName>
+		<title>temple witchhunter</title>
+		<titleShort>witchhunter</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the witchunters employed by the Tribunal Temple. While [PAWN_pronoun] was occasionally made practices of the profane disappear permanently, [PAWN_nameDef] mostly sought out heretical texts.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TempleWitchHunterBackstoryAlt</defName>
+		<title>temple witchhunter</title>
+		<titleShort>witchhunter</titleShort>
+		<baseDescription>Whenever the Temple caught wind of someone delving into the profane arts, they sent in the witchhunters, and [PAWN_nameDef] used to be one of them. [PAWN_pronoun] was part of a force tasked with clearing out Assemanu, some abandoned cave system near Hla Oad. The second the Ordinator fell, [PAWN_nameDef] fled.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-2</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
