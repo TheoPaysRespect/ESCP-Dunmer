@@ -24,6 +24,7 @@
     <stuffCategories Inherit="false">
       <li>Stony</li>
     </stuffCategories>
+	<canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
   </ThingDef>
 
 </Defs>
