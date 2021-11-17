@@ -131,7 +131,7 @@
 		<label>Almsivi</label>
 		<iconPath>UI/Structures/ESCP_OriginTribunal</iconPath>
 		<soundOngoingRitual>RitualSustainer_Morbid</soundOngoingRitual>
-		<ritualVisualEffectDef>ESCP_Dunmeri</ritualVisualEffectDef>
+		<ritualVisualEffectDef>ESCP_DunmerTribunal</ritualVisualEffectDef>
 		<thingDefStyles>
 		  <li>
 			<thingDef>SculptureSmall</thingDef>

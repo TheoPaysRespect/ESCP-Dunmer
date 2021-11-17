@@ -24,10 +24,56 @@
 		  </li>
 		</comps>
 	</RitualVisualEffectDef>
-	<!--  Only works if room is built a certain way
-			Otherwise they're all off-centre and gross
+	
+	<RitualVisualEffectDef>
+		<defName>ESCP_DunmerTribunal</defName>
+		<!--<tintColor>(20, 20, 36)</tintColor>-->
+		<tintColor>(20, 20, 36)</tintColor>
+		<comps>
+		  <li>
+			<compClass>CompRitualEffect_ConstantCenter</compClass>
+			<moteDef>Mote_RitualSmokeThick</moteDef>
+			<scaleWithRoom>true</scaleWithRoom>
+		  </li>
+		  <li Class="CompProperties_RitualEffectIntervalSpawnCircle">
+			<fleckDef>ESCP_DunmerTribunalRitual_Alm</fleckDef>
+			<area>(27, 28)</area>
+			<radius>6</radius>
+			<concentration>1</concentration>
+			<spawnIntervalTicks>12</spawnIntervalTicks>
+			<spawnCount>1</spawnCount>
+			<rotation>0</rotation>
+			<scalePositionWithRoom>true</scalePositionWithRoom>
+			<onlySpawnInSameRoom>true</onlySpawnInSameRoom>
+		  </li>
+		  <li Class="CompProperties_RitualEffectIntervalSpawnCircle">
+			<fleckDef>ESCP_DunmerTribunalRitual_Si</fleckDef>
+			<area>(27, 28)</area>
+			<radius>6</radius>
+			<concentration>1</concentration>
+			<spawnIntervalTicks>12</spawnIntervalTicks>
+			<spawnCount>1</spawnCount>
+			<rotation>0</rotation>
+			<scalePositionWithRoom>true</scalePositionWithRoom>
+			<onlySpawnInSameRoom>true</onlySpawnInSameRoom>
+		  </li>
+		  <li Class="CompProperties_RitualEffectIntervalSpawnCircle">
+			<fleckDef>ESCP_DunmerTribunalRitual_Vi</fleckDef>
+			<area>(27, 28)</area>
+			<radius>6</radius>
+			<concentration>1</concentration>
+			<spawnIntervalTicks>12</spawnIntervalTicks>
+			<spawnCount>1</spawnCount>
+			<rotation>0</rotation>
+			<scalePositionWithRoom>true</scalePositionWithRoom>
+			<onlySpawnInSameRoom>true</onlySpawnInSameRoom>
+		  </li>
+		</comps>
+	</RitualVisualEffectDef>
+	<!--
 	<RitualVisualEffectDef>
 		<defName>ESCP_DunmeriSeance</defName>
+		<tintColor>(20, 20, 50)</tintColor>
 		<comps>
 		  <li Class="CompProperties_RitualEffectIntervalSpawnCircle">
 			<fleckDef>ESCP_DunmerSeanceParticle</fleckDef>
@@ -38,6 +84,8 @@
 			<rotation>-15~15</rotation>
 			<scalePositionWithRoom>true</scalePositionWithRoom>
 			<onlySpawnInSameRoom>true</onlySpawnInSameRoom>
+			<offset>(0, 0, 0.5)</offset>
+			<roomCheckOffset>(0, 0, -1)</roomCheckOffset>
 		  </li>
 		</comps>
 	</RitualVisualEffectDef>
