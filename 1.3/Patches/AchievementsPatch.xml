@@ -151,6 +151,21 @@
 						</AchievementsExpanded.AchievementDef>
 						
 						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementSlayAshlanders</defName>
+							<label>Leaving Them in Your Dust</label>
+							<description>Slay 150 Dunmer Ashlanders</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<raceDef>ESCP_AshlanderRace</raceDef>
+								<count>150</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementSlayAshlanders</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
 							<defName>ESCP_AchievementSlayGreatHouse</defName>
 							<label>Not So Great Any More</label>
 							<description>Slay 150 Dunmer from any Dunmer Great House</description>
