@@ -67,10 +67,12 @@
     </include>
     <rulePack>
       <rulesStrings>
-        <li>name->[DunmerGods]</li>
+        <li>name(priority=1)->[DunmerGods]</li>
+        <li>name(priority=0.5)->[DunmerSaints]</li>
       </rulesStrings>
 	  <rulesFiles>
         <li>DunmerGods->ESCP_DunmerNames/DunmerGods</li>
+        <li>DunmerSaints->ESCP_DunmerNames/DunmerSaints</li>
       </rulesFiles>
     </rulePack>
   </RulePackDef>

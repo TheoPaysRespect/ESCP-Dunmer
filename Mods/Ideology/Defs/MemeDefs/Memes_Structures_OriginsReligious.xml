@@ -7,6 +7,11 @@
 		<defName>ESCP_Structure_OriginTribunal</defName>
 		<label>Tribunal Temple origin</label>
 		<description>This is a variant of the embodied theist structure. This ideoligion is a descendant of the Tribunal Temple, a religious sect focused on worshipping the Living Gods of Morrowind, once ordinary Chimer who tapped into an ancient power. It may have very different precepts than those of thousands of years ago, but its symbols are similar.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.IdeoOrginProperties">
+				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+            </li>
+		</modExtensions>
 		<iconPath>UI/Structures/ESCP_OriginTribunal</iconPath>
 		<deityCount>3</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
@@ -70,6 +75,11 @@
 		<defName>ESCP_Structure_OriginGoodDaedra</defName>
 		<label>Reclamations origin</label>
 		<description>This is a variant of the abstract theist structure. This ideoligion is a descendant of the Reclamations, a reformed Tribunal temple re-focused on the worship of specific Daedric Princes. It may have very different precepts than those of thousands of years ago, but its symbols are similar.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.IdeoOrginProperties">
+				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+            </li>
+		</modExtensions>
 		<iconPath>UI/Structures/ESCP_OriginGoodDaedra</iconPath>
 		<deityCount>3</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
@@ -115,9 +125,9 @@
 		  <li><ideoName>Temple of the Good Daedra</ideoName><adjective>Acolyte</adjective><member>Acolyte</member><prefix>true</prefix></li>
 		</symbolPacks>
 		<fixedDeityNameTypes>
+		  <li><name>Azura</name><type>Goddess of Dusk and Dawn</type></li>
 		  <li><name>Boethiah</name><type>Prince of Plots</type></li>
 		  <li><name>Mephala</name><type>the Webspinner</type></li>
-		  <li><name>Azura</name><type>Goddess of Dusk and Dawn</type></li>
 		</fixedDeityNameTypes>
 		<thingStyleCategories>
 
@@ -130,6 +140,11 @@
 		<defName>ESCP_Structure_OriginHouseOfTroubles</defName>
 		<label>House of Troubles origin</label>
 		<description>This is a variant of the abstract theist structure. This ideoligion is a descendant of the House of Troubles, a sect focused on the worship of specific Daedric Princes. It may have very different precepts than those of thousands of years ago, but its symbols are similar.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.IdeoOrginProperties">
+				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+            </li>
+		</modExtensions>
 		<iconPath>UI/Structures/ESCP_OriginHouseOfTroubles</iconPath>
 		<deityCount>4</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
@@ -174,10 +189,10 @@
 		  <li><ideoName>Temple of the Testing Gods</ideoName><adjective>Acolyte</adjective><member>Acolyte</member><prefix>true</prefix></li>
 		</symbolPacks>
 		<fixedDeityNameTypes>
-		  <li><name>Molag Bal</name><type>God of Schemes</type></li>
 		  <li><name>Malacath</name><type>God of Curses</type></li>
-		  <li><name>Sheogorath</name><type>The Mad God</type></li>
 		  <li><name>Mehrunes Dagon</name><type>God of Destruction</type></li>
+		  <li><name>Molag Bal</name><type>God of Schemes</type></li>
+		  <li><name>Sheogorath</name><type>The Mad God</type></li>
 		</fixedDeityNameTypes>
 		<thingStyleCategories>
 
@@ -190,6 +205,12 @@
 		<defName>ESCP_Structure_OriginNerevarine</defName>
 		<label>Nerevarine Cult origin</label>
 		<description>This is a variant of the embodied theist structure. This ideoligion is a descendant of the Nerevarine Cult, a religious cult focused on the worship of Nerevar Reborn, the Great Ashkhan of old. It may have very different precepts than those of thousands of years ago, but its symbols are similar.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.IdeoOrginProperties">
+				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+				<RandomiseDeityType>true</RandomiseDeityType>
+            </li>
+		</modExtensions>
 		<iconPath>UI/Structures/ESCP_OriginHouseNerevarine</iconPath>
 		<deityCount>1</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
