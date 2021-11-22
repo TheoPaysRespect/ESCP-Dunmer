@@ -95,6 +95,7 @@
       <!-- Buying -->
 	  <li Class="StockGenerator_BuySlaves" />
       <li Class="StockGenerator_BuyExpensiveSimple" />
+	  <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
       
