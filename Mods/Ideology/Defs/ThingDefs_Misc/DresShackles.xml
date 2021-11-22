@@ -6,7 +6,7 @@
 		<label>Dres slave shackles</label>
 		<description>Special slave shackles, originally created by Great House Dres. They seem to hum with a strange, some might say magical, energy.\n\nThe special design of these shackles not only suppresses the slave physically, but also mentally, reducing the chance of a slave rebellion.</description>
 		<equippedStatOffsets>
-		  <SlaveSuppressionFallRate>+0.15</SlaveSuppressionFallRate>
+		  <SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
 		  <PsychicSensitivity>-0.2</PsychicSensitivity>
 		</equippedStatOffsets>
 		<graphicData>
