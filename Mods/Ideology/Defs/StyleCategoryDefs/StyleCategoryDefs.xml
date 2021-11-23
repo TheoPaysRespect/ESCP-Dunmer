@@ -37,6 +37,11 @@
 		  </li>
 		  -->
 		</thingDefStyles>
+		<addDesignators>
+		  <!--
+		  <li>ESCP_AshlanderWindChimes</li>
+		  -->
+		</addDesignators>
 	</StyleCategoryDef>
 
 	<StyleCategoryDef>
