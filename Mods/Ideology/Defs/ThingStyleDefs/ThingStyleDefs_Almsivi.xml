@@ -1,43 +1,53 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingStyleDef>
-    <defName>ESCP_Almsivi_AltarGrand</defName>
-    <graphicData>
-      <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/Altars/ESCP_AlmsiviAltar3x3</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3.0,3.0)</drawSize>
-      <shadowData>
-        <volume>(2.4, 1, 2.4)</volume>
-      </shadowData>
-    </graphicData>
-  </ThingStyleDef>
+	<ThingStyleDef>
+		<defName>ESCP_Almsivi_AltarGrand</defName>
+		<graphicData>
+		  <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/Altars/ESCP_AlmsiviAltar3x3</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>(3.0,3.0)</drawSize>
+		  <shadowData>
+			<volume>(2.4, 1, 2.4)</volume>
+		  </shadowData>
+		</graphicData>
+	</ThingStyleDef>
 
-  <ThingStyleDef>
-    <defName>ESCP_Almsivi_SculptureSmall</defName>
-    <graphicData>
-      <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/Sculptures/Small</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-    </graphicData>
-  </ThingStyleDef>
+	<ThingStyleDef>
+		<defName>ESCP_Almsivi_SculptureSmall</defName>
+		<graphicData>
+		  <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/Sculptures/Small</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
   
-  <ThingStyleDef>
-    <defName>ESCP_Almsivi_SculptureTerror</defName>
-    <graphicData>
-      <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/Sculptures/SculptureTerror</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-	  <drawSize>(1.5,1.5)</drawSize>
-    </graphicData>
-  </ThingStyleDef>
+	<ThingStyleDef>
+		<defName>ESCP_Almsivi_SculptureTerror</defName>
+		<graphicData>
+		  <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/Sculptures/SculptureTerror</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		  <drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
   
-  <ThingStyleDef>
-    <defName>ESCP_Almsivi_IdeogramA</defName>
-    <graphicData>
-	  <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/Ideogram/ESCP_AlmsiviIcon_a</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,3)</drawSize>
-    </graphicData>
-  </ThingStyleDef>
+	<ThingStyleDef>
+		<defName>ESCP_Almsivi_IdeogramA</defName>
+		<graphicData>
+		  <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/Ideogram/ESCP_AlmsiviIcon_a</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>(3,3)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+  
+	<ThingStyleDef>
+		<defName>ESCP_Almisivi_VisageMask</defName>
+		<overrideLabel>Almsivi mask</overrideLabel>
+		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Almsivi_VisageMask/ESCP_Almsivi_VisageMask</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Almsivi_VisageMask/ESCP_Almsivi_VisageMask</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
 
 
 </Defs>

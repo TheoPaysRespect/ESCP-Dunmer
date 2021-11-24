@@ -154,6 +154,10 @@
 			<thingDef>Ideogram</thingDef>
 			<styleDef>ESCP_Almsivi_IdeogramA</styleDef>
 		  </li>
+		  <li>
+			<thingDef>Apparel_VisageMask</thingDef>
+			<styleDef>ESCP_Almisivi_VisageMask</styleDef>
+		  </li>
 		</thingDefStyles>
 	</StyleCategoryDef>
 
