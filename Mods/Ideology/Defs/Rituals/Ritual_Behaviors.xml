@@ -12,7 +12,7 @@
 			<precept>ESCP_DunmerIdeoRole_AncestorSpeaker</precept>
 			<tag>ESCP_DunmerIdeoRole_AncestorSpeaker</tag>
 			<maxCount>1</maxCount>
-			<substitutable>false</substitutable>
+			<substitutable>true</substitutable>
 			<countsAsParticipant>False</countsAsParticipant>
 		  </li>
 		</roles>

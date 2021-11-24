@@ -23,6 +23,7 @@
 							<tab>ESCP_AchievementsTab</tab>
 							<tracker Class="Mashed_VanillaAchievementsExpanded.HediffTracker_WithDefList">
 								<defList>
+									<li>ESCP_DunmerAncestralHealing</li>
 									<li>ESCP_DunmerAncestralGuidance</li>
 									<li>ESCP_DunmerAncestralProtection</li>
 									<li>ESCP_DunmerAncestralSight</li>
