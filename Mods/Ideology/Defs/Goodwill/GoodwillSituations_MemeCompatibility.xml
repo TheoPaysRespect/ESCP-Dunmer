@@ -4,79 +4,23 @@
   <!-- Agreement - same -->
 
   <GoodwillSituationDef>
-    <defName>ESCP_TribunalOrigin_TribunalOrigin</defName>
-    <label>Tribunal origin agreement</label>
+    <defName>ESCP_Cursed_Cursed</defName>
+    <label>cursed agreement</label>
     <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
-    <meme>ESCP_Structure_OriginTribunal</meme>
-    <otherMeme>ESCP_Structure_OriginTribunal</otherMeme>
-    <naturalGoodwillOffset>30</naturalGoodwillOffset>
+    <meme>ESCP_Cursed</meme>
+    <otherMeme>ESCP_Cursed</otherMeme>
+    <naturalGoodwillOffset>20</naturalGoodwillOffset>	<!-- minus 10 from disagreement -->
   </GoodwillSituationDef>
   
-  <GoodwillSituationDef>
-    <defName>ESCP_ReclemationsOrigin_ReclemationsOrigin</defName>
-    <label>Reclemations origin agreement</label>
-    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
-    <meme>ESCP_Structure_OriginGoodDaedra</meme>
-    <otherMeme>ESCP_Structure_OriginGoodDaedra</otherMeme>
-    <naturalGoodwillOffset>10</naturalGoodwillOffset>
-  </GoodwillSituationDef>
-  
-  <GoodwillSituationDef>
-    <defName>ESCP_TroublesOrigin_TroublesOrigin</defName>
-    <label>House of Troubles origin agreement</label>
-    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
-    <meme>ESCP_Structure_OriginHouseOfTroubles</meme>
-    <otherMeme>ESCP_Structure_OriginHouseOfTroubles</otherMeme>
-    <naturalGoodwillOffset>10</naturalGoodwillOffset>
-  </GoodwillSituationDef>
-  
-  <GoodwillSituationDef>
-    <defName>ESCP_NerevarineOrigin_NerevarineOrigin</defName>
-    <label>Nerevarine Cult origin agreement</label>
-    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
-    <meme>ESCP_Structure_OriginNerevarine</meme>
-    <otherMeme>ESCP_Structure_OriginNerevarine</otherMeme>
-    <naturalGoodwillOffset>30</naturalGoodwillOffset>
-  </GoodwillSituationDef>
-
-  <!-- Agreement - different -->
-  
-  <GoodwillSituationDef>
-    <defName>ESCP_NerevarineOrigin_ReclemationsOrigin</defName>
-    <label>Nerevarine Cult origin vs Reclemations origin</label>
-    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
-    <meme>ESCP_Structure_OriginNerevarine</meme>
-    <otherMeme>ESCP_Structure_OriginGoodDaedra</otherMeme>
-    <naturalGoodwillOffset>20</naturalGoodwillOffset>
-  </GoodwillSituationDef>
-
   <!-- Disagreement -->
-
-  <GoodwillSituationDef>
-    <defName>ESCP_NerevarineOrigin_TribunalOrigin</defName>
-    <label>Nerevarine Cult origin vs Tribunal origin</label>
-    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
-    <meme>ESCP_Structure_OriginNerevarine</meme>
-    <otherMeme>ESCP_Structure_OriginTribunal</otherMeme>
-    <naturalGoodwillOffset>-50</naturalGoodwillOffset>
-  </GoodwillSituationDef>
   
   <GoodwillSituationDef>
-    <defName>ESCP_ReclemationsOrigin_TribunalOrigin</defName>
-    <label>Reclemations origin vs Tribunal origin</label>
+    <defName>ESCP_Cursed_All</defName>
+    <label>cursed</label>
     <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
-    <meme>ESCP_Structure_OriginGoodDaedra</meme>
-    <otherMeme>ESCP_Structure_OriginTribunal</otherMeme>
-    <naturalGoodwillOffset>-30</naturalGoodwillOffset>
-  </GoodwillSituationDef>
-  
-  <GoodwillSituationDef>
-    <defName>ESCP_TroublesOrigin_TribunalOrigin</defName>
-    <label>House of Troubles origin vs Tribunal origin</label>
-    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
-    <meme>ESCP_Structure_OriginHouseOfTroubles</meme>
-    <otherMeme>ESCP_Structure_OriginTribunal</otherMeme>
-    <naturalGoodwillOffset>-30</naturalGoodwillOffset>
+    <meme>ESCP_Cursed</meme>
+    <versusAll>true</versusAll>
+    <naturalGoodwillOffset>-10</naturalGoodwillOffset>
   </GoodwillSituationDef>
 
 </Defs>

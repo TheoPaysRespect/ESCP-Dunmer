@@ -189,7 +189,7 @@
   <FactionDef ParentName="ESCP_DunmerTribeBase">
     <defName>ESCP_DunmerRefugees</defName>
     <label>Dunmer refugees</label>
-	<description>Refugees that fled Red Mouuntan's Eruption, and have since formed a new Great House</description>
+	<description>Refugees that fled Red Mountain's Eruption, and have since formed a new Great House.</description>
 	<modExtensions>
 		<li Class="ESCP_RaceTools.SettlementPreference">
 			<chance>1.0</chance>

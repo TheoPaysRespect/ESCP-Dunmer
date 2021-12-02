@@ -41,17 +41,21 @@
 						<!-- Building -->
 
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementAshPit</defName>
+							<defName>ESCP_AchievementDunmer_AshPit</defName>
 							<label>Not For Playing In</label>
-							<description>Build an Ash Burial Pit</description>
+							<description>Build any Ash Burial Pit</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
 							<tab>ESCP_AchievementsTab</tab>
-							<tracker Class="AchievementsExpanded.BuildingTracker">
-								<def>ESCP_AshBurialPit</def>
+							<tracker Class="Mashed_VanillaAchievementsExpanded.BuildingTracker_WithDefList">
+								<defList>
+									<li>ESCP_AshBurialPit</li>
+									<li>ESCP_AshBurialPit_Round</li>
+									<li>ESCP_AshBurialPit_Small</li>
+								</defList>
 								<count>1</count>
 							</tracker>
 
-							<texPath>Achievements/ESCP_AchievementAshPit</texPath>
+							<texPath>Achievements/ESCP_AchievementDunmer_AshPit</texPath>
 							<points>5</points>
 						</AchievementsExpanded.AchievementDef>
 
@@ -60,7 +64,7 @@
 						<!-- Colonist -->
 						
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementDunmerColonists</defName>
+							<defName>ESCP_AchievementDunmer_DunmerColonists</defName>
 							<label>Building Your Own Great House</label>
 							<description>Have 12 Dunmer in your colony at the same time</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
@@ -74,12 +78,12 @@
 								</raceDefs>
 							</tracker>
 
-							<texPath>Achievements/ESCP_AchievementDunmerColonists</texPath>
+							<texPath>Achievements/ESCP_AchievementDunmer_DunmerColonists</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
 						
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementAshlanderColonists</defName>
+							<defName>ESCP_AchievementDunmer_AshlanderColonists</defName>
 							<label>The New Ashkhan on The Block</label>
 							<description>Have 12 Ashlanders in your colony at the same time</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
@@ -93,12 +97,12 @@
 								</raceDefs>
 							</tracker>
 
-							<texPath>Achievements/ESCP_AchievementAshlanderColonists</texPath>
+							<texPath>Achievements/ESCP_AchievementDunmer_AshlanderColonists</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
 						
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementRecruitDunmerMaster</defName>
+							<defName>ESCP_AchievementDunmer_RecruitDunmerMaster</defName>
 							<label>Did Someone Say Scuttle?</label>
 							<description>Recruit, or enslave, a Dunmer Master</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
@@ -112,12 +116,12 @@
 								</kindDefs>
 							</tracker>
 
-							<texPath>Achievements/ESCP_AchievementRecruitDunmerMaster</texPath>
+							<texPath>Achievements/ESCP_AchievementDunmer_RecruitDunmerMaster</texPath>
 							<points>50</points>
 						</AchievementsExpanded.AchievementDef>
-						
+						<!--
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementDunmerNamedFathis</defName>
+							<defName>ESCP_AchievementDunmer_DunmerNamedFathis</defName>
 							<label>A Bit of a Bastard</label>
 							<description>Recruit a Dunmer named Fathis</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
@@ -127,16 +131,16 @@
 								<firstName>Fathis</firstName>
 							</tracker>
 
-							<texPath>Achievements/ESCP_AchievementDunmerNamedFathis</texPath>
+							<texPath>Achievements/ESCP_AchievementDunmer_DunmerNamedFathis</texPath>
 							<points>75</points>
 						</AchievementsExpanded.AchievementDef>
-						
+						-->
 						<!-- Items -->
 
 						<!-- Kills -->
 						
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_DunmerSlayer</defName>
+							<defName>ESCP_AchievementDunmer_DunmerSlayer</defName>
 							<label>They Were Wheezing On Me</label>
 							<description>Slay 50 Dunmer</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
@@ -146,12 +150,12 @@
 								<count>50</count>
 							</tracker>
 
-							<texPath>Achievements/ESCP_DunmerSlayer</texPath>
-							<points>25</points>
+							<texPath>Achievements/ESCP_AchievementDunmer_DunmerSlayer</texPath>
+							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 						
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementSlayAshlanders</defName>
+							<defName>ESCP_AchievementDunmer_AshlanderSlayer</defName>
 							<label>Leaving Them in Your Dust</label>
 							<description>Slay 150 Dunmer Ashlanders</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
@@ -161,12 +165,12 @@
 								<count>150</count>
 							</tracker>
 
-							<texPath>Achievements/ESCP_AchievementSlayAshlanders</texPath>
+							<texPath>Achievements/ESCP_AchievementDunmer_AshlanderSlayer</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
 						
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementSlayGreatHouse</defName>
+							<defName>ESCP_AchievementDunmer_GreatHouseSlayer</defName>
 							<label>Not So Great Any More</label>
 							<description>Slay 150 Dunmer from any Dunmer Great House</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
@@ -183,12 +187,12 @@
 								<count>150</count>
 							</tracker>
 
-							<texPath>Achievements/ESCP_AchievementSlayGreatHouse</texPath>
+							<texPath>Achievements/ESCP_AchievementDunmer_GreatHouseSlayer</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
 						
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementSlayReavers</defName>
+							<defName>ESCP_AchievementDunmer_ReaverSlayer</defName>
 							<label>Reaver Cleaver</label>
 							<description>Slay 150 Dunmer Reavers</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
@@ -200,32 +204,12 @@
 								<count>150</count>
 							</tracker>
 
-							<texPath>Achievements/ESCP_AchievementSlayReavers</texPath>
+							<texPath>Achievements/ESCP_AchievementDunmer_ReaverSlayer</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
 						
 						<!-- Research -->
-						<!-- Real stupid
-						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementDunmerIntoSpace</defName>
-							<label>Dunmer Can Into Space</label>
-							<description>Complete the starflight basics research as any Dunmer faction</description>
-							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
-							<tab>ESCP_AchievementsTab</tab>
-							<tracker Class="Mashed_VanillaAchievementsExpanded.ResearchTracker_FactionRequirement">
-								<def>ShipBasics</def>
-								<factionsList>
-									<li>ESCP_AshlanderPlayerTribe</li>
-									<li>ESCP_DunmerPlayerColony</li>
-									<li>ESCP_DunmerPlayerTribe</li>
-									<li>ESCP_DunmerPlayerKingdom</li>
-								</factionsList>
-							</tracker>
-
-							<texPath>Achievements/ESCP_AchievementDunmerIntoSpace</texPath>
-							<points>15</points>
-						</AchievementsExpanded.AchievementDef>
-						-->
+		
 						<!-- Trade -->
 						
 					</value>

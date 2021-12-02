@@ -16,7 +16,7 @@
 					<value>
 
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_DunmerAncestorKnowledgeMaster</defName>
+							<defName>ESCP_AchievementDunmer_AncestorKnowledgeMaster</defName>
 							<label>Passing on, and then Passing on Knowledge</label>
 							<description>Have pawns gain ancestral knowledge a total of 25 times</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
@@ -32,7 +32,7 @@
 								<count>25</count>
 							</tracker>
 
-							<texPath>Achievements/ESCP_DunmerAncestorKnowledgeMaster</texPath>
+							<texPath>Achievements/ESCP_AchievementDunmer_AncestorKnowledgeMaster</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 
