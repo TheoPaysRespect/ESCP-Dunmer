@@ -65,6 +65,7 @@
 					<name>skin</name>
 					<first Class="ColorGenerator_Options">
 						<options>
+							<!-- Regular colours from Morrowind, Skyrim and ESO -->
 							<li>
 								<weight>10</weight>
 								<only>(119,128,142,255)</only>
@@ -169,9 +170,71 @@
 								<weight>10</weight>
 								<only>(180,193,180,255)</only>
 							</li>
+							<!-- Extra colours from https://mazurah.tumblr.com/post/183829711034/when-we-say-dunmer-have-grey-skin using some of the legends colours -->
+							<li>
+								<weight>5</weight>
+								<only>(106,113,148,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(117,117,134,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(116,112,123,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(145,138,154,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(137,133,140,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(132,125,132,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(120,128,141,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(108,125,146,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(131,146,154,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(139,157,164,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(154,166,167,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(125,141,136,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(132,145,140,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>(141,133,130,255)</only>
+							</li>
+							<!-- Rare Chimer tone -->
+							<li>
+								<weight>1</weight>
+								<only>(247,218,159,255)</only>
+							</li>
 						</options>
 					</first>
-					<second Class="ColorGenerator_Options">
+					<second Class="ColorGenerator_Options">	<!-- Eye colours, mostly red -->
 						<options>
 							<li>
 								<weight>10</weight>
@@ -209,7 +272,11 @@
 								<weight>5</weight>
 								<only>(86,38,37,255)</only>
 							</li>
-							<li>
+							<li>	<!-- extra kinda pinkish one -->
+								<weight>5</weight>
+								<only>(153,64,90,255)</only>
+							</li>
+							<li>	<!-- Rare purple eyes -->
 								<weight>1</weight>
 								<only>(109,0,160,255)</only>
 							</li>
