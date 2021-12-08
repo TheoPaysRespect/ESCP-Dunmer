@@ -227,6 +227,98 @@
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
 						
+						<!-- Defeat factions -->
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementDunmer_DefeatHonourable</defName>
+							<label>An Honourable Ending</label>
+							<description>Defeat an Honourable Great House faction</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="Mashed_VanillaAchievementsExpanded.FactionDefeatTracker">
+								<def>ESCP_DunmerGreatHouseHonourable</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementDunmer_DefeatHonourable</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementDunmer_DefeatMercantile</defName>
+							<label>Forcefully Opening Up Their Coffers</label>
+							<description>Defeat a Mercantile Great House faction</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="Mashed_VanillaAchievementsExpanded.FactionDefeatTracker">
+								<def>ESCP_DunmerGreatHouseMercantile</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementDunmer_DefeatMercantile</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementDunmer_DefeatScientific</defName>
+							<label>All In The Name of Science</label>
+							<description>Defeat a Scientific Great House faction</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="Mashed_VanillaAchievementsExpanded.FactionDefeatTracker">
+								<def>ESCP_DunmerGreatHouseScientific</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementDunmer_DefeatScientific</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementDunmer_DefeatFaithful</defName>
+							<label>Almsivi Can't Help You</label>
+							<description>Defeat a Faithful Great House faction</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="Mashed_VanillaAchievementsExpanded.FactionDefeatTracker">
+								<def>ESCP_DunmerGreatHouseFaithful</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementDunmer_DefeatFaithful</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementDunmer_DefeatSlaver</defName>
+							<label>One Way to End Slavery</label>
+							<description>Defeat a Slaver Great House faction</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="Mashed_VanillaAchievementsExpanded.FactionDefeatTracker">
+								<def>ESCP_DunmerGreatHouseSlaver</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementDunmer_DefeatSlaver</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementDunmer_DefeatForgotten</defName>
+							<label>Soon to be Forgotten... Again</label>
+							<description>Defeat a Forgotten Great House faction</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="Mashed_VanillaAchievementsExpanded.FactionDefeatTracker">
+								<def>ESCP_DunmerGreatHouseForgotten</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementDunmer_DefeatForgotten</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
 						<!-- Research -->
 		
 						<!-- Trade -->
