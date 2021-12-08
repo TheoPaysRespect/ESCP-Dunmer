@@ -37,6 +37,13 @@
 					</value>
 				</li>
 				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/FactionDef[defName="ESCP_AshlanderTribeSavage"]/requiredMemes/li[3]</xpath>
+					<value>
+						<li MayRequire="Ludeon.RimWorld.Ideology">VME_Nomad</li>
+					</value>
+				</li>
+				
 			</operations>
 		</match>
 	</Operation>

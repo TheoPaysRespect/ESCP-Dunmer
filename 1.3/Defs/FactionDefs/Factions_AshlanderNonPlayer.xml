@@ -198,7 +198,7 @@
   
   <FactionDef ParentName="ESCP_AshlanderTribeBase">
     <defName>ESCP_AshlanderTribeCivil</defName>
-    <label>civil ashlander tribe</label>
+    <label>civil ashlander tribes</label>
 	<description>Nomadic people that have long traversed this world. They fled their original homes after the catastrophic eruption of the red mountain, settling their camps far and wide.\n\nDespite their apparent technological weakness, ashlanders can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThe Ashlanders are steadfast in their ancestral ways, valuing honour, strength and wisdom above all else. They are incredibly wary of outsiders, but useful allies once their trust is earned.\n\nThis particular tribe pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples.</description>
 	<colorSpectrum>
       <li>(0.85, 0.75, 0.37)</li>
@@ -226,7 +226,7 @@
   
   <FactionDef ParentName="ESCP_AshlanderTribeBase">
     <defName>ESCP_AshlanderTribeRough</defName>
-    <label>fierce ashlander tribe</label>
+    <label>fierce ashlander tribes</label>
 	<description>Nomadic people that have long traversed this world. They fled their original homes after the catastrophic eruption of the red mountain, settling their camps far and wide.\n\nDespite their apparent technological weakness, ashlanders can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThe Ashlanders are steadfast in their ancestral ways, valuing honour, strength and wisdom above all else. They are incredibly wary of outsiders, but useful allies once their trust is earned.\n\nThis particular tribe values warlike dominance; it may be difficult to turn them into an ally.</description>
 	<factionIconPath>World/WorldObjects/Expanding/ESCP_AshlanderSettlementAlt</factionIconPath>
 	<colorSpectrum>
@@ -250,6 +250,33 @@
     </disallowedPrecepts>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>50</configurationListOrderPriority>
+  </FactionDef>
+  
+  <FactionDef ParentName="ESCP_AshlanderTribeBase">
+    <defName>ESCP_AshlanderTribeSavage</defName>
+    <label>savage ashlander tribes</label>
+	<description>Nomadic people that have long traversed this world. They fled their original homes after the catastrophic eruption of the red mountain, settling their camps far and wide.\n\nDespite their apparent technological weakness, ashlanders can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThe Ashlanders are steadfast in their ancestral ways, valuing honour, strength and wisdom above all else. They are incredibly wary of outsiders, but useful allies once their trust is earned.\n\nThis particular tribe values warlike dominance; it may be difficult to turn them into an ally.</description>
+	<factionIconPath>World/WorldObjects/Expanding/ESCP_AshlanderSettlementSavage</factionIconPath>
+	<colorSpectrum>
+      <li>(0.85, 0, 0)</li>
+      <li>(0.85, 0.7, 0.7)</li>
+    </colorSpectrum>
+	<permanentEnemy>true</permanentEnemy>
+	<requiredMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+	</requiredMemes>
+	<disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+    </disallowedMemes>
+	<disallowedPrecepts>
+    </disallowedPrecepts>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>60</configurationListOrderPriority>
   </FactionDef>
 
 </Defs>

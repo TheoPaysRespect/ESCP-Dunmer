@@ -6,7 +6,7 @@
 	<StyleCategoryDef>
 		<defName>ESCP_AshlanderStyle</defName>
 		<label>Ashlander</label>
-		<iconPath>World/WorldObjects/Expanding/ESCP_AshlanderSettlement</iconPath>
+		<iconPath>World/WorldObjects/Expanding/ESCP_AshlanderSettlementSavage</iconPath>
 		<soundOngoingRitual>RitualSustainer_Morbid</soundOngoingRitual>
 		<ritualVisualEffectDef>ESCP_Dunmeri</ritualVisualEffectDef>
 		<thingDefStyles>
@@ -134,7 +134,7 @@
 	<StyleCategoryDef>
 		<defName>ESCP_DunmerTribunal</defName>
 		<label>Almsivi</label>
-		<iconPath>UI/Structures/ESCP_OriginTribunal</iconPath>
+		<iconPath>UI/Ideoligions/ESCP_DunmerA</iconPath>
 		<soundOngoingRitual>RitualSustainer_Morbid</soundOngoingRitual>
 		<ritualVisualEffectDef>ESCP_DunmerTribunal</ritualVisualEffectDef>
 		<thingDefStyles>

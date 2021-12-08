@@ -3,7 +3,7 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>MorrowRim</li>
+			<li>MorrowRim - Telvanni Technology</li>
 		</mods> 
 				
 		<match Class="PatchOperationSequence">
@@ -19,8 +19,8 @@
 					<value>
 						
 						<TraderKindDef>
-							<defName>MorrowRim_DunmerCaravan_AshlandsTrader</defName>
-							<label>ashland trader</label>
+							<defName>MorrowRim_DunmerCaravan_TelvanniTrader</defName>
+							<label>Telvanni trader</label>
 							<stockGenerators>
 							  
 							  <!-- Resources -->
@@ -33,10 +33,6 @@
 								<countRange>150~300</countRange>
 							  </li>
 							  <li Class="StockGenerator_SingleDef">
-								<thingDef>Steel</thingDef>
-								<countRange>150~300</countRange>
-							  </li>
-							  <li Class="StockGenerator_SingleDef">
 								<thingDef>Jade</thingDef>
 								<countRange>50~200</countRange>
 							  </li>
@@ -45,44 +41,47 @@
 								<countRange>25~100</countRange>
 							  </li>
 							  <li Class="StockGenerator_SingleDef">
-								<thingDef>MedicineHerbal</thingDef>
+								<thingDef>MorrowRim_MedicineTelvanni</thingDef>
 								<countRange>0~10</countRange>
 							  </li>
-							  
-							  <li Class="StockGenerator_SingleDef" MayRequire="SirMashedPotato.MorrowRim.SimpleBonemold">
-								<thingDef>ESCP_BonemoldItem</thingDef>
-								<countRange>50~150</countRange>
-							  </li>
-							  
-							  <li Class="StockGenerator_Tag">
-								<tradeTag>AshlandCommon</tradeTag>
-								<thingDefCountRange>5~8</thingDefCountRange>
-								<totalPriceRange>200~600</totalPriceRange>
-							  </li>
-							  <li Class="StockGenerator_Tag">
-								<tradeTag>AshlandRare</tradeTag>
-								<thingDefCountRange>2~5</thingDefCountRange>
-								<totalPriceRange>400~900</totalPriceRange>
-							  </li>
-							  <li Class="StockGenerator_Tag">
-								<tradeTag>AshlandExotic</tradeTag>
-								<thingDefCountRange>0~2</thingDefCountRange>
-								<totalPriceRange>600~1200</totalPriceRange>
-							  </li>
-							  <li Class="StockGenerator_Tag">
-								<tradeTag>AshlandRawPlant</tradeTag>
-								<thingDefCountRange>5~8</thingDefCountRange>
-								<totalPriceRange>200~500</totalPriceRange>
-							  </li>
 							  <li Class="StockGenerator_SingleDef">
-								<thingDef>MorrowRim_KwamaEgg</thingDef>
-								<countRange>75~300</countRange>
+								<thingDef>MorrowRim_HeartStone</thingDef>
+								<countRange>1</countRange>
+							  </li>
+							  
+							  <li Class="StockGenerator_Tag">
+								<tradeTag>TelvanniSalt</tradeTag>
+								<thingDefCountRange>3~7</thingDefCountRange>
+								<countRange>25~75</countRange>
+							  </li>
+							  <li Class="StockGenerator_Tag">
+								<tradeTag>TelvanniExtract</tradeTag>
+								<thingDefCountRange>2~5</thingDefCountRange>
+								<countRange>15~50</countRange>
+							  </li>
+							  <li Class="StockGenerator_Tag">
+								<tradeTag>TelvanniSeed</tradeTag>
+								<thingDefCountRange>2~5</thingDefCountRange>
+								<countRange>15~50</countRange>
+							  </li>
+							  
+							  
+							  <li Class="StockGenerator_Tag">
+								<tradeTag>TelvanniCommon</tradeTag>
+								<thingDefCountRange>4~7</thingDefCountRange>
+								<countRange>15~50</countRange>
+							  </li>
+							  <li Class="StockGenerator_Tag">
+								<tradeTag>TelvanniRare</tradeTag>
+								<thingDefCountRange>1~5</thingDefCountRange>
+								<countRange>10~25</countRange>
 							  </li>
 	
 							  <!-- Drugs -->
-							  <li Class="StockGenerator_Category">
-								<categoryDef>Drugs</categoryDef>
-								<maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+							  <li Class="StockGenerator_Tag">
+								<tradeTag>TelvanniElixir</tradeTag>
+								<thingDefCountRange>5~10</thingDefCountRange>
+								<countRange>10~25</countRange>
 							  </li>
 	
 							  <!-- Techprints -->
@@ -96,23 +95,19 @@
 							  </li>
 							  
 							  <!-- Weapons -->
-							  <li Class="StockGenerator_WeaponsMelee">
-								<weaponTag>ESCP_DunmerWeapon</weaponTag>
-								<countRange>2~4</countRange>
+							  <li Class="StockGenerator_WeaponsRanged">
+								<weaponTag>TelvanniStave</weaponTag>
+								<countRange>6~9</countRange>
 							  </li>
 							  <li Class="StockGenerator_WeaponsMelee">
-								<weaponTag>ESCP_DunmerWeaponAdvanced</weaponTag>
-								<countRange>1~2</countRange>
-							  </li> 
-							  <li Class="StockGenerator_WeaponsMelee">
-								<weaponTag>ESCP_DunmerWeaponLarge</weaponTag>
-								<countRange>0~1</countRange>
+								<weaponTag>TelvanniStave_Melee</weaponTag>
+								<countRange>3~5</countRange>
 							  </li>
 							  
 							  <!-- Apparel -->
 							  <li Class="StockGenerator_Tag">
-								<tradeTag>ESCP_BonemoldArmour</tradeTag>
-								<thingDefCountRange>3~5</thingDefCountRange>
+								<tradeTag>TelvanniApparel</tradeTag>
+								<thingDefCountRange>2~4</thingDefCountRange>
 								<countRange>2~4</countRange>
 							  </li>
 
@@ -123,6 +118,22 @@
 							  <!-- none -->
 
 							  <!-- Exotic -->
+							  <li Class="StockGenerator_Tag">
+								<tradeTag>Artifact</tradeTag>
+								<thingDefCountRange>1~4</thingDefCountRange>
+								<countRange>1~1</countRange>
+							  </li>
+							  <li Class="StockGenerator_Tag">
+								<tradeTag>TelvanniExotic</tradeTag>
+								<thingDefCountRange>1~4</thingDefCountRange>
+								<countRange>1~5</countRange>
+							  </li>
+							  
+							  <li Class="StockGenerator_Tag">
+								<tradeTag>TelvanniGolemCore</tradeTag>
+								<thingDefCountRange>1~5</thingDefCountRange>
+								<countRange>1</countRange>
+							  </li>
 
 							  <!-- Slaves -->
 							  <li Class="StockGenerator_Slaves">
@@ -133,17 +144,9 @@
 							  <!-- Animals -->
 							  <li Class="StockGenerator_Animals">
 								<tradeTagsBuy>
-								  <li>AshlandAnimalCommon</li>
 								  <li>AshlandAnimalRare</li>
 								  <li>AshlandAnimalExotic</li>
 								</tradeTagsBuy>
-							  </li>
-							  <li Class="StockGenerator_Animals">
-								<tradeTagsSell>
-								  <li>AshlandAnimalCommon</li>
-								</tradeTagsSell>
-								<kindCountRange>2~3</kindCountRange>
-								<countRange>1~2</countRange>
 							  </li>
 							  <li Class="StockGenerator_Animals">
 								<tradeTagsSell>
@@ -156,8 +159,8 @@
 								<tradeTagsSell>
 								  <li>AshlandAnimalExotic</li>
 								</tradeTagsSell>
-								<kindCountRange>0~1</kindCountRange>
-								<countRange>0~1</countRange>
+								<kindCountRange>1~2</kindCountRange>
+								<countRange>1~2</countRange>
 							  </li>
 							  
 							  <!-- Buying -->
@@ -172,22 +175,15 @@
 					</value>
 				</li>
 		
-				<!-- Add to factions -->
+				<!-- Add to faction -->
 				
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/FactionDef[@Name="ESCP_DunmerTribeBase"]/caravanTraderKinds</xpath>
+					<xpath>/Defs/FactionDef[defName="ESCP_DunmerGreatHouseScientific"]/caravanTraderKinds</xpath>
 					<value>
-						<li>MorrowRim_DunmerCaravan_AshlandsTrader</li>
+						<li>MorrowRim_DunmerCaravan_TelvanniTrader</li>
 					</value>
 				</li>
-				
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/FactionDef[defName="ESCP_DunmerGreatHouseSlaver"]/caravanTraderKinds</xpath>
-					<value>
-						<li>MorrowRim_DunmerCaravan_AshlandsTrader</li>
-					</value>
-				</li>
-		
+
 			</operations>
 		</match>
 	</Operation>
