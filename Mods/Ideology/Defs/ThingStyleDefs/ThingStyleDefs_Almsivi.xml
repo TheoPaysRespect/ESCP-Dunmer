@@ -29,7 +29,47 @@
 		  <drawSize>(1.5,1.5)</drawSize>
 		</graphicData>
 	</ThingStyleDef>
-  
+	
+	<ThingStyleDef>
+		<defName>ESCP_Almsivi_StandingLamp</defName>
+		<graphicData>
+		  <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/ESCP_DunmeriLanternMetal</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>ESCP_Almsivi_StandingLamp_Red</defName>
+		<graphicData>
+		  <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/ESCP_DunmeriLanternMetal_Red</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>ESCP_Almsivi_StandingLamp_Blue</defName>
+		<graphicData>
+		  <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/ESCP_DunmeriLanternMetal_Blue</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>ESCP_Almsivi_StandingLamp_Green</defName>
+		<graphicData>
+		  <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/ESCP_DunmeriLanternMetal_Green</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>ESCP_Almsivi_DarklampStanding</defName>
+		<graphicData>
+		  <texPath>Things/Building/BuildingStyles/ESCP_Almsivi/ESCP_DunmeriLanternMetal_Dark</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	  
 	<ThingStyleDef>
 		<defName>ESCP_Almsivi_IdeogramA</defName>
 		<graphicData>

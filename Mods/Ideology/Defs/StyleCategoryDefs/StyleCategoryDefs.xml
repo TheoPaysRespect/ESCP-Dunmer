@@ -40,6 +40,7 @@
 		<addDesignators>
 		  <!--
 		  <li>ESCP_AshlanderWindChimes</li>
+		  <li>ESCP_AshlanderRug</li>
 		  -->
 		</addDesignators>
 	</StyleCategoryDef>
@@ -145,6 +146,26 @@
 		  <li>
 			<thingDef>Altar_Grand</thingDef>
 			<styleDef>ESCP_Almsivi_AltarGrand</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp</thingDef>
+			<styleDef>ESCP_Almsivi_StandingLamp</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp_Red</thingDef>
+			<styleDef>ESCP_Almsivi_StandingLamp_Red</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp_Green</thingDef>
+			<styleDef>ESCP_Almsivi_StandingLamp_Green</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp_Blue</thingDef>
+			<styleDef>ESCP_Almsivi_StandingLamp_Blue</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Darklamp</thingDef>
+			<styleDef>ESCP_Almsivi_DarklampStanding</styleDef>
 		  </li>
 		  <li>
 			<thingDef>SculptureTerror</thingDef>
