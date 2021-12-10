@@ -256,6 +256,45 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_MourningOrdinatorBackstory</defName>
+		<title>ordinator in mourning</title>
+		<titleShort>ordinator</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the Ordinators in Mourning, elite members of the Order of the Watch, tasked with protecting the sacred burial grounds of Necrom. Much of [PAWN_possessive] day was spent wandering around the catacombs, ensuring nothing went missing, and scolding anyone who dared to walk at a brisk pace.\n\n.After the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Necrom.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>10</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
 	<!-- Temple -->
 
 	<AlienRace.BackstoryDef>
