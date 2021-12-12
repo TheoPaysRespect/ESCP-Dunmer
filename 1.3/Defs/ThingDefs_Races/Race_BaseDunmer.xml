@@ -551,18 +551,18 @@
 					<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_ateInsectEggAsIngredient</li>
 				</cannotReceiveThoughts>
 				<replacerList>
-                <li>
-                    <original>ColonistLeftUnburied</original>
-                    <replacer>ESCP_DunmerColonistLeftUnburied</replacer> 
-                </li>
-				<li>
-                    <original>KnowBuriedInSarcophagus</original>
-                    <replacer>ESCP_DunmerKnowBuriedInSarcophagus</replacer> 
-                </li>
-				<li MayRequire="SirMashedPotato.MorrowRim">
-                    <original>MorrowRim_ashCovered</original>
-                    <replacer>ESCP_DunmerAshCovered</replacer> 
-                </li>
+					<li>
+						<original>ColonistLeftUnburied</original>
+						<replacer>ESCP_DunmerColonistLeftUnburied</replacer> 
+					</li>
+					<li>
+						<original>KnowBuriedInSarcophagus</original>
+						<replacer>ESCP_DunmerKnowBuriedInSarcophagus</replacer> 
+					</li>
+					<li MayRequire="SirMashedPotato.MorrowRim">
+						<original>MorrowRim_ashCovered</original>
+						<replacer>ESCP_DunmerAshCovered</replacer> 
+					</li>
 				</replacerList>
 				<butcherThoughtSpecific>
 					<li>
