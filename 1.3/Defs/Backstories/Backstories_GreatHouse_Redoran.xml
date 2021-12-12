@@ -52,5 +52,88 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_RedoranWatchmanBackstory</defName>
+		<title>Redoran watchman</title>
+		<titleShort>watchman</titleShort>
+		<baseDescription>[PAWN_nameDef] was once a watchman, a specially trained archer tasked with protecting Redoran land. [PAWN_nameDef] eventually grew tired of constantly inhaling ash, and decided to put [PAWN_possessive] talents to use elsewhere.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_RedoranGuarKnightBackstory</defName>
+		<title>Redoran guar knight</title>
+		<titleShort>guar knight</titleShort>
+		<baseDescription>While most knights ride horses into battle, [PAWN_nameDef] rode [PAWN_possessive] trusty guar. [PAWN_nameDef] and [PAWN_possessive] were inseparable, until one fateful day when a manhunter kagouti gored [PAWN_nameDef] noble steed.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
 
 </Defs>
