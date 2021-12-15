@@ -10,7 +10,5 @@
 		<li IfModActive="SirMashedPotato.MorrowRim.DunmerArmoury">Mods/MorrowRim_DunmerArmoury</li>	<!-- replaces faction pawn kinds with new versions -->
 		
 		<li IfModActive="SirMashedPotato.ESCP.IndustrialFactionsDummy">Mods/IndustrialFactions</li>	
-		<li IfModActive="SirMashedPotato.ESCP.IndustrialFactionsDummy">Mods/IndustrialFactions-Royalty</li>	
-		<li IfModActive="SirMashedPotato.ESCP.IndustrialFactionsDummy">Mods/IndustrialFactions-Ideology</li>	
 	</v1.3>
 </loadFolders>
