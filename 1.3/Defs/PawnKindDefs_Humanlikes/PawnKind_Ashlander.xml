@@ -6,8 +6,7 @@
 		<label>Ashlander tribal</label>
 		<race>ESCP_AshlanderRace</race>
 		<backstoryCategories>
-		  <li>Tribal</li>
-		  <li>ESCP_Ashlander</li>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
 		</backstoryCategories>
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.80</baseRecruitDifficulty>

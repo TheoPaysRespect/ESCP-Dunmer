@@ -6,6 +6,7 @@
 	<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementIndustrial</factionIconPath>
     <factionNameMaker>ESCP_NamerFactionDunmerHouse</factionNameMaker>
     <settlementNameMaker>ESCP_NamerSettlementDunmerHouse</settlementNameMaker>
+	<categoryTag>ESCP_DunmerFaction</categoryTag>
 	<requiredCountAtGameStart>0</requiredCountAtGameStart>
 	<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
     <allowedCultures>

@@ -7,8 +7,10 @@
 		<titleShort>Dagoth member</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Great House Dagoth. [PAWN_pronoun] doesn't know whether it was by choice or not. What [PAWN_pronoun] does know, is that [PAWN_pronoun] has been irrevocably changed by it.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerDagothBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>

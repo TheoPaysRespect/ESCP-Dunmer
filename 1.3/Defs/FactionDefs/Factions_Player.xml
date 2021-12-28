@@ -8,14 +8,14 @@
 		<label>New Ashlander Tribe</label>
 		<description>A small Ashlander tribe.</description>
 		<isPlayer>true</isPlayer>
-		<pawnSingular>Ashlander tribseman</pawnSingular>
-		<pawnsPlural>Ashlander tribsepeople</pawnsPlural>
+		<pawnSingular>Ashlander tribesmen</pawnSingular>
+		<pawnsPlural>Ashlander tribespeople</pawnsPlural>
 		<basicMemberKind>ESCP_AshlanderTribalKind</basicMemberKind>
 		<techLevel>Neolithic</techLevel>
 		<backstoryFilters>
 		  <li>
 			<categories>
-			  <li>Tribal</li>
+			  <li>ESCP_DunmerAshlanderBackstory</li>
 			</categories>
 		  </li>
 		</backstoryFilters>
@@ -46,6 +46,11 @@
 		<recipePrerequisiteTags>
 		  <li>Tribal</li>
 		</recipePrerequisiteTags>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<isDunmerAshlanderFaction>true</isDunmerAshlanderFaction>
+			</li>
+		</modExtensions>
 	</FactionDef>
   
 	<!-- Dunmer -->
@@ -91,6 +96,11 @@
 			<li>Synthread</li>
 		  </thingDefs>
 		</apparelStuffFilter>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<isDunmerFaction>true</isDunmerFaction>
+			</li>
+		</modExtensions>
 	</FactionDef>
 	
 	<FactionDef ParentName="PlayerFactionBase">
@@ -98,8 +108,8 @@
 		<label>New Dunmer Tribe</label>
 		<description>A small Dunmer tribe.</description>
 		<isPlayer>true</isPlayer>
-		<pawnSingular>Dunmer tribseman</pawnSingular>
-		<pawnsPlural>Dunmer tribsepeople</pawnsPlural>
+		<pawnSingular>Dunmer tribesman</pawnSingular>
+		<pawnsPlural>Dunmer tribespeople</pawnsPlural>
 		<basicMemberKind>ESCP_DunmerTribalKind</basicMemberKind>
 		<techLevel>Neolithic</techLevel>
 		<backstoryFilters>
@@ -137,6 +147,11 @@
 		<recipePrerequisiteTags>
 		  <li>Tribal</li>
 		</recipePrerequisiteTags>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<isDunmerFaction>true</isDunmerFaction>
+			</li>
+		</modExtensions>
 	</FactionDef>
 	
 	<FactionDef ParentName="PlayerFactionBase">
@@ -144,8 +159,8 @@
 		<label>New Dunmer Kingdom</label>
 		<description>A small Dunmer kingdom.</description>
 		<isPlayer>true</isPlayer>
-		<pawnSingular>Dunmer tribseman</pawnSingular>
-		<pawnsPlural>Dunmer tribsepeople</pawnsPlural>
+		<pawnSingular>Dunmer member</pawnSingular>
+		<pawnsPlural>Dunmer members</pawnsPlural>
 		<basicMemberKind>ESCP_DunmerMedievalKind</basicMemberKind>
 		<techLevel>Medieval</techLevel>
 		<backstoryFilters>
@@ -182,6 +197,11 @@
 		<recipePrerequisiteTags>
 		  <li>Tribal</li>
 		</recipePrerequisiteTags>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<isDunmerFaction>true</isDunmerFaction>
+			</li>
+		</modExtensions>
 	</FactionDef>
 	
 </Defs>

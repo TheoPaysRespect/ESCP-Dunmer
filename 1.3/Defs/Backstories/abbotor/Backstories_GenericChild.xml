@@ -9,6 +9,7 @@
 		<titleShort>street rat</titleShort>
 		<baseDescription>[PAWN_nameDef] spent [PAWN_possessive] childhood on the streets. Life was tough, and [PAWN_nameDef] had to learn to beg, steal, or worse to survive.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -36,6 +37,7 @@
 		<titleShort>mage's apprentice</titleShort>
 		<baseDescription>[PAWN_nameDef] studied the arcane arts as a mage's apprentice. [PAWN_pronoun] spent [PAWN_possessive] days learning to read aging tomes, to harness the forces of magicka within, as well as how to sweep a broom.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -68,6 +70,7 @@
 		<titleShort>house servant</titleShort>
 		<baseDescription>[PAWN_nameDef] was a servant for a wealthy family. [PAWN_pronoun] cooked, cleaned, and handled the daily affairs of the household.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -95,6 +98,8 @@
 		<titleShort>noble</titleShort>
 		<baseDescription>[PAWN_nameDef] was born into a noble Dunmer family of some repute. [PAWN_pronoun] has known the taste of the silver spoon and is used to getting [PAWN_possessive] way, but [PAWN_possessive] status also brought the privilege of a quality education and the ability to lead with a commanding presence.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -124,6 +129,7 @@
 		<titleShort>fieldhand</titleShort>
 		<baseDescription>[PAWN_nameDef] grew up on a plantation, working as a fieldhand. [PAWN_pronoun] is no stranger to hard work, and long days spent in the fields made for a green thumb.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -151,8 +157,10 @@
 		<titleShort>tribe child</titleShort>
 		<baseDescription>[PAWN_nameDef] was born into one of the tribes of the Ashlands. [PAWN_pronoun] learned how to track and hunt to provide food for the tribe and how to set up a camp to provide shelter.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -178,6 +186,7 @@
 		<titleShort>alchemist's assistant</titleShort>
 		<baseDescription>[PAWN_nameDef] worked as an assistant to an alchemist. [PAWN_pronoun] learned about plants and herbs from all over the world and how to concoct them into useful potions and tonics.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -209,6 +218,7 @@
 		<titleShort>cultist</titleShort>
 		<baseDescription>[PAWN_nameDef] was born to cultists of the Sixth House. [PAWN_pronoun] was taught by [PAWN_possessive] parents to revere Dagoth Ur as a child, to dream the dreary visions and hear the forgotten songs of the fallen house. However, as [PAWN_pronoun] grew older, [PAWN_nameDef] became disillusioned with the cult and fled.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -246,6 +256,7 @@
 		<titleShort>dreamer</titleShort>
 		<baseDescription>[PAWN_nameDef] has experienced strange visions ever since [PAWN_pronoun] was a child. [PAWN_pronoun] is visited in [PAWN_possessive] dreams by ancient ancestors and immortal gods, hypnotized by images of bygone days and fallen houses, and sometimes by the lord Dagoth Ur himself.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -283,6 +294,7 @@
 		<titleShort>temple attendant</titleShort>
 		<baseDescription>[PAWN_nameDef] spent [PAWN_possessive] childhood as an attendant in a temple of the Tribunal. [PAWN_pronoun] kept the candles lit and the floors clean, greeted the faithful as they came to worship, and learned from the priests to read from the lessons of the gods and lay hands on the sick or needy.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -315,6 +327,7 @@
 		<titleShort>ship's mate</titleShort>
 		<baseDescription>[PAWN_nameDef] was a mate on the ship of a traveling trader. Though [PAWN_pronoun] spent most of [PAWN_possessive] time below deck tending to the needs of the captain and [PAWN_possessive] fellow sailors, life on the tradewinds afforded [PAWN_nameDef] the opportunity to see lands far and wide and to learn how to sell goods for the best profit.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -342,6 +355,8 @@
 		<titleShort>page</titleShort>
 		<baseDescription>[PAWN_nameDef] was a page for a Buoyant Armiger. [PAWN_pronoun] carried and cared for the Armiger's gear, learned to hold a shield and swing a sword, and was taught to model [PAWN_possessive] behavior on the heroic spirit of the lord Vivec.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -369,6 +384,7 @@
 		<titleShort>thief</titleShort>
 		<baseDescription>[PAWN_nameDef] grew up in the Thieves' Guild. [PAWN_pronoun] was orphaned as a child, but was taken in by the Guild and taught how to make a living... by stealing from others.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -396,6 +412,8 @@
 		<titleShort>fighter's guild trainee</titleShort>
 		<baseDescription>[PAWN_nameDef] was a trainee in the Fighters' Guild. [PAWN_pronoun] was taught by the Guild how to hold [PAWN_possessive] own in personal combat, to hold [PAWN_possessive] weapon with confidence and dispatch [PAWN_possessive] enemies without prejudice.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -423,6 +441,7 @@
 		<titleShort>shopkeep's assistant</titleShort>
 		<baseDescription>[PAWN_nameDef] was an assistant to a shopkeep. [PAWN_pronoun] kept the shelves stocked and store presentable, and learned to sell goods and wares for a profit.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -450,6 +469,8 @@
 		<titleShort>blacksmith's apprentice</titleShort>
 		<baseDescription>[PAWN_nameDef] was an apprentice to a blacksmith. [PAWN_pronoun] kept the fires of the forge burning hot and learned how to swing a hammer.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -477,6 +498,7 @@
 		<titleShort>silt strider caretaker</titleShort>
 		<baseDescription>[PAWN_nameDef] grew up working as a caretaker in the employ of a silt strider's owner. [PAWN_pronoun] formed a bond with the strange animal as [PAWN_pronoun] kept it clean and fed.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -504,6 +526,7 @@
 		<titleShort>dwemer history student</titleShort>
 		<baseDescription>[PAWN_nameDef] was a student studying the history of the Dwemer. [PAWN_possessive] fascination with the lost race kept [PAWN_possessive] nose in the books, but [PAWN_pronoun] learned much about the strange machines and constructs that the "dwarves" left behind.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -535,6 +558,8 @@
 		<titleShort>bandit child</titleShort>
 		<baseDescription>[PAWN_nameDef] was the child of bandits. [PAWN_pronoun] grew up on the run from the law and learned how to swindle the gullible, or to batter the brave.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -566,6 +591,8 @@
 		<titleShort>young adventurer</titleShort>
 		<baseDescription>[PAWN_nameDef] was always a wayward soul. As soon as [PAWN_pronoun] was old enough, [PAWN_pronoun] left home and set out with a band of adventurers seeking glory and plunder, never looking back on the boring life [PAWN_pronoun] left behind.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -597,8 +624,10 @@
 		<titleShort>healer-in-training</titleShort>
 		<baseDescription>[PAWN_nameDef] spent [PAWN_possessive] early life learning to be a healer. [PAWN_pronoun] was taught to lay hands on the weak and mix potions to heal the ails of the sick.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>

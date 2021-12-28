@@ -7,8 +7,11 @@
 		<titleShort>Redoran member</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Great House Redoran. Members of The Great House Redoran were always considered to be more compassionate than those of other Great Houses, likely due to House Redoran valuing honour rather highly. [PAWN_nameDef] likes to believe this is true of [PAWN_possessive]self.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerRedoranBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -59,8 +62,11 @@
 		<titleShort>watchman</titleShort>
 		<baseDescription>[PAWN_nameDef] was once a watchman, a specially trained archer tasked with protecting Redoran land. [PAWN_nameDef] eventually grew tired of constantly inhaling ash, and decided to put [PAWN_possessive] talents to use elsewhere.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerRedoranBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -103,8 +109,11 @@
 		<titleShort>guar knight</titleShort>
 		<baseDescription>While most knights ride horses into battle, [PAWN_nameDef] rode [PAWN_possessive] trusty guar. [PAWN_nameDef] and [PAWN_possessive] were inseparable, until one fateful day when a manhunter kagouti gored [PAWN_nameDef] noble steed.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerRedoranBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -114,6 +123,52 @@
 			<li>
 				<defName>Melee</defName>
 				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_RedoranCouncillorBackstory</defName>
+		<title>Redoran councillor</title>
+		<titleShort>councillor</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the few specially appointed councillors in charge of diplomatic matters. Admittedly the go-to solution for most of these decisions involved swords, spears and arrows.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerRedoranBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>6</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>

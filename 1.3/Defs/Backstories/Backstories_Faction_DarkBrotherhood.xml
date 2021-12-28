@@ -7,6 +7,8 @@
 		<titleShort>Dark Brother</titleShort>
 		<baseDescription>[PAWN_nameDef] was once a member of the Dark Brotherhood, and is one of the few surviving members of the Mournhold chapter. [PAWN_nameDef] remembers that horrific day well, seeing [PAWN_possessive] fellow Dark Brothers fall one after the other, all because some novice failed to deal with an important target.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>

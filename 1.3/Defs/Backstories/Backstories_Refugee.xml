@@ -9,10 +9,11 @@
 		<titleShort>child refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was simply a child during the Red Year. Though [PAWN_possessive] memories of the event are hazy, every night [PAWN_pronoun] wakes up in a cold sweat, as [PAWN_possessive] nightmares force [PAWN_objective] to relive the horror.</baseDescription>
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
-		  <li>Tribal</li>
 		</spawnCategories>
 		<skillGains>
 		</skillGains>
@@ -50,6 +51,7 @@
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind many good slaves in the process. It was a very emotional time for [PAWN_nameDef], as replacing those slaves will be hard work.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
@@ -89,8 +91,10 @@
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind a prosperous netch ranch in the process. While simple beasts, [PAWN_nameDef] considered the netch to be [PAWN_possessive] best friends, and shed many tears while leaving Vvardenfell.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
 		</spawnCategories>
 		<skillGains>
@@ -117,6 +121,7 @@
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local egg mine. Whilst [PAWN_nameDef] doesn't miss the claustrophobic tunnels, a small part of [PAWN_objective] does miss the strange sounds the kwama made.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
@@ -148,12 +153,12 @@
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local glass mine. [PAWN_nameDef] is still annoyed that [PAWN_pronoun] was unable to steal any glass before being forced out.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
 		</spawnCategories>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
 			<li>
 				<defName>Mining</defName>
@@ -186,12 +191,12 @@
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local ebony mine. [PAWN_nameDef] tried to pocket some ebony before leaving, but severly underestimated how heavy small chunks were, and lost [PAWN_possessive] bag in the process.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
 		</spawnCategories>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
 			<li>
 				<defName>Melee</defName>
@@ -227,6 +232,7 @@
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job as a skooma runner. In all the chaos [PAWN_nameDef] decided to finally try some skooma, hoping it would relax [PAWN_objective].</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
@@ -264,6 +270,7 @@
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] highly popular corner club in Balmora. [PAWN_nameDef] often looks back fondly at [PAWN_possessive] time spent running the corner club, and imagines what life may have been like if [PAWN_pronoun] was still in Balmora.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
@@ -299,6 +306,8 @@
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job as a gondolier in Vivec city. [PAWN_nameDef] often yearns for the simple days, peacefully rowing [PAWN_possessive] gondola between the cantons.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
@@ -331,6 +340,7 @@
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] prized ash yam farm. Of course several slaves were also left behind, but [PAWN_nameDef] only cared about the ash yams.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
@@ -364,6 +374,8 @@
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] life in Ald'Ruhn. [PAWN_nameDef] still remembers that day as if it were yesterday. The sounds, sights, and smells are permanently etched into [PAWN_possessive] mind, and grow much stronger at the sight of fire.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
@@ -401,8 +413,11 @@
 		<titleShort>refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] guar ranch. While [PAWN_nameDef] may miss herding the guar, [PAWN_pronoun] certainly does not miss replacing [PAWN_possessive] boots every few days.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
 		</spawnCategories>
 		<skillGains>

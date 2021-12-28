@@ -16,6 +16,9 @@
 			</likedBiomeList>
 			<IgnoreBiomeSelectionWeight>true</IgnoreBiomeSelectionWeight>
         </li>
+		<li Class="ESCP_RaceTools.FactionProperties">
+			<isDunmerAshlanderFaction>true</isDunmerAshlanderFaction>
+		</li>
 	</modExtensions>
     <leaderTitle>ashkhan</leaderTitle>
     <factionIconPath>World/WorldObjects/Expanding/ESCP_AshlanderSettlement</factionIconPath>
@@ -29,17 +32,14 @@
 		  <ESCP_Structure_OriginHouseOfTroubles MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginHouseOfTroubles>
 		  <ESCP_Structure_OriginNerevarine MayRequire="Ludeon.RimWorld.Ideology">2</ESCP_Structure_OriginNerevarine>
 	</structureMemeWeights>
-    <!-- Don't enable unless there are actually backstories -->
-		<!--
 		<backstoryFilters>
 		  <li>
 			<categories>
-			  <li>ESCP_Ashlander_Tribal</li>
+			  <li>ESCP_DunmerAshlanderBackstory</li>
 			</categories>
-			<commonality>0.95</commonality>
+			<commonality>1</commonality>
 		  </li>
 		</backstoryFilters>
-		-->
     <caravanTraderKinds>
     </caravanTraderKinds>
     <visitorTraderKinds>

@@ -7,6 +7,8 @@
 		<titleShort>Morag Tong</titleShort>
 		<baseDescription>[PAWN_nameDef] was once a member of the Morag Tong, and may still have close contacts within the faction. [PAWN_pronoun] always abided by the code, never once straying from it. After many years of faithful servitude, [PAWN_nameDef] decided to move on, and pursue [PAWN_possessive] dreams of farming ash yams.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -53,6 +55,8 @@
 		<titleShort>Morag Tong</titleShort>
 		<baseDescription>[PAWN_nameDef] was once a member of the Morag Tong, and may still have close contacts within the faction. [PAWN_pronoun] always abided by the code, never once straying from it. After many years of faithful servitude, [PAWN_nameDef] decided to move on, and pursue [PAWN_possessive] dreams of ranching netch.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>

@@ -9,6 +9,8 @@
 		<titleShort>buoyant armiger member</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Buoyant Armigers, a militant order of the Tribunal Temple. After the fall of the Tribunal [PAWN_nameDef] decided that [PAWN_pronoun] wanted to explore foreign lands.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_TribunalBackstory</li>
@@ -98,6 +100,7 @@
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_TribunalBackstory</li>
+		  <li>ESCP_DunmerIndorilBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -138,6 +141,7 @@
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_TribunalBackstory</li>
+		  <li>ESCP_DunmerIndorilBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -179,6 +183,7 @@
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_TribunalBackstory</li>
+		  <li>ESCP_DunmerIndorilBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -223,6 +228,7 @@
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_TribunalBackstory</li>
+		  <li>ESCP_DunmerIndorilBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -267,6 +273,7 @@
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_TribunalBackstory</li>
+		  <li>ESCP_DunmerIndorilBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -303,6 +310,7 @@
 		<titleShort>Temple member</titleShort>
 		<baseDescription>[PAWN_nameDef] joined the Tribunal Temple at [PAWN_possessive] lowest point in life. Ever since then [PAWN_pronoun] has been a steadfast believer of the Tribunal, even after certain slanderous lies were spread about them.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_TribunalBackstory</li>
@@ -344,6 +352,7 @@
 		<titleShort>temple librarian</titleShort>
 		<baseDescription>Many thought that [PAWN_nameDef] was simply one of the librarians in charge of tending the Library of Vivec. While this was, at least partly, the case, [PAWN_nameDef] was also in charge of dealing with certain heretical tomes.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_TribunalBackstory</li>
@@ -381,6 +390,8 @@
 		<titleShort>witchhunter</titleShort>
 		<baseDescription>[PAWN_nameDef] was one of the witchunters employed by the Tribunal Temple. While [PAWN_pronoun] was occasionally made practices of the profane disappear permanently, [PAWN_nameDef] mostly sought out heretical texts.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_TribunalBackstory</li>
@@ -421,6 +432,8 @@
 		<titleShort>witchhunter</titleShort>
 		<baseDescription>Whenever the Temple caught wind of someone delving into the profane arts, they sent in the witchhunters, and [PAWN_nameDef] used to be one of them. [PAWN_pronoun] was part of a force tasked with clearing out Assemanu, some abandoned cave system near Hla Oad. The second the Ordinator fell, [PAWN_nameDef] fled.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_TribunalBackstory</li>

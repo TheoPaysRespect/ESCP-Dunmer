@@ -7,8 +7,11 @@
 		<titleShort>slave</titleShort>
 		<baseDescription>While most of the slaves found on Vvardenfell were either Argonian or Khajiit, some were Dunmer, and [PAWN_nameDef] was one of them. [PAWN_pronoun] spent many years being forced to grow saltrice against [PAWN_possessive] will.\n\n[PAWN_nameDef] was eventually freed by the Twin Lamps, and watched in horror as [PAWN_possessive] fellow slaves turned on their old masters.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
 		  <li>ESCP_DunmerSlaveBackstory</li>
 		</spawnCategories>
 		<skillGains>
@@ -42,8 +45,11 @@
 		<titleShort>slave</titleShort>
 		<baseDescription>While most of the slaves found on Vvardenfell were either Argonian or Khajiit, some were Dunmer, and [PAWN_nameDef] was one of them. [PAWN_pronoun] spent many years being forced to care for guar against [PAWN_possessive] will.\n\nOne fateful day the sky turned a rather strange shade of red. The guar became increasingly agressive as a storm set in, eventually breaking from their pens. [PAWN_nameDef] managed to escape in the ensuing chaos.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
 		  <li>ESCP_DunmerSlaveBackstory</li>
 		</spawnCategories>
 		<skillGains>
@@ -77,8 +83,11 @@
 		<titleShort>slave</titleShort>
 		<baseDescription>While most of the slaves found on Vvardenfell were either Argonian or Khajiit, some were Dunmer, and [PAWN_nameDef] was one of them. [PAWN_pronoun] spent many years being forced to mine ebony against [PAWN_possessive] will.\n\n. The slave masters were greedy, and forced the slaves to dig too deep. Enraged by the blight, and the sudden intrusion into their nest, the kwama swarmed slaves and slave masters alike. [PAWN_nameDef] only narrowly escaped with [PAWN_possessive] life.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
 		  <li>ESCP_DunmerSlaveBackstory</li>
 		</spawnCategories>
 		<skillGains>

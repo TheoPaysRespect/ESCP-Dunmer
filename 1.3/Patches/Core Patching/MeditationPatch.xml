@@ -27,6 +27,10 @@
                 <categoryName>ESCP_DunmerBackstory</categoryName>
                 <slot>Childhood</slot>
             </li>
+			<li>
+                <categoryName>ESCP_DunmerAshlanderBackstory</categoryName>
+                <slot>Childhood</slot>
+            </li>
         </value>
     </Operation>
 	
@@ -37,6 +41,10 @@
                 <categoryName>ESCP_DunmerBackstory</categoryName>
                 <slot>Childhood</slot>
             </li>
+			<li>
+                <categoryName>ESCP_DunmerAshlanderBackstory</categoryName>
+                <slot>Childhood</slot>
+            </li>
         </value>
     </Operation>
 	
@@ -45,6 +53,10 @@
         <value>
             <li>
                 <categoryName>ESCP_DunmerBackstory</categoryName>
+                <slot>Childhood</slot>
+            </li>
+			<li>
+                <categoryName>ESCP_DunmerAshlanderBackstory</categoryName>
                 <slot>Childhood</slot>
             </li>
         </value>

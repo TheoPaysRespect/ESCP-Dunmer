@@ -5,7 +5,37 @@
 		<defName>ESCP_AshlanderRace</defName>
 		<label>Dunmer Ashlander</label>
 		<description>An elven race that calls the ashlands their home. Stories say that the Dunmer were tainted after a great betrayal, leaving them with ash coloured skin and fire coloured eyes. After the eruption of Red Mountain many Dunmer fled their ancestral homeland.\n\nAshlanders are culturally rather distinct from the settled Dunmer, with the primary difference being their clinging to the old ways. The dead are often mummified and buried in elaborate natural caverns, as opposed to being cremated and spread in an ash pit. They worship the Daedra, instead of the Tribunal. They live in nomadic camps, instead of cities. Of course, all these differences have resulted in a rift between the Ashlanders and the Settled Dunmer, causing meetings between the two cultures to often end with hostility.\n\nDunmer, either through a curse or simply adaptation, are relatively resistant to both heat and fire. They suffer no ill effects from breathing in ash, though that doesn't mean they enjoy being outside in an ash storm.</description>
-		
+		<modExtensions>
+			<li Class="ESCP_RaceTools.StuffKnowledge">
+				<stuffKnowledgeList>
+					<li>
+						<stuffList>
+							<li>MorrowRim_Glass</li>	<!-- MorrowRim Glass and Ebony -->
+							<li>ESCP_RawGlass</li>	<!-- ESCP Core Resources -->
+						</stuffList>
+						<skillList>
+							<li>Crafting</li>
+						</skillList>
+						<notJustStuff>true</notJustStuff>
+						<requiredBackstory>ESCP_DunmerAshlander_StuffKnowledge_GlassBackstory</requiredBackstory>
+						<chance>1.0</chance>
+					</li>
+					<li>
+						<stuffList>
+							<li>InsectChitin</li>	<!-- Insects Have Chitin -->
+							<li>MorrowRim_SiltStriderChitin</li>	<!-- MorrowRim -->
+							<li>MorrowRim_NixHoundLeather</li>	<!-- MorrowRim -->
+						</stuffList>
+						<skillList>
+							<li>Crafting</li>
+						</skillList>
+						<notJustStuff>true</notJustStuff>
+						<requiredBackstory>ESCP_Dunmer_StuffKnowledge_ChitinBackstory</requiredBackstory>
+						<chance>1.0</chance>
+					</li>
+				</stuffKnowledgeList>
+            </li>
+		</modExtensions>
 		<comps>
 
 		</comps>

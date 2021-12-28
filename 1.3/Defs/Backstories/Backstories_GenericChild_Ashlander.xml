@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_DunmerAshlander_PsychicallyGiftedBackstory_Child</defName>
+		<title>psychically gifted</title>
+		<titleShort>gifted</titleShort>
+		<baseDescription>[PAWN_nameDef] was born with a greater awareness of the unseen. After many years of guidance from the Wise Woman, [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift, and hear the whispers of the ancestors.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_DunmerAshlander_AbandonedBackstory_Child</defName>
+		<title>abandoned child</title>
+		<titleShort>abandoned</titleShort>
+		<baseDescription>[PAWN_nameDef] was abandoned in the ashlands shortly after [PAWN_possessive] birth. Luckily for [PAWN_nameDef], an Ashlander tribe passing through the area heard [PAWN_possessive] cries, and adopted [PAWN_nameDef] into the tribe. The tribe took great care of [PAWN_nameDef], and passed on a great deal of their ancestral knowledge to [PAWN_pronoun].</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+		<relationSettings>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+			 <renamer>
+               <li>
+                  <relation>Parent</relation>
+                  <label>adoptive father</label>
+                  <femaleLabel>adoptive mother</femaleLabel>
+               </li>
+            </renamer>
+		</relationSettings>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_DunmerAshlander_ReclusiveBackstory_Child</defName>
+		<title>reclusive child</title>
+		<titleShort>reclusive</titleShort>
+		<baseDescription>[PAWN_nameDef] always preferred the company of [PAWN_possessive] tribes guar and nix hounds, and could often be found crafting various trinkets to adorn the beasts.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_DunmerAshlander_HerderBackstory_Child</defName>
+		<title>herder</title>
+		<titleShort>herder</titleShort>
+		<baseDescription>[PAWN_nameDef] enjoyed tending to [PAWN_possessive[ tribes shalk herd, always ensuring that the pen was secure, and that there were no cliff racers nearby.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_DunmerAshlander_ExplorerBackstory_Child</defName>
+		<title>explorer</title>
+		<titleShort>explorer</titleShort>
+		<baseDescription>Life in an Ashlander tribe wasn't exactly the most exciting thing, especially for [PAWN_nameDef]. To combat this, [PAWN_nameDef] would often wander off into the Ashlands in search of intresting plant life, though more often than not returned with only scrapes and bruises.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_DunmerAshlander_SoleSurviverBackstory_Child</defName>
+		<title>sole survivor</title>
+		<titleShort>survivor</titleShort>
+		<baseDescription>[PAWN_nameDef] was the only survivor of an attack on [PAWN_possessive] tribe. The victors saw no reason to waste an extra body, and took [PAWN_possessive] into the tribe. Due to this tribes warlike nature, [PAWN_nameDef] was taught how to fight, and nothing else.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+		<relationSettings>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+		</relationSettings>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_DunmerAshlander_CookBackstory_Child</defName>
+		<title>cook</title>
+		<titleShort>cook</titleShort>
+		<baseDescription>[PAWN_nameDef] was always eager to help with cooking for [PAWN_possessive] tribe, and learnt quite a few things about the flora of the ashlands in the process.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_DunmerAshlander_CookBackstory_Child_Alt</defName>
+		<title>cook</title>
+		<titleShort>cook</titleShort>
+		<baseDescription>[PAWN_nameDef] was always eager to help with cooking for [PAWN_possessive] tribe, and learnt quite a few things about the fauna of the ashlands in the process.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_DunmerAshlander_StonethrowerBackstory_Child</defName>
+		<title>stone-thrower</title>
+		<titleShort>stone-thrower</titleShort>
+		<baseDescription>[PAWN_nameDef] was always throwing stones around, at yurts, at mudcrabs, and sometimes even at [PAWN_possessive] tribe members. While most of the other tribe members grew quite terrified of a stone hitting them from out of nowhere, some saw the value in [PAWN_nameDef]'s skills.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>

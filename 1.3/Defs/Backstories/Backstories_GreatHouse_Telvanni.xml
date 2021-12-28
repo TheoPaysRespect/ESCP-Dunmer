@@ -7,8 +7,11 @@
 		<titleShort>Telvanni member</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Great House Telvanni. Great House Telvanni is known for its wonderful and magical craftsmanship, creating houses out of the strangest materials. [PAWN_nameDef] learnt many wonderous things during [PAWN_possessive] time with House Telvanni, such as that socialising is a waste of precious time and that caring about other people is pointless.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -44,6 +47,452 @@
 		<workDisables>
 			<li>Social</li>
 		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniServantBackstory</defName>
+		<title>Telvanni servant</title>
+		<titleShort>servant</titleShort>
+		<baseDescription>[PAWN_nameDef] was a lowly servant in Great House Telvanni. Many days were spent tending to [PAWN_possessive] Magisters animals and plants, as well as ensuring any unexpected guests were turned away.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>5</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>5</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniForemanBackstory</defName>
+		<title>Telvanni mushroom foreman</title>
+		<titleShort>foreman</titleShort>
+		<baseDescription>[PAWN_nameDef] was very well-versed in the art of growing grand house-pods from tiny spores. [PAWN_pronoun] had built many of the house-pods found in Sadrith Mora, and had even had the honour of building a Telvanni tower.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniMycologistBackstory</defName>
+		<title>Telvanni mycologist</title>
+		<titleShort>mycologist</titleShort>
+		<baseDescription>[PAWN_nameDef] was always highly fascinated by fungus, so joining Great House Telvanni just seemed like a logical choice. Thanks to [PAWN_possessive] position, [PAWN_nameDef] made some interesting discoveries.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniTestSubjectBackstory</defName>
+		<title>Telvanni test subject</title>
+		<titleShort>test subject</titleShort>
+		<baseDescription>[PAWN_nameDef] was just a lowly servant of Great House Telvanni looking to get ahead, and what better way to get ahead than helping out with some experiments. [PAWN_nameDef] didn't realise that [PAWN_pronoun] would actually be the test subject, but it was too late to turn back now, not that [PAWN_pronoun] actually had a choice. The experiments greatly strengthened [PAWN_possessive] body, but took quite a toll on [PAWN_possessive] mind.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>-8</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniTestSubjectBackstory_Alt</defName>
+		<title>Telvanni test subject</title>
+		<titleShort>test subject</titleShort>
+		<baseDescription>[PAWN_nameDef] was just a lowly servant of Great House Telvanni looking to get ahead, and what better way to get ahead than helping out with some experiments. [PAWN_nameDef] didn't realise that [PAWN_pronoun] would actually be the test subject, but it was too late to turn back now, not that [PAWN_pronoun] actually had a choice. The experiments greatly strengthened [PAWN_possessive] mind, but took quite a toll on [PAWN_possessive] body.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>-8</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniTraderBackstory</defName>
+		<title>Telvanni trader</title>
+		<titleShort>trader</titleShort>
+		<baseDescription>[PAWN_nameDef] made quite a nice living selling Great House Telvanni's wares to those in need. From elixirs, to alchemical ingredients, and the most popular of all, Telvanni bug musk, [PAWN_nameDef] had it all... at least until Red Year.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+		
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniRiverStriderBackstory</defName>
+		<title>Telvanni strider keeper</title>
+		<titleShort>strider keeper</titleShort>
+		<baseDescription>[PAWN_nameDef] helped tend the river striders of Port Telvannis. Strange beasts, closely related to the silt strider, and equally as lobotomised.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>9</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniGolemArchitectBackstory</defName>
+		<title>Telvanni golem architect</title>
+		<titleShort>golem architect</titleShort>
+		<baseDescription>[PAWN_nameDef] specialised in creating golems, useful servants made from inanimate objects. [PAWN_pronoun] was quite good at it, and had created golems for many of the higher ranking members of Great House Telvanni.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniCitizenBackstory</defName>
+		<title>Telvanni citizen</title>
+		<titleShort>citizen</titleShort>
+		<baseDescription>[PAWN_nameDef] was just a regular citizen, living in Telvanni controlled territory. [PAWN_pronoun] picked up a bit of knowledge from the local Telvanni members, and possibly even some traits that some may find undesirable.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>5</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>5</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Original ones, as such their defname don't include Telvanni -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_VvardvarkBackstory</defName>
+		<title>vvardvark breeder</title>
+		<titleShort>breeder</titleShort>
+		<baseDescription>[PAWN_nameDef] once owned a small housepod in Sadrith Mora, where [PAWN_pronoun] bred vvardvarks for the local Telvanni. The sheer amount of filth produced by these tiny creatures swiftly broke [PAWN_objective], and since then [PAWN_nameDef] refuses to clean even the smallest of messes.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_CorprusariumBackstory</defName>
+		<title>corprusarium worker</title>
+		<titleShort>corprusarium</titleShort>
+		<baseDescription>[PAWN_nameDef] was always willing to help people, no matter the circumstances. This somehow led [PAWN_nameDef] to Tel Fyr, or more accurately the halls under it. [PAWN_pronoun] quickly learnt how to tend to the corprus victims, and became quite adept at it.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>Immunity</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 
 </Defs>

@@ -7,8 +7,11 @@
 		<titleShort>Indoril member</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Great House Indoril, the great house of Indoril Nerevar himself. Like most members of House Indoril, [PAWN_nameDef] firmly believes that Dunmer culture must be respected and preserved, even the less desirable parts of it.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerIndorilBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -41,5 +44,7 @@
 			<li>PlantWork</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+	
+	<!-- Plus all of the Ordinator backstories have the Indoril tag -->
 
 </Defs>

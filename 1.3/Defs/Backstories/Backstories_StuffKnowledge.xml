@@ -9,6 +9,8 @@
 		<titleShort>master smith</titleShort>
 		<baseDescription>[PAWN_nameDef] is widely considered to be one of the best bonemold smiths to have ever existed. [PAWN_possessive] works adorn some of the highest ranking members of the Dunmer Great Houses, their worth proven many times in the field of battle.\n\nAnything [PAWN_nameDef] crafts out of bonemold will be one quality level higher than normal.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -42,6 +44,7 @@
 		<titleShort>master smith</titleShort>
 		<baseDescription>[PAWN_nameDef] has mastered the art of working glass, with [PAWN_possessive] works glistening on the belts of many Dunmeri nobles. In [PAWN_nameDef]'s hands, usually brittle glass becomes sturdy as steel, and sharp enough to pierce ebony.\n\nAnything [PAWN_nameDef] crafts out of raw glass will be one quality level higher than normal.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -75,8 +78,11 @@
 		<titleShort>master smith</titleShort>
 		<baseDescription>[PAWN_nameDef] spent many years wandering the ashen wastes of Vvardenfell in search of some of the most skilled Ashlander crafters. Using their knowledge, [PAWN_pronoun] has perfected the use of chitin in crafting, producing armour and weapons that nearly rival ebony.\n\nAnything [PAWN_nameDef] crafts out of insect chitin will be one quality level higher than normal.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -107,6 +113,7 @@
 		<titleShort>master smith</titleShort>
 		<baseDescription>Trained by some of the best Imperial smiths, [PAWN_nameDef] has developed [PAWN_possessive] knack for working ebony into a fine art.\n\nAnything [PAWN_nameDef] crafts out of ebony will be one quality level higher than normal.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -140,6 +147,7 @@
 		<titleShort>master smith</titleShort>
 		<baseDescription>[PAWN_nameDef] was always quite the skilled smith, and eagerly jumped at the opportunity to craft armour for the Hands of the Queen. It took [PAWN_objective] quite some time, but the final products were perfect. [PAWN_nameDef] had clearly mastered working adamantium.\n\nAnything [PAWN_nameDef] crafts out of adamantium will be one quality level higher than normal.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
 		</spawnCategories>
@@ -166,5 +174,37 @@
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>5</femaleCommonality>
 	</AlienRace.BackstoryDef>
+	
+	<!-- Ashlander specific -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_DunmerAshlander_StuffKnowledge_GlassBackstory</defName>
+		<title>master glass smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDescription>[PAWN_nameDef] inherited a great wealth of knowledge from [PAWN_possessive] parents. While most of this knowledge was fairly standard, [PAWN_pronoun] did learn the secrets of working Resdayn glass, and eventually mastered the art. [PAWN_possessive] crafts may appear somewhat crude, but they are just as dangerous as the finest blades forged in the settled lands.\n\nAnything [PAWN_nameDef] crafts out of raw glass will be one quality level higher than normal.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
 
 </Defs>

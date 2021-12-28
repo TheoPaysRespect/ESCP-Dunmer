@@ -7,8 +7,11 @@
 		<titleShort>Dres member</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Great House Dres, a traditionalist house famous for its slave plantations. Any Argonian in House Dres territory was a slave, and [PAWN_nameDef] liked it that way.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerDresBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -49,10 +52,12 @@
 		<defName>ESCP_Dunmer_DresTamerBackstory</defName>
 		<title>Dres wasp rider</title>
 		<titleShort>wasp rider</titleShort>
-		<baseDescription>House Dres made great use of the gaint wasps that called the Deshaan Plains their home, and [PAWN_nameDef] was well versed in the art of riding one. [PAWN_pronoun] was often found patrolling the slave fields, keeping a close eye out for any attmepted runaways.</baseDescription>
+		<baseDescription>House Dres made great use of the gaint wasps that called the Deshaan Plains their home, and [PAWN_nameDef] was well versed in the art of riding one. [PAWN_pronoun] was often found patrolling the slave fields, keeping a close eye out for any attempted runaways.</baseDescription>
 		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerDresBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
