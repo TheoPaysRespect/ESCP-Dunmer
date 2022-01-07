@@ -426,6 +426,131 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniGuardBackstory</defName>
+		<title>Telvanni guard</title>
+		<titleShort>guard</titleShort>
+		<baseDescription>[PAWN_nameDef] was a guard stationed at one of the many Telvanni towers. The days spent on duty were often rather boring, as no one is stupid enough to cause a scene at a Telvanni tower.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>5</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>5</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniStewardBackstory</defName>
+		<title>Telvanni steward</title>
+		<titleShort>steward</titleShort>
+		<baseDescription>[PAWN_nameDef] was a steward for a high ranking member of Great House Telvanni. A position that came with quite the number of benefits, unless you were assigned to someone 'eccentric'.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>5</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>5</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniCookBackstory</defName>
+		<title>Telvanni cook</title>
+		<titleShort>cook</titleShort>
+		<baseDescription>[PAWN_nameDef] was quite a talented cook. Of course [PAWN_pronoun] had to be, for [PAWN_possessive] Telvanni master had some rather strange and exotic tastes, and one mistake could lead to potentially disastrous consequences.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>5</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>5</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
 
 	<!-- Original ones, as such their defname don't include Telvanni -->
 	

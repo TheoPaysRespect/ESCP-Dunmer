@@ -68,5 +68,20 @@
 	  </li>
     </degreeDatas>
   </TraitDef>
+  
+  <TraitDef>
+    <defName>ESCP_AncestralBlessing</defName>
+    <commonality>0.05</commonality>
+    <degreeDatas>
+      <li>
+        <label>ancestors blessing</label>
+        <description>{PAWN_nameDef} has received the blessing their ancestors. {PAWN_nameDef} knows that they will always be keeping a watchful eye.</description>
+		<statOffsets>
+			<IncomingDamageFactor>-0.05</IncomingDamageFactor>
+        </statOffsets>
+		<marketValueFactorOffset>+0.15</marketValueFactorOffset>
+	  </li>
+    </degreeDatas>
+  </TraitDef>
 
 </Defs>

@@ -105,5 +105,42 @@
 			<max>999</max>
 		</bioAgeRange>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_CloneDaughterBackstory_Child</defName>
+		<title>clone daughter</title>
+		<titleShort>clone</titleShort>
+		<baseDescription>[PAWN_nameDef] wasn't exactly born like most others. Instead, [PAWN_pronoun] was cloned by, and from, a rather high ranking member of Great House Telvanni. Inheriting quite a bit of [PAWN_possessive] fathers intellect, [PAWN_nameDef] was sure to follow in [PAWN_possessive] fathers footsteps.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>0</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+		<relationSettings>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+			<renamer>
+               <li>
+                  <relation>Parent</relation>
+                  <label>clone father</label>
+                  <femaleLabel>mother</femaleLabel>
+               </li>
+            </renamer>
+		</relationSettings>
+	</AlienRace.BackstoryDef>
 
 </Defs>
