@@ -122,6 +122,43 @@
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>5</femaleCommonality>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_ClockworkTinkererBackstory</defName>
+		<title>clockwork tinkerer</title>
+		<titleShort>clockwork tinkerer</titleShort>
+		<baseDescription>One day [PAWN_nameDef] fished up a strange fish, a fish unlike any other, for it was a clockwork fish. That fateful moment sent [PAWN_possessive] on a several year journey, all to make sense of this strange fish. [PAWN_nameDef] learnt much from tinkering with the fish, so much in fact that upon reaching the Clockwork City, Sotha Sil actually welcomed [PAWN_nameDef], and even granted [PAWN_objective] some knowledge.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_SothaSilBlessing</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
 
 	<!-- Character based-->
 

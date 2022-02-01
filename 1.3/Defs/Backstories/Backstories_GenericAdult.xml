@@ -1254,6 +1254,7 @@
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerHlaaluBackstory</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -1362,6 +1363,76 @@
 		</forcedTraits>
 		<forcedHediffs>
 		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_SkoratiHerderBackstory</defName>
+		<title>skorati herder</title>
+		<titleShort>skorati herder</titleShort>
+		<baseDescription>[PAWN_nameDef] tended a small herd of skorati. Peaceful creatures, that [PAWN_pronoun] was rather fond of. As an extra bonus, [PAWN_nameDef] could create clothing out of skorati fur, which fetched a decent price in the nearby towns.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_BantamGuarBackstory</defName>
+		<title>bantam guar tender</title>
+		<titleShort>bantam guar tender</titleShort>
+		<baseDescription>[PAWN_nameDef] thought it would be a good idea to earn a living selling bantam guar eggs. Turns out bantam guar, while quite small, are overflowing with attitude, and they didn't much care for [PAWN_nameDef]. Eventually [PAWN_pronoun] was forced out of [PAWN_possessive] own dwellings, by an angry horde of bantam guar. [PAWN_nameDef] occasionally still wakes up in a cold sweat.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>-8</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-2</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Hunting</li>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
 	</AlienRace.BackstoryDef>
 
 </Defs>

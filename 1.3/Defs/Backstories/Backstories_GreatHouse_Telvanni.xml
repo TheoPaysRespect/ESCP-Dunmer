@@ -551,6 +551,51 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniWormmouthBackstory</defName>
+		<title>Telvanni wormmouth fanatic</title>
+		<titleShort>wormmouth fanatic</titleShort>
+		<baseDescription>[PAWN_nameDef] absolutely adored the wormmouth, so much infact that [PAWN_pronoun] decided to have some transported from Hammerfell. Due to some foolish mistake, and totally not because [PAWN_nameDef] was impatient, the ship was caught in a storm. Luckily the wormmouth managed to survive, however there was no containing them, and they soon spread throughout Vvardenfell.\n\n[PAWN_nameDef] was quite pleased with that, [PAWN_possessive] slaves on the other hand weren't, as they were still recovering from their punishment for loosing them in the first place.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
 
 	<!-- Original ones, as such their defname don't include Telvanni -->
 	

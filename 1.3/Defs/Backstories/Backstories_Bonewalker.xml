@@ -129,7 +129,7 @@
 		<defName>ESCP_Dunmer_BonewalkerKnowledge_Backstory</defName>
 		<title>master bonewalker creator</title>
 		<titleShort>bonewalker master</titleShort>
-		<baseDescription>[PAWN_nameDef] spent many years reading through the texts kept in Necrom, many years studying the corpses sent to be prepared for burial, and many years perfecting the art of bonewalker creation. Needless to say, [PAWN_nameDef] may be one of the most skilled bonewalker creators to have ever existed.\n\nAny bonewalker or bonelord [PAWN_nameDef] creates will be one quality level higher than normal, and will be able to surpass legendary quality.</baseDescription>
+		<baseDescription>[PAWN_nameDef] spent many years reading through the texts kept in Necrom, many years studying the corpses sent to be prepared for burial, and many years perfecting the art of bonewalker creation. Needless to say, [PAWN_nameDef] may be one of the most skilled bonewalker creators to have ever existed.\n\nAny bonewalker or bonelord [PAWN_nameDef] activates will be one quality level higher than normal, and will be able to surpass legendary quality.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>

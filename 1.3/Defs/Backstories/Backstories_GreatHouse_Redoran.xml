@@ -190,5 +190,43 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_RedoranHoomHerderBackstory</defName>
+		<title>Redoran hoom herder</title>
+		<titleShort>hoom herder</titleShort>
+		<baseDescription>[PAWN_nameDef] journeyed to the Velothi mountains for one singular purpose, to tend to the hooms, a lifelong dream of [PAWN_nameDef]. [PAWN_pronoun] always woke up to the soothing calls of the large beasts, and knew this was home... At least until the Nords attacked.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerRedoranBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
 
 </Defs>
