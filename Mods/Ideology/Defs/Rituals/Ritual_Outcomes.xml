@@ -34,7 +34,7 @@
 			<label>Enlightening</label>
 			<chance>0.2</chance>
 			<memory>ESCP_DunmerEnlighteningSeance</memory>
-			<description>The {0} was enlightening. The ancestors are truly knowledgable, and we are lucky to have been bestowed even a fraction of it.</description>
+			<description>The {0} was enlightening. The ancestors are truly knowledgeable, and we are lucky to have been bestowed even a fraction of it.</description>
 			<potentialExtraOutcomeDesc>One of the participants may get a psylink upgrade or unlock a new psychic power.</potentialExtraOutcomeDesc>
 			<positivityIndex>2</positivityIndex>
 		  </li>

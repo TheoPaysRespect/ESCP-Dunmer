@@ -32,7 +32,7 @@
 		  <ESCP_Structure_OriginHouseOfTroubles MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginHouseOfTroubles>
 		  <ESCP_Structure_OriginNerevarine MayRequire="Ludeon.RimWorld.Ideology">2</ESCP_Structure_OriginNerevarine>
 	</structureMemeWeights>
-		<backstoryFilters>
+		<backstoryFilters Inherit = "false">
 		  <li>
 			<categories>
 			  <li>ESCP_DunmerAshlanderBackstory</li>

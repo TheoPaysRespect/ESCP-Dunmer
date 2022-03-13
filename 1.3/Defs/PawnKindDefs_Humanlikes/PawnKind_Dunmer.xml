@@ -38,10 +38,15 @@
 		<defName>ESCP_DunmerTribalKind</defName>
 		<label>Dunmer tribal</label>
 		<race>ESCP_DunmerRace</race>
-		<backstoryCategories>
-		  <li>ESCP_DunmerTribal</li>
-		  <li>ESCP_DunmerBackstory</li>
-		</backstoryCategories>
+		
+		<backstoryFiltersOverride>
+		  <li>
+			<categories>
+			  <li>ESCP_DunmerBackstory</li>
+			</categories>
+		  </li>
+	</backstoryFiltersOverride>
+		
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.80</baseRecruitDifficulty>
 		<isFighter>false</isFighter>
@@ -72,11 +77,15 @@
 		<defName>ESCP_DunmerMedievalKind</defName>
 		<label>Dunmer commoner</label>
 		<race>ESCP_DunmerRace</race>
-		<backstoryCategories>
-		  <li>ESCP_DunmerTribal</li>
-		  <li>ESCP_DunmerMedieval</li>
-		  <li>ESCP_DunmerBackstory</li>
-		</backstoryCategories>
+		
+		<backstoryFiltersOverride>
+		  <li>
+			<categories>
+			  <li>ESCP_DunmerBackstory</li>
+			</categories>
+		  </li>
+		</backstoryFiltersOverride>
+	
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.80</baseRecruitDifficulty>
 		<isFighter>false</isFighter>

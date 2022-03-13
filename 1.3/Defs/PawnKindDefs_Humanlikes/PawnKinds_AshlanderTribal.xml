@@ -13,6 +13,15 @@
       <li>Medieval</li>
 	  <li>MedievalBasic</li>
     </apparelTags>
+	
+	<backstoryFiltersOverride>
+		  <li>
+			<categories>
+			  <li>ESCP_DunmerAshlanderBackstory</li>
+			</categories>
+		  </li>
+	</backstoryFiltersOverride>
+	
   </PawnKindDef>
 
   <!-- Poverty tier - penitent -->
@@ -109,13 +118,7 @@
     <defName>ESCP_AshlanderTribal_Hunter</defName>
     <label>hunter</label>
     <combatPower>60</combatPower>
-    <backstoryFiltersOverride>
-      <li>
-        <categoriesAdulthood>
-          <li>TribalHunter</li>
-        </categoriesAdulthood>
-      </li>
-    </backstoryFiltersOverride>
+
     <gearHealthRange>0.5~1.8</gearHealthRange>
     <apparelMoney>200~300</apparelMoney>
     <apparelRequired>

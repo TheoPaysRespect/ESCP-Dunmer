@@ -117,7 +117,7 @@
 		<defName>ESCP_DunmerAshlander_HerderBackstory_Child</defName>
 		<title>herder</title>
 		<titleShort>herder</titleShort>
-		<baseDescription>[PAWN_nameDef] enjoyed tending to [PAWN_possessive[ tribes shalk herd, always ensuring that the pen was secure, and that there were no cliff racers nearby.</baseDescription>
+		<baseDescription>[PAWN_nameDef] enjoyed tending to [PAWN_possessive] tribes shalk herd, always ensuring that the pen was secure, and that there were no cliff racers nearby.</baseDescription>
 		<slot>Childhood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
