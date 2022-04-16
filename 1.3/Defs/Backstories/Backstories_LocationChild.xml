@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_OutlanderBackstory_Child</defName>
+		<title>outlander child</title>
+		<titleShort>outlander child</titleShort>
+		<baseDescription>[PAWN_nameDef] was born in the heart of the Empire itself. [PAWN_pronoun] was overcome with joy when [PAWN_pronoun] found out [PAWN_possessive] parents were going back to Morrowind, and taking [PAWN_objective] with them. The thought of experiencing Dunmeri culture in it's purest form, [PAWN_pronoun] simply couldn't wait!\n\n[PAWN_nameDef] was left sorely dissapointed when the grand day came. Not even [PAWN_possessive] social skills could overcome [PAWN_possessive] foreign accent. But even this didn't stop [PAWN_nameDef] from attempting to reconnect with Dunmer culture.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_SadrithMoraBackstory_Child</defName>
+		<title>Sadrith Mora child</title>
+		<titleShort>Sadrith Mora child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in the city of Sadrith Mora, Great House Telvannis Vvardenfell seat of power. [PAWN_pronoun] attempted to immerse [PAWN_objective]self in Telvanni politics, but only really learnt the typical Telvanni arrogance.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_BalmoraBackstory_Child</defName>
+		<title>Balmora child</title>
+		<titleShort>Balmora child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in Balmora, a city that was surprisingly ruthless for children, for there were many gangs to be found there. Of course [PAWN_nameDef] was in the best gang, at least as far as [PAWN_pronoun] was concerned.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerHlaaluBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_AldruhnBackstory_Child</defName>
+		<title>Ald'ruhn child</title>
+		<titleShort>Ald'ruhn child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in Ald'ruhn, Great House Redoran's Vvardenfell seat of power. Sadly [PAWN_nameDef] didn't have a chance to experience the usual childhood activities, what with the endless duties and constant ash storms.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerRedoranBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>PlantWork</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_HlaOadBackstory_Child</defName>
+		<title>Hla Oad child</title>
+		<titleShort>Hla Oad child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in Hla Oad, a small fishing village found in the Bitter Coast. There wasn't exactly a lot to do in Hla Oad, apart for preparing to leave Hla Oad, and that's exactly what [PAWN_nameDef] did.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_VelothiBackstory_Child</defName>
+		<title>Velothi Mountains child</title>
+		<titleShort>Velothi Mountains child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in a small village, deep in the Velothi Mountains. Most days were spent tending to the villages hoom herd, and learning how to hold [PAWN_possessive] own in combat.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerRedoranBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_CalderaBackstory_Child</defName>
+		<title>Caldera child</title>
+		<titleShort>Caldera child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in Caldera, a small Imperial mining town, and one with rather few Dunmer living there. [PAWN_pronoun] spent a fair amount of time around the miners, and even helped out in the mines from time to time.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- The big cities, provides extra points -->
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_NecromBackstory_Child</defName>
+		<title>Necrom child</title>
+		<titleShort>Necrom child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in the holy city of Necrom. Many of [PAWN_possessive] peers adapted to the near constant presence of ghosts, but not [PAWN_nameDef]. [PAWN_possessive] solution was to find a nice corner to hide in, and read some books.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerIndorilBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Caring</li>
+			<li>Social</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_PortTelvannisBackstory_Child</defName>
+		<title>Port Telvannis child</title>
+		<titleShort>Port Telvannis child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in the great city of Port Telvannis. Many days were spent wandering around the streets, docks, and coast, as [PAWN_nameDef] was quite the inquisitive sort, and was always looking for a new animal or plant to discover.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_MournholdBackstory_Child</defName>
+		<title>Mournhold child</title>
+		<titleShort>Mournhold child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in the City of Light and Magic, the capital city of Morrowind. From tending the flower beds, to organising old tomes, and occasionally assisting patients, there were endless opportunities for children in Mournhold, and [PAWN_nameDef] took every one [PAWN_pronoun] could.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerIndorilBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_VivecDelynBackstory_Child</defName>
+		<title>St. Delyn Canton child</title>
+		<titleShort>Vivec child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in Vivec City, specifically the St. Delyn Canton. Many days were spent wandering around the canton, performing small tasks given by the local shops. While [PAWN_nameDef] was mostly paid in drakes, [PAWN_pronoun] also picked up some useful knowledge of crafting, and fighting.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_VivecOlmsBackstory_Child</defName>
+		<title>St. Olms Canton child</title>
+		<titleShort>Vivec child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in Vivec City, specifically the St. Olms Canton. Many days were spent wandering around the canton, performing small tasks given by the local labourers. While [PAWN_nameDef] was mostly paid in drakes, [PAWN_pronoun] also picked up some knowledge of a bit of everything.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_TearBackstory_Child</defName>
+		<title>Tear child</title>
+		<titleShort>Tear child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in Tear, capital city of Great House Dres. [PAWN_pronoun] worked hard in the saltrice fields every afternoon, not for coin, but to ensure [PAWN_pronoun] knew when the slaves were slacking.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerDresBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Slaver</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_NarsisBackstory_Child</defName>
+		<title>Narsis child</title>
+		<titleShort>Narsis child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in Narsis, capital city of Great House Hlaalu. Earning coin was rather easy in Narsis, if you knew what people wanted, and where to find it. Needless to say [PAWN_nameDef] spent quite some time in the ruins of old Narsis.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerHlaaluBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_BaanMalurBackstory_Child</defName>
+		<title>Baan Malur child</title>
+		<titleShort>Baan Malur child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in Baan Malur, capital city of Great House Redoran, known to outlanders as Blacklight. When [PAWN_nameDef] wasn't training with the sword, [PAWN_pronoun] was usually helping at the local smithy.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerRedoranBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Old Ebonheart goes here -->
+	
+</Defs>

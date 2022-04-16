@@ -41,6 +41,16 @@
 				<defName>Abrasive</defName>
 				<chance>15</chance>
 			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -85,6 +95,16 @@
 				<defName>Abrasive</defName>
 				<chance>5</chance>
 			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -128,6 +148,16 @@
 				<defName>Abrasive</defName>
 				<chance>15</chance>
 			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -170,6 +200,16 @@
 			<li>
 				<defName>Abrasive</defName>
 				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>50</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -288,13 +328,22 @@
 				<defName>Abrasive</defName>
 				<chance>15</chance>
 			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
-	
 		
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_TelvanniRiverStriderBackstory</defName>
@@ -327,6 +376,16 @@
 			<li>
 				<defName>Abrasive</defName>
 				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>25</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -370,6 +429,16 @@
 			<li>
 				<defName>Abrasive</defName>
 				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -420,6 +489,16 @@
 				<defName>Abrasive</defName>
 				<chance>5</chance>
 			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -458,6 +537,16 @@
 			<li>
 				<defName>Abrasive</defName>
 				<chance>5</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>25</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -502,6 +591,16 @@
 				<defName>Abrasive</defName>
 				<chance>5</chance>
 			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -545,6 +644,16 @@
 				<defName>Abrasive</defName>
 				<chance>5</chance>
 			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -556,7 +665,7 @@
 		<defName>ESCP_Dunmer_TelvanniWormmouthBackstory</defName>
 		<title>Telvanni wormmouth fanatic</title>
 		<titleShort>wormmouth fanatic</titleShort>
-		<baseDescription>[PAWN_nameDef] absolutely adored the wormmouth, so much infact that [PAWN_pronoun] decided to have some transported from Hammerfell. Due to some foolish mistake, and totally not because [PAWN_nameDef] was impatient, the ship was caught in a storm. Luckily the wormmouth managed to survive, however there was no containing them, and they soon spread throughout Vvardenfell.\n\n[PAWN_nameDef] was quite pleased with that, [PAWN_possessive] slaves on the other hand weren't, as they were still recovering from their punishment for loosing them in the first place.</baseDescription>
+		<baseDescription>[PAWN_nameDef] absolutely adored the wormmouth, so much in fact that [PAWN_pronoun] decided to have some transported from Hammerfell. Due to some foolish mistake, and totally not because [PAWN_nameDef] was impatient, the ship was caught in a storm. Luckily the wormmouth managed to survive, however there was no containing them, and they soon spread throughout Vvardenfell.\n\n[PAWN_nameDef] was quite pleased with that, [PAWN_possessive] slaves on the other hand weren't, as they were still recovering from their punishment for loosing them in the first place.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -588,6 +697,11 @@
 				<defName>Abrasive</defName>
 				<chance>15</chance>
 			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -595,6 +709,162 @@
 		</workDisables>
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniCliffracerBackstory</defName>
+		<title>Telvanni mad scientist</title>
+		<titleShort>mad scientist</titleShort>
+		<baseDescription>The winged menace has long since plagued the skies of Vvardenfell, a swarm seemingly unending, and one that drove the dragons from Morrowind. [PAWN_nameDef], though [PAWN_pronoun] will never admit to it, may have had something to do with that.\n\n[PAWN_nameDef], on a skooma fueled afternoon, decided to make some modifications to a captive cliff racer. When the experiment seemed to fail, [PAWN_pronoun] simply decided to let it go free. Unbeknown to [PAWN_nameDef], this particular cliff racer was now capable of reproducing asexually.\n\nUpon realising [PAWN_possessive] mistake, it was already to late. The calls of cliff races send shivers down [PAWN_possessive] spine to this very day.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-1</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniDustAdeptBackstory</defName>
+		<title>Telvanni dust adept</title>
+		<titleShort>dust adept</titleShort>
+		<baseDescription>Many years ago, [PAWN_nameDef] was one of the most feared Dunmer on Vvardenfell, for [PAWN_nameDef] was a Dust Adept. Sadly, negotiations between the Great Houses and the Empire signalled the end of, not only [PAWN_possessive] time on Vvardenfell, but also [PAWN_possessive] time as a Dust Adept.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>12</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+		<bioAgeRange>
+			<min>50</min>
+			<max>999</max>
+		</bioAgeRange>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TelvanniWizardBackstory</defName>
+		<title>Telvanni wizard</title>
+		<titleShort>wizard</titleShort>
+		<baseDescription>[PAWN_nameDef] was a master of the arcane arts. From Alteration to mysticism, and restoration to necromancy, [PAWN_pronoun] had great knowledge of it all. Sadly, one fateful day, [PAWN_nameDef] had a little accident, hitting [PAWN_possessive] head on a low hanging root in [PAWN_possessive] tower.\n\nThat wasn't too much of an issue, and actually happened quite often, except that [PAWN_pronoun] also fell down the stairs, hitting [PAWN_pronoun] head a second time on a lump of ebony that was just left on the floor, probably by one of the servants. [PAWN_nameDef] did recover quite nicely, but lost most of [PAWN_possessive] knowledge of the arcane.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
 	</AlienRace.BackstoryDef>
 
 	<!-- Original ones, as such their defname don't include Telvanni -->
@@ -625,6 +895,16 @@
 		<forcedItems>
 		</forcedItems>
 		<forcedTraits>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
 		</forcedTraits>
 		<forcedHediffs>
 		</forcedHediffs>
@@ -658,6 +938,16 @@
 			<li>
 				<defName>Immunity</defName>
 				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
 				<chance>50</chance>
 			</li>
 		</forcedTraits>

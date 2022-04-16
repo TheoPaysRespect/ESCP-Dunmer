@@ -320,6 +320,100 @@
 					<customHeadDrawSize>(1, 1)</customHeadDrawSize>
 					<!--<headOffset>(0.0, 0.05)</headOffset>-->
 					<bodyAddons>
+						<!-- scarification -->
+						<li>
+							<path>Things/Pawn/Humanlike/ESCP_Dunmer/ScarBrow/ScarBrow</path>
+							<drawForMale>true</drawForMale>
+							<drawForFemale>true</drawForFemale>
+							<colorChannel>skin</colorChannel>
+							<bodyPart>Head</bodyPart>
+							<drawnInBed>true</drawnInBed>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawnDesiccated>false</drawnDesiccated>
+							<hiddenUnderApparelFor>
+								<li>FullHead</li>
+								<li>UpperHead</li>
+							</hiddenUnderApparelFor>
+							<hiddenUnderApparelTag>
+								<li>MorrowRim_CoverDunmerScars</li>
+							</hiddenUnderApparelTag>
+							<!-- offsets -->
+							<offsets>
+								<south>
+									<layerOffset>-0.275</layerOffset>
+								</south>
+								<north>
+									<layerOffset>-0.275</layerOffset>
+								</north>
+								<east>
+									<layerOffset>-0.275</layerOffset>
+								</east>
+							</offsets>
+						</li>
+						<li>
+							<path>Things/Pawn/Humanlike/ESCP_Dunmer/ScarUpper/ScarUpper</path>
+							<drawForMale>true</drawForMale>
+							<drawForFemale>true</drawForFemale>
+							<colorChannel>skin</colorChannel>
+							<bodyPart>Head</bodyPart>
+							<drawnInBed>true</drawnInBed>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawnDesiccated>false</drawnDesiccated>
+							<hiddenUnderApparelFor>
+								<li>FullHead</li>
+								<li>UpperHead</li>
+							</hiddenUnderApparelFor>
+							<hiddenUnderApparelTag>
+								<li>MorrowRim_CoverDunmerScars</li>
+							</hiddenUnderApparelTag>
+							<!-- offsets -->
+							<offsets>
+								<south>
+									<layerOffset>-0.275</layerOffset>
+								</south>
+								<north>
+									<layerOffset>-0.275</layerOffset>
+								</north>
+								<east>
+									<layerOffset>-0.275</layerOffset>
+								</east>
+							</offsets>
+						</li>
+						<li>
+							<path>Things/Pawn/Humanlike/ESCP_Dunmer/ScarCheek/ScarCheek</path>
+							<drawForMale>true</drawForMale>
+							<drawForFemale>true</drawForFemale>
+							<colorChannel>skin</colorChannel>
+							<bodyPart>Head</bodyPart>
+							<drawnInBed>true</drawnInBed>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawnDesiccated>false</drawnDesiccated>
+							<hiddenUnderApparelFor>
+								<li>FullHead</li>
+								<li>UpperHead</li>
+							</hiddenUnderApparelFor>
+							<hiddenUnderApparelTag>
+								<li>MorrowRim_CoverDunmerScars</li>
+							</hiddenUnderApparelTag>
+							<!-- offsets -->
+							<offsets>
+								<south>
+									<layerOffset>-0.275</layerOffset>
+								</south>
+								<north>
+									<layerOffset>-0.275</layerOffset>
+								</north>
+								<east>
+									<layerOffset>-0.275</layerOffset>
+								</east>
+							</offsets>
+						</li>
 						<!-- ears right, both genders -->
 						<li>
 							<path>Things/Pawn/Humanlike/ESCP_GenericMer/Ear/RightEar</path>
@@ -373,100 +467,6 @@
 										<Narrow_Pointy>(0.0,0.0)</Narrow_Pointy>
 										<Narrow_Wide>(0.0,0.0)</Narrow_Wide>
 									</crownTypes>
-								</east>
-							</offsets>
-						</li>
-						<!-- scarification -->
-						<li>
-							<path>Things/Pawn/Humanlike/ESCP_Dunmer/ScarBrow/ScarBrow</path>
-							<drawForMale>true</drawForMale>
-							<drawForFemale>true</drawForFemale>
-							<colorChannel>skin</colorChannel>
-							<bodyPart>Head</bodyPart>
-							<drawnInBed>true</drawnInBed>
-							<inFrontOfBody>true</inFrontOfBody>
-							<alignWithHead>true</alignWithHead>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<drawnDesiccated>true</drawnDesiccated>
-							<hiddenUnderApparelFor>
-								<li>FullHead</li>
-								<li>UpperHead</li>
-							</hiddenUnderApparelFor>
-							<hiddenUnderApparelTag>
-								<li>MorrowRim_CoverDunmerScars</li>
-							</hiddenUnderApparelTag>
-							<!-- offsets -->
-							<offsets>
-								<south>
-									<layerOffset>-0.275</layerOffset>
-								</south>
-								<north>
-									<layerOffset>-0.275</layerOffset>
-								</north>
-								<east>
-									<layerOffset>-0.275</layerOffset>
-								</east>
-							</offsets>
-						</li>
-						<li>
-							<path>Things/Pawn/Humanlike/ESCP_Dunmer/ScarUpper/ScarUpper</path>
-							<drawForMale>true</drawForMale>
-							<drawForFemale>true</drawForFemale>
-							<colorChannel>skin</colorChannel>
-							<bodyPart>Head</bodyPart>
-							<drawnInBed>true</drawnInBed>
-							<inFrontOfBody>true</inFrontOfBody>
-							<alignWithHead>true</alignWithHead>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<drawnDesiccated>true</drawnDesiccated>
-							<hiddenUnderApparelFor>
-								<li>FullHead</li>
-								<li>UpperHead</li>
-							</hiddenUnderApparelFor>
-							<hiddenUnderApparelTag>
-								<li>MorrowRim_CoverDunmerScars</li>
-							</hiddenUnderApparelTag>
-							<!-- offsets -->
-							<offsets>
-								<south>
-									<layerOffset>-0.275</layerOffset>
-								</south>
-								<north>
-									<layerOffset>-0.275</layerOffset>
-								</north>
-								<east>
-									<layerOffset>-0.275</layerOffset>
-								</east>
-							</offsets>
-						</li>
-						<li>
-							<path>Things/Pawn/Humanlike/ESCP_Dunmer/ScarCheek/ScarCheek</path>
-							<drawForMale>true</drawForMale>
-							<drawForFemale>true</drawForFemale>
-							<colorChannel>skin</colorChannel>
-							<bodyPart>Head</bodyPart>
-							<drawnInBed>true</drawnInBed>
-							<inFrontOfBody>true</inFrontOfBody>
-							<alignWithHead>true</alignWithHead>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<drawnDesiccated>true</drawnDesiccated>
-							<hiddenUnderApparelFor>
-								<li>FullHead</li>
-								<li>UpperHead</li>
-							</hiddenUnderApparelFor>
-							<hiddenUnderApparelTag>
-								<li>MorrowRim_CoverDunmerScars</li>
-							</hiddenUnderApparelTag>
-							<!-- offsets -->
-							<offsets>
-								<south>
-									<layerOffset>-0.275</layerOffset>
-								</south>
-								<north>
-									<layerOffset>-0.275</layerOffset>
-								</north>
-								<east>
-									<layerOffset>-0.275</layerOffset>
 								</east>
 							</offsets>
 						</li>

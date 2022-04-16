@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_SyvvitTongBackstory</defName>
+		<title>former Syvvit Tong member</title>
+		<titleShort>ex Syvvit Tong</titleShort>
+		<baseDescription>[PAWN_nameDef] was once part of the Syvvit Tong, a relatively small Tong that managed to gain control of trade in Vhul. That all came to an end one day, when some outlander started investigating their operation. Luckily [PAWN_nameDef] managed to sneak off before the Ordinators arrived.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>70</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Ascetic</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+			<Silver>0~50</Silver>	
+		</forcedItems>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+</Defs>

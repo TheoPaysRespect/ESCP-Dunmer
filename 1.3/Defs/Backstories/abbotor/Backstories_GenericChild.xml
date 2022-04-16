@@ -3,7 +3,7 @@
 
 	<!-- Generic -->
 
-	<AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_StreetRat</defName>
 		<title>street rat</title>
 		<titleShort>street rat</titleShort>
@@ -31,7 +31,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_ApprenticeMage</defName>
 		<title>mage's apprentice</title>
 		<titleShort>mage's apprentice</titleShort>
@@ -57,6 +57,16 @@
 				<degree>1</degree>
 				<chance>15</chance>
 			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -64,7 +74,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_HouseServant</defName>
 		<title>house servant</title>
 		<titleShort>house servant</titleShort>
@@ -92,7 +102,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_HouseNoble</defName>
 		<title>Dunmer house noble</title>
 		<titleShort>noble</titleShort>
@@ -123,11 +133,11 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
     
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_Fieldhand</defName>
 		<title>plantation fieldhand</title>
 		<titleShort>fieldhand</titleShort>
-		<baseDescription>[PAWN_nameDef] grew up on a plantation, working as a fieldhand. [PAWN_pronoun] is no stranger to hard work, and long days spent in the fields made for a green thumb.</baseDescription>
+		<baseDescription>[PAWN_nameDef] grew up on a saltrice plantation, working as a fieldhand. [PAWN_pronoun] is no stranger to hard work, and long days spent in the fields made for a green thumb.</baseDescription>
 		<slot>Childhood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -151,7 +161,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_TribeChild</defName>
 		<title>ashlander tribe child</title>
 		<titleShort>tribe child</titleShort>
@@ -180,7 +190,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_AssistantAlchemist</defName>
 		<title>alchemist's assistant</title>
 		<titleShort>alchemist's assistant</titleShort>
@@ -205,6 +215,16 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -212,7 +232,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef> 
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_SixthHouseCultist</defName>
 		<title>sixth house cultist</title>
 		<titleShort>cultist</titleShort>
@@ -250,7 +270,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>  
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_Dreamer</defName>
 		<title>dreamer</title>
 		<titleShort>dreamer</titleShort>
@@ -288,7 +308,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>  
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_TempleAttendant</defName>
 		<title>temple attendant</title>
 		<titleShort>temple attendant</titleShort>
@@ -314,6 +334,11 @@
 				<degree>1</degree>
 				<chance>15</chance>
 			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -321,7 +346,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>  
 
-     <AlienRace.BackstoryDef>
+     <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_ShipsMate</defName>
 		<title>ship's mate</title>
 		<titleShort>ship's mate</titleShort>
@@ -349,7 +374,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>     
 
-      <AlienRace.BackstoryDef>
+      <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_ArmigersPage</defName>
 		<title>armiger's page</title>
 		<titleShort>page</titleShort>
@@ -378,11 +403,11 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>      
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_Thief</defName>
 		<title>thief</title>
 		<titleShort>thief</titleShort>
-		<baseDescription>[PAWN_nameDef] grew up in the Thieves' Guild. [PAWN_pronoun] was orphaned as a child, but was taken in by the Guild and taught how to make a living... by stealing from others.</baseDescription>
+		<baseDescription>[PAWN_nameDef] grew up in the Balmora Thieves' Guild. [PAWN_pronoun] was orphaned as a child, but was taken in by the Guild and taught how to make a living... by stealing from others.</baseDescription>
 		<slot>Childhood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -406,11 +431,11 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>     
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_FightersGuildTrainee</defName>
 		<title>fighters' guild trainee</title>
 		<titleShort>fighter's guild trainee</titleShort>
-		<baseDescription>[PAWN_nameDef] was a trainee in the Fighters' Guild. [PAWN_pronoun] was taught by the Guild how to hold [PAWN_possessive] own in personal combat, to hold [PAWN_possessive] weapon with confidence and dispatch [PAWN_possessive] enemies without prejudice.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was a trainee in the Balmora Fighters' Guild. [PAWN_pronoun] was taught by the Guild how to hold [PAWN_possessive] own in personal combat, to hold [PAWN_possessive] weapon with confidence and dispatch [PAWN_possessive] enemies without prejudice.</baseDescription>
 		<slot>Childhood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -435,11 +460,11 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>    
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_ShopkeepsAssistant</defName>
 		<title>shopkeep's assistant</title>
 		<titleShort>shopkeep's assistant</titleShort>
-		<baseDescription>[PAWN_nameDef] was an assistant to a shopkeep. [PAWN_pronoun] kept the shelves stocked and store presentable, and learned to sell goods and wares for a profit.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was an assistant to a shopkeep in Vivec City. [PAWN_pronoun] kept the shelves stocked and store presentable, and learned to sell goods and wares for a profit.</baseDescription>
 		<slot>Childhood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -463,11 +488,11 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>    
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_BlacksmithsApprentice</defName>
 		<title>blacksmith's apprentice</title>
 		<titleShort>blacksmith's apprentice</titleShort>
-		<baseDescription>[PAWN_nameDef] was an apprentice to a blacksmith. [PAWN_pronoun] kept the fires of the forge burning hot and learned how to swing a hammer.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was an apprentice to a blacksmith in Vivec City. [PAWN_pronoun] kept the fires of the forge burning hot and learned how to swing a hammer.</baseDescription>
 		<slot>Childhood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -492,7 +517,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>    
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_SiltStriderCaretaker</defName>
 		<title>silt strider caretaker</title>
 		<titleShort>silt strider caretaker</titleShort>
@@ -520,7 +545,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_DwemerHistoryStudent</defName>
 		<title>dwemer history student</title>
 		<titleShort>dwemer history student</titleShort>
@@ -552,7 +577,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_BanditChild</defName>
 		<title>bandit child</title>
 		<titleShort>bandit child</titleShort>
@@ -585,7 +610,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_YoungAdventurer</defName>
 		<title>young adventurer</title>
 		<titleShort>young adventurer</titleShort>
@@ -618,7 +643,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>       
 
-    <AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_abbator_Dunmer_HealerInTraining</defName>
 		<title>healer-in-training</title>
 		<titleShort>healer-in-training</titleShort>
@@ -640,6 +665,11 @@
 			</li>            
 		</skillGains>
 		<forcedTraits>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>

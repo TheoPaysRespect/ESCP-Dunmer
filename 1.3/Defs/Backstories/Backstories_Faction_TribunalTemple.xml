@@ -6,7 +6,7 @@
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_ArmigerBackstory</defName>
 		<title>buoyant armiger member</title>
-		<titleShort>buoyant armiger member</titleShort>
+		<titleShort>buoyant armiger</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Buoyant Armigers, a militant order of the Tribunal Temple. After the fall of the Tribunal [PAWN_nameDef] decided that [PAWN_pronoun] wanted to explore foreign lands.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -306,7 +306,7 @@
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_TempleBackstory</defName>
-		<title>Tribunal temple member</title>
+		<title>Tribunal Temple member</title>
 		<titleShort>Temple member</titleShort>
 		<baseDescription>[PAWN_nameDef] joined the Tribunal Temple at [PAWN_possessive] lowest point in life. Ever since then [PAWN_pronoun] has been a steadfast believer of the Tribunal, even after certain slanderous lies were spread about them.</baseDescription>
 		<slot>Adulthood</slot>
@@ -348,9 +348,9 @@
 	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_TempleLibrarianBackstory</defName>
-		<title>Tribunal temple librarian</title>
-		<titleShort>temple librarian</titleShort>
-		<baseDescription>Many thought that [PAWN_nameDef] was simply one of the librarians in charge of tending the Library of Vivec. While this was, at least partly, the case, [PAWN_nameDef] was also in charge of dealing with certain heretical tomes.</baseDescription>
+		<title>Tribunal Temple librarian</title>
+		<titleShort>Temple librarian</titleShort>
+		<baseDescription>Many thought that [PAWN_nameDef] was simply one of the librarians in charge of tending the Library of Vivec. While this was, at least partly, the case, [PAWN_nameDef] was also in charge of dealing with certain heretical tomes. No one knows where they went, but after [PAWN_nameDef] got [PAWN_possessive] hands on them, they'd never be seen again.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -386,7 +386,7 @@
 	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_TempleWitchHunterBackstory</defName>
-		<title>temple witchhunter</title>
+		<title>Temple witchhunter</title>
 		<titleShort>witchhunter</titleShort>
 		<baseDescription>[PAWN_nameDef] was one of the witchunters employed by the Tribunal Temple. While [PAWN_pronoun] was occasionally made practices of the profane disappear permanently, [PAWN_nameDef] mostly sought out heretical texts.</baseDescription>
 		<slot>Adulthood</slot>
@@ -417,6 +417,11 @@
 				<degree>1</degree>
 				<chance>30</chance>
 			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>25</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -428,7 +433,7 @@
 	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_TempleWitchHunterBackstoryAlt</defName>
-		<title>temple witchhunter</title>
+		<title>Temple witchhunter</title>
 		<titleShort>witchhunter</titleShort>
 		<baseDescription>Whenever the Temple caught wind of someone delving into the profane arts, they sent in the witchhunters, and [PAWN_nameDef] used to be one of them. [PAWN_pronoun] was part of a force tasked with clearing out Assemanu, some abandoned cave system near Hla Oad. The second the Ordinator fell, [PAWN_nameDef] fled.</baseDescription>
 		<slot>Adulthood</slot>
@@ -469,6 +474,134 @@
 		</disallowedTraits>
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>5</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TemplePilgrimBackstory</defName>
+		<title>Tribunal Temple pilgrim</title>
+		<titleShort>Temple pilgrim</titleShort>
+		<baseDescription>[PAWN_nameDef], like anyone who wished to join the Tribunal Temple, was sent on a pilgrimage of the Seven Graces, and would have to travel to several locations of importance to the Dunmer. [PAWN_nameDef] may have gotten slightly lost along the way, and decided to just keep wandering until [PAWN_pronoun] happened upon something.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Ascetic</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TempleShrineTenderBackstory</defName>
+		<title>Tribunal Temple shrine tender</title>
+		<titleShort>Temple shrine tender</titleShort>
+		<baseDescription>As a higher ranking member of the Tribunal Temple, [PAWN_nameDef] was given the honour of tending to the sacred shrines, an honour [PAWN_pronoun] took very seriously. Anyone who dared track ash into these sacred locations would get a stern talking to, so [PAWN_nameDef] yelled at pretty much everyone.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Ascetic</defName>
+				<chance>80</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TempleHealerBackstory</defName>
+		<title>Tribunal Temple healer</title>
+		<titleShort>Temple healer</titleShort>
+		<baseDescription>Many came to the Temples when seeking aid, many were in need of healing, and [PAWN_nameDef] would attempt to help them all. Some would require elixirs, some a bowl of warm soup, and others simply kind words. But sometimes, someone would arrive, and there was no helping them, and [PAWN_nameDef] would have to call the Ordinators.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Ascetic</defName>
+				<chance>80</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>

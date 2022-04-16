@@ -45,7 +45,7 @@
 		<defName>ESCP_Dunmer_BladesAgentBackstory</defName>
 		<title>blades agent</title>
 		<titleShort>agent</titleShort>
-		<baseDescription>The locals knew [PAWN_nameDef] as a carpenter, a fisherman, or sometimes a member of the local guild. [PAWN_nameDef], assuming that is [PAWN_possessive] real name, was acutally an agent of the Emperor's Blades, whose sole purpose was to monitor the Nerevarine prophecies.</baseDescription>
+		<baseDescription>The locals knew [PAWN_nameDef] as a carpenter, a fisherman, or sometimes a member of the local guild. [PAWN_nameDef], assuming that is [PAWN_possessive] real name, was actually an agent of the Emperor's Blades, whose sole purpose was to monitor the Nerevarine prophecies.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -118,6 +118,7 @@
 			</li>
 		</forcedTraits>
 		<forcedHediffs>
+			<li>ESCP_ViolentMeditationHediff</li>
 		</forcedHediffs>
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>5</femaleCommonality>
@@ -156,6 +157,65 @@
 		<femaleCommonality>5</femaleCommonality>
 		<workDisables>
 			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_MudcrabMerchantBackstory</defName>
+		<title>adventurer</title>
+		<titleShort>adventurer</titleShort>
+		<baseDescription>[PAWN_nameDef] set off on a grand adventure, to retrieve [PAWN_pronoun] bottle of vintage greef, which went missing on a stormy night many moons ago.\n\n[PAWN_possessive] neighbour swears they saw a mudcrab wander off with it. Obviously the idea of a mudcrab breaking into ones home, climbing up the stairs, and reaching up to a shelf, all while avoiding makin a single sound, is simply preposterous. But maybe there was some truth to it.\n\nOn [PAWN_possessive] journey, [PAWN_nameDef] learnt that many others have had bottles of alcohol stolen in the middle of the night. And all of them believe that a mudcrab is the culprit.\n\nSo now, [PAWN_nameDef] wanders the ashen wastes, the putrid swamps, and the fungal forest, all in search of that mudcrab.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_EarthlyDelightsBackstory</defName>
+		<title>acrobat</title>
+		<titleShort>acrobat</titleShort>
+		<baseDescription>[PAWN_nameDef] was an acrobat, or at least that's what [PAWN_pronoun] told anyone who asked. While [PAWN_pronoun] is quite flexible, in reality, [PAWN_nameDef] worked at the House of Earthly Delights, a place one could describe as a tavern, but most visited for other purposes.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+		<workDisables>
 			<li>PlantWork</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
@@ -224,6 +284,11 @@
 				<defName>Abrasive</defName>
 				<chance>100</chance>
 			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
@@ -262,6 +327,11 @@
 			<li>
 				<defName>Greedy</defName>
 				<chance>50</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>

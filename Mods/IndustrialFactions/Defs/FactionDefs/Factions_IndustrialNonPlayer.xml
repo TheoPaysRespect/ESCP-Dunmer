@@ -9,6 +9,13 @@
 	<categoryTag>ESCP_DunmerFaction</categoryTag>
 	<requiredCountAtGameStart>0</requiredCountAtGameStart>
 	<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
+	<modExtensions>
+		<li Class="ESCP_RaceTools.FactionProperties">
+			<factionTags>
+				<li>ESCP_DunmerGreatHouse</li>
+			</factionTags>
+		</li>
+	</modExtensions>
     <allowedCultures>
 		<li>ESCP_Dunmeri</li>
 	</allowedCultures>
@@ -178,6 +185,13 @@
     </colorSpectrum>
     <permanentEnemy>true</permanentEnemy>
     <techLevel>Spacer</techLevel>
+	<modExtensions>
+		<li Class="ESCP_RaceTools.FactionProperties">
+			<factionTags>
+				<li>ESCP_DunmerGreatHouse</li>
+			</factionTags>
+		</li>
+	</modExtensions>
     <allowedCultures>
 		<li>ESCP_Dunmeri</li>
 		<li>Kriminul</li>

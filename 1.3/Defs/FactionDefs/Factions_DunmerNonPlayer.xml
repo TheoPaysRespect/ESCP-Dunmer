@@ -8,23 +8,24 @@
     <factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementHonourable</factionIconPath>
     <factionNameMaker>ESCP_NamerFactionDunmerHouse</factionNameMaker>
     <settlementNameMaker>ESCP_NamerSettlementDunmerHouse</settlementNameMaker>
+	<modExtensions>
+		<li Class="ESCP_RaceTools.FactionProperties">
+			<canMoragTong>true</canMoragTong>
+			<factionTags>
+				<li>ESCP_DunmerGreatHouse</li>
+			</factionTags>
+		</li>
+	</modExtensions>
 	<categoryTag>ESCP_DunmerFaction</categoryTag>
     <allowedCultures>
 		<li>ESCP_Dunmeri</li>
 	</allowedCultures>
 	<structureMemeWeights>
-		  <ESCP_Structure_OriginTribunal MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginTribunal>
-		  <ESCP_Structure_OriginGoodDaedra MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginGoodDaedra>
-		  <ESCP_Structure_OriginHouseOfTroubles MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginHouseOfTroubles>
+		  <ESCP_Structure_OriginTribunal MayRequire="Ludeon.RimWorld.Ideology">15</ESCP_Structure_OriginTribunal>
+		  <ESCP_Structure_OriginGoodDaedra MayRequire="Ludeon.RimWorld.Ideology">15</ESCP_Structure_OriginGoodDaedra>
+		  <ESCP_Structure_OriginHouseOfTroubles MayRequire="Ludeon.RimWorld.Ideology">10</ESCP_Structure_OriginHouseOfTroubles>
+		  <ESCP_Structure_OriginLorkhanCult MayRequire="Ludeon.RimWorld.Ideology">3</ESCP_Structure_OriginLorkhanCult>
 	</structureMemeWeights>
-	<backstoryFilters Inherit = "false">
-		<li>
-			<categories>
-			  <li>ESCP_DunmerBackstory</li>
-			</categories>
-			<commonality>1</commonality>
-		</li>
-	</backstoryFilters>
 
     <caravanTraderKinds>
     </caravanTraderKinds>
@@ -196,9 +197,6 @@
 			<chance>1.0</chance>
 			<onlyCoastal>true</onlyCoastal>
         </li>
-		<li Class="ESCP_RaceTools.FactionProperties">
-			<isDunmerFaction>true</isDunmerFaction>
-		</li>
 	</modExtensions>
 	<colorSpectrum>
       <li>(0.65, 0.50, 0.20)</li>
@@ -232,9 +230,6 @@
 				<li>MorrowRim_Grazelands</li>
 			</likedBiomeList>
         </li>
-		<li Class="ESCP_RaceTools.FactionProperties">
-			<isDunmerFaction>true</isDunmerFaction>
-		</li>
 	</modExtensions>
 	<colorSpectrum>
       <li>(0.65, 0.50, 0.20)</li>
@@ -270,9 +265,6 @@
 				<li>TemperateForest</li>
 			</likedBiomeList>
         </li>
-		<li Class="ESCP_RaceTools.FactionProperties">
-			<isDunmerFaction>true</isDunmerFaction>
-		</li>
 	</modExtensions>
 	<colorSpectrum>
       <li>(0.65, 0.50, 0.20)</li>
@@ -323,9 +315,6 @@
 			</likedBiomeList>
 			<requiresWater>true</requiresWater>
         </li>
-		<li Class="ESCP_RaceTools.FactionProperties">
-			<isDunmerFaction>true</isDunmerFaction>
-		</li>
 	</modExtensions>
 	<colorSpectrum>
       <li>(0.70, 0.65, 0.20)</li>
@@ -372,9 +361,6 @@
 			<rainfallRangeMin>500</rainfallRangeMin>
 			<rainfallRangeMax>2000</rainfallRangeMax>
         </li>
-		<li Class="ESCP_RaceTools.FactionProperties">
-			<isDunmerFaction>true</isDunmerFaction>
-		</li>
 	</modExtensions>
 	<colorSpectrum>
       <li>(0.7, 1.0, 0.8)</li>
@@ -412,9 +398,6 @@
 			<rainfallRangeMin>800</rainfallRangeMin>
 			<rainfallRangeMax>5000</rainfallRangeMax>
         </li>
-		<li Class="ESCP_RaceTools.FactionProperties">
-			<isDunmerFaction>true</isDunmerFaction>
-		</li>
 	</modExtensions>
 	<colorSpectrum>
       <li>(0.3, 0.3, 0.5)</li>
@@ -461,9 +444,6 @@
 				<li>MorrowRim_VolcanicAshlands</li>
 			</likedBiomeList>
         </li>
-		<li Class="ESCP_RaceTools.FactionProperties">
-			<isDunmerFaction>true</isDunmerFaction>
-		</li>
 	</modExtensions>
 	<colorSpectrum>
       <li>(0.8, 0.4, 0.3)</li>
@@ -499,9 +479,6 @@
 				<li>MorrowRim_Grazelands</li>
 			</likedBiomeList>
         </li>
-		<li Class="ESCP_RaceTools.FactionProperties">
-			<isDunmerFaction>true</isDunmerFaction>
-		</li>
 	</modExtensions>
 	<colorSpectrum>
       <li>(0.85, 0, 0)</li>

@@ -11,7 +11,8 @@
 					<li>
 						<stuffList>
 							<li>MorrowRim_Glass</li>	<!-- MorrowRim Glass and Ebony -->
-							<li>ESCP_RawGlass</li>	<!-- ESCP Core Resources -->
+							<li>ESCP_Raw_Volcanic_Glass_Ore</li>	<!-- ESCP Core Resources -->
+							<li>ESCP_Resource_Volcanic_Glass_Ingot</li>	<!-- ESCP Core Resources -->
 						</stuffList>
 						<skillList>
 							<li>Crafting</li>
@@ -23,7 +24,7 @@
 					<li>
 						<stuffList>
 							<li>MorrowRim_Ebony</li>	<!-- MorrowRim Glass and Ebony -->
-							<li>ESCP_Ebony</li>	<!-- ESCP Core Resources -->
+							<li>ESCP_Resource_Ebony_Ingot</li>	<!-- ESCP Core Resources -->
 						</stuffList>
 						<skillList>
 							<li>Crafting</li>
@@ -35,7 +36,7 @@
 					<li>
 						<stuffList>
 							<li>MorrowRim_Adamantium</li>	<!-- MorrowRim Adamantium -->
-							<li>ESCP_Adamantium</li>	<!-- ESCP Core Resources -->
+							<li>ESCP_Resource_Adamantium_Ingot</li>	<!-- ESCP Core Resources -->
 						</stuffList>
 						<skillList>
 							<li>Crafting</li>
@@ -61,6 +62,7 @@
 							<li>InsectChitin</li>	<!-- Insects Have Chitin -->
 							<li>MorrowRim_SiltStriderChitin</li>	<!-- MorrowRim -->
 							<li>MorrowRim_NixHoundLeather</li>	<!-- MorrowRim -->
+							<li>ESCP_Item_Chitin</li>	<!-- ESCP Core Resources -->
 						</stuffList>
 						<skillList>
 							<li>Crafting</li>
@@ -68,6 +70,18 @@
 						<notJustStuff>true</notJustStuff>
 						<requiredBackstory>ESCP_Dunmer_StuffKnowledge_ChitinBackstory</requiredBackstory>
 						<chance>1.0</chance>
+					</li>
+					<li>
+						<stuffList>
+							<li>MorrowRim_HeartStone</li>	<!-- Telvanni Technology -->
+							<li>ESCP_HeartStone</li>	<!-- ESCP Core Resources -->
+						</stuffList>
+						<skillList>
+							<li>Crafting</li>
+						</skillList>
+						<notJustStuff>true</notJustStuff>
+						<requiredBackstory>ESCP_Dunmer_StuffKnowledge_HeartstoneBackstory</requiredBackstory>
+						<chance>0.3</chance>
 					</li>
 				</stuffKnowledgeList>
             </li>

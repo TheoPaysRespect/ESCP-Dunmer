@@ -3,15 +3,13 @@
 
 	<!-- Child -->
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_Dunmer_RefugeeChildBackstoryA</defName>
 		<title>Red Year refugee</title>
 		<titleShort>child refugee</titleShort>
 		<baseDescription>[PAWN_nameDef] was simply a child during the Red Year. Though [PAWN_possessive] memories of the event are hazy, every night [PAWN_pronoun] wakes up in a cold sweat, as [PAWN_possessive] nightmares force [PAWN_objective] to relive the horror.</baseDescription>
-		<slot>Childhood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_DunmerAshlanderBackstory</li>
 		  <li>ESCP_DunmerRedYearBackstory</li>
 		</spawnCategories>

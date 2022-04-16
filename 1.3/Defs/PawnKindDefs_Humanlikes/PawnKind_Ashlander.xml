@@ -5,9 +5,13 @@
 		<defName>ESCP_AshlanderTribalKind</defName>
 		<label>Ashlander tribal</label>
 		<race>ESCP_AshlanderRace</race>
-		<backstoryCategories>
-		  <li>ESCP_DunmerAshlanderBackstory</li>
-		</backstoryCategories>
+		<backstoryFiltersOverride>
+		  <li>
+			<categories>
+			  <li>ESCP_DunmerAshlanderBackstory</li>
+			</categories>
+		  </li>
+		</backstoryFiltersOverride>
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.80</baseRecruitDifficulty>
 		<isFighter>false</isFighter>

@@ -11,7 +11,8 @@
 					<li>
 						<stuffList>
 							<li>MorrowRim_Glass</li>	<!-- MorrowRim Glass and Ebony -->
-							<li>ESCP_RawGlass</li>	<!-- ESCP Core Resources -->
+							<li>ESCP_Raw_Volcanic_Glass_Ore</li>	<!-- ESCP Core Resources -->
+							<li>ESCP_Resource_Volcanic_Glass_Ingot</li>	<!-- ESCP Core Resources -->
 						</stuffList>
 						<skillList>
 							<li>Crafting</li>
@@ -25,6 +26,7 @@
 							<li>InsectChitin</li>	<!-- Insects Have Chitin -->
 							<li>MorrowRim_SiltStriderChitin</li>	<!-- MorrowRim -->
 							<li>MorrowRim_NixHoundLeather</li>	<!-- MorrowRim -->
+							<li>ESCP_Item_Chitin</li>	<!-- ESCP Core Resources -->
 						</stuffList>
 						<skillList>
 							<li>Crafting</li>

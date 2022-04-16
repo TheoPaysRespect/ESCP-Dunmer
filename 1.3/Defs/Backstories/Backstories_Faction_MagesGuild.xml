@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_MagesGuildAlchemistBackstory</defName>
+		<title>Mages Guild alchemist</title>
+		<titleShort>guild alchemist</titleShort>
+		<baseDescription>[PAWN_nameDef] was tasked with the study of the flora found on Vvardenfell, where to best to find them, and how to make use of them. From violet coprinius, to stoneflower, [PAWN_nameDef] had spent countless hours studying it, yet promotion still seemed to be a distant dream.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerMagesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_MagesGuildScholarBackstory</defName>
+		<title>Mages Guild scholar</title>
+		<titleShort>guild scholar</titleShort>
+		<baseDescription>Ever obsessed with the Dwemer, [PAWN_nameDef] made it [PAWN_pronoun] life goal to to study their eternal contraptions. While many days were spent deciphering schematics, most were simply spent attempting to locate them in the first place.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerMagesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_MagesGuildHealerBackstory</defName>
+		<title>Mages Guild healer</title>
+		<titleShort>guild healer</titleShort>
+		<baseDescription>Fully devoted to the arts of Restoration, [PAWN_nameDef] was one of many healers to be found among the Mages Guild. While [PAWN_pronoun] could have made use of [PAWN_possessive] skills working for the Tribunal Temple, [PAWN_nameDef] found the expected pay there rather lacking.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerMagesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_MagesGuildEnchanterBackstory</defName>
+		<title>Mages Guild enchanter</title>
+		<titleShort>guild enchanter</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the enchanters found at [PAWN_possessive] local Mages Guild hall. Turns out enchanting equipment was a very good way to earn drakes, which [PAWN_nameDef] was very pleased with.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerMagesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_MagesGuildGuideBackstory</defName>
+		<title>Mages Guild guide</title>
+		<titleShort>guild guide</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the few Guild Guides, experts in the art of Mysticism. A highly important role, as the guide network allowed for near instantaneous travel between guild halls, all for a small fee of course.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerMagesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_MagesGuildResearcherBackstory</defName>
+		<title>Mages Guild researcher</title>
+		<titleShort>guild researcher</titleShort>
+		<baseDescription>[PAWN_nameDef] was sent on a wild goose chase, tasked with investigating the disappearance of the Dwemer. Of course this was a nigh impossible task, for if the greatest minds of Vvardenfell hadn't figured it out yet, how could [PAWN_nameDef]?</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerMagesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>9</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+</Defs>

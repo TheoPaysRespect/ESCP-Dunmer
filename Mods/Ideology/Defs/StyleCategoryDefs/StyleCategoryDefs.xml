@@ -119,6 +119,34 @@
 			<styleDef>ESCP_Dunmeri_TorchLamp</styleDef>
 		  </li>
 		  -->
+		  <li>
+			<thingDef>Apparel_BasicShirt</thingDef>
+			<styleDef>ESCP_Dunmeri_Apparel_BasicShirt</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Apparel_CollarShirt</thingDef>
+			<styleDef>ESCP_Dunmeri_Apparel_CollarShirt</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Apparel_Duster</thingDef>
+			<styleDef>ESCP_Dunmeri_Apparel_Duster</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Apparel_Parka</thingDef>
+			<styleDef>ESCP_Dunmeri_Apparel_Parka</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Apparel_CowboyHat</thingDef>
+			<styleDef>ESCP_Dunmeri_Apparel_CowboyHat</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Apparel_BowlerHat</thingDef>
+			<styleDef>ESCP_Dunmeri_Apparel_BowlerHat</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Apparel_Tuque</thingDef>
+			<styleDef>ESCP_Dunmeri_Apparel_Tuque</styleDef>
+		  </li>
 		</thingDefStyles>
 		<addDesignators>
 		  <li>ESCP_DunmerAshPlanter</li>
@@ -178,6 +206,16 @@
 		  <li>
 			<thingDef>Apparel_VisageMask</thingDef>
 			<styleDef>ESCP_Almisivi_VisageMask</styleDef>
+		  </li>
+		  <!--
+		  <li>
+			<thingDef>Apparel_HatHood</thingDef>
+			<styleDef>ESCP_Almsivi_Apparel_Hood</styleDef>
+		  </li>
+		  -->
+		  <li>
+			<thingDef>Apparel_Robe</thingDef>
+			<styleDef>ESCP_Almsivi_Apparel_Robe</styleDef>
 		  </li>
 		</thingDefStyles>
 	</StyleCategoryDef>

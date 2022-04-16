@@ -204,5 +204,49 @@
 			<Silver>0~50</Silver>	
 		</forcedItems>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_HlaaluForemanBackstory</defName>
+		<title>Hlaalu foreman</title>
+		<titleShort>foreman</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the foreman in charge of overseeing the construction, and renovation, of strongholds in Hlaalu land. [PAWN_pronoun] made sure no expenses were spared, by keeping most of the coin safe in [PAWN_possessive] vault. Indefinitely.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerHlaaluBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Ascetic</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<forcedItems>
+			<Gold>0~5</Gold>	
+		</forcedItems>
+	</AlienRace.BackstoryDef>
 
 </Defs>

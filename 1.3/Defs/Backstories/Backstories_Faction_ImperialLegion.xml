@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_ImperialLegionDiplomatBackstory</defName>
+		<title>Imperial Legion diplomat</title>
+		<titleShort>Legion diplomat</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted at the local Imperial fort, hoping to help mend relations between the Legion and the local Dunmer populace. Things didn't exactly go as planned, but it didn't stop [PAWN_nameDef] from trying.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerImperialLegionBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_ImperialLegionGuideBackstory</defName>
+		<title>Imperial Legion guide</title>
+		<titleShort>Legion guide</titleShort>
+		<baseDescription>[PAWN_nameDef] was recruited by the local Legion fort, due to [PAWN_possessive] extensive knowledge of the lands. Accepting the offer was a risky choice, as the locals weren't exactly fond of the Legion. But the coin was too good an offer to pass up.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerImperialLegionBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_ImperialLegionSoldierBackstory</defName>
+		<title>Imperial Legion soldier</title>
+		<titleShort>Legion soldier</titleShort>
+		<baseDescription>[PAWN_nameDef] wanted to help bring Vvardenfell into the future, and decided the only logical way of achieving this was by enlisting at the local Legion Fort. Turns out most days were simply spent wandering around the fort, trying to ensure weapons and armour didn't rust. Much to [PAWN_nameDef]'s dissapointment, it seemed the future had to wait for a while.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerImperialLegionBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_ImperialLegionSoldierBackstory_Alt</defName>
+		<title>Imperial Legion soldier</title>
+		<titleShort>Legion soldier</titleShort>
+		<baseDescription>[PAWN_nameDef] wanted to help bring Vvardenfell into the future, and decided the only logical way of achieving this was by enlisting at the local Legion Fort. Turns out that was a terrible idea, as mere days later [PAWN_nameDef] was sent off to deal with Sixth House Cultists. Needless to say, [PAWN_possessive] 'nerves of steel' didn't even stand a chance.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerImperialLegionBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-1</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-2</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>

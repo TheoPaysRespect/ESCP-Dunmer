@@ -10,14 +10,14 @@
 			<operations>
 			
 				<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_KwamaBackstory"]/forcedItems</xpath>
+					<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_KwamaBackstory"]/forcedItems</xpath>
 					<value>
 						<MorrowRim_KwamaEgg>0~10</MorrowRim_KwamaEgg>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_StriderBackstory"]/forcedItems</xpath>
+					<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_StriderBackstory"]/forcedItems</xpath>
 					<value>
 						<MorrowRim_Egg_SiltStriderFertilized>-1~1</MorrowRim_Egg_SiltStriderFertilized>	
 					</value>
@@ -37,14 +37,14 @@
 			<operations>
 			
 				<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_SkoomaBackstory" or defName="ESCP_Dunmer_RefugeeBackstoryF"]/forcedItems</xpath>
+					<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_SkoomaBackstory" or defName="ESCP_Dunmer_RefugeeBackstoryF"]/forcedItems</xpath>
 					<value>
 						<Skooma>2~10</Skooma>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_SkoomaBackstory" or defName="ESCP_Dunmer_RefugeeBackstoryF"]</xpath>
+					<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_SkoomaBackstory" or defName="ESCP_Dunmer_RefugeeBackstoryF"]</xpath>
 					<value>
 						<forcedHediffs>
 						  <li>SkoomaAddiction</li>
@@ -53,6 +53,27 @@
 				</li>
 
 				
+			</operations>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MorrowRim - Alcohol Remade</li>
+		</mods> 
+				
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_DrunkardBackstory"]</xpath>
+					<value>
+						<forcedItems>
+							<MorrowRim_Sujamma>1~4</MorrowRim_Sujamma>
+						</forcedItems>
+					</value>
+				</li>
+
 			</operations>
 		</match>
 	</Operation>

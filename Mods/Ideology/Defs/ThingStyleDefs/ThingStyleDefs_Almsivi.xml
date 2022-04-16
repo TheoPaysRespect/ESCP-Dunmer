@@ -78,6 +78,8 @@
 		  <drawSize>(3,3)</drawSize>
 		</graphicData>
 	</ThingStyleDef>
+	
+	<!-- Apparel -->
   
 	<ThingStyleDef>
 		<defName>ESCP_Almisivi_VisageMask</defName>
@@ -88,6 +90,27 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingStyleDef>
+	<!--
+	<ThingStyleDef>
+		<defName>ESCP_Almsivi_Apparel_Hood</defName>
+		<overrideLabel>Almsivi robe</overrideLabel>
+		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Almsivi_Hood/ESCP_Almsivi_Hood</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Almsivi_Hood/ESCP_Almsivi_Hood_Item</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 
+		</graphicData>
+	</ThingStyleDef>
+	-->
+	<ThingStyleDef>
+		<defName>ESCP_Almsivi_Apparel_Robe</defName>
+		<overrideLabel>Almsivi robe</overrideLabel>
+		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Almsivi_Robe/ESCP_Almsivi_Robe</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Almsivi_Robe/ESCP_Almsivi_Robe_Item</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
 
 </Defs>

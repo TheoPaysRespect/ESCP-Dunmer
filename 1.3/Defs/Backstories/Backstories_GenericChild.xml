@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_Dunmer_PsychicallyGiftedBackstory_Child</defName>
 		<title>psychically gifted</title>
 		<titleShort>gifted</titleShort>
 		<baseDescription>[PAWN_nameDef] was born with a greater awareness of the unseen. After many years at the temple [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift, and hear the whispers of the ancestors.</baseDescription>
-		<slot>Childhood</slot>
+
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<defName>Social</defName>
@@ -37,16 +34,46 @@
 		<femaleCommonality>20</femaleCommonality>
 	</AlienRace.BackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_MagicallyAttunedBackstory_Child</defName>
+		<title>magically attuned</title>
+		<titleShort>attuned</titleShort>
+		<baseDescription>[PAWN_nameDef] was born with a greater control over magicka than most. After many years of tutoring by esteemed members of Great House Tevallni, [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_Dunmer_SlaverBackstory_Child</defName>
 		<title>child slaver</title>
 		<titleShort>slaver</titleShort>
 		<baseDescription>[PAWN_nameDef] was practically born to be a slaver master. As soon as [PAWN_pronoun] could form coherent sentences [PAWN_nameDef] was bossing around the other children. Within a few years [PAWN_pronoun] had amassed a reasonable number of slaves, most of which were other children.</baseDescription>
-		<slot>Childhood</slot>
+
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<defName>Social</defName>
@@ -71,15 +98,14 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_Dunmer_ChimerBackstory_Child</defName>
 		<title>Chimer</title>
 		<titleShort>Chimer</titleShort>
 		<baseDescription>[PAWN_nameDef] was born long before the Great Betrayal, before the Dunmer even existed, possibly even before the pilgramage to Resdayn. Needless to say, [PAWN_nameDef] is quite old.</baseDescription>
-		<slot>Childhood</slot>
+
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_DunmerAshlanderBackstory</li>
 		</spawnCategories>
 		<skillGains>
@@ -106,15 +132,14 @@
 		</bioAgeRange>
 	</AlienRace.BackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_Dunmer_CloneDaughterBackstory_Child</defName>
 		<title>clone daughter</title>
 		<titleShort>clone</titleShort>
 		<baseDescription>[PAWN_nameDef] wasn't exactly born like most others. Instead, [PAWN_pronoun] was cloned by, and from, a rather high ranking member of Great House Telvanni. Inheriting quite a bit of [PAWN_possessive] fathers intellect, [PAWN_nameDef] was sure to follow in [PAWN_possessive] fathers footsteps.</baseDescription>
-		<slot>Childhood</slot>
+
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
 		  <li>ESCP_DunmerTelvanniBackstory</li>
 		</spawnCategories>
 		<skillGains>
@@ -124,6 +149,11 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>

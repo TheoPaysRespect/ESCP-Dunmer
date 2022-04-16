@@ -4,12 +4,16 @@
 	<PawnKindDef>
 		<defName>ESCP_DunmerKind</defName>
 		<label>Dunmer</label>
-		<race>ESCP_DunmerRace</race>
-		<backstoryCategories>
-		  <li>Outlander</li>
-		  <li>ESCP_DunmerOutlander</li>
-		  <li>ESCP_DunmerBackstory</li>
-		</backstoryCategories>	
+		<race>ESCP_DunmerRace</race>	
+		<backstoryFiltersOverride>
+		  <li>
+			<categories>
+			  <li>Outlander</li>
+			  <li>ESCP_DunmerOutlander</li>
+			  <li>ESCP_DunmerBackstory</li>
+			</categories>
+		  </li>
+		</backstoryFiltersOverride>
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.65</baseRecruitDifficulty>
 		<isFighter>false</isFighter>
@@ -45,7 +49,7 @@
 			  <li>ESCP_DunmerBackstory</li>
 			</categories>
 		  </li>
-	</backstoryFiltersOverride>
+		</backstoryFiltersOverride>
 		
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.80</baseRecruitDifficulty>
@@ -94,6 +98,7 @@
 		<chemicalAddictionChance>0.05</chemicalAddictionChance>
 		<apparelTags>
 			<li>MedievalBasic</li>
+			<li>ESCP_MedievalDunmer_Basic</li>
 		</apparelTags>
 		<apparelMoney>
 			<min>100</min>

@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_ReclamationsPriestBackstory</defName>
+		<title>Reclamations priest</title>
+		<titleFemale>Reclamations priestess</titleFemale>
+		<titleShort>priest</titleShort>
+		<titleShortFemale>priestess</titleShortFemale>
+		<baseDescription>[PAWN_nameDef] never really cared for the Tribunal, and was rather thrilled when [PAWN_pronoun] got word the Temple was being reformed. [PAWN_nameDef] decided to help rebuild the Temple, and eventually wound up taking on a permanent role at one of the shrines.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerReclamationsBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
 	<!-- Azura -->
 	<!-- Boethiah -->
 	<!-- Mephala -->
 	
-
 </Defs>

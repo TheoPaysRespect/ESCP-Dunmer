@@ -50,8 +50,13 @@
 				<amount>3</amount>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
@@ -579,8 +584,13 @@
 				<amount>5</amount>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
 		<workDisables>
 		</workDisables>
 		<maleCommonality>0</maleCommonality>

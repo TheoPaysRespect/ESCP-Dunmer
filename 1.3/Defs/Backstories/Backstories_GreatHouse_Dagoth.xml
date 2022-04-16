@@ -39,6 +39,8 @@
 		<workDisables>
 			<li>Social</li>
 		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
 	</AlienRace.BackstoryDef>
 
 </Defs>

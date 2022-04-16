@@ -94,4 +94,141 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_DresHunterBackstory</defName>
+		<title>Dres slave hunter</title>
+		<titleShort>slave hunter</titleShort>
+		<baseDescription>[PAWN_nameDef] was part of an elite group, of slave hunters. [PAWN_objective], and [PAWN_possessive] fellow hunters, would scour the outskirts of Black Marsh, looking for easy targets. If [PAWN_nameDef] couldn't find any, [PAWN_possessive] trained nix hounds would.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerDresBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Slaver</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Xenophobia</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_DresTenderBackstory</defName>
+		<title>Dres slave tender</title>
+		<titleShort>slave tender</titleShort>
+		<baseDescription>Sometimes slaves would suffer a bit of wear and tear, and seeing as good slaves are not easy to replace, someone has to get them back in working order. [PAWN_nameDef] was such person. Whether it was some scrapes, bruises, a broken rib, or missing fingers, [PAWN_pronoun] would get them all patched up, and back into the fields.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerDresBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Slaver</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Xenophobia</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_DresFarmerBackstory</defName>
+		<title>house Dres farmer</title>
+		<titleShort>Dres farmer</titleShort>
+		<baseDescription>Not everyone living in Great House Dres territory had the luxury of relying on slaves. Some, like [PAWN_nameDef], had to work the fields themselves. This of course doesn't mean [PAWN_objective] was against slavery, quite the opposite in fact.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerDresBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Slaver</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>Xenophobia</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Mining</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
 </Defs>

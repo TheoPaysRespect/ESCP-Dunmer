@@ -23,7 +23,7 @@
       <!-- Drugs -->
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
-        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <maxTechLevelGenerate>Medieval</maxTechLevelGenerate>
         <thingDefCountRange>1~1</thingDefCountRange>
         <totalPriceRange>300~700</totalPriceRange>
       </li>

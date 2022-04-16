@@ -10,6 +10,18 @@
 		<modExtensions>
 			<li Class="ESCP_RaceTools.IdeoOrginProperties">
 				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+				<overrideDeityIcons>true</overrideDeityIcons>
+				<iconPath>
+					<li>UI/Deities/ESCP_DeityAlmalexia</li>
+					<li>UI/Deities/ESCP_DeitySothaSil</li>
+					<li>UI/Deities/ESCP_DeityVivec</li>
+				</iconPath>
+				<overrideDeityGenders>true</overrideDeityGenders>
+				<deityGenders>
+					<li>Female</li>
+					<li>Male</li>
+					<li>None</li>
+				</deityGenders>
             </li>
 		</modExtensions>
 		<iconPath>UI/Structures/ESCP_OriginTribunal</iconPath>
@@ -78,6 +90,12 @@
 		<modExtensions>
 			<li Class="ESCP_RaceTools.IdeoOrginProperties">
 				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+				<overrideDeityIcons>true</overrideDeityIcons>
+				<iconPath>
+					<li>UI/Deities/ESCP_DeityAzura</li>
+					<li>UI/Deities/ESCP_DeityBoethiah</li>
+					<li>UI/Deities/ESCP_DeityMephala</li>
+				</iconPath>
             </li>
 		</modExtensions>
 		<iconPath>UI/Structures/ESCP_OriginGoodDaedra</iconPath>
@@ -143,6 +161,13 @@
 		<modExtensions>
 			<li Class="ESCP_RaceTools.IdeoOrginProperties">
 				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+				<overrideDeityIcons>true</overrideDeityIcons>
+				<iconPath>
+					<li>UI/Deities/ESCP_DeityMalacath</li>
+					<li>UI/Deities/ESCP_DeityMehrunesDagon</li>
+					<li>UI/Deities/ESCP_DeityMolagBal</li>
+					<li>UI/Deities/ESCP_DeitySheogorath</li>
+				</iconPath>
             </li>
 		</modExtensions>
 		<iconPath>UI/Structures/ESCP_OriginHouseOfTroubles</iconPath>
@@ -209,6 +234,10 @@
 			<li Class="ESCP_RaceTools.IdeoOrginProperties">
 				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
 				<RandomiseDeityType>true</RandomiseDeityType>
+				<overrideDeityIcons>true</overrideDeityIcons>
+				<iconPath>
+					<li>UI/Deities/ESCP_DeityNerevar</li>
+				</iconPath>
             </li>
 		</modExtensions>
 		<iconPath>UI/Structures/ESCP_OriginHouseNerevarine</iconPath>
