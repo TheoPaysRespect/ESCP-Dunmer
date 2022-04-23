@@ -4,6 +4,49 @@
 	<!-- Relatively generic -->
 	
 	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_IncarnateBackstory</defName>
+		<title>incarnate</title>
+		<titleShort>incarnate</titleShort>
+		<baseDescription>[PAWN_nameDef] was lead to believe [PAWN_pronoun] was The Incarnate. After seeking out the Urshilaku tribe, [PAWN_pronoun] managed to make it through the first two trials, and was then directed to find the Cavern of the Incarnate. [PAWN_nameDef] stood in front of the door for what felt like hours, waiting for the right moment to open the door.\n\nBut [PAWN_nameDef] never felt that momment come. Truth be told, [PAWN_pronoun] always had [PAWN_possessive] doubts, and was afraid of finding out the truth. The weight of the Dunmer was simply too much to bear. Sure, [PAWN_pronoun] had made it through the first two trials, but what if that was only through pure luck?\n\nSo [PAWN_nameDef] walked away.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+		</forcedTraits>
+		<forcedHediffs>
+		</forcedHediffs>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_WerewolfHunterBackstory</defName>
 		<title>trophy hunter</title>
 		<titleShort>hunter</titleShort>

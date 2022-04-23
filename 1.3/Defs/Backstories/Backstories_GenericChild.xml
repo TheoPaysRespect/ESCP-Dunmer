@@ -38,7 +38,7 @@
 		<defName>ESCP_Dunmer_MagicallyAttunedBackstory_Child</defName>
 		<title>magically attuned</title>
 		<titleShort>attuned</titleShort>
-		<baseDescription>[PAWN_nameDef] was born with a greater control over magicka than most. After many years of tutoring by esteemed members of Great House Tevallni, [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was born with a greater control over magicka than most. After many years of tutoring by esteemed members of Great House Telvanni, [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift.</baseDescription>
 
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>

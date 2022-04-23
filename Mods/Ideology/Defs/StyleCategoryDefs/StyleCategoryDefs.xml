@@ -147,6 +147,10 @@
 			<thingDef>Apparel_Tuque</thingDef>
 			<styleDef>ESCP_Dunmeri_Apparel_Tuque</styleDef>
 		  </li>
+		  <li>
+			<thingDef>Apparel_Shadecone</thingDef>
+			<styleDef>ESCP_Dunmeri_Apparel_Shadecone</styleDef>
+		  </li>
 		</thingDefStyles>
 		<addDesignators>
 		  <li>ESCP_DunmerAshPlanter</li>

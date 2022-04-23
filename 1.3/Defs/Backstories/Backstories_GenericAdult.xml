@@ -1642,6 +1642,41 @@
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
 	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_YamMasherBackstory</defName>
+		<title>ash yam masher</title>
+		<titleShort>masher</titleShort>
+		<baseDescription>[PAWN_nameDef] had always longed for one particular thing, potatoes, which proved somewhat difficult to obtain in Vvardenfell. [PAWN_pronoun] just wanted to feel them crumble beneath [PAWN_possessive] fists, to hear them cry out in pain as their life was extinguished, to smell their essence leave their shapeless forms. Sadly, ash yams would have to do.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+				<defName>Ascetic</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+
 	<!-- Now begins the canton commoners -->
 	
 	<AlienRace.BackstoryDef>

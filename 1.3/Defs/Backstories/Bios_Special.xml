@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- I swear I'm not narcissistic -->
+
+	<AlienRace.PawnBioDef>
+		<defName>ESCP_Dunmer_DunmerBioMashed</defName>
+		<childhoodDef>ESCP_abbator_Dunmer_SixthHouseCultist</childhoodDef>
+		<adulthoodDef>ESCP_Dunmer_YamMasherBackstory</adulthoodDef>
+		<gender>Male</gender> <!-- other options are Male and Female -->
+		<name>
+		  <first>Andryn</first>
+		  <last>Sadras</last>
+		  <nick>the Masher</nick>
+		</name>
+		 <validRaces>
+		  <li>ESCP_DunmerRace</li>
+		</validRaces>
+		<factionLeader>false</factionLeader>
+	</AlienRace.PawnBioDef>
+
 	<!-- False Nerevarine -->
 
 	<AlienRace.PawnBioDef>

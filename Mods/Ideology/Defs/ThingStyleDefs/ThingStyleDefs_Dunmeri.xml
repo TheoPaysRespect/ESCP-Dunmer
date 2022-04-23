@@ -222,5 +222,16 @@
 
 		</graphicData>
 	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>ESCP_Dunmeri_Apparel_Shadecone</defName>
+		<overrideLabel>Dunmeri labourer hat</overrideLabel>
+		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_Shadecone/ESCP_Dunmeri_Shadecone</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_Shadecone/ESCP_Dunmeri_Shadecone_Item</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
 
 </Defs>
