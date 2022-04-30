@@ -30,12 +30,27 @@
 			<thingDef>Darklamp</thingDef>
 			<styleDef>ESCP_Ashlander_DarklampStanding</styleDef>
 		  </li>
-		  <!--
-		  <li>
-			<thingDef>TorchLamp</thingDef>
-			<styleDef>ESCP_Dunmeri_TorchLamp</styleDef>
+		  <!-- [ESCP Tools] -->
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern</thingDef>
+			<styleDef>ESCP_Ashlander_StandingLamp</styleDef>
 		  </li>
-		  -->
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Red</thingDef>
+			<styleDef>ESCP_Ashlander_StandingLamp_Red</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Green</thingDef>
+			<styleDef>ESCP_Ashlander_StandingLamp_Green</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Blue</thingDef>
+			<styleDef>ESCP_Ashlander_StandingLamp_Blue</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Dark</thingDef>
+			<styleDef>ESCP_Ashlander_DarklampStanding</styleDef>
+		  </li>
 		</thingDefStyles>
 		<addDesignators>
 		  <!--
@@ -113,12 +128,6 @@
 			<thingDef>Table3x3c</thingDef>
 			<styleDef>ESCP_Dunmeri_Table3x3c</styleDef>
 		  </li>
-		  <!--
-		  <li>
-			<thingDef>TorchLamp</thingDef>
-			<styleDef>ESCP_Dunmeri_TorchLamp</styleDef>
-		  </li>
-		  -->
 		  <li>
 			<thingDef>Apparel_BasicShirt</thingDef>
 			<styleDef>ESCP_Dunmeri_Apparel_BasicShirt</styleDef>
@@ -150,6 +159,27 @@
 		  <li>
 			<thingDef>Apparel_Shadecone</thingDef>
 			<styleDef>ESCP_Dunmeri_Apparel_Shadecone</styleDef>
+		  </li>
+		  <!-- [ESCP Tools] -->
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern</thingDef>
+			<styleDef>ESCP_Dunmeri_StandingLamp</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Red</thingDef>
+			<styleDef>ESCP_Dunmeri_StandingLamp_Red</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Green</thingDef>
+			<styleDef>ESCP_Dunmeri_StandingLamp_Green</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Blue</thingDef>
+			<styleDef>ESCP_Dunmeri_StandingLamp_Blue</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Dark</thingDef>
+			<styleDef>ESCP_Dunmeri_DarklampStanding</styleDef>
 		  </li>
 		</thingDefStyles>
 		<addDesignators>
@@ -220,6 +250,27 @@
 		  <li>
 			<thingDef>Apparel_Robe</thingDef>
 			<styleDef>ESCP_Almsivi_Apparel_Robe</styleDef>
+		  </li>
+		  <!-- [ESCP Tools] -->
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern</thingDef>
+			<styleDef>ESCP_Almsivi_StandingLamp</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Red</thingDef>
+			<styleDef>ESCP_Almsivi_StandingLamp_Red</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Green</thingDef>
+			<styleDef>ESCP_Almsivi_StandingLamp_Green</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Blue</thingDef>
+			<styleDef>ESCP_Almsivi_StandingLamp_Blue</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Dark</thingDef>
+			<styleDef>ESCP_Almsivi_DarklampStanding</styleDef>
 		  </li>
 		</thingDefStyles>
 	</StyleCategoryDef>
