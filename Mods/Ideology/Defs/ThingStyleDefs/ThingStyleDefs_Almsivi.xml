@@ -83,7 +83,7 @@
   
 	<ThingStyleDef>
 		<defName>ESCP_Almisivi_VisageMask</defName>
-		<overrideLabel>Almsivi mask</overrideLabel>
+		<!--<overrideLabel>Almsivi mask</overrideLabel>-->
 		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Almsivi_VisageMask/ESCP_Almsivi_VisageMask</wornGraphicPath>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Almsivi_VisageMask/ESCP_Almsivi_VisageMask</texPath>

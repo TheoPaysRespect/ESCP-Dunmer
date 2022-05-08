@@ -96,15 +96,15 @@
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
   </ThingStyleDef>
-  <!--
+<!--
   <ThingStyleDef>
-    <defName>ESCP_Dunmeri_Chair</defName>
+    <defName>ESCP_Dunmeri_DiningChair</defName>
     <graphicData>
 	  <texPath>Things/Building/BuildingStyles/ESCP_Dunmeri/Chairs/ESCP_DunmeriDiningChair</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
     </graphicData>
   </ThingStyleDef>
-  -->
+-->
   <ThingStyleDef ParentName="IdeoColumnStyleBase">
     <defName>ESCP_Dunmeri_Column</defName>
     <graphicData>
@@ -148,7 +148,7 @@
   
 	<ThingStyleDef>
 		<defName>ESCP_Dunmeri_Apparel_BasicShirt</defName>
-		<overrideLabel>Dunmeri labourer shirt</overrideLabel>
+		<!--<overrideLabel>Dunmeri labourer shirt</overrideLabel>-->
 		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_BasicShirt/ESCP_Dunmeri_BasicShirt</wornGraphicPath>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_BasicShirt/ESCP_Dunmeri_BasicShirt_Item</texPath>
@@ -159,7 +159,7 @@
 
 	<ThingStyleDef>
 		<defName>ESCP_Dunmeri_Apparel_CollarShirt</defName>
-		<overrideLabel>Dunmeri collared shirt</overrideLabel>
+		<!--<overrideLabel>Dunmeri collared shirt</overrideLabel>-->
 		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_CollarShirt/ESCP_Dunmeri_CollarShirt</wornGraphicPath>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_CollarShirt/ESCP_Dunmeri_CollarShirt_Item</texPath>
@@ -170,7 +170,7 @@
 	
 	<ThingStyleDef>
 		<defName>ESCP_Dunmeri_Apparel_Parka</defName>
-		<overrideLabel>Dunmeri heavy poncho</overrideLabel>
+		<!--<overrideLabel>Dunmeri heavy poncho</overrideLabel>-->
 		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_Parka/ESCP_Dunmeri_Parka</wornGraphicPath>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_Parka/ESCP_Dunmeri_Parka_Item</texPath>
@@ -181,7 +181,7 @@
 	
 	<ThingStyleDef>
 		<defName>ESCP_Dunmeri_Apparel_Duster</defName>
-		<overrideLabel>Dunmeri light poncho</overrideLabel>
+		<!--<overrideLabel>Dunmeri light poncho</overrideLabel>-->
 		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_Duster/ESCP_Dunmeri_Duster</wornGraphicPath>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_Duster/ESCP_Dunmeri_Duster_Item</texPath>
@@ -192,7 +192,7 @@
 	
 	<ThingStyleDef>
 		<defName>ESCP_Dunmeri_Apparel_CowboyHat</defName>
-		<overrideLabel>Dunmeri sun hat</overrideLabel>
+		<!--<overrideLabel>Dunmeri sun hat</overrideLabel>-->
 		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_CowboyHat/ESCP_Dunmeri_CowboyHat</wornGraphicPath>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_CowboyHat/ESCP_Dunmeri_CowboyHat_Item</texPath>
@@ -203,7 +203,7 @@
 
 	<ThingStyleDef>
 		<defName>ESCP_Dunmeri_Apparel_BowlerHat</defName>
-		<overrideLabel>Dunmeri fine hat</overrideLabel>
+		<!--<overrideLabel>Dunmeri fine hat</overrideLabel>-->
 		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_BowlerHat/ESCP_Dunmeri_BowlerHat</wornGraphicPath>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_BowlerHat/ESCP_Dunmeri_BowlerHat_Item</texPath>
@@ -214,7 +214,7 @@
 
 	<ThingStyleDef>
 		<defName>ESCP_Dunmeri_Apparel_Tuque</defName>
-		<overrideLabel>quilted snood</overrideLabel>
+		<!--<overrideLabel>quilted snood</overrideLabel>-->
 		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_Tuque/ESCP_Dunmeri_Tuque</wornGraphicPath>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_Tuque/ESCP_Dunmeri_Tuque_Item</texPath>
@@ -225,7 +225,7 @@
 	
 	<ThingStyleDef>
 		<defName>ESCP_Dunmeri_Apparel_Shadecone</defName>
-		<overrideLabel>Dunmeri labourer hat</overrideLabel>
+		<!--<overrideLabel>Dunmeri labourer hat</overrideLabel>-->
 		<wornGraphicPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_Shadecone/ESCP_Dunmeri_Shadecone</wornGraphicPath>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparelstyles/ESCP_Dunmeri_Shadecone/ESCP_Dunmeri_Shadecone_Item</texPath>

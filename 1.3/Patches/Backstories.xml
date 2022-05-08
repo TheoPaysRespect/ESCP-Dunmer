@@ -37,14 +37,14 @@
 			<operations>
 			
 				<li Class="PatchOperationAdd"> 
-					<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_SkoomaBackstory" or defName="ESCP_Dunmer_RefugeeBackstoryF"]/forcedItems</xpath>
+					<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_SkoomaBackstory" or defName="ESCP_Dunmer_RefugeeBackstoryF" or defName="ESCP_Dunmer_KhajiitBackstory"]/forcedItems</xpath>
 					<value>
 						<Skooma>2~10</Skooma>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationAdd"> 
-					<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_SkoomaBackstory" or defName="ESCP_Dunmer_RefugeeBackstoryF"]</xpath>
+					<xpath>/Defs/AlienRace.BackstoryDef[defName="ESCP_Dunmer_SkoomaBackstory" or defName="ESCP_Dunmer_RefugeeBackstoryF" or defName="ESCP_Dunmer_KhajiitBackstory"]</xpath>
 					<value>
 						<forcedHediffs>
 						  <li>SkoomaAddiction</li>

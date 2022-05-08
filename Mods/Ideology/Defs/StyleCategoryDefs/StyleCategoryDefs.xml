@@ -111,7 +111,12 @@
 			<thingDef>Column</thingDef>
 			<styleDef>ESCP_Dunmeri_Column</styleDef>
 		  </li>
-
+		  <!--
+		  <li>
+			<thingDef>DiningChair</thingDef>
+			<styleDef>ESCP_Dunmeri_DiningChair</styleDef>
+		  </li>
+		  -->
 		  <li>
 			<thingDef>Table1x2c</thingDef>
 			<styleDef>ESCP_Dunmeri_Table1x2c</styleDef>

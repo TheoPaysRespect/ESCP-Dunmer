@@ -73,5 +73,34 @@
 		<relationSettings>
 		</relationSettings>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_RaisedByNordsBackstory_Child</defName>
+		<title>raised by nords</title>
+		<titleShort>nord</titleShort>
+		<baseDescription>[PAWN_nameDef] spent [PAWN_possessive] early years in a nice little village in the Velothi mountains. Alas, that life came to an end one fateful day, when savage Nords attacked [PAWN_possessive] village. No one knows why, but [PAWN_nameDef] was taken from [PAWN_possessive] family by the invaders, and bought to Skyrim.\n\n[PAWN_nameDef] started a new life there, and was taught many things by [PAWN_possessive] new family. Admittedly these things were mostly focused on how to best punch stuff, but [PAWN_nameDef] also picked up a dislike for wearing clothes.\n\nOver time, [PAWN_nameDef] has become increasingly aware that [PAWN_pronoun] may in fact not actually be a Nord.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Nudist</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+		<relationSettings>
+		</relationSettings>
+	</AlienRace.BackstoryDef>
 
 </Defs>

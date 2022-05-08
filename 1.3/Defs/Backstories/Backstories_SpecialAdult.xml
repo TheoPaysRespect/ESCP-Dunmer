@@ -262,6 +262,64 @@
 			<li>PlantWork</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_ArgonianBackstory</defName>
+		<title>argonian</title>
+		<titleShort>argonian</titleShort>
+		<baseDescription>Many moons ago, [PAWN_nameDef] was a slave master at one of the many plantations found in Morrowind. One day, [PAWN_nameDef] suffered a rather serious head injury. Luckily [PAWN_pronoun] awoke fairly quickly, however [PAWN_pronoun] awoke surrounded by Argonian slaves.\n\nDue to some mild brain damage, [PAWN_nameDef] has since believed that [PAWN_pronoun] is in fact an Argonian. [PAWN_pronoun] spent many months tending the fields, alongside [PAWN_possessive] former slaves, now turned brothers in arms.\n\nEventually the plantation owner took pity on [PAWN_nameDef], and set [PAWN_objective] free.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerSlaveBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_KhajiitBackstory</defName>
+		<title>khajiit</title>
+		<titleShort>khajiit</titleShort>
+		<baseDescription>While [PAWN_nameDef] had been a skooma addict for quite some time, a particularly bad batch sent [PAWN_objective] spiralling down a strange, and somewhat unfortunate, serious of events. Eventually [PAWN_nameDef] woke up one day, in a strange land, covered in fur, and with absolutely no recollection of the past few months. For some reason, this made complete sense to [PAWN_nameDef], for [PAWN_pronoun] was in fact a Khajiit, and totally not a Dunmer</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerSlaveBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
 
 	<!-- Character based-->
 
