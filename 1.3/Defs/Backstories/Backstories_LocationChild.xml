@@ -232,6 +232,97 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_SuranBackstory_Child</defName>
+		<title>Suran child</title>
+		<titleShort>Suran child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in Suran, a pleasant town, just off the shore of Lake Masobi. While most children there spent their free time fishing, [PAWN_pronoun] instead collected minerals, and had obtained a rather sizeable collection of them. [PAWN_nameDef] so desperately wanted to gaze upon the many wondrous geodes and stones found in the House of Earthly Delights. It must have been quite an exquisite collection, if even someone as knowledgeable as [PAWN_nameDef] wasn't allowed in there.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_GnisisBackstory_Child</defName>
+		<title>Gnisis child</title>
+		<titleShort>Gnisis child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in Gnisis, one of the larger towns found on Vvardenfell. just off the shore of Lake Masobi. Many days were spent down by the waters fishing, lending a hand in the local egg mine, or helping tend the silt striders. But one thing always occupied [PAWN_possessive] mind, the local Velothi tower, and the rumours of the warlock that lives in there.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_KhuulBackstory_Child</defName>
+		<title>Khuul child</title>
+		<titleShort>Khuul child</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in Khuul, a rather unimpressive coastal village, mostly known for the local egg mines. [PAWN_nameDef] spent most of the day ferrying supplies for the egg-miners, and the rest of the day 'ferrying supplies' for the other operation found in Khuul.</baseDescription>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
 	<!-- The big cities, provides extra points -->
 	
 	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">

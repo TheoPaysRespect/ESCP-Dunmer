@@ -7,7 +7,7 @@
 		<canStartAnytime>true</canStartAnytime>
 		<shortDescOverride>ancestor seance</shortDescOverride>
 		<descOverride>A ritual in which those still living commune with their ancestors.</descOverride>
-		<ritualExpectedPostfix>{0} {1} want to carry out the seance as soon as possible.</ritualExpectedPostfix>
+		<ritualExpectedDesc>Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}.</ritualExpectedDesc>
 		<ritualObligationTargetFilter>ESCP_FilledDunmerGrave</ritualObligationTargetFilter>
 		<ritualBehavior>ESCP_DunmerSeance</ritualBehavior>
 		<ritualOutcomeEffect>ESCP_AttendedDunmerSeance</ritualOutcomeEffect>
