@@ -18,6 +18,24 @@
 		</validRaces>
 		<factionLeader>false</factionLeader>
 	</AlienRace.PawnBioDef>
+	
+	<!-- That Rick lad -->
+
+	<AlienRace.PawnBioDef>
+		<defName>ESCP_Dunmer_DunmerBioRangerRick</defName>
+		<childhoodDef>ESCP_Dunmer_OutlanderBackstory_Child</childhoodDef>
+		<adulthoodDef>ESCP_Dunmer_ImperialLegionSoldierBackstory</adulthoodDef>
+		<gender>Male</gender> <!-- other options are Male and Female -->
+		<name>
+		  <first>Rikel</first>
+		  <last>Septum</last>
+		  <nick>the Wanderer</nick>
+		</name>
+		 <validRaces>
+		  <li>ESCP_DunmerRace</li>
+		</validRaces>
+		<factionLeader>false</factionLeader>
+	</AlienRace.PawnBioDef>
 
 	<!-- False Nerevarine -->
 

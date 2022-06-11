@@ -5,8 +5,8 @@
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_ArmigerBackstory</defName>
-		<title>buoyant armiger member</title>
-		<titleShort>buoyant armiger</titleShort>
+		<title>Buoyant Armiger member</title>
+		<titleShort>Buoyant Armiger</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Buoyant Armigers, a militant order of the Tribunal Temple. After the fall of the Tribunal [PAWN_nameDef] decided that [PAWN_pronoun] wanted to explore foreign lands.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -47,7 +47,7 @@
 	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_ArmigerSharpshotBackstory</defName>
-		<title>armiger sharp-shot</title>
+		<title>Armiger sharp-shot</title>
 		<titleShort>sharp-shot</titleShort>
 		<baseDescription>Every morning [PAWN_nameDef] would climb to the top of ghostfence, ready [PAWN_possessive] arrow, and wait. [PAWN_nameDef] was one of the most renowned archers among the Boyant Armigers, and for good reason.</baseDescription>
 		<slot>Adulthood</slot>
@@ -91,9 +91,9 @@
 	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_OrdinatorBackstory</defName>
-		<title>ordinator</title>
-		<titleShort>ordinator</titleShort>
-		<baseDescription>[PAWN_nameDef] was an ordinator in service of the tribunal temple. [PAWN_pronoun] spent many a day watching scum, looking for any reason to lock them up.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Vvardenfell.</baseDescription>
+		<title>Ordinator</title>
+		<titleShort>Ordinator</titleShort>
+		<baseDescription>[PAWN_nameDef] was an Ordinator in service of the tribunal temple. [PAWN_pronoun] spent many a day watching scum, looking for any reason to lock them up.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Vvardenfell.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -132,9 +132,9 @@
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_HighOrdinatorBackstory</defName>
-		<title>high ordinator</title>
-		<titleShort>ordinator</titleShort>
-		<baseDescription>[PAWN_nameDef] was one of the elite ordinators tasked with protecting the citizens of Mournhold. [PAWN_pronoun] nearly lost [PAWN_possessive] life during the chaos caused by Sotha Sil's attack on Mournhold. Not by a fabricant, but from some peasant with a pitchfork.\n\n[PAWN_nameDef] began contemplating life once the peasant had been dealt with, and decided Mournhold wasn't for [PAWN_objective].</baseDescription>
+		<title>High Ordinator</title>
+		<titleShort>Ordinator</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the elite Ordinators tasked with protecting the citizens of Mournhold. [PAWN_pronoun] nearly lost [PAWN_possessive] life during the chaos caused by Sotha Sil's attack on Mournhold. Not by a fabricant, but from some peasant with a pitchfork.\n\n[PAWN_nameDef] began contemplating life once the peasant had been dealt with, and decided Mournhold wasn't for [PAWN_objective].</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -174,9 +174,9 @@
 	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_HandOfTheQueenBackstory</defName>
-		<title>hand of Almalexia</title>
-		<titleShort>hand of Almalexia</titleShort>
-		<baseDescription>[PAWN_nameDef] wasn't just an ordinary ordinator, [PAWN_pronoun] was one of the hands of Almalexia. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Mournhold.</baseDescription>
+		<title>Hand of Almalexia</title>
+		<titleShort>Her Hand</titleShort>
+		<baseDescription>[PAWN_nameDef] wasn't just an ordinary Ordinator, [PAWN_pronoun] was one of the Hands of Almalexia. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Mournhold.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -264,8 +264,8 @@
 	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_MourningOrdinatorBackstory</defName>
-		<title>ordinator in mourning</title>
-		<titleShort>ordinator</titleShort>
+		<title>Ordinator in Mourning</title>
+		<titleShort>Ordinator</titleShort>
 		<baseDescription>[PAWN_nameDef] was one of the Ordinators in Mourning, elite members of the Order of the Watch, tasked with protecting the sacred burial grounds of Necrom. Much of [PAWN_possessive] day was spent wandering around the catacombs, ensuring nothing went missing, and scolding anyone who dared to walk at a brisk pace.\n\n.After the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Necrom.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -388,7 +388,7 @@
 		<defName>ESCP_Dunmer_TempleWitchHunterBackstory</defName>
 		<title>Temple witchhunter</title>
 		<titleShort>witchhunter</titleShort>
-		<baseDescription>[PAWN_nameDef] was one of the witchunters employed by the Tribunal Temple. While [PAWN_pronoun] was occasionally made practices of the profane disappear permanently, [PAWN_nameDef] mostly sought out heretical texts.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was one of the witchunters employed by the Tribunal Temple. While [PAWN_pronoun] occasionally made those that practiced the profane disappear, permanently, [PAWN_nameDef] mostly sought out heretical texts and shrines.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -603,6 +603,97 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TempleJudgeBackstory</defName>
+		<title>Tribunal Temple judge</title>
+		<titleShort>Temple judge</titleShort>
+		<baseDescription>As a member of the Order of Inquisition, [PAWN_nameDef] was one of the many that decided the fate of those that defied the laws of the Temple. Any that committed acts of heresy would inevitably stand before [PAWN_nameDef], or one of [PAWN_possessive] peers.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_TempleBaarDauBackstory</defName>
+		<title>Baar Dau warden</title>
+		<titleShort>warden</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the few Ordinators 'privileged' with wandering the tunnels of Baar Dau, making sure no prisoners were stupid enough to attempt escape. While some may have considered it a privilege, to be stationed in such an important place, [PAWN_nameDef] actually found it somewhat boring. For what was there to do up there, other than beating up prisoners?</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_TribunalBackstory</li>
+		  <li>ESCP_DunmerIndorilBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Ascetic</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+			<li>Caring</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
 	
