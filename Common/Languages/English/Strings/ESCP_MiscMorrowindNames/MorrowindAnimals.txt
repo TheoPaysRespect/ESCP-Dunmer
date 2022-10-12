@@ -30,7 +30,7 @@ Cliff Skipper
 Nixad
 Pony Guar
 Scrib
-Fletcherfly
+Fetcherfly
 Haj Mota
 Wamasu
 Hoarvor
