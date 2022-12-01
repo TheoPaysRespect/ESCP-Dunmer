@@ -248,5 +248,53 @@
 			<Gold>0~5</Gold>	
 		</forcedItems>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Dunmer_HlaaluTorturerBackstory</defName>
+		<title>Hlaalu torturer</title>
+		<titleShort>torturer</titleShort>
+		<baseDescription>After spending years training in the arts of healing, [PAWN_nameDef] eventually discovered this knowledge could be used for more sinister purposes. [PAWN_pronoun] was rather fond of incorporating netch barbs into the process.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerHlaaluBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medical</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Ascetic</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<forcedItems>
+			<Silver>0~50</Silver>	
+		</forcedItems>
+	</AlienRace.BackstoryDef>
 
 </Defs>
