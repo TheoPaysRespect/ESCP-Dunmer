@@ -1,37 +1,29 @@
 Alit
+Ash Hopper
+Bantam Guar
 Cliff Racer
-Dreugh
+Cliff Skipper
+Durzog
+Fetcherfly
 Guar
+Haj Mota
+Hoarvor
 Kagouti
+Kwama
 Mudcrab
 Netch
 Nix-Hound
-Rat
-Shalk
-Slaughterfish
-Daedroth
-Dremora
-Golden Saint
-Hunger
-Ogrim
-Scamp
-Winged Twilight
-Ash Hopper
-Bantam Guar
-Tiger Guar
-Kwama
 Nix-Ox
-Scuttler
-Vvardvark
-Silt Strider
-Wormmouth
-Durzog
-Cliff Skipper
 Nixad
 Pony Guar
+Rat
 Scrib
-Fetcherfly
-Haj Mota
-Wamasu
-Hoarvor
+Scuttler
+Shalk
+Silt Strider
+Slaughterfish
 Thunderbug
+Tiger Guar
+Vvardvark
+Wamasu
+Wormmouth

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/QuestScriptDef[defName="Util_ChooseRandomQuestLodgerKind"]/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsSet"]/node[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices/li[factionDef="Empire"]</xpath>
+		<value>
+			<li>
+				<factionDef>ESCP_DunmerNonPlayerFaction_Honourable</factionDef>
+				<pawnKinds>
+					<li>ESCP_Dunmer_Tribal_Penitent</li>
+					<li>ESCP_Dunmer_Tribal_Warrior</li>
+					<li>ESCP_Dunmer_Tribal_Archer</li>
+					<li>ESCP_Dunmer_Tribal_Hunter</li>
+				</pawnKinds>
+			</li>
+			<li>
+				<factionDef>ESCP_DunmerNonPlayerFaction_Mercantile</factionDef>
+				<pawnKinds>
+					<li>ESCP_Dunmer_Tribal_Penitent</li>
+					<li>ESCP_Dunmer_Tribal_Warrior</li>
+					<li>ESCP_Dunmer_Tribal_Archer</li>
+					<li>ESCP_Dunmer_Tribal_Hunter</li>
+				</pawnKinds>
+			</li>
+			<li>
+				<factionDef>ESCP_DunmerNonPlayerFaction_Scientific</factionDef>
+				<pawnKinds>
+					<li>ESCP_Dunmer_Tribal_Penitent</li>
+					<li>ESCP_Dunmer_Tribal_Warrior</li>
+					<li>ESCP_Dunmer_Tribal_Archer</li>
+					<li>ESCP_Dunmer_Tribal_Hunter</li>
+				</pawnKinds>
+			</li>
+			<li>
+				<factionDef>ESCP_AchievementDunmer_FaithfulHouseDestroyer</factionDef>
+				<pawnKinds>
+					<li>ESCP_Dunmer_Tribal_Penitent</li>
+					<li>ESCP_Dunmer_Tribal_Warrior</li>
+					<li>ESCP_Dunmer_Tribal_Archer</li>
+					<li>ESCP_Dunmer_Tribal_Hunter</li>
+				</pawnKinds>
+			</li>
+			<li>
+				<factionDef>ESCP_AchievementDunmer_SlaverHouseDestroyer</factionDef>
+				<pawnKinds>
+					<li>ESCP_Dunmer_Tribal_Penitent</li>
+					<li>ESCP_Dunmer_Tribal_Warrior</li>
+					<li>ESCP_Dunmer_Tribal_Archer</li>
+					<li>ESCP_Dunmer_Tribal_Hunter</li>
+				</pawnKinds>
+			</li>
+			<!-- TODO ASHLANDER -->
+		</value>
+	</Operation>
+</Patch>

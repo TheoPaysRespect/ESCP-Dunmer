@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MedicineA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_MedicineA</defName>
+		<title>bantam guar tender</title>
+		<titleShort>tender</titleShort>
+		<baseDesc>[PAWN_nameDef] thought it would be a good idea to earn a living selling bantam guar eggs. Turns out bantam guar, while quite small, are overflowing with attitude, and they didn't much care for [PAWN_nameDef]. Eventually [PAWN_pronoun] was forced out of [PAWN_possessive] own dwellings, by an angry horde of bantam guar. [PAWN_nameDef] occasionally still wakes up in a cold sweat.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>-10</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-2</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Hunting</li>
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

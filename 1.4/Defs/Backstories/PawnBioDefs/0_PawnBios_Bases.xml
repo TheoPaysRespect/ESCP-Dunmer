@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_Dunmer_DunmerPawnBioBase]========== -->
+	<AlienRace.PawnBioDef Name="ESCP_Dunmer_DunmerPawnBioBase" Abstract="True">
+		<validRaces>
+			<li>ESCP_DunmerRace</li>
+		</validRaces>
+		<factionLeader>false</factionLeader>
+	</AlienRace.PawnBioDef>
+	<!-- ==========[ESCP_Dunmer_DunmerAshlanderPawnBioBase]========== -->
+	<AlienRace.PawnBioDef Name="ESCP_Dunmer_DunmerAshlanderPawnBioBase" Abstract="True">
+		<validRaces>
+			<li>ESCP_DunmerAshlanderRace</li>
+		</validRaces>
+		<factionLeader>false</factionLeader>
+	</AlienRace.PawnBioDef>
+</Defs>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[ESCP_AchievementReward_PawnJoins_Dunmer]========== -->
+	<AchievementsExpanded.Reward_MapIncident ParentName="ESCP_AchievementReward_PawnJoins_Base">
+		<defName>ESCP_AchievementReward_PawnJoins_Dunmer</defName>
+		<label>Dunmer subject joins</label>
+		<incident>ESCP_AchievementReward_PawnJoinsIncident_Dunmer</incident>
+	</AchievementsExpanded.Reward_MapIncident>
+	<!-- ==========[ESCP_AchievementReward_PawnJoins_DunmerAshlander]========== -->
+	<AchievementsExpanded.Reward_MapIncident ParentName="ESCP_AchievementReward_PawnJoins_Base">
+		<defName>ESCP_AchievementReward_PawnJoins_DunmerAshlander</defName>
+		<label>Dunmer Ashlander joins</label>
+		<incident>ESCP_AchievementReward_PawnJoinsIncident_DunmerAshlander</incident>
+	</AchievementsExpanded.Reward_MapIncident>
+</Defs>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_StuffKnowledgeChitin]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_StuffKnowledgeChitin</defName>
+		<title>master chitin smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDesc>[PAWN_nameDef] spent many years wandering the ashen wastes of Vvardenfell in search of some of the most skilled Ashlander crafters. Using their knowledge, [PAWN_pronoun] has perfected the use of chitin in crafting, producing armour and weapons that nearly rival ebony.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_Adulthood</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_StuffKnowledgeBonemold]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_StuffKnowledgeBonemold</defName>
+		<title>master bonemold smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDesc>[PAWN_nameDef] is widely considered to be one of the best bonemold smiths to have ever existed. [PAWN_possessive] works adorn some of the highest ranking members of the Dunmer Great Houses, their worth proven many times in the field of battle.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_StuffKnowledgeGlass]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_StuffKnowledgeGlass</defName>
+		<title>master glass smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDesc>[PAWN_nameDef] inherited a great wealth of knowledge from [PAWN_possessive] parents. While most of this knowledge was fairly standard, [PAWN_pronoun] did learn the secrets of working Resdayn glass, and eventually mastered the art. In [PAWN_nameDef]'s hands, usually brittle glass becomes sturdy as steel, and sharp enough to pierce ebony.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_Adulthood</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_StuffKnowledgeEbony]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_StuffKnowledgeEbony</defName>
+		<title>master ebony smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDesc>Trained by some of the finest smiths to ever call Vvardenfell their home, [PAWN_nameDef] has developed [PAWN_possessive] knack for working ebony into a fine art.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_StuffKnowledgeAdamantium]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_StuffKnowledgeAdamantium</defName>
+		<title>master adamantium smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDesc>[PAWN_nameDef] was always quite the skilled smith, and eagerly jumped at the opportunity to craft armour for the Hands of the Queen. It took [PAWN_objective] quite some time, but the final products were perfect. [PAWN_nameDef] had clearly mastered working adamantium.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_StuffKnowledgeHeartStone]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_StuffKnowledgeHeartStone</defName>
+		<title>heart stone expert</title>
+		<titleShort>heart stone expert</titleShort>
+		<baseDesc>While out wandering the beaches of Morrowind one day, [PAWN_nameDef] came across a strange smouldering stone. After a, very one sided, conversation with Master Neloth, it was revealed to [PAWN_nameDef] that what [PAWN_pronoun] found, was in fact a heart stone.\n\nSo began what felt like endless years of research, studying the hearts stones, and sourcing the locations of more. But it all paid off in the end, as [PAWN_nameDef] came away with unparalleled knowledge of these strange stones, though there was still plenty to learn about them.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<forcedTraitsChance>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

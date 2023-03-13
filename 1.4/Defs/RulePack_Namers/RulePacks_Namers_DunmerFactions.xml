@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ========== [ESCP_Dunmer_NamerFaction] ========== -->
+	<RulePackDef>
+		<defName>ESCP_Dunmer_NamerFaction</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->Great House [FamilyList]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>FamilyList->ESCP_DunmerNames/DunmerFamily</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ========== [ESCP_Dunmer_NamerFactionRaider] ========== -->
+	<RulePackDef>
+		<defName>ESCP_Dunmer_NamerFactionRaider</defName>
+		<include>
+			<li>TribalWordUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->The [DunmerCities] Reavers</li>
+				<li>r_name->[DunmerCities] Reavers</li>
+				<li>r_name->The [FamilyList] Reavers</li>
+				<li>r_name->[FamilyList]'s Reavers</li>
+				<li>r_name->[DunmerGods]'s Reavers</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>FamilyList->ESCP_DunmerNames/DunmerFamily</li>
+				<li>DunmerCities->ESCP_DunmerNames/DunmerCities</li>
+				<li>DunmerGods->ESCP_DunmerNames/DunmerGods</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ========== [ESCP_Dunmer_NamerSettlement] ========== -->
+	<RulePackDef>
+		<defName>ESCP_Dunmer_NamerSettlement</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[DunmerCities]</li>
+				<li>r_name(p=0.1)->Shrine of [DunmerGods]</li>
+				<li>r_name(p=0.1)->Shrine of Saint [DunmerSaints]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>DunmerCities->ESCP_DunmerNames/DunmerCities</li>
+				<li>DunmerGods->ESCP_DunmerNames/DunmerGods</li>
+				<li>DunmerSaints->ESCP_DunmerNames/DunmerSaints</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ========== [ESCP_Dunmer_NamerSettlementTelvanni] ========== -->
+	<RulePackDef>
+		<defName>ESCP_Dunmer_NamerSettlementTelvanni</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[TelvanniCities]</li>
+				<li>r_name->Tel [FamilyList]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>TelvanniCities->ESCP_DunmerNames/TelvanniCities</li>
+				<li>FamilyList->ESCP_DunmerNames/DunmerFamily</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ========== [ESCP_Dunmer_NamerSettlementRefugee] ========== -->
+	<RulePackDef>
+		<defName>ESCP_Dunmer_NamerSettlementRefugee</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->new [DunmerCities]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>DunmerCities->ESCP_DunmerNames/DunmerCities</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ========== [ESCP_DunmerAshlander_NamerFaction] ========== -->
+	<RulePackDef>
+		<defName>ESCP_DunmerAshlander_NamerFaction</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[FamilyList] Tribe</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>FamilyList->ESCP_AshlanderNames/AshlanderFamily</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ========== [ESCP_DunmerAshlander_NamerSettlement] ========== -->
+	<RulePackDef>
+		<defName>ESCP_DunmerAshlander_NamerSettlement</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[FamilyList] Camp</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>FamilyList->ESCP_AshlanderNames/AshlanderFamily</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+</Defs>

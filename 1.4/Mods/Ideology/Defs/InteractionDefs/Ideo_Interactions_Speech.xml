@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerSpeech_Seance]========== -->
+	<InteractionDef>
+		<defName>ESCP_DunmerSpeech_Seance</defName>
+		<label>ancestor seance</label>
+		<workerClass>InteractionWorker</workerClass>
+		<ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>
+		<symbol>Things/Mote/SpeechSymbols/ESCP_DunmerSymbolSeance</symbol>
+		<logRulesInitiator>
+			<include>
+				<li>SpeechUtility</li>
+				<li>ESCP_Dunmer_NamerUtility</li>
+			</include>
+			<rulesStrings>
+				<li>r_logentry->[INITIATOR_nameDef] [shared] [speechtopic].</li>
+				<li>shared->shared the ancestors knowledge of</li>
+				<li>shared->relayed the ancestors knowledge of</li>
+				<li>shared->shared the ancestors wisdom about</li>
+				<li>shared->relayed the ancestors wisdom about</li>
+				<!-- kinda generic shite -->
+				<li>speechtopic(priority=1)->following in their footsteps</li>
+				<li>speechtopic(priority=3)->hunting [ashlandAnimal]</li>
+				<li>speechtopic(priority=3)->growing [ashlandPlant]</li>
+				<li>speechtopic(priority=3)->harvesting [ashlandAnimal]</li>
+				<li>speechtopic(priority=3)->harvesting [ashlandPlant]</li>
+				<li>speechtopic(priority=3)->farming [ashlandAnimal]</li>
+				<li>speechtopic(priority=3)->farming [ashlandPlant]</li>
+				<li>speechtopic(priority=3)->catching [ashlandFish]</li>
+				<li>speechtopic(priority=3)->slaying [ashlandBeast]</li>
+				<!-- somewhat Dunmery -->
+				<li>speechtopic->avoiding losing an arm to slaughterfish</li>
+				<li>speechtopic->how to manage a kwama egg mine</li>
+				<li>speechtopic->optimal techniques for mining glass</li>
+				<li>speechtopic->how to mine ebony without breaking your pick</li>
+				<li>speechtopic->herding guar, and avoiding the traps they leave behind</li>
+				<li>speechtopic->holding your own in a sujamma drinking contest</li>
+				<li>speechtopic->cleaning up after your vvardvark</li>
+				<li>speechtopic->how to treat slaves properly</li>
+				<li>speechtopic->the winged menace</li>
+				<li>speechtopic->the soothing calls of a silt strider</li>
+				<li>speechtopic->the dangers of breathing ash</li>
+				<li>speechtopic->the dangers of skooma</li>
+				<li>speechtopic->the blight</li>
+				<li>speechtopic->how to clean your boots after an ash storm</li>
+				<li>speechtopic->crafting with bonemold</li>
+				<li>speechtopic->surviving the ashlands</li>
+				<li>speechtopic->living in the ashlands</li>
+				<li>speechtopic->what happens when you punch an ogrim, and why you shouldn't do it</li>
+				<li>speechtopic->how to tell the difference between an ash storm, and a cliff racer swarm</li>
+				<li>speechtopic->the wonders of skooma</li>
+				<!-- the memey fun stuff, which should probably include everything here -->
+				<li>speechtopic->where guar milk comes from</li>
+				<li>speechtopic->the lusty Argonain maid</li>
+				<li>speechtopic->why only Dunmer can ruin Resdayn</li>
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>
+</Defs>

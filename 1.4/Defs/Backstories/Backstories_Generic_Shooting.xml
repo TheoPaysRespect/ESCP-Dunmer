@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_ShootingA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_ShootingA</defName>
+		<title>Arnesian War veteran</title>
+		<titleShort>veteran</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of the many brave Dunmer who fought in the Arnesian War. [PAWN_pronoun] was one of many who heroically stormed Black Marsh. And one of the few left standing in land now belonging to Morrowind, though not entirely in one piece. In later days, [PAWN_nameDef] took up pottery, but is still surprisingly quick on [PAWN_possessive] foot.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+			<li>PegLeg</li>
+		</forcedHediffs>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+		<bioAgeRange>
+			<min>100</min>
+			<max>999</max>
+		</bioAgeRange>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

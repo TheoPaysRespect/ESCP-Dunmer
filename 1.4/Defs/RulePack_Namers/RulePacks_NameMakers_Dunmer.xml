@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ========== [ESCP_Dunmer_NamerMale] ========== -->
+	<RulePackDef>
+		<defName>ESCP_Dunmer_NamerMale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[MaleList] [FamilyList]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>MaleList->ESCP_DunmerNames/DunmerMale</li>
+				<li>FamilyList->ESCP_DunmerNames/DunmerFamily</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ========== [ESCP_Dunmer_NamerFemale] ========== -->
+	<RulePackDef>
+		<defName>ESCP_Dunmer_NamerFemale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[FemaleList] [FamilyList]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>FemaleList->ESCP_DunmerNames/DunmerFemale</li>
+				<li>FamilyList->ESCP_DunmerNames/DunmerFamily</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ========== [ESCP_DunmerAshlander_NamerMale] ========== -->
+	<RulePackDef>
+		<defName>ESCP_DunmerAshlander_NamerMale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[MaleList] [FamilyList]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>MaleList->ESCP_AshlanderNames/AshlanderMale</li>
+				<li>FamilyList->ESCP_AshlanderNames/AshlanderFamily</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ========== [ESCP_DunmerAshlander_NamerFemale] ========== -->
+	<RulePackDef>
+		<defName>ESCP_DunmerAshlander_NamerFemale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[FemaleList] [FamilyList]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>FemaleList->ESCP_AshlanderNames/AshlanderFemale</li>
+				<li>FamilyList->ESCP_AshlanderNames/AshlanderFamily</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+</Defs>

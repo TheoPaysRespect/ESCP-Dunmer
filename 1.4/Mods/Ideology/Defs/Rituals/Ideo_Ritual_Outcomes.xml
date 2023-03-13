@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RitualOutcomeEffectDef>
+		<defName>ESCP_AttendedDunmerSeance</defName>
+		<description>Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.</description>
+		<workerClass>ESCP_RaceTools.RitualOutcomeEffectWorker_DunmerSeance</workerClass>
+		<extraPredictedOutcomeDescriptions MayRequire="Ludeon.RimWorld.Royalty">
+			<li>If the {0} is enlightening, a random participant might get a psylink upgrade or unlock new psychic powers.</li>
+		</extraPredictedOutcomeDescriptions>
+		<outcomeChances>
+			<li>
+				<label>Terrible</label>
+				<chance>0.05</chance>
+				<memory>ESCP_DunmerTerribleSeance</memory>
+				<description>The {0} was a terrible! Everyone felt insulted for having had to endure it. Why should we listen to the ancestors if this is all they have to say?</description>
+				<positivityIndex>-2</positivityIndex>
+			</li>
+			<li>
+				<label>Lackluster</label>
+				<chance>0.15</chance>
+				<memory>ESCP_DunmerLacklusterSeance</memory>
+				<description>The {0} was lackluster. The seance was long-winded and quite frankly somewhat boring.</description>
+				<positivityIndex>-1</positivityIndex>
+			</li>
+			<li>
+				<label>Good</label>
+				<chance>0.6</chance>
+				<memory>ESCP_DunmerGoodSeance</memory>
+				<description>The {0} was good. The ancestor's wisdom provided a path for everyone to follow.</description>
+				<positivityIndex>1</positivityIndex>
+			</li>
+			<li>
+				<label>Enlightening</label>
+				<chance>0.2</chance>
+				<memory>ESCP_DunmerEnlighteningSeance</memory>
+				<description>The {0} was enlightening. The ancestors are truly knowledgeable, and we are lucky to have been bestowed even a fraction of it.</description>
+				<potentialExtraOutcomeDesc MayRequire="Ludeon.RimWorld.Royalty">One of the participants may get a psylink upgrade or unlock a new psychic power.</potentialExtraOutcomeDesc>
+				<positivityIndex>2</positivityIndex>
+			</li>
+		</outcomeChances>
+		<comps>
+			<li Class="RitualOutcomeComp_RolePresentNotSubstituted">
+				<roleId>ESCP_DunmerSpeaker</roleId>
+				<label>ancestor speaker present</label>
+				<qualityOffset>0.3</qualityOffset>
+			</li>
+			<li Class="RitualOutcomeComp_ParticipantCount">
+				<label>participant count</label>
+				<curve>
+					<points>
+						<li>(1,  0.0)</li>
+						<li>(5,  0.3)</li>
+						<li>(10, 0.5)</li>
+					</points>
+				</curve>
+			</li>
+			<li Class="RitualOutcomeComp_RoomStat">
+				<label>room cleanliness</label>
+				<statDef>Cleanliness</statDef>
+				<curve>
+					<points>
+						<li>-2.0,  -0.2</li>
+						<li>-1.0,  -0.1</li>
+						<li>-0.6,  0</li>
+						<li>-0.3,  0.1</li>
+						<li>0.0, 0.2</li>
+					</points>
+				</curve>
+			</li>
+		</comps>
+	</RitualOutcomeEffectDef>
+</Defs>

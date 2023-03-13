@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_Dunmer_DunmerPawnBio_BaladasDemnevanni]========== -->
+	<AlienRace.PawnBioDef ParentName="ESCP_Dunmer_DunmerPawnBioBase">
+		<defName>ESCP_Dunmer_DunmerPawnBio_BaladasDemnevanni</defName>
+		<childhood>ESCP_DunmerBackstory_ChildhoodIntellectualA</childhood>
+		<adulthood>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3E</adulthood>
+		<gender>Male</gender>
+		<name>
+			<first>Baladas</first>
+			<last>Demnevanni</last>
+		</name>
+	</AlienRace.PawnBioDef>
+	<!-- ==========[ESCP_Dunmer_DunmerPawnBio_DivaythFyr]========== -->
+	<AlienRace.PawnBioDef ParentName="ESCP_Dunmer_DunmerPawnBioBase">
+		<defName>ESCP_Dunmer_DunmerPawnBio_DivaythFyr</defName>
+		<childhood>ESCP_DunmerBackstory_ChildhoodIntellectualA</childhood>
+		<adulthood>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3F</adulthood>
+		<gender>Male</gender>
+		<name>
+			<first>Divayth</first>
+			<last>Fyr</last>
+		</name>
+	</AlienRace.PawnBioDef>
+	<!-- ==========[ESCP_Dunmer_DunmerPawnBio_FastEddie]========== -->
+	<AlienRace.PawnBioDef ParentName="ESCP_Dunmer_DunmerPawnBioBase">
+		<defName>ESCP_Dunmer_DunmerPawnBio_FastEddie</defName>
+		<childhood>ESCP_DunmerBackstory_ChildhoodIntellectualB</childhood>
+		<adulthood>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniSpecialB</adulthood>
+		<gender>Male</gender>
+		<name>
+			<first>Edd</first>
+			<last>Theman</last>
+			<nick>Fast Eddie</nick>
+		</name>
+	</AlienRace.PawnBioDef>
+</Defs>

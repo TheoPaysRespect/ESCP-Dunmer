@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerKnowBuriedInSarcophagus]========== -->
+	<ThoughtDef>
+		<defName>ESCP_DunmerKnowBuriedInSarcophagus</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>10</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>buried in sarcophagus</label>
+				<description>This colony buried someone in an ornamented sarcophagus. May they rejoin our ancestors.</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!-- ==========[ESCP_ButcheredDunmerCorpse]========== -->
+	<ThoughtDef>
+		<defName>ESCP_ButcheredDunmerCorpse</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>10</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>I butchered a Dunmer</label>
+				<description>I butchered a Dunmer up like an animal. Now they will never be able to join the ancestors.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!-- ==========[ESCP_KnowButcheredDunmerCorpse]========== -->
+	<ThoughtDef>
+		<defName>ESCP_KnowButcheredDunmerCorpse</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>we butchered a Dunmer</label>
+				<description>We butchered a Dunmer up like an animal. Now they will never be able to join the ancestors.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!-- ==========[ESCP_AteDunmerMeatDirect]========== -->
+	<ThoughtDef>
+		<defName>ESCP_AteDunmerMeatDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>raw cannibalism</label>
+				<description>I ate the meat of another Dunmer, raw, like an animal. I can feel the ancestors wailing out in pain.</description>
+				<baseMoodEffect>-25</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!-- ==========[ESCP_AteDunmerMeatAsIngredient]========== -->
+	<ThoughtDef>
+		<defName>ESCP_AteDunmerMeatAsIngredient</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>cooked cannibalism</label>
+				<description>I ate a meal made from the meat of another Dunmer. I can feel the ancestors crying out in pain.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!-- ==========[ESCP_DunmerAshCovered]========== -->
+	<ThoughtDef>
+		<defName>ESCP_DunmerAshCovered</defName>
+		<durationDays>0.2</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>covered in ash</label>
+				<description>Just another day in the ashlands</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!-- ==========[ESCP_DunmerAteScuttle]========== -->
+	<ThoughtDef>
+		<defName>ESCP_DunmerAteScuttle</defName>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate scuttle</label>
+				<description>So delicious, I can't wait to have more.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[ESCP_AchievementReward_PawnJoinsIncident_Dunmer]========== -->
+	<IncidentDef ParentName="ESCP_AchievementReward_PawnJoinsIncident_Base">
+		<defName>ESCP_AchievementReward_PawnJoinsIncident_Dunmer</defName>
+		<label>Dunmer subject joins</label>
+		<letterLabel>Dunmer joins: {PAWN_nameDef}</letterLabel>
+		<pawnKind>ESCP_DunmerPlayerPawnKind_Medieval</pawnKind>
+	</IncidentDef>
+	<!-- ==========[ESCP_AchievementReward_PawnJoinsIncident_DunmerAshlander]========== -->
+	<IncidentDef ParentName="ESCP_AchievementReward_PawnJoinsIncident_Base">
+		<defName>ESCP_AchievementReward_PawnJoinsIncident_DunmerAshlander</defName>
+		<label>Dunmer Ashlander subject joins</label>
+		<letterLabel>Dunmer Ashlander joins: {PAWN_nameDef}</letterLabel>
+		<pawnKind>ESCP_DunmerAshlanderPlayerPawnKind_Medieval</pawnKind>
+	</IncidentDef>
+</Defs>

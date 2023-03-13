@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SpecialMarked]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SpecialMarked</defName>
+		<title>marked by the Morag Tong</title>
+		<titleShort>marked</titleShort>
+		<baseDesc>[PAWN_nameDef] may have 'borrowed' from a shop keeper in Vivec City. Turns out the shop keeper knew someone rather high up in the Morag Tong. Now [PAWN_nameDef] has fled for [PAWN_possessive] life, hoping that the Morag Tong won't follow.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<forcedTraitsChance>
+			<li>
+				<defName>QuickSleeper</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-2</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>-1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SpecialIncarnate]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SpecialIncarnate</defName>
+		<title>incarnate</title>
+		<titleShort>incarnate</titleShort>
+		<baseDesc>[PAWN_nameDef] was lead to believe [PAWN_pronoun] was The Incarnate. After seeking out the Urshilaku tribe, [PAWN_pronoun] managed to make it through the first two trials, and was then directed to find the Cavern of the Incarnate. [PAWN_nameDef] stood in front of the door for what felt like hours, waiting for the right moment to open the door.\n\nBut [PAWN_nameDef] never felt that moment come. Truth be told, [PAWN_pronoun] always had [PAWN_possessive] doubts, and was afraid of finding out the truth. The weight of the Dunmer was simply too much to bear. Sure, [PAWN_pronoun] had made it through the first two trials, but what if that was only through pure luck?\n\nSo [PAWN_nameDef] walked away.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>
