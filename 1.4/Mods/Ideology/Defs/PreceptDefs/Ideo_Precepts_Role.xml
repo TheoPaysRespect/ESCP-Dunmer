@@ -30,6 +30,7 @@
 			<li>ESCP_Dunmer_IdeoRole_AncestorSpeaker</li>
 		</roleTags>
 		<requiredMemes>
+			<li>ESCP_Cursed</li>
 			<li>ESCP_Structure_OriginTribunal</li>
 			<li>ESCP_Structure_OriginGoodDaedra</li>
 			<li>ESCP_Structure_OriginHouseOfTroubles</li>

@@ -17,6 +17,7 @@
 		<receivesExpectationsQualityOffset>true</receivesExpectationsQualityOffset>
 		<canGenerateAsSpecialPrecept>false</canGenerateAsSpecialPrecept>
 		<requiredMemes>
+			<li>ESCP_Cursed</li>
 			<li>ESCP_Structure_OriginTribunal</li>
 			<li>ESCP_Structure_OriginGoodDaedra</li>
 			<li>ESCP_Structure_OriginHouseOfTroubles</li>
