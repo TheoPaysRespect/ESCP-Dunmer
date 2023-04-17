@@ -31,7 +31,7 @@
 				</pawnKinds>
 			</li>
 			<li>
-				<factionDef>ESCP_AchievementDunmer_FaithfulHouseDestroyer</factionDef>
+				<factionDef>ESCP_DunmerNonPlayerFaction_Faithful</factionDef>
 				<pawnKinds>
 					<li>ESCP_Dunmer_Tribal_Penitent</li>
 					<li>ESCP_Dunmer_Tribal_Warrior</li>
@@ -40,7 +40,7 @@
 				</pawnKinds>
 			</li>
 			<li>
-				<factionDef>ESCP_AchievementDunmer_SlaverHouseDestroyer</factionDef>
+				<factionDef>ESCP_DunmerNonPlayerFaction_Slaver</factionDef>
 				<pawnKinds>
 					<li>ESCP_Dunmer_Tribal_Penitent</li>
 					<li>ESCP_Dunmer_Tribal_Warrior</li>
