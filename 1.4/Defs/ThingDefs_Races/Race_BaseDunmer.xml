@@ -19,6 +19,9 @@
 			<ArmorRating_Heat>1.2</ArmorRating_Heat>
 			<ComfyTemperatureMax>36</ComfyTemperatureMax>
 		</statBases>
+		<race>
+			<leatherDef>ESCP_LeatherDunmer</leatherDef>
+		</race>
 		<alienRace>
 			<generalSettings>
 				<alienPartGenerator>
