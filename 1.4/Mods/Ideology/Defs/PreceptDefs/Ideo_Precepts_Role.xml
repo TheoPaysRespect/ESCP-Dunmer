@@ -62,7 +62,6 @@
 			<li MayRequire="SirMashedPotato.MorrowRim.Bonewalkers">MorrowRim_BonewalkerAbility_PacifyMass</li>
 		</grantedAbilities>
 		<roleDisabledWorkTags>
-			<li>Crafting</li>
 			<li>Mining</li>
 			<li>Constructing</li>
 		</roleDisabledWorkTags>
