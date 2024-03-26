@@ -38,6 +38,7 @@
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 			<preventDeteriorationInside>true</preventDeteriorationInside>
+			<isEscapableContainer>false</isEscapableContainer>
 			<haulToContainerDuration>500</haulToContainerDuration>
 			<fixedStorageSettings>
 				<filter>
