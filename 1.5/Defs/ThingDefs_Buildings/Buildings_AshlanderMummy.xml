@@ -31,6 +31,7 @@
 			<preventDeteriorationInside>true</preventDeteriorationInside>
 			<haulToContainerDuration>500</haulToContainerDuration>
 			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEscapableContainer>false</isEscapableContainer>
 			<fullGraveGraphicData>
 				<texPath>Things/Building/Misc/ESCP_DunmerAshlanderMummy/ESCP_DunmerAshlanderMummy_Full</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
