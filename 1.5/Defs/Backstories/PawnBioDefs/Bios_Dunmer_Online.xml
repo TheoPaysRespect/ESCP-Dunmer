@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_Dunmer_DunmerPawnBio_NaryuVirian]========== -->
+	<AlienRace.PawnBioDef ParentName="ESCP_Dunmer_DunmerPawnBioBase">
+		<defName>ESCP_Dunmer_DunmerPawnBio_NaryuVirian</defName>
+		<childhood>ESCP_DunmerBackstory_ChildhoodBalmora</childhood>
+		<adulthood>ESCP_DunmerBackstory_Adulthood_MoragTongB</adulthood>
+		<gender>Female</gender>
+		<name>
+			<first>Naryu</first>
+			<last>Virian</last>
+		</name>
+	</AlienRace.PawnBioDef>
+</Defs>

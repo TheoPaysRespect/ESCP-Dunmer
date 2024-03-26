@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RitualObligationTargetFilterDef>
+		<defName>ESCP_FilledDunmerGrave</defName>
+		<workerClass>ESCP_RaceTools.RitualObligationTargetWorker_FilledDunmerGrave</workerClass> 
+	</RitualObligationTargetFilterDef>
+</Defs>

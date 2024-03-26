@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Various Tribunal backstories also have the Indoril tag -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase" Name="ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilBase" Abstract="True">
+		<spawnCategories>
+			<li>ESCP_DunmerGreatHouse_Indoril_Adulthood</li>
+		</spawnCategories>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nerves</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Cannibal</defName>
+			</li>
+		</disallowedTraitsChance>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT2Base]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilBase" Name="ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT2Base" Abstract="True">
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT3Base]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilBase" Name="ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT3Base" Abstract="True">
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Tier 1] ==================== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT1A]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT1A</defName>
+		<title>Indoril member</title>
+		<titleShort>member</titleShort>
+		<baseDesc>[PAWN_nameDef] was a fairly unremarkable member of Great House Indoril, the great house of Indoril Nerevar himself. Like most members of House Indoril, [PAWN_nameDef] firmly believes that Dunmer culture must be respected and preserved, even the less desirable parts of it.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Melee>2</Melee>
+			<Shooting>2</Shooting>
+			<Social>2</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT1B]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT1B</defName>
+		<title>Indoril velk herder</title>
+		<titleShort>herder</titleShort>
+		<baseDesc>[PAWN_nameDef] was a velk herder. Most days consisted of [PAWN_nameDef] running around, mending broken fences, and ensuring the velk didn't wander off, which they seemed to enjoy doing.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Animals>3</Animals>
+			<Construction>3</Construction>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT1C]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT1C</defName>
+		<title>Indoril punavit brewer</title>
+		<titleShort>brewer</titleShort>
+		<baseDesc>[PAWN_nameDef] worked in a brewery near Vhul, not any normal brewery of course, for this was a punavit brewery. A drink that was considered sacred to the Indoril, and [PAWN_nameDef] helped create it.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Cooking>4</Cooking>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Tier 2] ==================== -->
+	<!-- ==================== [Tier 3] ==================== -->
+	<!-- ==================== [Special] ==================== -->
+</Defs>

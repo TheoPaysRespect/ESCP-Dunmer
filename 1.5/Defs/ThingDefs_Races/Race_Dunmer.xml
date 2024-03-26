@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_Dunmer">
+		<defName>ESCP_DunmerRace</defName>
+		<label>Dunmer</label>
+		<description>An elven race that calls the ashlands their home. Stories say that the Dunmer were cursed after a great betrayal, leaving them with ash coloured skin and fire coloured eyes. After the eruption of Red Mountain many Dunmer fled their ancestral homeland.\n\nDunmer culture is rather resistant to change, continuing to uphold traditions from many years ago. The dead are treated with great respect, as it is believed that in a time of need they may return to this plane to provide aid. The corpses themselves are cremated. The ash and bones are then spread in a ash pit, often in a family tomb. This is thought to return the dead to the fires they were born from. Dunmer are prone to xenophobia, often seeing other races as nothing more than a taint to be eradicated or enslaved. In more recent times they have, begrudgingly, opened trade routes between more cultured races.\n\n&lt;color=#E5E54C&gt;Mer Blood&lt;/color&gt;\nPsychic sensitivity is increased by 20%\nFertility is decreased by 50%.\nBase health scale is decreased by 20%\nLife expectancy is increased to 300 years.\n\n&lt;color=#E5E54C&gt;Azura's Curse&lt;/color&gt;\nCursed with skin the colour of bruise.\nCursed with eyes the colour of fire.\n\n&lt;color=#E5E54C&gt;Children of Resdayn&lt;/color&gt;\nMaximum comfortable temperature is increased by 10°C (50°F).\nHeat armour is increased by 20%.\nFlammability is decreased by 80%.\nImmune to ash build up from ash storms.</description>
+		<race>
+			<nameGenerator>ESCP_Dunmer_NamerMale</nameGenerator>
+			<nameGeneratorFemale>ESCP_Dunmer_NamerFemale</nameGeneratorFemale>
+		</race>
+		<alienRace>
+			<raceRestriction>
+				<traitList>
+					<li>ESCP_Dunmer_AlmalexiaBlessing</li>
+					<li>ESCP_Dunmer_VivecBlessing</li>
+					<li>ESCP_Dunmer_SothaSilBlessing</li>
+				</traitList>
+			</raceRestriction>
+		</alienRace>
+	</AlienRace.ThingDef_AlienRace>
+</Defs>

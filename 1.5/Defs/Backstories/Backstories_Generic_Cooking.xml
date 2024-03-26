@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CookingA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CookingA</defName>
+		<title>scuttle cook</title>
+		<titleShort>cook</titleShort>
+		<baseDesc>[PAWN_nameDef] has always maintained that [PAWN_pronoun] invented scuttle, due to [PAWN_possessive] dislike of insect meat. Everyone around [PAWN_objective] knew it was a lie, but the scuttle was very tasty, so they feigned belief in [PAWN_nameDef] anyway.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Cooking>4</Cooking>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Gourmand</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CookingB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CookingB</defName>
+		<title>St. Olms brewer</title>
+		<titleShort>brewer</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Brewers and Fishmongers Hall of the St. Olms canton. [PAWN_pronoun] always questioned why the brewers and fishmongers had to share a hall, what with the constant smell of fish tainting the alcohol.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Cooking>4</Cooking>
+			<Social>3</Social>
+		</skillGains>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

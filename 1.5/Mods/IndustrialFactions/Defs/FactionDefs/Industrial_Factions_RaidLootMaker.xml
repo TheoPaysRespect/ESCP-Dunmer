@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingSetMakerDef ParentName="ESCP_GenericIndustrialRaidLootMaker_Base">
+		<defName>ESCP_Industrial_DunmerRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li MayRequire="SirMashedPotato.MorrowRim.SimpleBonemold">ESCP_BonemoldItem</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.Scuttle">MorrowRim_Scuttle</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.GlassAndEbony">MorrowRim_Glass</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.GlassAndEbony">MorrowRim_Ebony</li>
+						<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_KwamaEgg</li>
+						<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_NetchJelly</li>
+						<!-- Booze -->
+						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Sujamma</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Shein</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Mazte</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Greef</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+</Defs>

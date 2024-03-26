@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_Dunmer">
+		<defName>ESCP_DunmerAshlanderRace</defName>
+		<label>Dunmer Ashlander</label>
+		<description>An elven race that calls the ashlands their home. Stories say that the Dunmer were cursed after a great betrayal, leaving them with ash coloured skin and fire coloured eyes. After the eruption of Red Mountain many Dunmer fled their ancestral homeland.\n\nAshlanders are culturally rather distinct from the settled Dunmer, with the primary difference being their clinging to the old ways. The dead are often mummified and buried in elaborate natural caverns, as opposed to being cremated and spread in an ash pit. They worship the Daedra, instead of the Tribunal. They live in nomadic camps, instead of cities. Of course, all these differences have resulted in a rift between the Ashlanders and the Settled Dunmer, causing meetings between the two cultures to often end with hostility.\n\n&lt;color=#E5E54C&gt;Mer Blood&lt;/color&gt;\nPsychic sensitivity is increased by 20%\nFertility is decreased by 50%.\nBase health scale is decreased by 20%\nLife expectancy is increased to 300 years.\n\n&lt;color=#E5E54C&gt;Azura's Curse&lt;/color&gt;\nCursed with skin the colour of bruise.\nCursed with eyes the colour of fire.\n\n&lt;color=#E5E54C&gt;Children of Resdayn&lt;/color&gt;\nMaximum comfortable temperature is increased by 10°C (50°F).\nHeat armour is increased by 20%.\nFlammability is decreased by 80%.\nImmune to ash build up from ash storms.</description>
+		<race>
+			<nameGenerator>ESCP_DunmerAshlander_NamerMale</nameGenerator>
+			<nameGeneratorFemale>ESCP_DunmerAshlander_NamerFemale</nameGeneratorFemale>
+			<useMeatFrom>ESCP_DunmerRace</useMeatFrom>
+		</race>
+		<alienRace>
+			<raceRestriction>
+				<buildingList>
+					<li>ESCP_Dunmer_AshlanderMummy</li>
+				</buildingList>
+			</raceRestriction>
+		</alienRace>
+	</AlienRace.ThingDef_AlienRace>
+</Defs>
