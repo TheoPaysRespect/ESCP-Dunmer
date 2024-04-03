@@ -460,20 +460,17 @@
 					<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AteInsectEggAsIngredient</li>
 					<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AteInsectEggDirect</li>
 					<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AteNixOxMilk</li>
+					<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AshStorm</li>
 				</cannotReceiveThoughts>
 				<replacerList>
 					<li>
 						<original>KnowBuriedInSarcophagus</original>
 						<replacer>ESCP_DunmerKnowBuriedInSarcophagus</replacer>
 					</li>
-					<!--<li MayRequire="sirmashedpotato.ashlands">
+					<li MayRequire="sirmashedpotato.ashlands">
 						<original>Mashed_Ashlands_OutsideInDustStorm</original>
 						<replacer>ESCP_DunmerAshCovered</replacer>
 					</li>
-					<li MayRequire="sirmashedpotato.ashlands">
-						<original>Mashed_Ashlands_AshStorm</original>
-						<replacer>ESCP_DunmerAshCovered</replacer>
-					</li>-->
 					<li MayRequire="sirmashedpotato.ashlands">
 						<original>Mashed_Ashlands_AteScuttle</original>
 						<replacer>ESCP_DunmerAteScuttle</replacer>
