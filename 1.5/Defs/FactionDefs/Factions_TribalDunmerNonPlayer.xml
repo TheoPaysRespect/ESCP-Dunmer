@@ -28,8 +28,8 @@
 		</structureMemeWeights>
 		<requiredMemes/>
 		<caravanTraderKinds>
-			<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_AshlandsTrader</li> <!--TO FIX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1-->
-			<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_DunmerAlcoholTrader</li> <!--TO FIX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1-->
+			<li MayRequire="sirmashedpotato.ashlands">ESCP_AshlandsTrader</li>
+			<li MayRequire="sirmashedpotato.ashlands">ESCP_DunmerAlcoholTrader</li>
 		</caravanTraderKinds>
 		<raidLootMaker>ESCP_DunmerRaidLootMaker</raidLootMaker>
 		<pawnGroupMakers>
@@ -296,7 +296,7 @@
 			<li>(0.80, 0.85, 0.60)</li>
 		</colorSpectrum>
 		<caravanTraderKinds>
-			<li MayRequire="SirMashedPotato.TevalvanniTechnology">MorrowRim_TelvanniTrader</li> <!--FIX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+			<li MayRequire="SirMashedPotato.TevalvanniTechnology">MorrowRim_TelvanniTrader</li>
 		</caravanTraderKinds>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
@@ -381,6 +381,14 @@
 			<li>(0.3, 0.3, 0.5)</li>
 			<li>(0.5, 0.4, 0.3)</li>
 		</colorSpectrum>
+		<caravanTraderKinds Inherit="false"> <!--to replace standard slaver with dres slaver-->
+			<li MayRequire="sirmashedpotato.ashlands">ESCP_AshlandsTrader</li>
+			<li MayRequire="sirmashedpotato.ashlands">ESCP_DunmerAlcoholTrader</li>
+			<li>ESCP_DunmerCaravan_DresSlaver</li>
+			<li>Caravan_Neolithic_BulkGoods</li>
+			<li>Caravan_Neolithic_WarMerchant</li>
+			<li>Caravan_Neolithic_ShamanMerchant</li>
+		</caravanTraderKinds>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>

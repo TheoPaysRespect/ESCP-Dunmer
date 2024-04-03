@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Mashed's Ashlands</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Mashed_Ashlands_AlcoholBase"]</xpath>
+                    <value>
+                        <tradeTags>
+                            <li>ESCP_DunmerBooze</li>
+                        </tradeTags>
+                    </value>
+                </li>
+            </operations>
+<!--saltrice, comberry, meadow rye, whickwheat, -->
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Mashed_Ashlands_RawComberry"]</xpath>
+                    <value>
+                        <tradeTags>
+                            <li>ESCP_DunmerBoozeCrop</li>
+                        </tradeTags>
+                    </value>
+                </li>
+            </operations>
+
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Mashed_Ashlands_RawMeadowRye"]</xpath>
+                    <value>
+                        <tradeTags>
+                            <li>ESCP_DunmerBoozeCrop</li>
+                        </tradeTags>
+                    </value>
+                </li>
+            </operations>
+
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Mashed_Ashlands_RawSaltrice"]</xpath>
+                    <value>
+                        <tradeTags>
+                            <li>ESCP_DunmerBoozeCrop</li>
+                        </tradeTags>
+                    </value>
+                </li>
+            </operations>
+
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Mashed_Ashlands_RawWickwheat"]</xpath>
+                    <value>
+                        <tradeTags>
+                            <li>ESCP_DunmerBoozeCrop</li>
+                        </tradeTags>
+                    </value>
+                </li>
+            </operations>
+
+        </match>
+    </Operation>
+</Patch>

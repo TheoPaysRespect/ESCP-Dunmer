@@ -42,7 +42,7 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
 		</disallowedPrecepts>
 		<caravanTraderKinds>
-			<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_AshlandsTrader</li>			<!--TO FIX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1-->
+			<li MayRequire="sirmashedpotato.ashlands">ESCP_AshlandsTrader</li>
 		</caravanTraderKinds>
 		<raidLootMaker>ESCP_DunmerAshlanderRaidLootMaker</raidLootMaker>
 		<pawnGroupMakers>
