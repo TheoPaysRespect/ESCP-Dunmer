@@ -5,11 +5,21 @@
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
 				<likedBiomeList>
-					<li>MorrowRim_Ashlands</li>
-					<li>MorrowRim_BlightedAshlands</li>
-					<li>MorrowRim_VolcanicAshlands</li>
-					<li>MorrowRim_AshSwamp</li>
-					<li>MorrowRim_Grazelands</li>
+					<li>Mashed_Ashlands_SwampAshlands</li>
+					<li>Mashed_Ashlands_GrazelandAshlands</li>
+					<li>Mashed_Ashlands_Ashlands</li>
+					<li>Mashed_Ashlands_DustplainAshlands</li>
+
+					<li>Mashed_Ashlands_BlightedAshlands</li>
+					<li>Mashed_Ashlands_BlightedBogAshlands</li>
+
+					<li>Mashed_Ashlands_ForestAshlands</li>
+					<li>Mashed_Ashlands_MarshAshlands</li>
+					<li>Mashed_Ashlands_MeadowAshlands</li>
+
+					<li>Mashed_Ashlands_VolcanicAshlands</li>
+					<li>Mashed_Ashlands_VolcanicBadlandAshlands</li>
+					<li>Mashed_Ashlands_VolcanicSulphurPitsAshlands</li>		
 				</likedBiomeList>
 				<IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
 			</li>

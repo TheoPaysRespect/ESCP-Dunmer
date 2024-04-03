@@ -10,6 +10,7 @@
 			<Flammability>-0.4</Flammability>
 			<ArmorRating_Heat>0.1</ArmorRating_Heat>
 			<ComfyTemperatureMax>5</ComfyTemperatureMax>
+			<Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">0.25</Mashed_Ashlands_AshResistance>
 		</statOffsets>
 		<displayOrderInCategory>5</displayOrderInCategory>
 	</GeneDef>

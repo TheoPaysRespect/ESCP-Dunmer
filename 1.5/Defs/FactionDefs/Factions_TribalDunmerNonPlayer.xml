@@ -28,8 +28,8 @@
 		</structureMemeWeights>
 		<requiredMemes/>
 		<caravanTraderKinds>
-			<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_AshlandsTrader</li>
-			<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_DunmerAlcoholTrader</li>
+			<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_AshlandsTrader</li> <!--TO FIX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1-->
+			<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_DunmerAlcoholTrader</li> <!--TO FIX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1-->
 		</caravanTraderKinds>
 		<raidLootMaker>ESCP_DunmerRaidLootMaker</raidLootMaker>
 		<pawnGroupMakers>
@@ -42,7 +42,7 @@
 					<ESCP_Dunmer_Tribal_Warrior>5</ESCP_Dunmer_Tribal_Warrior>
 					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
 					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
-					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">4</ESCP_Dunmer_Tribal_NixHoundMaster>
+					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_Dunmer_Tribal_NixHoundMaster>
 					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
 					<ESCP_Dunmer_Tribal_Berserker>5</ESCP_Dunmer_Tribal_Berserker>
 					<ESCP_Dunmer_Tribal_ChiefRanged>3</ESCP_Dunmer_Tribal_ChiefRanged>
@@ -56,7 +56,7 @@
 				<options>
 					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
 					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
-					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">4</ESCP_Dunmer_Tribal_NixHoundMaster>
+					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_Dunmer_Tribal_NixHoundMaster>
 					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
 					<ESCP_Dunmer_Tribal_ChiefRanged>5</ESCP_Dunmer_Tribal_ChiefRanged>
 				</options>
@@ -81,7 +81,7 @@
 					<ESCP_Dunmer_Tribal_Warrior>5</ESCP_Dunmer_Tribal_Warrior>
 					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
 					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
-					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">4</ESCP_Dunmer_Tribal_NixHoundMaster>
+					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_Dunmer_Tribal_NixHoundMaster>
 					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
 					<ESCP_Dunmer_Tribal_Berserker>5</ESCP_Dunmer_Tribal_Berserker>
 					<ESCP_Dunmer_Tribal_ChiefRanged>3</ESCP_Dunmer_Tribal_ChiefRanged>
@@ -97,7 +97,7 @@
 					<ESCP_Dunmer_Tribal_Warrior>5</ESCP_Dunmer_Tribal_Warrior>
 					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
 					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
-					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">4</ESCP_Dunmer_Tribal_NixHoundMaster>
+					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_Dunmer_Tribal_NixHoundMaster>
 					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
 					<ESCP_Dunmer_Tribal_Berserker>5</ESCP_Dunmer_Tribal_Berserker>
 					<ESCP_Dunmer_Tribal_ChiefRanged>3</ESCP_Dunmer_Tribal_ChiefRanged>
@@ -124,9 +124,9 @@
 					<ESCP_Dunmer_Tribal_Trader>1</ESCP_Dunmer_Tribal_Trader>
 				</traders>
 				<carriers>
-					<MorrowRim_Guar MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">10</MorrowRim_Guar>
-					<MorrowRim_NixOx MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">5</MorrowRim_NixOx>
-					<MorrowRim_SiltStrider MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">2</MorrowRim_SiltStrider>
+					<Mashed_Ashlands_Guar MayRequire="sirmashedpotato.ashlands">10</Mashed_Ashlands_Guar>
+					<Mashed_Ashlands_NixOx MayRequire="sirmashedpotato.ashlands">5</Mashed_Ashlands_NixOx>
+					<Mashed_Ashlands_SiltStrider MayRequire="sirmashedpotato.ashlands">2</Mashed_Ashlands_SiltStrider>
 					<Muffalo>6</Muffalo>
 					<Dromedary>5</Dromedary>
 					<Alpaca>2.5</Alpaca>
@@ -146,7 +146,7 @@
 					<ESCP_Dunmer_Tribal_Warrior>7</ESCP_Dunmer_Tribal_Warrior>
 					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
 					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
-					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">4</ESCP_Dunmer_Tribal_NixHoundMaster>
+					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_Dunmer_Tribal_NixHoundMaster>
 					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
 					<ESCP_Dunmer_Tribal_Berserker>7</ESCP_Dunmer_Tribal_Berserker>
 					<ESCP_Dunmer_Tribal_ChiefRanged>10</ESCP_Dunmer_Tribal_ChiefRanged>
@@ -157,7 +157,7 @@
 				<options>
 					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
 					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
-					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">4</ESCP_Dunmer_Tribal_NixHoundMaster>
+					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_Dunmer_Tribal_NixHoundMaster>
 					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
 					<ESCP_Dunmer_Tribal_ChiefRanged>10</ESCP_Dunmer_Tribal_ChiefRanged>
 				</options>
@@ -201,10 +201,12 @@
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
 				<likedBiomeList>
-					<li>MorrowRim_Ashlands</li>
-					<li>MorrowRim_VolcanicAshlands</li>
-					<li>MorrowRim_AshSwamp</li>
-					<li>MorrowRim_Grazelands</li>
+					<li>Mashed_Ashlands_Ashlands</li>
+					<li>Mashed_Ashlands_DustplainAshlands</li>
+
+					<li>Mashed_Ashlands_VolcanicAshlands</li>
+					<li>Mashed_Ashlands_VolcanicBadlandAshlands</li>
+					<li>Mashed_Ashlands_VolcanicSulphurPitsAshlands</li>
 				</likedBiomeList>
 			</li>
 		</modExtensions>
@@ -238,9 +240,10 @@
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
 				<likedBiomeList>
-					<li>MorrowRim_Ashlands</li>
-					<li>MorrowRim_AshSwamp</li>
-					<li>MorrowRim_Grazelands</li>
+					<li>Mashed_Ashlands_Ashlands</li>
+					<li>Mashed_Ashlands_GrazelandAshlands</li>
+					<li>Mashed_Ashlands_SwampAshlands</li>
+
 					<li>TemperateForest</li>
 				</likedBiomeList>
 			</li>
@@ -279,13 +282,9 @@
 		<modExtensions>
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
-				<likedBiomeList>
-					<li>MorrowRim_Ashlands</li>
-					<li>MorrowRim_VolcanicAshlands</li>
-					<li>MorrowRim_AshSwamp</li>
-					<li>MorrowRim_Grazelands</li>
-					<li>TemperateForest</li>
-				</likedBiomeList>
+					<likedBiomeList>
+						<li>TemperateForest</li>
+					</likedBiomeList>
 				<requiresWater>true</requiresWater>
 			</li>
 		</modExtensions>
@@ -297,7 +296,7 @@
 			<li>(0.80, 0.85, 0.60)</li>
 		</colorSpectrum>
 		<caravanTraderKinds>
-			<li MayRequire="SirMashedPotato.TevalvanniTechnology">MorrowRim_TelvanniTrader</li>
+			<li MayRequire="SirMashedPotato.TevalvanniTechnology">MorrowRim_TelvanniTrader</li> <!--FIX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 		</caravanTraderKinds>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
@@ -410,14 +409,11 @@
 		<description>A loose confederation of those who, either by choice or by force, have left behind the Great Houses.\n\nUnder the guidance of their War Boss, they have managed to claim several settlements from the Great Houses. Even with these fine trophies, they are still eager to claim more land and wealth.\n\nReavers are driven by a blood-and-honor culture; you will not be able to ally with them!</description>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.SettlementPreference">
-				<chance>0.5</chance>
-				<likedBiomeList>
-					<li>MorrowRim_Ashlands</li>
-					<li>MorrowRim_BlightedAshlands</li>
-					<li>MorrowRim_VolcanicAshlands</li>
-					<li>MorrowRim_AshSwamp</li>
-					<li>MorrowRim_Grazelands</li>
-				</likedBiomeList>
+				<chance>0.9</chance>
+				<biomeKeyWords>
+					<li>Ashlands</li>
+				</biomeKeyWords>
+				<IgnoreBiomeSelectionWeight>true</IgnoreBiomeSelectionWeight>
 			</li>
 		</modExtensions>
 		<colorSpectrum>

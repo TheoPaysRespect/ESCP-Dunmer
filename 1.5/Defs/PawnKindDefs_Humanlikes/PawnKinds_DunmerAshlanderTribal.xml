@@ -159,7 +159,7 @@
 		<initialResistanceRange>10~16</initialResistanceRange>
 	</PawnKindDef>
 	<!-- ==========[ESCP_Dunmer_Tribal_NixHoundMaster]========== -->
-	<PawnKindDef ParentName="ESCP_DunmerAshlander_TribalHunterBase" MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">
+	<PawnKindDef ParentName="ESCP_DunmerAshlander_TribalHunterBase" MayRequireAnyOf="sirmashedpotato.ashlands">
 		<defName>ESCP_DunmerAshlander_Tribal_NixHoundMaster</defName>
 		<label>nix hound master</label>
 		<combatPower>80</combatPower>
@@ -168,7 +168,7 @@
 				<maxNumberOfPawns>1</maxNumberOfPawns>
 				<maxTotalCombatPower>95</maxTotalCombatPower>
 				<pawnKinds>
-					<li>MorrowRim_NixHound</li>
+					<li>Mashed_Ashlands_NixHound</li>
 				</pawnKinds>
 				<bond>true</bond>
 			</li>

@@ -6,11 +6,12 @@
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>0.9</chance>
 				<likedBiomeList>
-					<li>MorrowRim_Ashlands</li>
-					<li>MorrowRim_BlightedAshlands</li>
-					<li>MorrowRim_VolcanicAshlands</li>
-					<li>MorrowRim_AshSwamp</li>
-					<li>MorrowRim_Grazelands</li>
+					<li>Mashed_Ashlands_BlightedAshlands</li>
+					<li>Mashed_Ashlands_Ashlands</li>
+					<li>Mashed_Ashlands_GrazelandAshlands</li>
+					<li>Mashed_Ashlands_MeadowAshlands</li>
+					<li>Mashed_Ashlands_VolcanicAshlands</li>
+					<li>Mashed_Ashlands_VolcanicBadlandAshlands</li>
 				</likedBiomeList>
 				<IgnoreBiomeSelectionWeight>true</IgnoreBiomeSelectionWeight>
 			</li>
@@ -41,7 +42,7 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
 		</disallowedPrecepts>
 		<caravanTraderKinds>
-			<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_AshlandsTrader</li>
+			<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_AshlandsTrader</li>			<!--TO FIX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1-->
 		</caravanTraderKinds>
 		<raidLootMaker>ESCP_DunmerAshlanderRaidLootMaker</raidLootMaker>
 		<pawnGroupMakers>
@@ -54,7 +55,7 @@
 					<ESCP_DunmerAshlander_Tribal_Warrior>5</ESCP_DunmerAshlander_Tribal_Warrior>
 					<ESCP_DunmerAshlander_Tribal_Archer>10</ESCP_DunmerAshlander_Tribal_Archer>
 					<ESCP_DunmerAshlander_Tribal_Hunter>10</ESCP_DunmerAshlander_Tribal_Hunter>
-					<ESCP_DunmerAshlander_Tribal_NixHoundMaster MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">4</ESCP_DunmerAshlander_Tribal_NixHoundMaster>
+					<ESCP_DunmerAshlander_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_DunmerAshlander_Tribal_NixHoundMaster>
 					<ESCP_DunmerAshlander_Tribal_HeavyArcher>10</ESCP_DunmerAshlander_Tribal_HeavyArcher>
 					<ESCP_DunmerAshlander_Tribal_Berserker>5</ESCP_DunmerAshlander_Tribal_Berserker>
 					<ESCP_DunmerAshlander_Tribal_ChiefRanged>3</ESCP_DunmerAshlander_Tribal_ChiefRanged>
@@ -68,7 +69,7 @@
 				<options>
 					<ESCP_DunmerAshlander_Tribal_Archer>10</ESCP_DunmerAshlander_Tribal_Archer>
 					<ESCP_DunmerAshlander_Tribal_Hunter>10</ESCP_DunmerAshlander_Tribal_Hunter>
-					<ESCP_DunmerAshlander_Tribal_NixHoundMaster MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">4</ESCP_DunmerAshlander_Tribal_NixHoundMaster>
+					<ESCP_DunmerAshlander_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_DunmerAshlander_Tribal_NixHoundMaster>
 					<ESCP_DunmerAshlander_Tribal_HeavyArcher>10</ESCP_DunmerAshlander_Tribal_HeavyArcher>
 					<ESCP_DunmerAshlander_Tribal_ChiefRanged>5</ESCP_DunmerAshlander_Tribal_ChiefRanged>
 				</options>
@@ -93,7 +94,7 @@
 					<ESCP_DunmerAshlander_Tribal_Warrior>5</ESCP_DunmerAshlander_Tribal_Warrior>
 					<ESCP_DunmerAshlander_Tribal_Archer>10</ESCP_DunmerAshlander_Tribal_Archer>
 					<ESCP_DunmerAshlander_Tribal_Hunter>10</ESCP_DunmerAshlander_Tribal_Hunter>
-					<ESCP_DunmerAshlander_Tribal_NixHoundMaster MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">4</ESCP_DunmerAshlander_Tribal_NixHoundMaster>
+					<ESCP_DunmerAshlander_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_DunmerAshlander_Tribal_NixHoundMaster>
 					<ESCP_DunmerAshlander_Tribal_HeavyArcher>10</ESCP_DunmerAshlander_Tribal_HeavyArcher>
 					<ESCP_DunmerAshlander_Tribal_Berserker>5</ESCP_DunmerAshlander_Tribal_Berserker>
 					<ESCP_DunmerAshlander_Tribal_ChiefRanged>3</ESCP_DunmerAshlander_Tribal_ChiefRanged>
@@ -119,8 +120,8 @@
 					<ESCP_DunmerAshlander_Tribal_Trader>1</ESCP_DunmerAshlander_Tribal_Trader>
 				</traders>
 				<carriers>
-					<MorrowRim_Guar MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">10</MorrowRim_Guar>
-					<MorrowRim_NixOx MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">5</MorrowRim_NixOx>
+					<Mashed_Ashlands_Guar MayRequire="sirmashedpotato.ashlands">10</Mashed_Ashlands_Guar>
+					<Mashed_Ashlands_NixOx MayRequire="sirmashedpotato.ashlands">5</Mashed_Ashlands_NixOx>
 					<Muffalo>6</Muffalo>
 					<Dromedary>5</Dromedary>
 					<Alpaca>2.5</Alpaca>
@@ -140,7 +141,7 @@
 					<ESCP_DunmerAshlander_Tribal_Warrior>7</ESCP_DunmerAshlander_Tribal_Warrior>
 					<ESCP_DunmerAshlander_Tribal_Archer>10</ESCP_DunmerAshlander_Tribal_Archer>
 					<ESCP_DunmerAshlander_Tribal_Hunter>10</ESCP_DunmerAshlander_Tribal_Hunter>
-					<ESCP_DunmerAshlander_Tribal_NixHoundMaster MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">4</ESCP_DunmerAshlander_Tribal_NixHoundMaster>
+					<ESCP_DunmerAshlander_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_DunmerAshlander_Tribal_NixHoundMaster>
 					<ESCP_DunmerAshlander_Tribal_HeavyArcher>10</ESCP_DunmerAshlander_Tribal_HeavyArcher>
 					<ESCP_DunmerAshlander_Tribal_Berserker>7</ESCP_DunmerAshlander_Tribal_Berserker>
 					<ESCP_DunmerAshlander_Tribal_ChiefRanged>10</ESCP_DunmerAshlander_Tribal_ChiefRanged>
@@ -151,7 +152,7 @@
 				<options>
 					<ESCP_DunmerAshlander_Tribal_Archer>10</ESCP_DunmerAshlander_Tribal_Archer>
 					<ESCP_DunmerAshlander_Tribal_Hunter>10</ESCP_DunmerAshlander_Tribal_Hunter>
-					<ESCP_DunmerAshlander_Tribal_NixHoundMaster MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">4</ESCP_DunmerAshlander_Tribal_NixHoundMaster>
+					<ESCP_DunmerAshlander_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_DunmerAshlander_Tribal_NixHoundMaster>
 					<ESCP_DunmerAshlander_Tribal_HeavyArcher>10</ESCP_DunmerAshlander_Tribal_HeavyArcher>
 					<ESCP_DunmerAshlander_Tribal_ChiefRanged>10</ESCP_DunmerAshlander_Tribal_ChiefRanged>
 				</options>

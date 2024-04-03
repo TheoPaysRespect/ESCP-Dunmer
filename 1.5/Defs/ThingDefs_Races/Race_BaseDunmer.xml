@@ -18,6 +18,7 @@
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Heat>1.2</ArmorRating_Heat>
 			<ComfyTemperatureMax>36</ComfyTemperatureMax>
+			<Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">0.75</Mashed_Ashlands_AshResistance>
 		</statBases>
 		<race>
 			<leatherDef>ESCP_LeatherDunmer</leatherDef>
@@ -456,21 +457,25 @@
 				<cannotReceiveThoughts>
 					<li>AteInsectMeatDirect</li>
 					<li>AteInsectMeatAsIngredient</li>
-					<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_ateNixOxMilk</li>
-					<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_ateInsectEggDirect</li>
-					<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_ateInsectEggAsIngredient</li>
+					<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AteInsectEggAsIngredient</li>
+					<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AteInsectEggDirect</li>
+					<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AteNixOxMilk</li>
 				</cannotReceiveThoughts>
 				<replacerList>
 					<li>
 						<original>KnowBuriedInSarcophagus</original>
 						<replacer>ESCP_DunmerKnowBuriedInSarcophagus</replacer>
 					</li>
-					<li MayRequire="SirMashedPotato.MorrowRim">
-						<original>MorrowRim_ashCovered</original>
+					<li MayRequire="sirmashedpotato.ashlands">
+						<original>Mashed_Ashlands_OutsideInDustStorm</original>
 						<replacer>ESCP_DunmerAshCovered</replacer>
 					</li>
-					<li MayRequire="SirMashedPotato.MorrowRim.Scuttle">
-						<original>MorrowRim_AteScuttleHuman</original>
+					<li MayRequire="sirmashedpotato.ashlands">
+						<original>Mashed_Ashlands_AshStorm</original>
+						<replacer>ESCP_DunmerAshCovered</replacer>
+					</li>
+					<li MayRequire="sirmashedpotato.ashlands">
+						<original>Mashed_Ashlands_AteScuttle</original>
 						<replacer>ESCP_DunmerAteScuttle</replacer>
 					</li>
 				</replacerList>
@@ -502,9 +507,6 @@
 				<traitList>
 					<li>ESCP_Dunmer_AncestralBlessing</li>
 				</traitList>
-				<blackTraitList>
-					<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_AshAdapted</li>
-				</blackTraitList>
 			</raceRestriction>
 		</alienRace>
 	</AlienRace.ThingDef_AlienRace>
