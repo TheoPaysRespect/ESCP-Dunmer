@@ -124,8 +124,8 @@
 					<ESCP_Dunmer_Tribal_Trader>1</ESCP_Dunmer_Tribal_Trader>
 				</traders>
 				<carriers>
-					<Mashed_Ashlands_Guar MayRequire="sirmashedpotato.ashlands">10</Mashed_Ashlands_Guar>
-					<Mashed_Ashlands_NixOx MayRequire="sirmashedpotato.ashlands">5</Mashed_Ashlands_NixOx>
+					<!--<Mashed_Ashlands_Guar MayRequire="sirmashedpotato.ashlands">10</Mashed_Ashlands_Guar>-->
+					<!--<Mashed_Ashlands_NixOx MayRequire="sirmashedpotato.ashlands">5</Mashed_Ashlands_NixOx>-->
 					<Mashed_Ashlands_SiltStrider MayRequire="sirmashedpotato.ashlands">2</Mashed_Ashlands_SiltStrider>
 					<Muffalo>6</Muffalo>
 					<Dromedary>5</Dromedary>
@@ -381,14 +381,6 @@
 			<li>(0.3, 0.3, 0.5)</li>
 			<li>(0.5, 0.4, 0.3)</li>
 		</colorSpectrum>
-		<caravanTraderKinds Inherit="false"> <!--to replace standard slaver with dres slaver-->
-			<li MayRequire="sirmashedpotato.ashlands">ESCP_AshlandsTrader</li>
-			<li MayRequire="sirmashedpotato.ashlands">ESCP_DunmerAlcoholTrader</li>
-			<li>ESCP_DunmerCaravan_DresSlaver</li>
-			<li>Caravan_Neolithic_BulkGoods</li>
-			<li>Caravan_Neolithic_WarMerchant</li>
-			<li>Caravan_Neolithic_ShamanMerchant</li>
-		</caravanTraderKinds>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
