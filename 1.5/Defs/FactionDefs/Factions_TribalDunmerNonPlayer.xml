@@ -201,9 +201,6 @@
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
 				<likedBiomeList>
-					<li>Mashed_Ashlands_Ashlands</li>
-					<li>Mashed_Ashlands_DustplainAshlands</li>
-
 					<li>Mashed_Ashlands_VolcanicAshlands</li>
 					<li>Mashed_Ashlands_VolcanicBadlandAshlands</li>
 					<li>Mashed_Ashlands_VolcanicSulphurPitsAshlands</li>
