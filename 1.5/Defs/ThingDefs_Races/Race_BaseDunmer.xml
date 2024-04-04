@@ -10,9 +10,6 @@
 				<majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Mer</majorRacialGeneToInherit>
 				<minorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Dunmer</minorRacialGeneToInherit>
 			</li>
-			<li Class="MorrowRim.ExtendedRaceProperties" MayRequire="SirMashedPotato.MorrowRim">
-				<ashResistant>Resistant</ashResistant>
-			</li>
 		</modExtensions>
 		<statBases>
 			<Flammability>0.2</Flammability>

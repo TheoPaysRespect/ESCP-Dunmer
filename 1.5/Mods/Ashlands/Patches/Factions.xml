@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/FactionDef[defName="ESCP_DunmerNonPlayerFaction_Faithful"]/modExtensions/li[@Class="ESCP_RaceTools.SettlementPreference"]</xpath>
+        <value>
+            <li Class="ESCP_RaceTools.SettlementPreference">
+                <chance>1.0</chance>
+                <likedBiomeList>
+                    <!-- Thriving biomes -->
+                    <li>Mashed_Ashlands_ForestAshlands</li>
+                    <li>Mashed_Ashlands_MarshAshlands</li>
+                    <li>Mashed_Ashlands_MeadowAshlands</li>
+                </likedBiomeList>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/FactionDef[defName="ESCP_DunmerNonPlayerFaction_Scientific"]/modExtensions/li[@Class="ESCP_RaceTools.SettlementPreference"]</xpath>
+        <value>
+            <li Class="ESCP_RaceTools.SettlementPreference">
+                <chance>1.0</chance>
+                <biomeKeyWords>
+                    <li>Ashlands</li>
+                </biomeKeyWords>
+                <requiresWater>true</requiresWater>
+            </li>
+        </value>
+    </Operation>
+</Patch>
