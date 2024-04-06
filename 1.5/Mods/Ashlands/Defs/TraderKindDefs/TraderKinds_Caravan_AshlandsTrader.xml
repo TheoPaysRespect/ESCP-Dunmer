@@ -42,7 +42,12 @@
 				<totalPriceRange>200~600</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_Tag">
-				<tradeTag>Mashed_Ashlands_AshlandsRare</tradeTag>				<!--only fetcherfly hive core atm-->
+				<tradeTag>Mashed_Ashlands_AshlandsFertEgg</tradeTag>
+				<thingDefCountRange>5~8</thingDefCountRange>
+				<totalPriceRange>200~600</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mashed_Ashlands_AshlandsRare</tradeTag>				<!--fetcherfly hive core and silt strider egg-->
 				<thingDefCountRange>0~1</thingDefCountRange>
 				<totalPriceRange>400~900</totalPriceRange>
 			</li>
@@ -82,7 +87,7 @@
 			</li>
 			<li Class="StockGenerator_Animals">
 				<tradeTagsSell>
-					<li>Mashed_Ashlands_AshlandAnimalRace</li>
+					<li>Mashed_Ashlands_AshlandAnimalRare</li>
 				</tradeTagsSell>
 				<kindCountRange>-3~1</kindCountRange>
 				<countRange>1</countRange>
