@@ -5,7 +5,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_MiningA</defName>
 		<title>kwama egg miner</title>
 		<titleShort>egg miner</titleShort>
-		<baseDesc>[PAWN_nameDef] worked tirelessly in a kwama egg mine for a considerable number of years. In this time [PAWN_pronoun] harvested many kwama eggs, from deep in the claustrophobic tunnels. Sadly [PAWN_possessive] time in the mines came to an end when the kwama were afflicted by the blight.</baseDesc>
+		<description>[PAWN_nameDef] worked tirelessly in a kwama egg mine for a considerable number of years. In this time [PAWN_pronoun] harvested many kwama eggs, from deep in the claustrophobic tunnels. Sadly [PAWN_possessive] time in the mines came to an end when the kwama were afflicted by the blight.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -23,7 +23,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_MiningB</defName>
 		<title>volcanic glass miner</title>
 		<titleShort>miner</titleShort>
-		<baseDesc>[PAWN_nameDef] spent many years working in the glass mines around Red Mountain. [PAWN_pronoun] thought volcanic glass was fascinating to look at, and always wanted to keep some for [PAWN_possessive]self.</baseDesc>
+		<description>[PAWN_nameDef] spent many years working in the glass mines around Red Mountain. [PAWN_pronoun] thought volcanic glass was fascinating to look at, and always wanted to keep some for [PAWN_possessive]self.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -50,7 +50,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_MiningC</defName>
 		<title>ebony miner</title>
 		<titleShort>miner</titleShort>
-		<baseDesc>[PAWN_nameDef] spent what felt like decades working in the Vassir-Didanat ebony mine. In reality it was only months. These months, for better or worse, took a toll on [PAWN_possessive] body.</baseDesc>
+		<description>[PAWN_nameDef] spent what felt like decades working in the Vassir-Didanat ebony mine. In reality it was only months. These months, for better or worse, took a toll on [PAWN_possessive] body.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Mining>3</Mining>
@@ -61,13 +61,11 @@
 		</workDisables>
 		<forcedTraitsChance>
 			<li>
-				<defName>Industriousness</defName>
-				<degree>1</degree>
+				<defName Degree="1">Industriousness</defName>
 				<chance>15</chance>
 			</li>
 			<li>
-				<defName>Industriousness</defName>
-				<degree>-1</degree>
+				<defName Degree="-1">Industriousness</defName>
 				<chance>15</chance>
 			</li>
 			<li>
@@ -86,7 +84,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_MiningD</defName>
 		<title>St. Olms miner</title>
 		<titleShort>miner</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of many that found work in the Tanners and Miners Hall of the St. Olms canton. When [PAWN_nameDef] wasn't working tirelessly in the mines, [PAWN_pronoun] could be found in the Hall, tending to the counter, or sometimes sharing tips with the tanners.</baseDesc>
+		<description>[PAWN_nameDef] was one of many that found work in the Tanners and Miners Hall of the St. Olms canton. When [PAWN_nameDef] wasn't working tirelessly in the mines, [PAWN_pronoun] could be found in the Hall, tending to the counter, or sometimes sharing tips with the tanners.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Mining>4</Mining>

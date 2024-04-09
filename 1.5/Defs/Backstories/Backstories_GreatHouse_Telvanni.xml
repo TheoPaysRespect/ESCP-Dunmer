@@ -13,8 +13,7 @@
 				<chance>25</chance>
 			</li>
 			<li>
-				<defName>Neurotic</defName>
-				<degree>1</degree>
+				<defName Degree="1">Neurotic</defName>
 				<chance>15</chance>
 			</li>
 			<li>
@@ -39,7 +38,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT1A</defName>
 		<title>Telvanni member</title>
 		<titleShort>member</titleShort>
-		<baseDesc>[PAWN_nameDef] was a fairly unremarkable member of Great House Telvanni. A Great House known for its wonderful and magical craftsmanship, creating houses out of the strangest materials. [PAWN_nameDef] learnt many wondrous things during [PAWN_possessive] time with House Telvanni, such as that socialising is a waste of precious time and that caring about other people is pointless.</baseDesc>
+		<description>[PAWN_nameDef] was a fairly unremarkable member of Great House Telvanni. A Great House known for its wonderful and magical craftsmanship, creating houses out of the strangest materials. [PAWN_nameDef] learnt many wondrous things during [PAWN_possessive] time with House Telvanni, such as that socialising is a waste of precious time and that caring about other people is pointless.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -56,7 +55,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT1B</defName>
 		<title>Telvanni citizen</title>
 		<titleShort>citizen</titleShort>
-		<baseDesc>[PAWN_nameDef] was just a regular citizen, living in Telvanni controlled territory. [PAWN_pronoun] picked up a bit of knowledge from the local Telvanni members, and possibly even some traits that some may find undesirable.</baseDesc>
+		<description>[PAWN_nameDef] was just a regular citizen, living in Telvanni controlled territory. [PAWN_pronoun] picked up a bit of knowledge from the local Telvanni members, and possibly even some traits that some may find undesirable.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -70,7 +69,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT1C</defName>
 		<title>Telvanni servant</title>
 		<titleShort>servant</titleShort>
-		<baseDesc>[PAWN_nameDef] was a lowly servant in Great House Telvanni. Many days were spent tending to [PAWN_possessive] Magisters animals and plants, as well as ensuring any unexpected guests were turned away.</baseDesc>
+		<description>[PAWN_nameDef] was a lowly servant in Great House Telvanni. Many days were spent tending to [PAWN_possessive] Magisters animals and plants, as well as ensuring any unexpected guests were turned away.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Animals>2</Animals>
@@ -83,7 +82,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT1D</defName>
 		<title>Telvanni steward</title>
 		<titleShort>steward</titleShort>
-		<baseDesc>[PAWN_nameDef] was a steward for a high ranking member of Great House Telvanni. A position that came with quite the number of benefits, unless you were assigned to someone 'eccentric', which was most of them.</baseDesc>
+		<description>[PAWN_nameDef] was a steward for a high ranking member of Great House Telvanni. A position that came with quite the number of benefits, unless you were assigned to someone 'eccentric', which was most of them.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Intellectual>3</Intellectual>
@@ -95,7 +94,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT1E</defName>
 		<title>Telvanni cook</title>
 		<titleShort>cook</titleShort>
-		<baseDesc>[PAWN_nameDef] was quite a talented cook. Of course [PAWN_pronoun] had to be, for [PAWN_possessive] Telvanni master had some rather strange and exotic tastes, and one mistake could lead to potentially disastrous consequences.</baseDesc>
+		<description>[PAWN_nameDef] was quite a talented cook. Of course [PAWN_pronoun] had to be, for [PAWN_possessive] Telvanni master had some rather strange and exotic tastes, and one mistake could lead to potentially disastrous consequences.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Cooking>4</Cooking>
@@ -107,7 +106,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT1F</defName>
 		<title>vvardvark breeder</title>
 		<titleShort>breeder</titleShort>
-		<baseDesc>[PAWN_nameDef] once owned a small housepod in Sadrith Mora, where [PAWN_pronoun] bred vvardvarks for the local Telvanni. The sheer amount of filth produced by these tiny creatures swiftly broke [PAWN_objective], and since then [PAWN_nameDef] refuses to clean even the smallest of messes.</baseDesc>
+		<description>[PAWN_nameDef] once owned a small housepod in Sadrith Mora, where [PAWN_pronoun] bred vvardvarks for the local Telvanni. The sheer amount of filth produced by these tiny creatures swiftly broke [PAWN_objective], and since then [PAWN_nameDef] refuses to clean even the smallest of messes.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Animals>7</Animals>
@@ -121,15 +120,14 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT1G</defName>
 		<title>corprusarium worker</title>
 		<titleShort>worker</titleShort>
-		<baseDesc>[PAWN_nameDef] was always willing to help people, no matter the circumstances. This somehow led [PAWN_nameDef] to Tel Fyr, or more accurately the halls under it. [PAWN_pronoun] quickly learnt how to tend to the corprus victims, and became quite adept at it. Sadly all the time spent underground, and around other members of House Telvanni, may have left its mark on [PAWN_nameDef].</baseDesc>
+		<description>[PAWN_nameDef] was always willing to help people, no matter the circumstances. This somehow led [PAWN_nameDef] to Tel Fyr, or more accurately the halls under it. [PAWN_pronoun] quickly learnt how to tend to the corprus victims, and became quite adept at it. Sadly all the time spent underground, and around other members of House Telvanni, may have left its mark on [PAWN_nameDef].</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Medicine>6</Medicine>
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Immunity</defName>
-				<degree>1</degree>
+				<defName Degree="1">Immunity</defName>
 				<chance>25</chance>
 			</li>
 		</forcedTraitsChance>
@@ -140,7 +138,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT2A</defName>
 		<title>Telvanni Mouth</title>
 		<titleShort>Mouth</titleShort>
-		<baseDesc>Having always dreamed of owning [PAWN_possessive] own Telvanni tower, [PAWN_nameDef] worked tirelessly trying to climb the ranks. Sadly, once [PAWN_pronoun] reached the rank of Mouth, any prospect of promotion seemed to disappear. To make matters worse, [PAWN_pronoun] was the Mouth of a rather eccentric Telvanni Wizard, and constantly feared for [PAWN_possessive] life. Eventually it became too much for [PAWN_nameDef], so [PAWN_pronoun] decided to take matters into [PAWN_possessive] own hands.</baseDesc>
+		<description>Having always dreamed of owning [PAWN_possessive] own Telvanni tower, [PAWN_nameDef] worked tirelessly trying to climb the ranks. Sadly, once [PAWN_pronoun] reached the rank of Mouth, any prospect of promotion seemed to disappear. To make matters worse, [PAWN_pronoun] was the Mouth of a rather eccentric Telvanni Wizard, and constantly feared for [PAWN_possessive] life. Eventually it became too much for [PAWN_nameDef], so [PAWN_pronoun] decided to take matters into [PAWN_possessive] own hands.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Intellectual>4</Intellectual>
@@ -152,7 +150,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT2B</defName>
 		<title>Telvanni mushroom foreman</title>
 		<titleShort>foreman</titleShort>
-		<baseDesc>[PAWN_nameDef] was very well-versed in the art of growing grand house-pods from tiny spores. [PAWN_pronoun] had built many of the house-pods found in Sadrith Mora, and had once had the honour of building a magnificent Telvanni tower.</baseDesc>
+		<description>[PAWN_nameDef] was very well-versed in the art of growing grand house-pods from tiny spores. [PAWN_pronoun] had built many of the house-pods found in Sadrith Mora, and had once had the honour of building a magnificent Telvanni tower.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -165,7 +163,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT2C</defName>
 		<title>Telvanni mycologist</title>
 		<titleShort>mycologist</titleShort>
-		<baseDesc>[PAWN_nameDef] was always highly fascinated by fungus, so joining Great House Telvanni just seemed like a logical choice. Thanks to [PAWN_possessive] position, [PAWN_nameDef] made some interesting discoveries... and a few unfortunate ones.</baseDesc>
+		<description>[PAWN_nameDef] was always highly fascinated by fungus, so joining Great House Telvanni just seemed like a logical choice. Thanks to [PAWN_possessive] position, [PAWN_nameDef] made some interesting discoveries... and a few unfortunate ones.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -178,7 +176,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT2D</defName>
 		<title>Telvanni test subject</title>
 		<titleShort>test subject</titleShort>
-		<baseDesc>[PAWN_nameDef] was just a lowly servant of Great House Telvanni looking to get ahead, and what better way to get ahead than helping out with some experiments. [PAWN_nameDef] didn't realise that [PAWN_pronoun] would actually be the test subject, but it was too late to turn back now, not that [PAWN_pronoun] actually had a choice. The experiments greatly strengthened [PAWN_possessive] body, but took quite a toll on [PAWN_possessive] mind.</baseDesc>
+		<description>[PAWN_nameDef] was just a lowly servant of Great House Telvanni looking to get ahead, and what better way to get ahead than helping out with some experiments. [PAWN_nameDef] didn't realise that [PAWN_pronoun] would actually be the test subject, but it was too late to turn back now, not that [PAWN_pronoun] actually had a choice. The experiments greatly strengthened [PAWN_possessive] body, but took quite a toll on [PAWN_possessive] mind.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Intellectual>-8</Intellectual>
@@ -193,7 +191,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT2E</defName>
 		<title>Telvanni test subject</title>
 		<titleShort>test subject</titleShort>
-		<baseDesc>[PAWN_nameDef] was just a lowly servant of Great House Telvanni looking to get ahead, and what better way to get ahead than helping out with some experiments. [PAWN_nameDef] didn't realise that [PAWN_pronoun] would actually be the test subject, but it was too late to turn back now, not that [PAWN_pronoun] actually had a choice. The experiments greatly strengthened [PAWN_possessive] mind, but took quite a toll on [PAWN_possessive] body.</baseDesc>
+		<description>[PAWN_nameDef] was just a lowly servant of Great House Telvanni looking to get ahead, and what better way to get ahead than helping out with some experiments. [PAWN_nameDef] didn't realise that [PAWN_pronoun] would actually be the test subject, but it was too late to turn back now, not that [PAWN_pronoun] actually had a choice. The experiments greatly strengthened [PAWN_possessive] mind, but took quite a toll on [PAWN_possessive] body.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Intellectual>10</Intellectual>
@@ -208,7 +206,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT2F</defName>
 		<title>Telvanni trader</title>
 		<titleShort>trader</titleShort>
-		<baseDesc>[PAWN_nameDef] made quite a nice living selling Great House Telvanni's wares to those in need. From elixirs, to alchemical ingredients, and the most popular of all, Telvanni bug musk, [PAWN_nameDef] had it all... for a reasonable fee of course.</baseDesc>
+		<description>[PAWN_nameDef] made quite a nice living selling Great House Telvanni's wares to those in need. From elixirs, to alchemical ingredients, and the most popular of all, Telvanni bug musk, [PAWN_nameDef] had it all... for a reasonable fee of course.</description>
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<skillGains>
 			<Intellectual>3</Intellectual>
@@ -220,7 +218,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT2G</defName>
 		<title>Telvanni strider keeper</title>
 		<titleShort>keeper</titleShort>
-		<baseDesc>[PAWN_nameDef] helped tend the river striders of Port Telvannis. Strange beasts, closely related to the silt strider, and equally as lobotomised.</baseDesc>
+		<description>[PAWN_nameDef] helped tend the river striders of Port Telvannis. Strange beasts, closely related to the silt strider, and equally as lobotomised.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -235,7 +233,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT2H</defName>
 		<title>Telvanni former Wizard</title>
 		<titleShort>Wizard</titleShort>
-		<baseDesc>[PAWN_nameDef] was a master of the arcane arts. From Alteration to mysticism, and restoration to necromancy, [PAWN_pronoun] had great knowledge of it all. Sadly, one fateful day, [PAWN_nameDef] had a little accident, hitting [PAWN_possessive] head on a low hanging root in [PAWN_possessive] tower.\n\nThat wasn't too much of an issue, and actually happened quite often, except that [PAWN_pronoun] also fell down the stairs, hitting [PAWN_pronoun] head a second time on a lump of ebony that was just left on the floor, probably by one of the servants. [PAWN_nameDef] did recover quite nicely, but lost most of [PAWN_possessive] knowledge of the arcane.</baseDesc>
+		<description>[PAWN_nameDef] was a master of the arcane arts. From Alteration to mysticism, and restoration to necromancy, [PAWN_pronoun] had great knowledge of it all. Sadly, one fateful day, [PAWN_nameDef] had a little accident, hitting [PAWN_possessive] head on a low hanging root in [PAWN_possessive] tower.\n\nThat wasn't too much of an issue, and actually happened quite often, except that [PAWN_pronoun] also fell down the stairs, hitting [PAWN_pronoun] head a second time on a lump of ebony that was just left on the floor, probably by one of the servants. [PAWN_nameDef] did recover quite nicely, but lost most of [PAWN_possessive] knowledge of the arcane.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -250,7 +248,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT2I</defName>
 		<title>Telvanni guard</title>
 		<titleShort>guard</titleShort>
-		<baseDesc>[PAWN_nameDef] was a guard stationed at one of the many Telvanni towers. The days spent on duty were often rather boring, as no one is stupid enough to cause a scene at a Telvanni tower.</baseDesc>
+		<description>[PAWN_nameDef] was a guard stationed at one of the many Telvanni towers. The days spent on duty were often rather boring, as no one is stupid enough to cause a scene at a Telvanni tower.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -264,7 +262,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3A</defName>
 		<title>Telvanni Dwemer researcher</title>
 		<titleShort>researcher</titleShort>
-		<baseDesc>Ever obsessed with the ancient constructs of the Dwemer, [PAWN_nameDef] devoted [PAWN_possessive] life to researching them. Eventually [PAWN_pronoun] figured out how to control [PAWN_possessive] own constructs, which made an excellent form of security for [PAWN_possessive] tower.</baseDesc>
+		<description>Ever obsessed with the ancient constructs of the Dwemer, [PAWN_nameDef] devoted [PAWN_possessive] life to researching them. Eventually [PAWN_pronoun] figured out how to control [PAWN_possessive] own constructs, which made an excellent form of security for [PAWN_possessive] tower.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -280,7 +278,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3B</defName>
 		<title>Telvanni wormmouth fanatic</title>
 		<titleShort>fanatic</titleShort>
-		<baseDesc>[PAWN_nameDef] absolutely adored the wormmouth, so much in fact that [PAWN_pronoun] decided to have some transported from Hammerfell. Due to some foolish mistake, and totally not because [PAWN_nameDef] was impatient, the ship was caught in a storm. Luckily the wormmouth managed to survive, however there was no containing them, and they soon spread throughout Vvardenfell.\n\n[PAWN_nameDef] was quite pleased with that, [PAWN_possessive] slaves on the other hand weren't, as they were still recovering from their punishment for loosing them in the first place.</baseDesc>
+		<description>[PAWN_nameDef] absolutely adored the wormmouth, so much in fact that [PAWN_pronoun] decided to have some transported from Hammerfell. Due to some foolish mistake, and totally not because [PAWN_nameDef] was impatient, the ship was caught in a storm. Luckily the wormmouth managed to survive, however there was no containing them, and they soon spread throughout Vvardenfell.\n\n[PAWN_nameDef] was quite pleased with that, [PAWN_possessive] slaves on the other hand weren't, as they were still recovering from their punishment for loosing them in the first place.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -296,7 +294,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3C</defName>
 		<title>Telvanni mad scientist</title>
 		<titleShort>scientist</titleShort>
-		<baseDesc>The winged menace has long since plagued the skies of Vvardenfell, a swarm seemingly unending, and one that supposedly drove the dragons from Morrowind. [PAWN_nameDef], though [PAWN_pronoun] will never admit to it, may have had something to do with that.\n\n[PAWN_nameDef], on a skooma fuelled afternoon, decided to make some modifications to a captive cliff racer. When the experiment seemed to fail, [PAWN_pronoun] simply decided to let it go free. Unbeknown to [PAWN_nameDef], this particular cliff racer was now capable of reproducing asexually.\n\nUpon realising [PAWN_possessive] mistake, it was already to late. The calls of cliff races send shivers down [PAWN_possessive] spine to this very day.</baseDesc>
+		<description>The winged menace has long since plagued the skies of Vvardenfell, a swarm seemingly unending, and one that supposedly drove the dragons from Morrowind. [PAWN_nameDef], though [PAWN_pronoun] will never admit to it, may have had something to do with that.\n\n[PAWN_nameDef], on a skooma fuelled afternoon, decided to make some modifications to a captive cliff racer. When the experiment seemed to fail, [PAWN_pronoun] simply decided to let it go free. Unbeknown to [PAWN_nameDef], this particular cliff racer was now capable of reproducing asexually.\n\nUpon realising [PAWN_possessive] mistake, it was already to late. The calls of cliff races send shivers down [PAWN_possessive] spine to this very day.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -312,7 +310,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3D</defName>
 		<title>Telvanni dust adept</title>
 		<titleShort>dust adept</titleShort>
-		<baseDesc>Many years ago, [PAWN_nameDef] was one of the most feared Dunmer on Vvardenfell. For [PAWN_nameDef] was a Dust Adept, a master of magic that could block out the sun, and turn saltrice fields barren, at the flick of a wrist. Sadly, negotiations between the Great Houses and the Empire signalled the end of, not only [PAWN_possessive] time on Vvardenfell, but also [PAWN_possessive] time as a Dust Adept.</baseDesc>
+		<description>Many years ago, [PAWN_nameDef] was one of the most feared Dunmer on Vvardenfell. For [PAWN_nameDef] was a Dust Adept, a master of magic that could block out the sun, and turn saltrice fields barren, at the flick of a wrist. Sadly, negotiations between the Great Houses and the Empire signalled the end of, not only [PAWN_possessive] time on Vvardenfell, but also [PAWN_possessive] time as a Dust Adept.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -333,7 +331,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3E</defName>
 		<title>reclusive Telvanni Wizard</title>
 		<titleShort>Wizard</titleShort>
-		<baseDesc>While most Telvanni Wizards had their own mushroom towers built, [PAWN_nameDef] decided to claim a Velothi tower for [PAWN_objective]self. And why shouldn't [PAWN_pronoun] have been allowed to, after all it's not like anyone else was living there. Sure there was the slight issue said tower doesn't currently reside in Telvanni controlled territory, but it's not like anyone actually tried to force [PAWN_objective] to leave.</baseDesc>
+		<description>While most Telvanni Wizards had their own mushroom towers built, [PAWN_nameDef] decided to claim a Velothi tower for [PAWN_objective]self. And why shouldn't [PAWN_pronoun] have been allowed to, after all it's not like anyone else was living there. Sure there was the slight issue said tower doesn't currently reside in Telvanni controlled territory, but it's not like anyone actually tried to force [PAWN_objective] to leave.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Intellectual>12</Intellectual>
@@ -353,7 +351,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3F</defName>
 		<title>ancient Telvanni Wizard</title>
 		<titleShort>Wizard</titleShort>
-		<baseDesc>Potentially one of the oldest Telvanni Wizards around, [PAWN_nameDef] has rightfully earned [PAWN_possessive] position. Many have tried to trick [PAWN_objective] to reveal [PAWN_possessive] true age. Those that are lucky get a vague reply, those that are unlucky are usually just ignored. As unlike other high ranking members of House Telvanni, [PAWN_nameDef] has far better things to do than punish anyone that annoys [PAWN_objective].</baseDesc>
+		<description>Potentially one of the oldest Telvanni Wizards around, [PAWN_nameDef] has rightfully earned [PAWN_possessive] position. Many have tried to trick [PAWN_objective] to reveal [PAWN_possessive] true age. Those that are lucky get a vague reply, those that are unlucky are usually just ignored. As unlike other high ranking members of House Telvanni, [PAWN_nameDef] has far better things to do than punish anyone that annoys [PAWN_objective].</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -374,7 +372,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniSpecialA</defName>
 		<title>false Incarnate</title>
 		<titleShort>Incarnate</titleShort>
-		<baseDesc>[PAWN_nameDef] was led to believe that [PAWN_pronoun] was Nerevarine reborn by a local Blades agent. This turned out to not be the case, but [PAWN_pronoun] still believed. The locals of Sadrith Mora came to call [PAWN_nameDef] 'The Deranged', as [PAWN_pronoun] would constantly spout off about how [PAWN_pronoun] was going to save Morrowind.</baseDesc>
+		<description>[PAWN_nameDef] was led to believe that [PAWN_pronoun] was Nerevarine reborn by a local Blades agent. This turned out to not be the case, but [PAWN_pronoun] still believed. The locals of Sadrith Mora came to call [PAWN_nameDef] 'The Deranged', as [PAWN_pronoun] would constantly spout off about how [PAWN_pronoun] was going to save Morrowind.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -395,7 +393,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniSpecialB</defName>
 		<title>Telvanni Mouth</title>
 		<titleShort>Mouth</titleShort>
-		<baseDesc>Once a disgraced member of the Mages Guild, [PAWN_nameDef] was recruited by an up-and-coming member of Great House Telvanni, quickly rising to the rank of Mouth. [PAWN_possessive] skills, and general lack of care for the concept of ownership, proved highly useful for the soon-to-be Archmagister.\n\nThough, eventually [PAWN_nameDef] decided to move on in life, and pursue other desires.</baseDesc>
+		<description>Once a disgraced member of the Mages Guild, [PAWN_nameDef] was recruited by an up-and-coming member of Great House Telvanni, quickly rising to the rank of Mouth. [PAWN_possessive] skills, and general lack of care for the concept of ownership, proved highly useful for the soon-to-be Archmagister.\n\nThough, eventually [PAWN_nameDef] decided to move on in life, and pursue other desires.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Crafting>4</Crafting>

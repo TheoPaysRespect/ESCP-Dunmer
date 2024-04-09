@@ -5,7 +5,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_MedicineA</defName>
 		<title>bantam guar tender</title>
 		<titleShort>tender</titleShort>
-		<baseDesc>[PAWN_nameDef] thought it would be a good idea to earn a living selling bantam guar eggs. Turns out bantam guar, while quite small, are overflowing with attitude, and they didn't much care for [PAWN_nameDef]. Eventually [PAWN_pronoun] was forced out of [PAWN_possessive] own dwellings, by an angry horde of bantam guar. [PAWN_nameDef] occasionally still wakes up in a cold sweat.</baseDesc>
+		<description>[PAWN_nameDef] thought it would be a good idea to earn a living selling bantam guar eggs. Turns out bantam guar, while quite small, are overflowing with attitude, and they didn't much care for [PAWN_nameDef]. Eventually [PAWN_pronoun] was forced out of [PAWN_possessive] own dwellings, by an angry horde of bantam guar. [PAWN_nameDef] occasionally still wakes up in a cold sweat.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Animals>-10</Animals>
@@ -14,8 +14,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Nerves</defName>
-				<degree>-2</degree>
+				<defName Degree="-2">Nerves</defName>
 				<chance>50</chance>
 			</li>
 		</forcedTraitsChance>

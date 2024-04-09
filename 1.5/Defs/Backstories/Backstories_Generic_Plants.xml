@@ -5,7 +5,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_PlantsA</defName>
 		<title>muck scooper</title>
 		<titleShort>scooper</titleShort>
-		<baseDesc>[PAWN_nameDef] spent slightly too much of [PAWN_possessive] life scooping muck out of muck sponges. At the end of every day, [PAWN_nameDef] was covered in a thick layer of muck. The only natural response to this daily occurrence was to never clean again.</baseDesc>
+		<description>[PAWN_nameDef] spent slightly too much of [PAWN_possessive] life scooping muck out of muck sponges. At the end of every day, [PAWN_nameDef] was covered in a thick layer of muck. The only natural response to this daily occurrence was to never clean again.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Plants>4</Plants>
@@ -22,7 +22,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_PlantsB</defName>
 		<title>ash yam farmer</title>
 		<titleShort>farmer</titleShort>
-		<baseDesc>[PAWN_nameDef] once had a magnificent ash yam farm. The products of [PAWN_possessive] hard labour fed many slaves, up until a herd of wild guar decided they were hungry. [PAWN_nameDef] slew every last guar that was even remotely close to [PAWN_possessive] farm. Of course this simply attracted a flock of cliff racers, and [PAWN_nameDef]'s farm was soon uninhabitable.</baseDesc>
+		<description>[PAWN_nameDef] once had a magnificent ash yam farm. The products of [PAWN_possessive] hard labour fed many slaves, up until a herd of wild guar decided they were hungry. [PAWN_nameDef] slew every last guar that was even remotely close to [PAWN_possessive] farm. Of course this simply attracted a flock of cliff racers, and [PAWN_nameDef]'s farm was soon uninhabitable.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -43,7 +43,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_PlantsC</defName>
 		<title>bloat farmer</title>
 		<titleShort>farmer</titleShort>
-		<baseDesc>[PAWN_nameDef] once worked in one of the largest bloatspore mines in Vvardenfell. Days were spent harvesting bloat, expanding caves, and sometimes even building supports and platforms. Of course this all came to an end once the blight reached the caverns.</baseDesc>
+		<description>[PAWN_nameDef] once worked in one of the largest bloatspore mines in Vvardenfell. Days were spent harvesting bloat, expanding caves, and sometimes even building supports and platforms. Of course this all came to an end once the blight reached the caverns.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Construction>1</Construction>
@@ -68,7 +68,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_PlantsE</defName>
 		<title>wickwheat farmer</title>
 		<titleShort>farmer</titleShort>
-		<baseDesc>[PAWN_nameDef] spent [PAWN_possessive] early adulthood working in a wickwheat farm in the Grazelands. Many long days were spent under the blazing sun, sowing, harvesting, and shooting at cliff racers. [PAWN_nameDef] finally had enough of the constant interruptions, and decided to look for a life somewhere else.</baseDesc>
+		<description>[PAWN_nameDef] spent [PAWN_possessive] early adulthood working in a wickwheat farm in the Grazelands. Many long days were spent under the blazing sun, sowing, harvesting, and shooting at cliff racers. [PAWN_nameDef] finally had enough of the constant interruptions, and decided to look for a life somewhere else.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -89,7 +89,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_PlantsF</defName>
 		<title>marshmerrow farmer</title>
 		<titleShort>farmer</titleShort>
-		<baseDesc>[PAWN_nameDef] worked on one of the marshmerrow plantations in the Ascadian Isles. Harvesting marshmerrow was hard work, but at the end of the day [PAWN_nameDef] earnt a sizeable pouch of drakes, and even got to keep some marshmerrow to cook up for snacks.</baseDesc>
+		<description>[PAWN_nameDef] worked on one of the marshmerrow plantations in the Ascadian Isles. Harvesting marshmerrow was hard work, but at the end of the day [PAWN_nameDef] earnt a sizeable pouch of drakes, and even got to keep some marshmerrow to cook up for snacks.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -107,7 +107,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_PlantsG</defName>
 		<title>kresh weed farmer</title>
 		<titleShort>farmer</titleShort>
-		<baseDesc>One day [PAWN_nameDef] decided to start [PAWN_possessive] own business selling kresh fiber clothing. This proved to be significantly more difficult than [PAWN_nameDef] anticipated. Not only was kresh weed surprisingly difficult to grow, but good slaves were rather expensive, and harvesting kresh fiber was a laborious process.</baseDesc>
+		<description>One day [PAWN_nameDef] decided to start [PAWN_possessive] own business selling kresh fiber clothing. This proved to be significantly more difficult than [PAWN_nameDef] anticipated. Not only was kresh weed surprisingly difficult to grow, but good slaves were rather expensive, and harvesting kresh fiber was a laborious process.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -125,7 +125,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_PlantsH</defName>
 		<title>St. Olms farmer</title>
 		<titleShort>farmer</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of many that found work in the Farmers and Labourers Hall of the St. Olms canton. While [PAWN_nameDef] occasionally helped out in the fields, most days were spent in the Hall itself, ensuring the shop was well stocked, and completing orders.</baseDesc>
+		<description>[PAWN_nameDef] was one of many that found work in the Farmers and Labourers Hall of the St. Olms canton. While [PAWN_nameDef] occasionally helped out in the fields, most days were spent in the Hall itself, ensuring the shop was well stocked, and completing orders.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Plants>4</Plants>

@@ -5,7 +5,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_ConstructionA</defName>
 		<title>Vivec scaffolder</title>
 		<titleShort>scaffolder</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of many tasked with assembling and disassembling scaffolding around Vivec City. This was a rather cushy job, as pay was good, and there was a decent amount of downtime between work. Although the near constant presence of Ordinators did make [PAWN_nameDef] somewhat uncomfortable.</baseDesc>
+		<description>[PAWN_nameDef] was one of many tasked with assembling and disassembling scaffolding around Vivec City. This was a rather cushy job, as pay was good, and there was a decent amount of downtime between work. Although the near constant presence of Ordinators did make [PAWN_nameDef] somewhat uncomfortable.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Construction>4</Construction>
@@ -19,7 +19,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_ConstructionB</defName>
 		<title>ghostfence maintainer</title>
 		<titleShort>maintainer</titleShort>
-		<baseDesc>[PAWN_nameDef] spent quite a few years maintaining the Great Ghostfence, a difficult, but highly rewarding job. Sadly, the constant swarms of cliff racers [PAWN_pronoun] had to deal with, heavily outweighed the satisfaction of protecting the Dunmer.</baseDesc>
+		<description>[PAWN_nameDef] spent quite a few years maintaining the Great Ghostfence, a difficult, but highly rewarding job. Sadly, the constant swarms of cliff racers [PAWN_pronoun] had to deal with, heavily outweighed the satisfaction of protecting the Dunmer.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -35,7 +35,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_ConstructionC</defName>
 		<title>Kemel-Ze excavator</title>
 		<titleShort>excavator</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of the many local excavators working in the Dwemer ruins of Kemel-Ze. Work there was hard, for one had to be extremely cautions of the surroundings, especially when members of the Imperial Archaeological Society were watching. But it was worth it, for the pouch of drakes [PAWN_nameDef] received at the end of each day was quite full.</baseDesc>
+		<description>[PAWN_nameDef] was one of the many local excavators working in the Dwemer ruins of Kemel-Ze. Work there was hard, for one had to be extremely cautions of the surroundings, especially when members of the Imperial Archaeological Society were watching. But it was worth it, for the pouch of drakes [PAWN_nameDef] received at the end of each day was quite full.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Construction>4</Construction>

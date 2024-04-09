@@ -6,7 +6,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodAnimalA</defName>
 		<title>shalk rancher</title>
 		<titleShort>rancher</titleShort>
-		<baseDesc>[PAWN_nameDef] was in charge of tending to [PAWN_possessive] tribes shalk herd. This mostly involved leading the shalk from one patch of slightly burnt grass to another, though occasionally it also involved shooting at cliff racers.</baseDesc>
+		<description>[PAWN_nameDef] was in charge of tending to [PAWN_possessive] tribes shalk herd. This mostly involved leading the shalk from one patch of slightly burnt grass to another, though occasionally it also involved shooting at cliff racers.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Animals>4</Animals>
@@ -18,7 +18,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodAnimalB</defName>
 		<title>kwama nest harvester</title>
 		<titleShort>harvester</titleShort>
-		<baseDesc>[PAWN_nameDef] was tasked with harvesting eggs, wax, and cuttle from [PAWN_possessive] tribes local kwama nest. Luckily the settled Dunmer had turned the nest into a mine, before abandoning it due to the growing blight.</baseDesc>
+		<description>[PAWN_nameDef] was tasked with harvesting eggs, wax, and cuttle from [PAWN_possessive] tribes local kwama nest. Luckily the settled Dunmer had turned the nest into a mine, before abandoning it due to the growing blight.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Animals>3</Animals>
@@ -30,7 +30,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodAnimalC</defName>
 		<title>nix hound tamer</title>
 		<titleShort>tamer</titleShort>
-		<baseDesc>[PAWN_nameDef] tamed, raised, and trained nix hounds for [PAWN_possessive] tribe. These beasts were a great asset to the tribe, being used for all sorts of tasks, such as herding guar and shalk, tracking wild animals, finding clusters of wild ash yam, and as an ingredient in the cooks stew.</baseDesc>
+		<description>[PAWN_nameDef] tamed, raised, and trained nix hounds for [PAWN_possessive] tribe. These beasts were a great asset to the tribe, being used for all sorts of tasks, such as herding guar and shalk, tracking wild animals, finding clusters of wild ash yam, and as an ingredient in the cooks stew.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Animals>6</Animals>
@@ -42,7 +42,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodArtisticA</defName>
 		<title>crafter</title>
 		<titleShort>crafter</titleShort>
-		<baseDesc>[PAWN_nameDef] created all sorts of goods for [PAWN_possessive] tribe. These ranged from necklaces and amulets, to windchimes and lanterns.</baseDesc>
+		<description>[PAWN_nameDef] created all sorts of goods for [PAWN_possessive] tribe. These ranged from necklaces and amulets, to windchimes and lanterns.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -56,7 +56,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodConstructionA</defName>
 		<title>framer</title>
 		<titleShort>framer</titleShort>
-		<baseDesc>[PAWN_nameDef] was tasked with assembling and dissembling [PAWN_pronoun] tribes tents. A task that [PAWN_nameDef] often found [PAWN_objective]self doing multiple times a week.</baseDesc>
+		<description>[PAWN_nameDef] was tasked with assembling and dissembling [PAWN_pronoun] tribes tents. A task that [PAWN_nameDef] often found [PAWN_objective]self doing multiple times a week.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -70,7 +70,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodCookingA</defName>
 		<title>cook</title>
 		<titleShort>cook</titleShort>
-		<baseDesc>[PAWN_nameDef] was [PAWN_possessive] tribes cook. Not a particularly enjoyable job, as the ingredients often lacked variety. But [PAWN_possessive] tribe members never seemed to mind, or at least never voiced their complaints.</baseDesc>
+		<description>[PAWN_nameDef] was [PAWN_possessive] tribes cook. Not a particularly enjoyable job, as the ingredients often lacked variety. But [PAWN_possessive] tribe members never seemed to mind, or at least never voiced their complaints.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -82,7 +82,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodCookingB</defName>
 		<title>cook</title>
 		<titleShort>cook</titleShort>
-		<baseDesc>[PAWN_nameDef] was [PAWN_possessive] tribes cook. Not a particularly enjoyable job, as the ingredients often lacked variety, and [PAWN_possessive] tribe members often voiced their distaste of being fed cliff racer stew again.</baseDesc>
+		<description>[PAWN_nameDef] was [PAWN_possessive] tribes cook. Not a particularly enjoyable job, as the ingredients often lacked variety, and [PAWN_possessive] tribe members often voiced their distaste of being fed cliff racer stew again.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Cooking>6</Cooking>
@@ -96,7 +96,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodCookingC</defName>
 		<title>tea brewer</title>
 		<titleShort>brewer</titleShort>
-		<baseDesc>[PAWN_nameDef] spent many days brewing tea for [PAWN_possessive] tribe members. As [PAWN_possessive] tribe was forced to live in the ashlands, there wasn't exactly a great wealth of plant life to brew tea from. So [PAWN_nameDef] was usually forced to brew trama root and bittergreen tea yet again.</baseDesc>
+		<description>[PAWN_nameDef] spent many days brewing tea for [PAWN_possessive] tribe members. As [PAWN_possessive] tribe was forced to live in the ashlands, there wasn't exactly a great wealth of plant life to brew tea from. So [PAWN_nameDef] was usually forced to brew trama root and bittergreen tea yet again.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Cooking>4</Cooking>
@@ -109,7 +109,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodCraftingA</defName>
 		<title>tanner</title>
 		<titleShort>tanner</titleShort>
-		<baseDesc>[PAWN_nameDef] crafted and repaired clothes and yurts for [PAWN_possessive] tribe. [PAWN_nameDef] always sighed when the hunters bought [PAWN_possessive] cliff racer leather, which was most of the time.</baseDesc>
+		<description>[PAWN_nameDef] crafted and repaired clothes and yurts for [PAWN_possessive] tribe. [PAWN_nameDef] always sighed when the hunters bought [PAWN_possessive] cliff racer leather, which was most of the time.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -121,7 +121,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodCraftingB</defName>
 		<title>heath tender</title>
 		<titleShort>tender</titleShort>
-		<baseDesc>[PAWN_nameDef] would help [PAWN_possessive[ tribe members with all sorts of tasks, from cooking meals, to crafting arrows, and occasionally even building new yurts.</baseDesc>
+		<description>[PAWN_nameDef] would help [PAWN_possessive[ tribe members with all sorts of tasks, from cooking meals, to crafting arrows, and occasionally even building new yurts.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -138,7 +138,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodIntellectualA</defName>
 		<title>wise-woman</title>
 		<titleShort>wise-woman</titleShort>
-		<baseDesc>[PAWN_nameDef] was [PAWN_possessive] tribes Wise-Woman, a role passed down by [PAWN_possessive] mother. [PAWN_nameDef] was an integral part of [PAWN_possessive] tribe, arguably more important than even the Ashkhan.</baseDesc>
+		<description>[PAWN_nameDef] was [PAWN_possessive] tribes Wise-Woman, a role passed down by [PAWN_possessive] mother. [PAWN_nameDef] was an integral part of [PAWN_possessive] tribe, arguably more important than even the Ashkhan.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -156,7 +156,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodMedicineA</defName>
 		<title>healer</title>
 		<titleShort>healer</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of [PAWN_possessive] tribes healers. Many days were spent curing illnesses, patching wounds, and searching for medicinal plants.</baseDesc>
+		<description>[PAWN_nameDef] was one of [PAWN_possessive] tribes healers. Many days were spent curing illnesses, patching wounds, and searching for medicinal plants.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Medicine>3</Medicine>
@@ -169,7 +169,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodMeleeA</defName>
 		<title>warrior</title>
 		<titleShort>warrior</titleShort>
-		<baseDesc>[PAWN_nameDef] was a well trained warrior, and helped ensure [PAWN_possessive] tribe was safe from any who sought them harm.</baseDesc>
+		<description>[PAWN_nameDef] was a well trained warrior, and helped ensure [PAWN_possessive] tribe was safe from any who sought them harm.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -181,7 +181,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodMeleeB</defName>
 		<title>champion</title>
 		<titleShort>champion</titleShort>
-		<baseDesc>Highly skilled with both spears and blades, [PAWN_nameDef] was not someone you wanted to see on the battlefield.</baseDesc>
+		<description>Highly skilled with both spears and blades, [PAWN_nameDef] was not someone you wanted to see on the battlefield.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Melee>9</Melee>
@@ -195,7 +195,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodMiningA</defName>
 		<title>digger</title>
 		<titleShort>digger</titleShort>
-		<baseDesc>[PAWN_nameDef] spent much of [PAWN_possessive] day digging away at rock, in search of anything remotely useful for the tribe. Sometimes [PAWN_pronoun] found Resdayn glass, sometimes ebony, and occasionally even a kwama nest.</baseDesc>
+		<description>[PAWN_nameDef] spent much of [PAWN_possessive] day digging away at rock, in search of anything remotely useful for the tribe. Sometimes [PAWN_pronoun] found Resdayn glass, sometimes ebony, and occasionally even a kwama nest.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -212,7 +212,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodPlantsA</defName>
 		<title>ash yam farmer</title>
 		<titleShort>farmer</titleShort>
-		<baseDesc>[PAWN_nameDef] was quite a skilled farmer, and spent much of the day tending to [PAWN_possessive] ash yams. It was always tough leaving [PAWN_possessive] yams behind when the tribe moved, but such is life in the ashlands.</baseDesc>
+		<description>[PAWN_nameDef] was quite a skilled farmer, and spent much of the day tending to [PAWN_possessive] ash yams. It was always tough leaving [PAWN_possessive] yams behind when the tribe moved, but such is life in the ashlands.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -227,7 +227,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodPlantsB</defName>
 		<title>gatherer</title>
 		<titleShort>gatherer</titleShort>
-		<baseDesc>[PAWN_nameDef] would often go out into the ashlands in search of edible plants. A rather difficult task, as the fauna of the ashlands is quite aggressive. Even a guar is willing to defend its ash yams</baseDesc>
+		<description>[PAWN_nameDef] would often go out into the ashlands in search of edible plants. A rather difficult task, as the fauna of the ashlands is quite aggressive. Even a guar is willing to defend its ash yams</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -244,7 +244,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodShootingA</defName>
 		<title>hunter</title>
 		<titleShort>hunter</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of [PAWN_possessive] tribes hunters. Tracking animals in the ashen wastes was hard work, but [PAWN_nameDef] always managed to find something.</baseDesc>
+		<description>[PAWN_nameDef] was one of [PAWN_possessive] tribes hunters. Tracking animals in the ashen wastes was hard work, but [PAWN_nameDef] always managed to find something.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -260,7 +260,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodShootingB</defName>
 		<title>sentry</title>
 		<titleShort>sentry</titleShort>
-		<baseDesc>[PAWN_nameDef] was incredibly proficient with a bow, even with minimal training. [PAWN_nameDef] helped to keep [PAWN_pronoun] tribe safe from numerous threats, though most of them were cliff racers.</baseDesc>
+		<description>[PAWN_nameDef] was incredibly proficient with a bow, even with minimal training. [PAWN_nameDef] helped to keep [PAWN_pronoun] tribe safe from numerous threats, though most of them were cliff racers.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -276,7 +276,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodSocialA</defName>
 		<title>trader</title>
 		<titleShort>trader</titleShort>
-		<baseDesc>While ashlanders generally distrust foreigners, some tribes did allow trade with them. [PAWN_nameDef] belonged to one of those tribes, and specialised in bartering for goods that [PAWN_possessive] tribe needed.</baseDesc>
+		<description>While ashlanders generally distrust foreigners, some tribes did allow trade with them. [PAWN_nameDef] belonged to one of those tribes, and specialised in bartering for goods that [PAWN_possessive] tribe needed.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -288,7 +288,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodSocialB</defName>
 		<title>ashkhan</title>
 		<titleShort>ashkhan</titleShort>
-		<baseDesc>[PAWN_nameDef] was the Ashkhan of [PAWN_possessive] tribe, a role earned through blood and sweat, and a role that [PAWN_nameDef] did not easily give up.</baseDesc>
+		<description>[PAWN_nameDef] was the Ashkhan of [PAWN_possessive] tribe, a role earned through blood and sweat, and a role that [PAWN_nameDef] did not easily give up.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Melee>6</Melee>

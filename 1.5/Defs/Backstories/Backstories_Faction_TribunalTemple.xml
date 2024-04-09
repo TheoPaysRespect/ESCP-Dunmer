@@ -7,8 +7,7 @@
 		</spawnCategories>
 		<forcedTraitsChance>
 			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>1</degree>
+				<defName Degree="1">PsychicSensitivity</defName>
 				<chance>30</chance>
 			</li>
 		</forcedTraitsChance>
@@ -53,7 +52,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalTempleA</defName>
 		<title>Tribunal Temple member</title>
 		<titleShort>member</titleShort>
-		<baseDesc>[PAWN_nameDef] joined the Tribunal Temple at [PAWN_possessive] lowest point in life. Ever since then [PAWN_pronoun] has been a steadfast believer of the Tribunal, even after certain slanderous lies were spread about them.</baseDesc>
+		<description>[PAWN_nameDef] joined the Tribunal Temple at [PAWN_possessive] lowest point in life. Ever since then [PAWN_pronoun] has been a steadfast believer of the Tribunal, even after certain slanderous lies were spread about them.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Intellectual>2</Intellectual>
@@ -66,7 +65,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalTempleB</defName>
 		<title>Tribunal Temple librarian</title>
 		<titleShort>librarian</titleShort>
-		<baseDesc>Many thought that [PAWN_nameDef] was simply one of the librarians in charge of tending the Library of Vivec. While this was, at least partly, the case, [PAWN_nameDef] was also in charge of dealing with certain heretical tomes. No one knows where they went, but after [PAWN_nameDef] got [PAWN_possessive] hands on them, they'd never be seen again.</baseDesc>
+		<description>Many thought that [PAWN_nameDef] was simply one of the librarians in charge of tending the Library of Vivec. While this was, at least partly, the case, [PAWN_nameDef] was also in charge of dealing with certain heretical tomes. No one knows where they went, but after [PAWN_nameDef] got [PAWN_possessive] hands on them, they'd never be seen again.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Intellectual>4</Intellectual>
@@ -78,7 +77,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalTempleC</defName>
 		<title>Tribunal Temple pilgrim</title>
 		<titleShort>pilgrim</titleShort>
-		<baseDesc>[PAWN_nameDef], like anyone who wished to join the Tribunal Temple, was sent on a pilgrimage of the Seven Graces, and would have to travel to several locations of importance to the Dunmer. [PAWN_nameDef] may have gotten slightly lost along the way, and decided to just keep wandering until [PAWN_pronoun] happened upon something.</baseDesc>
+		<description>[PAWN_nameDef], like anyone who wished to join the Tribunal Temple, was sent on a pilgrimage of the Seven Graces, and would have to travel to several locations of importance to the Dunmer. [PAWN_nameDef] may have gotten slightly lost along the way, and decided to just keep wandering until [PAWN_pronoun] happened upon something.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Cooking>2</Cooking>
@@ -90,7 +89,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalTempleD</defName>
 		<title>Tribunal Temple shrine tender</title>
 		<titleShort>tender</titleShort>
-		<baseDesc>As a higher ranking member of the Tribunal Temple, [PAWN_nameDef] was given the honour of tending to the sacred shrines, an honour [PAWN_pronoun] took very seriously. Anyone who dared track ash into these sacred locations would get a stern talking to, so [PAWN_nameDef] yelled at pretty much everyone.</baseDesc>
+		<description>As a higher ranking member of the Tribunal Temple, [PAWN_nameDef] was given the honour of tending to the sacred shrines, an honour [PAWN_pronoun] took very seriously. Anyone who dared track ash into these sacred locations would get a stern talking to, so [PAWN_nameDef] yelled at pretty much everyone.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Intellectual>2</Intellectual>
@@ -102,7 +101,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalTempleE</defName>
 		<title>Tribunal Temple healer</title>
 		<titleShort>healer</titleShort>
-		<baseDesc>Many came to the Temples when seeking aid, many were in need of healing, and [PAWN_nameDef] would attempt to help them all. Some would require elixirs, some a bowl of warm soup, and others simply kind words. But sometimes, someone would arrive, and there was no helping them, and [PAWN_nameDef] would have to call the Ordinators.</baseDesc>
+		<description>Many came to the Temples when seeking aid, many were in need of healing, and [PAWN_nameDef] would attempt to help them all. Some would require elixirs, some a bowl of warm soup, and others simply kind words. But sometimes, someone would arrive, and there was no helping them, and [PAWN_nameDef] would have to call the Ordinators.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Cooking>2</Cooking>
@@ -115,7 +114,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalTempleF</defName>
 		<title>Tribunal Temple judge</title>
 		<titleShort>judge</titleShort>
-		<baseDesc>As a member of the Order of Inquisition, [PAWN_nameDef] was one of the many that decided the fate of those that defied the laws of the Temple. Any that committed acts of heresy would inevitably stand before [PAWN_nameDef], or one of [PAWN_possessive] peers.</baseDesc>
+		<description>As a member of the Order of Inquisition, [PAWN_nameDef] was one of the many that decided the fate of those that defied the laws of the Temple. Any that committed acts of heresy would inevitably stand before [PAWN_nameDef], or one of [PAWN_possessive] peers.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -132,7 +131,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalWitchHunterA</defName>
 		<title>Temple witchhunter</title>
 		<titleShort>witchhunter</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of the witchunters employed by the Tribunal Temple. While [PAWN_pronoun] occasionally made those that practised the profane disappear, permanently, [PAWN_nameDef] mostly sought out heretical texts and shrines.</baseDesc>
+		<description>[PAWN_nameDef] was one of the witchunters employed by the Tribunal Temple. While [PAWN_pronoun] occasionally made those that practised the profane disappear, permanently, [PAWN_nameDef] mostly sought out heretical texts and shrines.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -145,7 +144,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalWitchHunterB</defName>
 		<title>Temple witchhunter</title>
 		<titleShort>witchhunter</titleShort>
-		<baseDesc>Whenever the Temple caught wind of someone delving into the profane arts, they sent in the witchhunters, and [PAWN_nameDef] used to be one of them. [PAWN_pronoun] was part of a force tasked with clearing out Assemanu, some abandoned cave system near Hla Oad. The second the Ordinator fell, [PAWN_nameDef] fled.</baseDesc>
+		<description>Whenever the Temple caught wind of someone delving into the profane arts, they sent in the witchhunters, and [PAWN_nameDef] used to be one of them. [PAWN_pronoun] was part of a force tasked with clearing out Assemanu, some abandoned cave system near Hla Oad. The second the Ordinator fell, [PAWN_nameDef] fled.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -154,8 +153,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Nerves</defName>
-				<degree>-2</degree>
+				<defName Degree="-2">Nerves</defName>
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>
@@ -168,7 +166,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalArmigerA</defName>
 		<title>Buoyant Armiger warrior</title>
 		<titleShort>Armiger</titleShort>
-		<baseDesc>[PAWN_nameDef] was a member of the Buoyant Armigers, a militant order of the Tribunal Temple that answered directly to Lord Vivec. While many days were spent sitting around Ghostgate, occasionally [PAWN_nameDef] would be sent to deal with heretics.</baseDesc>
+		<description>[PAWN_nameDef] was a member of the Buoyant Armigers, a militant order of the Tribunal Temple that answered directly to Lord Vivec. While many days were spent sitting around Ghostgate, occasionally [PAWN_nameDef] would be sent to deal with heretics.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -181,7 +179,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalArmigerB</defName>
 		<title>Buoyant Armiger archer</title>
 		<titleShort>Armiger</titleShort>
-		<baseDesc>[PAWN_nameDef] was a member of the Buoyant Armigers, a militant order of the Tribunal Temple that answered directly to Lord Vivec. Many days were spent sitting around Ghostgate, which was perfectly fine with [PAWN_nameDef], as it have [PAWN_objective] ample opportunity to practice with [PAWN_possessive] bow.</baseDesc>
+		<description>[PAWN_nameDef] was a member of the Buoyant Armigers, a militant order of the Tribunal Temple that answered directly to Lord Vivec. Many days were spent sitting around Ghostgate, which was perfectly fine with [PAWN_nameDef], as it have [PAWN_objective] ample opportunity to practice with [PAWN_possessive] bow.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -195,7 +193,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorA</defName>
 		<title>Ordinator</title>
 		<titleShort>Ordinator</titleShort>
-		<baseDesc>[PAWN_nameDef] was an Ordinator in service of the tribunal temple. [PAWN_pronoun] would spend most of the day patrolling Vivec, watching all the scum, and looking for any reason to lock them up.</baseDesc>
+		<description>[PAWN_nameDef] was an Ordinator in service of the tribunal temple. [PAWN_pronoun] would spend most of the day patrolling Vivec, watching all the scum, and looking for any reason to lock them up.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -213,7 +211,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorB</defName>
 		<title>Baar Dau warden</title>
 		<titleShort>warden</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of the few Ordinators 'privileged' with wandering the tunnels of Baar Dau, making sure no prisoners were stupid enough to attempt escape. While some may have considered it a privilege, to be stationed in such an important place, [PAWN_nameDef] actually found it somewhat boring. For what was there to do up there, other than beating up prisoners?</baseDesc>
+		<description>[PAWN_nameDef] was one of the few Ordinators 'privileged' with wandering the tunnels of Baar Dau, making sure no prisoners were stupid enough to attempt escape. While some may have considered it a privilege, to be stationed in such an important place, [PAWN_nameDef] actually found it somewhat boring. For what was there to do up there, other than beating up prisoners?</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -231,7 +229,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorC</defName>
 		<title>palace guard</title>
 		<titleShort>guard</titleShort>
-		<baseDesc>[PAWN_nameDef] was once one a highly esteemed member of the Tribunal Temple, whose sole purpose was to guard Vivec's palace. A highly important job, as the Warrior Poet was not to be disturbed, not even by someone claiming to be the Incarnate.</baseDesc>
+		<description>[PAWN_nameDef] was once one a highly esteemed member of the Tribunal Temple, whose sole purpose was to guard Vivec's palace. A highly important job, as the Warrior Poet was not to be disturbed, not even by someone claiming to be the Incarnate.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -249,7 +247,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorD</defName>
 		<title>High Ordinator</title>
 		<titleShort>Ordinator</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of the elite Ordinators tasked with protecting the citizens of Mournhold. [PAWN_pronoun] nearly lost [PAWN_possessive] life during the chaos caused by Sotha Sil's attack on Mournhold. Not by a fabricant, but from some peasant with a pitchfork. [PAWN_nameDef] began contemplating life once the peasant had been dealt with, and decided Mournhold might not be for [PAWN_objective].</baseDesc>
+		<description>[PAWN_nameDef] was one of the elite Ordinators tasked with protecting the citizens of Mournhold. [PAWN_pronoun] nearly lost [PAWN_possessive] life during the chaos caused by Sotha Sil's attack on Mournhold. Not by a fabricant, but from some peasant with a pitchfork. [PAWN_nameDef] began contemplating life once the peasant had been dealt with, and decided Mournhold might not be for [PAWN_objective].</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -269,7 +267,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorE</defName>
 		<title>Ordinator in Mourning</title>
 		<titleShort>Ordinator</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of the Ordinators in Mourning, elite members of the Order of the Watch, tasked with protecting the sacred burial grounds of Necrom. Much of [PAWN_possessive] day was spent wandering around the catacombs, ensuring nothing went missing, and scolding anyone who dared to walk at a brisk pace.</baseDesc>
+		<description>[PAWN_nameDef] was one of the Ordinators in Mourning, elite members of the Order of the Watch, tasked with protecting the sacred burial grounds of Necrom. Much of [PAWN_possessive] day was spent wandering around the catacombs, ensuring nothing went missing, and scolding anyone who dared to walk at a brisk pace.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -288,7 +286,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorF</defName>
 		<title>Hand of Almalexia</title>
 		<titleShort>Her Hand</titleShort>
-		<baseDesc>[PAWN_nameDef] wasn't just an ordinary Ordinator, [PAWN_pronoun] was one of the Hands of Almalexia, one of the most feared warriors in Morrowind. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.</baseDesc>
+		<description>[PAWN_nameDef] wasn't just an ordinary Ordinator, [PAWN_pronoun] was one of the Hands of Almalexia, one of the most feared warriors in Morrowind. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
 			<li>ESCP_DunmerFaction_HerHand_Adulthood</li>

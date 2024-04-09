@@ -5,7 +5,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_SocialA</defName>
 		<title>Vivec gondolier</title>
 		<titleShort>gondolier</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of the many gondoliers working in the Vivec canals, and spent many days transporting Dunmer, and the occasional outlander, between the cantons. Whilst [PAWN_nameDef] found the job enjoyable, [PAWN_pronoun] was always annoyed watching all the potential customers simply walk past, and over a bridge to the next canton.</baseDesc>
+		<description>[PAWN_nameDef] was one of the many gondoliers working in the Vivec canals, and spent many days transporting Dunmer, and the occasional outlander, between the cantons. Whilst [PAWN_nameDef] found the job enjoyable, [PAWN_pronoun] was always annoyed watching all the potential customers simply walk past, and over a bridge to the next canton.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -23,7 +23,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_SocialB</defName>
 		<title>corprus refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDesc>[PAWN_nameDef] was forced out of [PAWN_possessive] old home when the town was quarantined due to a corprus outbreak. [PAWN_nameDef] decided to help the other refugees, and learnt some useful skills on the road to Vivec.</baseDesc>
+		<description>[PAWN_nameDef] was forced out of [PAWN_possessive] old home when the town was quarantined due to a corprus outbreak. [PAWN_nameDef] decided to help the other refugees, and learnt some useful skills on the road to Vivec.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Medicine>2</Medicine>
@@ -37,7 +37,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_SocialC</defName>
 		<title>book shop owner</title>
 		<titleShort>book seller</titleShort>
-		<baseDesc>[PAWN_nameDef] owned a small bookshop in Vivec city, which specialised in selling rare books. One day the Ordinators visited [PAWN_possessive] shop, as they had heard certain heretical tomes were being sold there. Luckily [PAWN_nameDef] managed to escape before they arrived, though without a single drake to [PAWN_possessive] name.</baseDesc>
+		<description>[PAWN_nameDef] owned a small bookshop in Vivec city, which specialised in selling rare books. One day the Ordinators visited [PAWN_possessive] shop, as they had heard certain heretical tomes were being sold there. Luckily [PAWN_nameDef] managed to escape before they arrived, though without a single drake to [PAWN_possessive] name.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -52,7 +52,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_SocialD</defName>
 		<title>wandering poet</title>
 		<titleShort>poet</titleShort>
-		<baseDesc>Inspired by the wonderful tales told by Vivec, [PAWN_nameDef] became a wandering poet. [PAWN_nameDef]'s adventures were quite dull and uneventful, though the stories [PAWN_pronoun] told were anything but. Sadly, at the end of the day, [PAWN_possessive] tales were nothing compared to those told by Vivec, and [PAWN_pronoun] often had to cook dinner for [PAWN_possessive]self.</baseDesc>
+		<description>Inspired by the wonderful tales told by Vivec, [PAWN_nameDef] became a wandering poet. [PAWN_nameDef]'s adventures were quite dull and uneventful, though the stories [PAWN_pronoun] told were anything but. Sadly, at the end of the day, [PAWN_possessive] tales were nothing compared to those told by Vivec, and [PAWN_pronoun] often had to cook dinner for [PAWN_possessive]self.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Cooking>2</Cooking>
@@ -66,7 +66,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_SocialE</defName>
 		<title>brewery overseer</title>
 		<titleShort>overseer</titleShort>
-		<baseDesc>[PAWN_nameDef] oversaw a reasonably sized brewery in the Ascadian Isles. Many of the finest Dunmeri beverages were created there, all under [PAWN_possessive] vigilant eyes. And vigilant those eyes were, not even a single bottle of sujamma went missing under [PAWN_nameDef]'s watch, not that anyone ever dared try.</baseDesc>
+		<description>[PAWN_nameDef] oversaw a reasonably sized brewery in the Ascadian Isles. Many of the finest Dunmeri beverages were created there, all under [PAWN_possessive] vigilant eyes. And vigilant those eyes were, not even a single bottle of sujamma went missing under [PAWN_nameDef]'s watch, not that anyone ever dared try.</description>
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<skillGains>
 			<Melee>3</Melee>
@@ -80,7 +80,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_SocialF</defName>
 		<title>former Camonna Tong member</title>
 		<titleShort>ex Tong</titleShort>
-		<baseDesc>[PAWN_nameDef] spent many years in the Camonna Tong. [PAWN_pronoun] followed the strict code of 'what's yours is mine', and amassed quite the wealth because of it. Sadly, all good things must come to an end. [PAWN_nameDef] was caught, jailed, and stripped of all that hard earned wealth. After escaping [PAWN_nameDef] thought it best to find somewhere to lie low, and maybe start a new life.</baseDesc>
+		<description>[PAWN_nameDef] spent many years in the Camonna Tong. [PAWN_pronoun] followed the strict code of 'what's yours is mine', and amassed quite the wealth because of it. Sadly, all good things must come to an end. [PAWN_nameDef] was caught, jailed, and stripped of all that hard earned wealth. After escaping [PAWN_nameDef] thought it best to find somewhere to lie low, and maybe start a new life.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Crafting>2</Crafting>
@@ -101,7 +101,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_SocialG</defName>
 		<title>former Syvvit Tong member</title>
 		<titleShort>ex Tong</titleShort>
-		<baseDesc>[PAWN_nameDef] was once part of the Syvvit Tong, a relatively small Tong that managed to gain control of trade in Vhul. That all came to an end one day, when some outlander started investigating their operation. Luckily [PAWN_nameDef] managed to sneak off before the Ordinators arrived.</baseDesc>
+		<description>[PAWN_nameDef] was once part of the Syvvit Tong, a relatively small Tong that managed to gain control of trade in Vhul. That all came to an end one day, when some outlander started investigating their operation. Luckily [PAWN_nameDef] managed to sneak off before the Ordinators arrived.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Melee>2</Melee>

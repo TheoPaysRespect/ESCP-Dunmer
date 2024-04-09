@@ -8,8 +8,7 @@
 		</spawnCategories>
 		<forcedTraitsChance>
 			<li>
-				<defName>Nerves</defName>
-				<degree>1</degree>
+				<defName Degree="1">Nerves</defName>
 				<chance>25</chance>
 			</li>
 		</forcedTraitsChance>
@@ -37,7 +36,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT1A</defName>
 		<title>Indoril member</title>
 		<titleShort>member</titleShort>
-		<baseDesc>[PAWN_nameDef] was a fairly unremarkable member of Great House Indoril, the great house of Indoril Nerevar himself. Like most members of House Indoril, [PAWN_nameDef] firmly believes that Dunmer culture must be respected and preserved, even the less desirable parts of it.</baseDesc>
+		<description>[PAWN_nameDef] was a fairly unremarkable member of Great House Indoril, the great house of Indoril Nerevar himself. Like most members of House Indoril, [PAWN_nameDef] firmly believes that Dunmer culture must be respected and preserved, even the less desirable parts of it.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -51,7 +50,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT1B</defName>
 		<title>Indoril velk herder</title>
 		<titleShort>herder</titleShort>
-		<baseDesc>[PAWN_nameDef] was a velk herder. Most days consisted of [PAWN_nameDef] running around, mending broken fences, and ensuring the velk didn't wander off, which they seemed to enjoy doing.</baseDesc>
+		<description>[PAWN_nameDef] was a velk herder. Most days consisted of [PAWN_nameDef] running around, mending broken fences, and ensuring the velk didn't wander off, which they seemed to enjoy doing.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Animals>3</Animals>
@@ -63,7 +62,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseIndorilT1C</defName>
 		<title>Indoril punavit brewer</title>
 		<titleShort>brewer</titleShort>
-		<baseDesc>[PAWN_nameDef] worked in a brewery near Vhul, not any normal brewery of course, for this was a punavit brewery. A drink that was considered sacred to the Indoril, and [PAWN_nameDef] helped create it.</baseDesc>
+		<description>[PAWN_nameDef] worked in a brewery near Vhul, not any normal brewery of course, for this was a punavit brewery. A drink that was considered sacred to the Indoril, and [PAWN_nameDef] helped create it.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Cooking>4</Cooking>

@@ -5,19 +5,17 @@
 		<defName>ESCP_DunmerBackstory_ChildhoodPsychic</defName>
 		<title>psychically gifted</title>
 		<titleShort>gifted</titleShort>
-		<baseDesc>[PAWN_nameDef] was born with a greater awareness of the unseen. After many years at the temple [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift, and hear the whispers of the ancestors.</baseDesc>
+		<description>[PAWN_nameDef] was born with a greater awareness of the unseen. After many years at the temple [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift, and hear the whispers of the ancestors.</description>
 		<skillGains>
 			<Social>3</Social>
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>2</degree>
+				<defName Degree="2">PsychicSensitivity</defName>
 				<chance>25</chance>
 			</li>
 			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>1</degree>
+				<defName Degree="1">PsychicSensitivity</defName>
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>
@@ -30,7 +28,7 @@
 		<defName>ESCP_DunmerBackstory_ChildhoodMagic</defName>
 		<title>magically attuned</title>
 		<titleShort>attuned</titleShort>
-		<baseDesc>[PAWN_nameDef] was born with a greater control over magicka than most. After many years of tutoring by esteemed members of Great House Telvanni, [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift.</baseDesc>
+		<description>[PAWN_nameDef] was born with a greater control over magicka than most. After many years of tutoring by esteemed members of Great House Telvanni, [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift.</description>
 		<skillGains>
 			<Intellectual>3</Intellectual>
 		</skillGains>
@@ -61,7 +59,7 @@
 		<defName>ESCP_DunmerBackstory_ChildhoodIntellectualA</defName>
 		<title>Chimer</title>
 		<titleShort>Chimer</titleShort>
-		<baseDesc>[PAWN_nameDef] was born long before the Great Betrayal, before the Dunmer even existed, possibly even before the pilgrimage to Resdayn. Needless to say, [PAWN_nameDef] is quite old.</baseDesc>
+		<description>[PAWN_nameDef] was born long before the Great Betrayal, before the Dunmer even existed, possibly even before the pilgrimage to Resdayn. Needless to say, [PAWN_nameDef] is quite old.</description>
 		<skillGains>
 			<Intellectual>6</Intellectual>
 		</skillGains>
@@ -77,7 +75,7 @@
 		<defName>ESCP_DunmerBackstory_ChildhoodIntellectualB</defName>
 		<title>child thief</title>
 		<titleShort>thief</titleShort>
-		<baseDesc>[PAWN_nameDef] quickly learnt [PAWN_pronoun] had a knack for obtaining other peoples posessions, not legitimately of course. One fateful day [PAWN_pronoun] was so very close to being caught, and since then [PAWN_nameDef] decided [PAWN_pronoun] wouldn't take any more chances.</baseDesc>
+		<description>[PAWN_nameDef] quickly learnt [PAWN_pronoun] had a knack for obtaining other peoples posessions, not legitimately of course. One fateful day [PAWN_pronoun] was so very close to being caught, and since then [PAWN_nameDef] decided [PAWN_pronoun] wouldn't take any more chances.</description>
 		<skillGains>
 			<Intellectual>4</Intellectual>
 			<Melee>2</Melee>
@@ -96,7 +94,7 @@
 		<defName>ESCP_DunmerBackstory_ChildhoodIntellectualC</defName>
 		<title>clone child</title>
 		<titleShort>clone</titleShort>
-		<baseDesc>[PAWN_nameDef] wasn't exactly born like most others. Instead, [PAWN_pronoun] was cloned by, and from, a rather high ranking member of Great House Telvanni. Inheriting quite a bit of [PAWN_possessive] fathers intellect, [PAWN_nameDef] was sure to follow in [PAWN_possessive] fathers footsteps.</baseDesc>
+		<description>[PAWN_nameDef] wasn't exactly born like most others. Instead, [PAWN_pronoun] was cloned by, and from, a rather high ranking member of Great House Telvanni. Inheriting quite a bit of [PAWN_possessive] fathers intellect, [PAWN_nameDef] was sure to follow in [PAWN_possessive] fathers footsteps.</description>
 		<skillGains>
 			<Intellectual>6</Intellectual>
 		</skillGains>
@@ -117,7 +115,7 @@
 		<defName>ESCP_DunmerBackstory_ChildhoodIntellectualD</defName>
 		<title>apprentice bonewalker creator</title>
 		<titleShort>apprentice</titleShort>
-		<baseDesc>[PAWN_nameDef] was always fascinated by the creation process of bonewalkers. Thanks to diligent study, [PAWN_pronoun] was given the chance to join an apprenticeship in Necrom, studying under a master bonewalker creator. Needless to say, [PAWN_nameDef] eagerly accepted the offer.</baseDesc>
+		<description>[PAWN_nameDef] was always fascinated by the creation process of bonewalkers. Thanks to diligent study, [PAWN_pronoun] was given the chance to join an apprenticeship in Necrom, studying under a master bonewalker creator. Needless to say, [PAWN_nameDef] eagerly accepted the offer.</description>
 		<skillGains>
 			<Crafting>1</Crafting>
 			<Intellectual>1</Intellectual>
@@ -131,7 +129,7 @@
 		<defName>ESCP_DunmerBackstory_ChildhoodMeleeA</defName>
 		<title>street kid</title>
 		<titleShort>street kid</titleShort>
-		<baseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] early life living on the streets. [PAWN_pronoun] quickly fell in with the wrong crowd, and wound up making some regrettable decisions.</baseDesc>
+		<description>[PAWN_nameDef] spent most of [PAWN_possessive] early life living on the streets. [PAWN_pronoun] quickly fell in with the wrong crowd, and wound up making some regrettable decisions.</description>
 		<skillGains>
 			<Melee>4</Melee>
 			<Shooting>2</Shooting>
@@ -148,7 +146,7 @@
 		<defName>ESCP_DunmerBackstory_ChildhoodMeleeB</defName>
 		<title>raised by nords</title>
 		<titleShort>nord</titleShort>
-		<baseDesc>[PAWN_nameDef] spent [PAWN_possessive] early years in a nice little village in the Velothi mountains. Alas, that life came to an end one fateful day, when savage Nords attacked [PAWN_possessive] village. No one knows why, but [PAWN_nameDef] was taken from [PAWN_possessive] family by the invaders, and bought to Skyrim.\n\n[PAWN_nameDef] started a new life there, and was taught many things by [PAWN_possessive] new family. Admittedly these things were mostly focused on how to best punch stuff, but [PAWN_nameDef] also picked up a dislike for wearing clothes.\n\nOver time, [PAWN_nameDef] has become increasingly aware that [PAWN_pronoun] may in fact not actually be a Nord.</baseDesc>
+		<description>[PAWN_nameDef] spent [PAWN_possessive] early years in a nice little village in the Velothi mountains. Alas, that life came to an end one fateful day, when savage Nords attacked [PAWN_possessive] village. No one knows why, but [PAWN_nameDef] was taken from [PAWN_possessive] family by the invaders, and bought to Skyrim.\n\n[PAWN_nameDef] started a new life there, and was taught many things by [PAWN_possessive] new family. Admittedly these things were mostly focused on how to best punch stuff, but [PAWN_nameDef] also picked up a dislike for wearing clothes.\n\nOver time, [PAWN_nameDef] has become increasingly aware that [PAWN_pronoun] may in fact not actually be a Nord.</description>
 		<skillGains>
 			<Melee>6</Melee>
 		</skillGains>
@@ -173,7 +171,7 @@
 		<defName>ESCP_DunmerBackstory_ChildhoodSocialA</defName>
 		<title>child slaver</title>
 		<titleShort>child</titleShort>
-		<baseDesc>[PAWN_nameDef] was practically born to be a slaver master. As soon as [PAWN_pronoun] could form coherent sentences [PAWN_nameDef] was bossing around the other children. Within a few years [PAWN_pronoun] had amassed a reasonable number of slaves, most of which were other children.</baseDesc>
+		<description>[PAWN_nameDef] was practically born to be a slaver master. As soon as [PAWN_pronoun] could form coherent sentences [PAWN_nameDef] was bossing around the other children. Within a few years [PAWN_pronoun] had amassed a reasonable number of slaves, most of which were other children.</description>
 		<skillGains>
 			<Melee>1</Melee>
 			<Social>2</Social>
@@ -194,7 +192,7 @@
 		<defName>ESCP_DunmerBackstory_ChildhoodSocialB</defName>
 		<title>child prisoner</title>
 		<titleShort>prisoner</titleShort>
-		<baseDesc>[PAWN_nameDef] was born on a certain day, to uncertain parents. As a prisoner [PAWN_pronoun] was taken to an unknown land, for an unknown purpose.</baseDesc>
+		<description>[PAWN_nameDef] was born on a certain day, to uncertain parents. As a prisoner [PAWN_pronoun] was taken to an unknown land, for an unknown purpose.</description>
 		<skillGains>
 			<Social>6</Social>
 		</skillGains>

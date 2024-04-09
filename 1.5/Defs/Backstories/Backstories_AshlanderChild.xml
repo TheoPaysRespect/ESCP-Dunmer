@@ -5,19 +5,17 @@
 		<defName>ESCP_DunmerAshlanderBackstory_ChildhoodPsychic</defName>
 		<title>psychically gifted</title>
 		<titleShort>gifted</titleShort>
-		<baseDesc>[PAWN_nameDef] was born with a greater awareness of the unseen. After many years of guidance from the Wise Woman, [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift, and hear the whispers of the ancestors.</baseDesc>
+		<description>[PAWN_nameDef] was born with a greater awareness of the unseen. After many years of guidance from the Wise Woman, [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift, and hear the whispers of the ancestors.</description>
 		<skillGains>
 			<Social>3</Social>
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>2</degree>
+				<defName Degree="2">PsychicSensitivity</defName>
 				<chance>25</chance>
 			</li>
 			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>1</degree>
+				<defName Degree="1">PsychicSensitivity</defName>
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>
@@ -30,7 +28,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_ChildhoodAnimalsA</defName>
 		<title>reclusive child</title>
 		<titleShort>recluse</titleShort>
-		<baseDesc>[PAWN_nameDef] always preferred the company of [PAWN_possessive] tribes guar and nix hounds, and could often be found crafting various trinkets to adorn the beasts.</baseDesc>
+		<description>[PAWN_nameDef] always preferred the company of [PAWN_possessive] tribes guar and nix hounds, and could often be found crafting various trinkets to adorn the beasts.</description>
 		<skillGains>
 			<Animals>3</Animals>
 			<Crafting>2</Crafting>
@@ -43,7 +41,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_ChildhoodConstructionA</defName>
 		<title>animal tender</title>
 		<titleShort>tender</titleShort>
-		<baseDesc>[PAWN_nameDef] enjoyed tending to [PAWN_possessive] tribes shalk herd, always ensuring that the pen was secure, and that there were no cliff racers nearby.</baseDesc>
+		<description>[PAWN_nameDef] enjoyed tending to [PAWN_possessive] tribes shalk herd, always ensuring that the pen was secure, and that there were no cliff racers nearby.</description>
 		<skillGains>
 			<Construction>2</Construction>
 			<Shooting>1</Shooting>
@@ -55,7 +53,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_ChildhoodCookingA</defName>
 		<title>assistant cook</title>
 		<titleShort>cook</titleShort>
-		<baseDesc>[PAWN_nameDef] was always eager to help with cooking for [PAWN_possessive] tribe, and learnt quite a few things about the flora of the ashlands in the process.</baseDesc>
+		<description>[PAWN_nameDef] was always eager to help with cooking for [PAWN_possessive] tribe, and learnt quite a few things about the flora of the ashlands in the process.</description>
 		<skillGains>
 			<Cooking>3</Cooking>
 			<Plants>1</Plants>
@@ -66,7 +64,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_ChildhoodCookingB</defName>
 		<title>assistant cook</title>
 		<titleShort>cook</titleShort>
-		<baseDesc>[PAWN_nameDef] was always eager to help with cooking for [PAWN_possessive] tribe, and learnt quite a few things about the fauna of the ashlands in the process.</baseDesc>
+		<description>[PAWN_nameDef] was always eager to help with cooking for [PAWN_possessive] tribe, and learnt quite a few things about the fauna of the ashlands in the process.</description>
 		<skillGains>
 			<Animals>1</Animals>
 			<Cooking>2</Cooking>
@@ -78,7 +76,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_ChildhoodCraftingA</defName>
 		<title>hunters assistant</title>
 		<titleShort>assistant</titleShort>
-		<baseDesc>[PAWN_nameDef] would provide any assistance [PAWN_pronoun] could give to [PAWN_possessive] tribes hunters. This usually meant fletching arrows, and repairing spears, and occasionally acting as bait. It was worth it though, as [PAWN_nameDef] was taught a few things about using bows.</baseDesc>
+		<description>[PAWN_nameDef] would provide any assistance [PAWN_pronoun] could give to [PAWN_possessive] tribes hunters. This usually meant fletching arrows, and repairing spears, and occasionally acting as bait. It was worth it though, as [PAWN_nameDef] was taught a few things about using bows.</description>
 		<skillGains>
 			<Crafting>2</Crafting>
 			<Shooting>1</Shooting>
@@ -90,7 +88,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_ChildhoodIntellectualA</defName>
 		<title>abandoned child</title>
 		<titleShort>abandoned</titleShort>
-		<baseDesc>[PAWN_nameDef] was abandoned in the ashlands shortly after [PAWN_possessive] birth. Luckily for [PAWN_nameDef], an Ashlander tribe passing through the area heard [PAWN_possessive] cries, and adopted [PAWN_nameDef] into the tribe. The tribe took great care of [PAWN_possessive], and passed on a great deal of their ancestral knowledge to [PAWN_nameDef].</baseDesc>
+		<description>[PAWN_nameDef] was abandoned in the ashlands shortly after [PAWN_possessive] birth. Luckily for [PAWN_nameDef], an Ashlander tribe passing through the area heard [PAWN_possessive] cries, and adopted [PAWN_nameDef] into the tribe. The tribe took great care of [PAWN_possessive], and passed on a great deal of their ancestral knowledge to [PAWN_nameDef].</description>
 		<skillGains>
 			<Intellectual>2</Intellectual>
 			<Social>1</Social>
@@ -112,7 +110,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_ChildhoodMedicineA</defName>
 		<title>wise-womans assistant</title>
 		<titleShort>assistant</titleShort>
-		<baseDesc>[PAWN_nameDef] was an assistant to [PAWN_possessive] tribes wise-woman. As [PAWN_pronoun] was serving such an important member of the tribe, it was integral that [PAWN_nameDef] made no mistake, as even a single one could prove devastating. At least that's what the wise-woman told [PAWN_possessive]. In reality [PAWN_pronoun] made plenty of mistakes, but the wise-woman would always ensure that [PAWN_nameDef] learnt from them.</baseDesc>
+		<description>[PAWN_nameDef] was an assistant to [PAWN_possessive] tribes wise-woman. As [PAWN_pronoun] was serving such an important member of the tribe, it was integral that [PAWN_nameDef] made no mistake, as even a single one could prove devastating. At least that's what the wise-woman told [PAWN_possessive]. In reality [PAWN_pronoun] made plenty of mistakes, but the wise-woman would always ensure that [PAWN_nameDef] learnt from them.</description>
 		<skillGains>
 			<Intellectual>1</Intellectual>
 			<Medicine>1</Medicine>
@@ -125,7 +123,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_ChildhoodMeleeA</defName>
 		<title>sole survivor</title>
 		<titleShort>survivor</titleShort>
-		<baseDesc>[PAWN_nameDef] was the only survivor of an attack on [PAWN_possessive] tribe. The victors saw no reason to waste an extra body, and took [PAWN_possessive] into their tribe. Due to this tribes warlike nature, [PAWN_nameDef] was taught how to fight, and nothing else.</baseDesc>
+		<description>[PAWN_nameDef] was the only survivor of an attack on [PAWN_possessive] tribe. The victors saw no reason to waste an extra body, and took [PAWN_possessive] into their tribe. Due to this tribes warlike nature, [PAWN_nameDef] was taught how to fight, and nothing else.</description>
 		<skillGains>
 			<Melee>5</Melee>
 			<Social>-2</Social>
@@ -141,7 +139,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_ChildhoodMiningA</defName>
 		<title>ash digger</title>
 		<titleShort>digger</titleShort>
-		<baseDesc>[PAWN_nameDef] was only really interested in one thing, and that was the idea of finding buried treasure. So naturally, [PAWN_pronoun] would wander off any chance [PAWN_pronoun] could find, and attempt start digging holes in the ash. [PAWN_nameDef] eventually became quite skilled at it, and often boasted that [PAWN_pronoun] had dug up half the ashlands. Of course [PAWN_nameDef] never actually found anything that one could consider treasure.</baseDesc>
+		<description>[PAWN_nameDef] was only really interested in one thing, and that was the idea of finding buried treasure. So naturally, [PAWN_pronoun] would wander off any chance [PAWN_pronoun] could find, and attempt start digging holes in the ash. [PAWN_nameDef] eventually became quite skilled at it, and often boasted that [PAWN_pronoun] had dug up half the ashlands. Of course [PAWN_nameDef] never actually found anything that one could consider treasure.</description>
 		<skillGains>
 			<Mining>5</Mining>
 			<Intellectual>-2</Intellectual>
@@ -153,7 +151,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_ChildhoodPlantsA</defName>
 		<title>forager</title>
 		<titleShort>forager</titleShort>
-		<baseDesc>Life in an Ashlander tribe wasn't exactly the most exciting thing, especially for [PAWN_nameDef]. To combat this, [PAWN_nameDef] would often wander off into the Ashlands in search of interesting plant life, though more often than not returned with only scrapes and bruises.</baseDesc>
+		<description>Life in an Ashlander tribe wasn't exactly the most exciting thing, especially for [PAWN_nameDef]. To combat this, [PAWN_nameDef] would often wander off into the Ashlands in search of interesting plant life, though more often than not returned with only scrapes and bruises.</description>
 		<skillGains>
 			<Medicine>1</Medicine>
 			<Plants>2</Plants>
@@ -165,7 +163,7 @@
 		<defName>ESCP_DunmerAshlanderBackstory_ChildhoodShootingA</defName>
 		<title>stone-thrower</title>
 		<titleShort>thrower</titleShort>
-		<baseDesc>[PAWN_nameDef] was always throwing stones around, at yurts, at mudcrabs, and sometimes even at [PAWN_possessive] tribe members. While most of the other tribe members grew quite terrified of a stone hitting them from out of nowhere, some saw the value in [PAWN_nameDef]'s skills.</baseDesc>
+		<description>[PAWN_nameDef] was always throwing stones around, at yurts, at mudcrabs, and sometimes even at [PAWN_possessive] tribe members. While most of the other tribe members grew quite terrified of a stone hitting them from out of nowhere, some saw the value in [PAWN_nameDef]'s skills.</description>
 		<skillGains>
 			<Shooting>5</Shooting>
 			<Social>-2</Social>

@@ -7,8 +7,7 @@
 		</spawnCategories>
 		<forcedTraitsChance>
 			<li>
-				<defName>Industriousness</defName>
-				<degree>1</degree>
+				<defName Degree="1">Industriousness</defName>
 				<chance>15</chance>
 			</li>
 		</forcedTraitsChance>
@@ -31,7 +30,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseRedoranT1A</defName>
 		<title>Redoran member</title>
 		<titleShort>member</titleShort>
-		<baseDesc>[PAWN_nameDef] was a fairly unremarkable member of Great House Redoran. Members of House Redoran were always considered to be more compassionate than those of other Great Houses, likely due to House Redoran valuing honour rather highly. [PAWN_nameDef] likes to believe this is true of [PAWN_possessive]self.</baseDesc>
+		<description>[PAWN_nameDef] was a fairly unremarkable member of Great House Redoran. Members of House Redoran were always considered to be more compassionate than those of other Great Houses, likely due to House Redoran valuing honour rather highly. [PAWN_nameDef] likes to believe this is true of [PAWN_possessive]self.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -44,7 +43,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseRedoranT1B</defName>
 		<title>Redoran hoom herder</title>
 		<titleShort>herder</titleShort>
-		<baseDesc>[PAWN_nameDef] journeyed to the Velothi mountains for one singular purpose, to tend to the hooms, a lifelong dream of [PAWN_nameDef]. [PAWN_pronoun] always woke up to the soothing calls of the large beasts, and knew this was home... At least until the Nords attacked.</baseDesc>
+		<description>[PAWN_nameDef] journeyed to the Velothi mountains for one singular purpose, to tend to the hooms, a lifelong dream of [PAWN_nameDef]. [PAWN_pronoun] always woke up to the soothing calls of the large beasts, and knew this was home... At least until the Nords attacked.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Animals>6</Animals>
@@ -55,7 +54,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseRedoranT1C</defName>
 		<title>Redoran soldier</title>
 		<titleShort>soldier</titleShort>
-		<baseDesc>[PAWN_nameDef] was a soldier stationed near Maar Gan. The soldiers stationed there were meant to deter invaders, be it foreign or from other Great Houses. But [PAWN_nameDef] spent most days hunting blighted beasts.</baseDesc>
+		<description>[PAWN_nameDef] was a soldier stationed near Maar Gan. The soldiers stationed there were meant to deter invaders, be it foreign or from other Great Houses. But [PAWN_nameDef] spent most days hunting blighted beasts.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -70,7 +69,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseRedoranT1D</defName>
 		<title>Redoran builder</title>
 		<titleShort>builder</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of the many builders you could find in Redoran land. Building in the Redoran style was difficult work, and very time consuming, especially when construction had to be paused due to ash storms. But [PAWN_nameDef] enjoyed it, for the most part.</baseDesc>
+		<description>[PAWN_nameDef] was one of the many builders you could find in Redoran land. Building in the Redoran style was difficult work, and very time consuming, especially when construction had to be paused due to ash storms. But [PAWN_nameDef] enjoyed it, for the most part.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -83,7 +82,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseRedoranT2A</defName>
 		<title>Redoran watchman</title>
 		<titleShort>watchman</titleShort>
-		<baseDesc>[PAWN_nameDef] was once a watchman, a specially trained archer tasked with protecting Redoran land. [PAWN_nameDef] eventually grew tired of constantly inhaling ash, and decided to put [PAWN_possessive] talents to use elsewhere.</baseDesc>
+		<description>[PAWN_nameDef] was once a watchman, a specially trained archer tasked with protecting Redoran land. [PAWN_nameDef] eventually grew tired of constantly inhaling ash, and decided to put [PAWN_possessive] talents to use elsewhere.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -91,8 +90,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>ShootingAccuracy</defName>
-				<degree>1</degree>
+				<defName Degree="1">ShootingAccuracy</defName>
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>
@@ -102,7 +100,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseRedoranT2B</defName>
 		<title>Redoran guar knight</title>
 		<titleShort>knight</titleShort>
-		<baseDesc>While most knights ride horses into battle, [PAWN_nameDef] rode [PAWN_possessive] trusty guar. [PAWN_nameDef] and [PAWN_possessive] were inseparable, until one fateful day when a blighted kagouti gored [PAWN_nameDef] noble steed.</baseDesc>
+		<description>While most knights ride horses into battle, [PAWN_nameDef] rode [PAWN_possessive] trusty guar. [PAWN_nameDef] and [PAWN_possessive] were inseparable, until one fateful day when a blighted kagouti gored [PAWN_nameDef] noble steed.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -115,7 +113,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseRedoranT2C</defName>
 		<title>Redoran elite</title>
 		<titleShort>elite</titleShort>
-		<baseDesc>Having undergone rigorous training by only the best drillmasters of House Redoran, [PAWN_nameDef] has become an incredibly skilled warrior. [PAWN_pronoun] revels in the glory of battle. Argonians, Nords, Imperials, even other Dunmer, [PAWN_nameDef] doesn't really care, as long as blood is being spilled.</baseDesc>
+		<description>Having undergone rigorous training by only the best drillmasters of House Redoran, [PAWN_nameDef] has become an incredibly skilled warrior. [PAWN_pronoun] revels in the glory of battle. Argonians, Nords, Imperials, even other Dunmer, [PAWN_nameDef] doesn't really care, as long as blood is being spilled.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Melee>8</Melee>
@@ -132,7 +130,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseRedoranT2D</defName>
 		<title>Redoran foreman</title>
 		<titleShort>foreman</titleShort>
-		<baseDesc>[PAWN_nameDef] has spent several years studying the art of building in the traditional Redoran style. From building the resin frame, to laying the bricks, and finally applying the clay coating, [PAWN_nameDef] knew it all by heart. And as a foreman, [PAWN_pronoun] put this knowledge to great use.</baseDesc>
+		<description>[PAWN_nameDef] has spent several years studying the art of building in the traditional Redoran style. From building the resin frame, to laying the bricks, and finally applying the clay coating, [PAWN_nameDef] knew it all by heart. And as a foreman, [PAWN_pronoun] put this knowledge to great use.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Construction>8</Construction>
@@ -144,7 +142,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseRedoranT3A</defName>
 		<title>Redoran kagouti knight</title>
 		<titleShort>knight</titleShort>
-		<baseDesc>[PAWN_nameDef] was well trained in the art of kagouti riding, a somewhat difficult skill to master, as kagouti are highly temperamental. Needless to say, [PAWN_nameDef] was quite the sight on the battlefield, and always ensured no one escaped unscathed.</baseDesc>
+		<description>[PAWN_nameDef] was well trained in the art of kagouti riding, a somewhat difficult skill to master, as kagouti are highly temperamental. Needless to say, [PAWN_nameDef] was quite the sight on the battlefield, and always ensured no one escaped unscathed.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -163,7 +161,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseRedoranT3B</defName>
 		<title>Redoran Councilman</title>
 		<titleShort>Councilman</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of the few specially appointed Councilman in charge of diplomatic matters. Admittedly the go-to solution for most of these decisions involved swords, spears and arrows.</baseDesc>
+		<description>[PAWN_nameDef] was one of the few specially appointed Councilman in charge of diplomatic matters. Admittedly the go-to solution for most of these decisions involved swords, spears and arrows.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
