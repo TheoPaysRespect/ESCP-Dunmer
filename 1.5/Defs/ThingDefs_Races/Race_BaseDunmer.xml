@@ -456,7 +456,6 @@
 					<li>AteInsectMeatAsIngredient</li>
 					<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AteInsectEggAsIngredient</li>
 					<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AteInsectEggDirect</li>
-					<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AteNixOxMilk</li>
 					<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AshStorm</li>
 				</cannotReceiveThoughts>
 				<replacerList>
