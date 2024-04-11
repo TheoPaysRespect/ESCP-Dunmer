@@ -3,7 +3,6 @@
 	<TraderKindDef>
 		<defName>ESCP_DunmerCaravan_AlcoholTrader</defName>
 		<label>Dunmer alcohol trader</label>
-		<commonality>2<commonality>
 		<stockGenerators>
 			<!-- Resources -->
 			<li Class="StockGenerator_SingleDef">

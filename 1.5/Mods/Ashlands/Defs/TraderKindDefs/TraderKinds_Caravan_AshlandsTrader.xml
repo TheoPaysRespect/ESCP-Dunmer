@@ -4,7 +4,6 @@
 	<TraderKindDef>
 		<defName>ESCP_DunmerCaravan_AshlandsTrader</defName>
 		<label>ashland trader</label>
-		<commonality>2<commonality>
 		<stockGenerators>
 			<!-- Resources -->
 			<li Class="StockGenerator_SingleDef">

@@ -297,7 +297,7 @@
 			<li>(0.80, 0.85, 0.60)</li>
 		</colorSpectrum>
 		<caravanTraderKinds>
-			<li MayRequire="SirMashedPotato.TevalvanniTechnology">MorrowRim_TelvanniTrader</li>
+			<li MayRequire="SirMashedPotato.TelvanniTechnology">MorrowRim_TelvanniTrader</li>
 		</caravanTraderKinds>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
