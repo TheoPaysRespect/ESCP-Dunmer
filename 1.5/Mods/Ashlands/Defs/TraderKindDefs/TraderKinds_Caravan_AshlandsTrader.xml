@@ -11,8 +11,8 @@
 				<countRange>900~1500</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>Pemmican</thingDef>
-				<countRange>150~300</countRange>
+				<thingDef>Mashed_Ashlands_Scuttle</thingDef>
+				<countRange>10~20</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Gold</thingDef>
@@ -29,7 +29,7 @@
 			</li>
 			<li Class="StockGenerator_Tag">
 				<tradeTag>Mashed_Ashlands_AshlandsAnimalProduct</tradeTag>
-				<thingDefCountRange>1~3</thingDefCountRange> <!--4 total April 9th 2024-->
+				<thingDefCountRange>2~3</thingDefCountRange> <!--4 total April 9th 2024-->
 				<countRange>50~200</countRange>
 			</li>
 			<li Class="StockGenerator_Tag">
@@ -72,8 +72,8 @@
 				<tradeTagsSell>
 					<li>Mashed_Ashlands_AshlandAnimalCommon</li>
 				</tradeTagsSell>
-				<kindCountRange>4~7</kindCountRange> <!--14 total -->
-				<countRange>2~6</countRange>
+				<kindCountRange>5~8</kindCountRange> <!--14 total -->
+				<countRange>3~6</countRange>
 			</li>
 			<li Class="StockGenerator_Animals">
 				<tradeTagsSell>

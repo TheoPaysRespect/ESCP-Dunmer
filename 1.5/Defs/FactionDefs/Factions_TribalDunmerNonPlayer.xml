@@ -28,7 +28,6 @@
 		</structureMemeWeights>
 		<requiredMemes/>
 		<caravanTraderKinds>
-			<li MayRequire="SirMashedPotato.Ashlands">ESCP_DunmerCaravan_AshlandsTrader</li>
 			<li MayRequire="SirMashedPotato.Ashlands">ESCP_DunmerCaravan_AlcoholTrader</li>
 		</caravanTraderKinds>
 		<raidLootMaker>ESCP_DunmerRaidLootMaker</raidLootMaker>
@@ -214,6 +213,7 @@
 			<li>(0.85, 0.70, 0.60)</li>
 		</colorSpectrum>
 		<caravanTraderKinds>
+			<li MayRequire="sirmashedpotato.ashlands">ESCP_DunmerCaravan_Smith</li>
 		</caravanTraderKinds>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
