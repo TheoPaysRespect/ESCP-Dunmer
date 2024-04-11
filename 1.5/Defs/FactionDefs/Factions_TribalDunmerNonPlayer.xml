@@ -279,9 +279,9 @@
 		<modExtensions>
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
-				<likedBiomeList>
-					<li>TemperateForest</li>
-				</likedBiomeList>
+				<biomeKeyWords>
+					<li>Ashlands</li>
+				</biomeKeyWords>
 				<requiresWater>true</requiresWater>
 			</li>
 		</modExtensions>
@@ -323,12 +323,12 @@
 		<modExtensions>
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
-				<useTemperatureRange>true</useTemperatureRange>
-				<temperatureRangeMin>0</temperatureRangeMin>
-				<temperatureRangeMax>45</temperatureRangeMax>
-				<useRainfallRange>true</useRainfallRange>
-				<rainfallRangeMin>500</rainfallRangeMin>
-				<rainfallRangeMax>2000</rainfallRangeMax>
+				<likedBiomeList>
+					<!-- Thriving biomes -->
+					<li>Mashed_Ashlands_ForestAshlands</li>
+					<li>Mashed_Ashlands_MarshAshlands</li>
+					<li>Mashed_Ashlands_MeadowAshlands</li>
+				</likedBiomeList>
 			</li>
 		</modExtensions>
 		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementFaithful</factionIconPath>
@@ -337,6 +337,7 @@
 			<li>(0.8, 1.0, 1.0)</li>
 		</colorSpectrum>
 		<caravanTraderKinds>
+			<li MayRequire="SirMashedPotato.Ashlands">ESCP_DunmerCaravan_TeaTrader</li>
 		</caravanTraderKinds>
 		<structureMemeWeights Inherit="False">
 			<ESCP_Structure_OriginTribunal MayRequire="Ludeon.RimWorld.Ideology">999</ESCP_Structure_OriginTribunal>
