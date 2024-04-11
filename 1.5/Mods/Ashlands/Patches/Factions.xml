@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+
+    <!--biome preference-->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/FactionDef[defName="ESCP_DunmerNonPlayerFaction_Faithful"]/modExtensions/li[@Class="ESCP_RaceTools.SettlementPreference"]</xpath>
         <value>
@@ -25,6 +27,39 @@
                 </biomeKeyWords>
                 <requiresWater>true</requiresWater>
             </li>
+        </value>
+    </Operation>
+
+    <!--research tags-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/FactionDef[defName="ESCP_DunmerPlayerFaction_Tribal"]/startingResearchTags</xpath>
+        <value>
+            <startingResearchTags>
+                <li>Mashed_Ashlands_AshlandBasic</li>
+            </startingResearchTags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/FactionDef[defName="ESCP_DunmerPlayerFaction_Medieval"]/startingResearchTags</xpath>
+        <value>
+            <startingResearchTags>
+                <li>Mashed_Ashlands_AshlandBasic</li>
+            </startingResearchTags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[defName="ESCP_DunmerAshlanderPlayerFaction_Tribal"]/startingResearchTags</xpath>
+        <value>
+            <li>Mashed_Ashlands_AshlandBasic</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[defName="ESCP_DunmerAshlanderPlayerFaction_Medieval"]/startingResearchTags</xpath>
+        <value>
+            <li>Mashed_Ashlands_AshlandBasic</li>
         </value>
     </Operation>
 </Patch>

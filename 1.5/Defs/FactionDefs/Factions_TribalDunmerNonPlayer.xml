@@ -28,8 +28,8 @@
 		</structureMemeWeights>
 		<requiredMemes/>
 		<caravanTraderKinds>
-			<li MayRequire="sirmashedpotato.ashlands">ESCP_AshlandsTrader</li>
-			<li MayRequire="sirmashedpotato.ashlands">ESCP_DunmerAlcoholTrader</li>
+			<li MayRequire="SirMashedPotato.Ashlands">ESCP_DunmerCaravan_AshlandsTrader</li>
+			<li MayRequire="SirMashedPotato.Ashlands">ESCP_DunmerCaravan_AlcoholTrader</li>
 		</caravanTraderKinds>
 		<raidLootMaker>ESCP_DunmerRaidLootMaker</raidLootMaker>
 		<pawnGroupMakers>
@@ -279,9 +279,9 @@
 		<modExtensions>
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
-					<likedBiomeList>
-						<li>TemperateForest</li>
-					</likedBiomeList>
+				<likedBiomeList>
+					<li>TemperateForest</li>
+				</likedBiomeList>
 				<requiresWater>true</requiresWater>
 			</li>
 		</modExtensions>
