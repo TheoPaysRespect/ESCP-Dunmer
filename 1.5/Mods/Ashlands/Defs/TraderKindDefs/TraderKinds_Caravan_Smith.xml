@@ -13,7 +13,7 @@
             </li>
            <li Class="StockGenerator_SingleDef">
                 <thingDef>Mashed_Ashlands_Scuttle</thingDef>
-                <countRange>10~20</countRange>
+                <countRange>20~30</countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
                 <thingDef>MedicineHerbal</thingDef>
@@ -22,8 +22,8 @@
 
             <li Class="StockGenerator_Tag">
                 <tradeTag>Mashed_Ashlands_AshlandsMineral</tradeTag>
-                <thingDefCountRange>2~2</thingDefCountRange>
-                <countRange>40~200</countRange>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>75~150</countRange>
             </li>
 
             <li Class="StockGenerator_Tag">
@@ -32,6 +32,17 @@
                 <countRange>50~100</countRange>
             </li>
 
+            <li Class="StockGenerator_Tag">
+                <tradeTag>ESCP_Material</tradeTag>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>100~300</countRange>
+            </li>
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>ESCP_ExoticMetal</tradeTag>
+                <thingDefCountRange>-3~1</thingDefCountRange>
+                <totalPriceRange>2000~3000</totalPriceRange> <!--10-15-->
+            </li>
 
             <!-- Techprints -->
             <li Class="StockGenerator_Techprints">

@@ -6,7 +6,7 @@
         <value>
             <li Class="StockGenerator_SingleDef">
                 <thingDef>Mashed_Ashlands_Scuttle</thingDef>
-                <countRange>10~20</countRange>
+                <countRange>20~30</countRange>
             </li>
         </value>
     </Operation>
