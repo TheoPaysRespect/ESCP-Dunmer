@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraderKindDef[defName="ESCP_DunmerCaravan_CamonnaTongFence"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Mashed_Ashlands_Scuttle</thingDef>
+                <countRange>10~20</countRange>
+            </li>
+        </value>
+    </Operation>
+</Patch>

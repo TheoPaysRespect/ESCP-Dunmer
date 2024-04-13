@@ -4,9 +4,8 @@
         <defName>ESCP_DunmerCaravan_Smith</defName>
         <label>Dunmer smith</label>
 
-        <!--to add: dunmer armory, bonemold, adamantium-->
-
         <stockGenerators>
+
             <!-- Resources -->
             <li Class="StockGenerator_SingleDef">
                 <thingDef>Silver</thingDef>
