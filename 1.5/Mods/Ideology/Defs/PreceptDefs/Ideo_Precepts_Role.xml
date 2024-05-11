@@ -19,7 +19,7 @@
 				<races>
 					<li>ESCP_DunmerRace</li>
 					<li>ESCP_DunmerAshlanderRace</li>
-					<li MayRequire="SirMashedPotato.ESCP.Chimer">ESCP_ChimerRace</li>
+					<li MayRequire="ESCP.ESCP.Chimer">ESCP_ChimerRace</li>
 				</races>
 			</li>
 		</roleRequirements>

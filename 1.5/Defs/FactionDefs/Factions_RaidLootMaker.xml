@@ -7,7 +7,7 @@
 			<fixedParams>
 				<filter>
 					<thingDefs>
-						<li MayRequire="SirMashedPotato.MorrowRim.SimpleBonemold">ESCP_BonemoldItem</li>
+						<li MayRequire="ESCP.MorrowRim.SimpleBonemold">ESCP_BonemoldItem</li>
 						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_Scuttle</li>
 						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_VolcanicGlass</li>
 						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_VolcanicEbony</li>
