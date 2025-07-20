@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalTempleBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase" Name="ESCP_DunmerBackstory_Adulthood_TribunalTempleBase" Abstract="True">
+		<spawnCategories>
+			<li>ESCP_DunmerFaction_TribunalTemple_Adulthood</li>
+		</spawnCategories>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="1">PsychicSensitivity</defName>
+				<chance>30</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Cannibal</defName>
+			</li>
+		</disallowedTraitsChance>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TempleWitchHunterBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_TribunalTempleBase" Name="ESCP_DunmerBackstory_Adulthood_WitchHunterBase" Abstract="True">
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TempleArmigerBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_TribunalTempleBase" Name="ESCP_DunmerBackstory_Adulthood_ArmigerBase" Abstract="True">
+		<spawnCategories>
+			<li>ESCP_DunmerGreatHouse_Redoran_Adulthood</li>
+		</spawnCategories>
+		<forcedTraitsChance>
+			<li>
+				<defName>ESCP_Dunmer_VivecBlessing</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TempleOrdinatorBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_TribunalTempleBase" Name="ESCP_DunmerBackstory_Adulthood_OrdinatorBase" Abstract="True">
+		<spawnCategories>
+			<li>ESCP_DunmerGreatHouse_Indoril_Adulthood</li>
+		</spawnCategories>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Temple] ==================== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalTempleA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_TribunalTempleBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalTempleA</defName>
+		<title>Tribunal Temple member</title>
+		<titleShort>member</titleShort>
+		<description>[PAWN_nameDef] joined the Tribunal Temple at [PAWN_possessive] lowest point in life. Ever since then [PAWN_pronoun] has been a steadfast believer of the Tribunal, even after certain slanderous lies were spread about them.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Medicine>2</Medicine>
+			<Social>2</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalTempleB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_TribunalTempleBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalTempleB</defName>
+		<title>Tribunal Temple librarian</title>
+		<titleShort>librarian</titleShort>
+		<description>Many thought that [PAWN_nameDef] was simply one of the librarians in charge of tending the Library of Vivec. While this was, at least partly, the case, [PAWN_nameDef] was also in charge of dealing with certain heretical tomes. No one knows where they went, but after [PAWN_nameDef] got [PAWN_possessive] hands on them, they'd never be seen again.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Intellectual>4</Intellectual>
+			<Social>2</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalTempleC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_TribunalTempleBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalTempleC</defName>
+		<title>Tribunal Temple pilgrim</title>
+		<titleShort>pilgrim</titleShort>
+		<description>[PAWN_nameDef], like anyone who wished to join the Tribunal Temple, was sent on a pilgrimage of the Seven Graces, and would have to travel to several locations of importance to the Dunmer. [PAWN_nameDef] may have gotten slightly lost along the way, and decided to just keep wandering until [PAWN_pronoun] happened upon something.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Cooking>2</Cooking>
+			<Social>4</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalTempleD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_TribunalTempleBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalTempleD</defName>
+		<title>Tribunal Temple shrine tender</title>
+		<titleShort>tender</titleShort>
+		<description>As a higher ranking member of the Tribunal Temple, [PAWN_nameDef] was given the honour of tending to the sacred shrines, an honour [PAWN_pronoun] took very seriously. Anyone who dared track ash into these sacred locations would get a stern talking to, so [PAWN_nameDef] yelled at pretty much everyone.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Social>4</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalTempleE]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_TribunalTempleBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalTempleE</defName>
+		<title>Tribunal Temple healer</title>
+		<titleShort>healer</titleShort>
+		<description>Many came to the Temples when seeking aid, many were in need of healing, and [PAWN_nameDef] would attempt to help them all. Some would require elixirs, some a bowl of warm soup, and others simply kind words. But sometimes, someone would arrive, and there was no helping them, and [PAWN_nameDef] would have to call the Ordinators.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Cooking>2</Cooking>
+			<Medicine>2</Medicine>
+			<Social>2</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalTempleF]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_TribunalTempleBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalTempleF</defName>
+		<title>Tribunal Temple judge</title>
+		<titleShort>judge</titleShort>
+		<description>As a member of the Order of Inquisition, [PAWN_nameDef] was one of the many that decided the fate of those that defied the laws of the Temple. Any that committed acts of heresy would inevitably stand before [PAWN_nameDef], or one of [PAWN_possessive] peers.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>4</Intellectual>
+			<Social>4</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Witch hunters] ==================== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalWitchHunterA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_WitchHunterBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalWitchHunterA</defName>
+		<title>Temple witchhunter</title>
+		<titleShort>witchhunter</titleShort>
+		<description>[PAWN_nameDef] was one of the witchunters employed by the Tribunal Temple. While [PAWN_pronoun] occasionally made those that practised the profane disappear, permanently, [PAWN_nameDef] mostly sought out heretical texts and shrines.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>4</Intellectual>
+			<Melee>6</Melee>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalWitchHunterB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_WitchHunterBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalWitchHunterB</defName>
+		<title>Temple witchhunter</title>
+		<titleShort>witchhunter</titleShort>
+		<description>Whenever the Temple caught wind of someone delving into the profane arts, they sent in the witchhunters, and [PAWN_nameDef] used to be one of them. [PAWN_pronoun] was part of a force tasked with clearing out Assemanu, some abandoned cave system near Hla Oad. The second the Ordinator fell, [PAWN_nameDef] fled.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>4</Intellectual>
+			<Melee>6</Melee>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="-2">Nerves</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Armigers] ==================== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalArmigerA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_ArmigerBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalArmigerA</defName>
+		<title>Buoyant Armiger warrior</title>
+		<titleShort>Armiger</titleShort>
+		<description>[PAWN_nameDef] was a member of the Buoyant Armigers, a militant order of the Tribunal Temple that answered directly to Lord Vivec. While many days were spent sitting around Ghostgate, occasionally [PAWN_nameDef] would be sent to deal with heretics.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Melee>6</Melee>
+			<Social>4</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalArmigerB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_ArmigerBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalArmigerB</defName>
+		<title>Buoyant Armiger archer</title>
+		<titleShort>Armiger</titleShort>
+		<description>[PAWN_nameDef] was a member of the Buoyant Armigers, a militant order of the Tribunal Temple that answered directly to Lord Vivec. Many days were spent sitting around Ghostgate, which was perfectly fine with [PAWN_nameDef], as it have [PAWN_objective] ample opportunity to practice with [PAWN_possessive] bow.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Social>4</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Ordinators] ==================== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_OrdinatorBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorA</defName>
+		<title>Ordinator</title>
+		<titleShort>Ordinator</titleShort>
+		<description>[PAWN_nameDef] was an Ordinator in service of the tribunal temple. [PAWN_pronoun] would spend most of the day patrolling Vivec, watching all the scum, and looking for any reason to lock them up.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Melee>7</Melee>
+			<Shooting>4</Shooting>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_OrdinatorBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorB</defName>
+		<title>Baar Dau warden</title>
+		<titleShort>warden</titleShort>
+		<description>[PAWN_nameDef] was one of the few Ordinators 'privileged' with wandering the tunnels of Baar Dau, making sure no prisoners were stupid enough to attempt escape. While some may have considered it a privilege, to be stationed in such an important place, [PAWN_nameDef] actually found it somewhat boring. For what was there to do up there, other than beating up prisoners?</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Melee>8</Melee>
+			<Social>3</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_OrdinatorBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorC</defName>
+		<title>palace guard</title>
+		<titleShort>guard</titleShort>
+		<description>[PAWN_nameDef] was once one a highly esteemed member of the Tribunal Temple, whose sole purpose was to guard Vivec's palace. A highly important job, as the Warrior Poet was not to be disturbed, not even by someone claiming to be the Incarnate.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Melee>9</Melee>
+			<Shooting>3</Shooting>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_OrdinatorBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorD</defName>
+		<title>High Ordinator</title>
+		<titleShort>Ordinator</titleShort>
+		<description>[PAWN_nameDef] was one of the elite Ordinators tasked with protecting the citizens of Mournhold. [PAWN_pronoun] nearly lost [PAWN_possessive] life during the chaos caused by Sotha Sil's attack on Mournhold. Not by a fabricant, but from some peasant with a pitchfork. [PAWN_nameDef] began contemplating life once the peasant had been dealt with, and decided Mournhold might not be for [PAWN_objective].</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Melee>8</Melee>
+			<Shooting>4</Shooting>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorE]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_OrdinatorBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorE</defName>
+		<title>Ordinator in Mourning</title>
+		<titleShort>Ordinator</titleShort>
+		<description>[PAWN_nameDef] was one of the Ordinators in Mourning, elite members of the Order of the Watch, tasked with protecting the sacred burial grounds of Necrom. Much of [PAWN_possessive] day was spent wandering around the catacombs, ensuring nothing went missing, and scolding anyone who dared to walk at a brisk pace.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Melee>10</Melee>
+			<Social>4</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorF]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_OrdinatorBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_TribunalOrdinatorF</defName>
+		<title>Hand of Almalexia</title>
+		<titleShort>Her Hand</titleShort>
+		<description>[PAWN_nameDef] wasn't just an ordinary Ordinator, [PAWN_pronoun] was one of the Hands of Almalexia, one of the most feared warriors in Morrowind. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.</description>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+			<li>ESCP_DunmerFaction_HerHand_Adulthood</li>
+		</spawnCategories>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Melee>12</Melee>
+			<Shooting>6</Shooting>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ESCP_Dunmer_AlmalexiaBlessing</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>0</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

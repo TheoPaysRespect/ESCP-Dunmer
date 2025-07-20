@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Non-specific starting tags -->
+	<ResearchProjectTagDef>
+		<defName>ESCP_AshlanderStart</defName>
+	</ResearchProjectTagDef>
+	<ResearchProjectTagDef>
+		<defName>ESCP_DunmerStart</defName>
+	</ResearchProjectTagDef>
+	<!-- Specific starting tags -->
+	<ResearchProjectTagDef>
+		<defName>ESCP_DunmerStart_Tribal</defName>
+	</ResearchProjectTagDef>
+	<ResearchProjectTagDef>
+		<defName>ESCP_DunmerStart_Medieval</defName>
+	</ResearchProjectTagDef>
+	<ResearchProjectTagDef>
+		<defName>ESCP_DunmerStart_Industrial</defName>
+	</ResearchProjectTagDef>
+	<ResearchProjectTagDef>
+		<defName>ESCP_DunmerAshlanderStart_Tribal</defName>
+	</ResearchProjectTagDef>
+	<ResearchProjectTagDef>
+		<defName>ESCP_DunmerAshlanderStart_Medieval</defName>
+	</ResearchProjectTagDef>
+	<ResearchProjectTagDef>
+		<defName>ESCP_DunmerAshlanderStart_Industrial</defName>
+	</ResearchProjectTagDef>
+</Defs>

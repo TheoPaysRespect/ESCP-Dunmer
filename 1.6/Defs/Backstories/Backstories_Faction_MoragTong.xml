@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MoragTongA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_MoragTongA</defName>
+		<title>former Morag Tong member</title>
+		<titleShort>ex Tong</titleShort>
+		<description>[PAWN_nameDef] was once a member of the Morag Tong, and may still have close contacts within the organisation. [PAWN_pronoun] always abided by the code, never once straying from it. After many years of faithful servitude, [PAWN_nameDef] decided to move on, and pursue [PAWN_possessive] dreams of farming ash yams.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Melee>3</Melee>
+			<Shooting>4</Shooting>
+			<Plants>1</Plants>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="1">ShootingAccuracy</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName Degree="1">SpeedOffset</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName Degree="2">SpeedOffset</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MoragTongB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_MoragTongB</defName>
+		<title>Morag Tong veteran</title>
+		<titleShort>ex Morag Tong</titleShort>
+		<description>Once a veteran member of the Morag Tong, [PAWN_nameDef] eventually became too recognisable for [PAWN_possessive] own good. [PAWN_possessive] accomplishments were well known throughout Morrowind, and this painted a target on [PAWN_possessive] back. So, like many before [PAWN_objective], [PAWN_nameDef] took the voyage to Vounoura, to live out the rest of [PAWN_possessive] days in peace. Unluckily for  [PAWN_nameDef], the ship was caught in a rather horrific storm.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Melee>8</Melee>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="1">SpeedOffset</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName Degree="2">SpeedOffset</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MoragTongC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_MoragTongC</defName>
+		<title>Morag Tong investigator</title>
+		<titleShort>investigator</titleShort>
+		<description>As an investigator in the Morag Tong, [PAWN_nameDef] was tasked with seeking out those that have broken laws of the Tong. As, unlike the Dark Brotherhood, the Morag Tong has an image to uphold, and [PAWN_nameDef] made sure that image was maintained.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>4</Intellectual>
+			<Social>4</Social>
+		</skillGains>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

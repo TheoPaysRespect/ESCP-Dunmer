@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[ESCP_Dunmer_AncestralAbilityWarmup]==========-->
+	<EffecterDef>
+		<defName>ESCP_Dunmer_AncestralAbilityWarmup</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+				<soundDef>ESCP_DunmerGraveWhisperingSustained</soundDef>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
+				<chancePerTick>0.05</chancePerTick>
+				<positionRadius>1.5</positionRadius>
+				<moteDef>ESCP_RandomMote_DaedricLetters</moteDef>
+				<scale>0.5</scale>
+				<speed>0</speed>
+				<angle>0</angle>
+				<rotation>0</rotation>
+				<color>195, 235, 255</color>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<spawnLocType>OnTarget</spawnLocType>
+				<scale>4</scale>
+				<ticksBetweenMotes>60</ticksBetweenMotes>
+				<fleckDef>SmokeGrowing</fleckDef>
+				<color>175, 215, 237</color>
+				<maxMoteCount>3</maxMoteCount>
+			</li>
+		</children>
+	</EffecterDef>
+</Defs>

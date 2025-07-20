@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_AnimalsA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_AnimalsA</defName>
+		<title>scrib trainer</title>
+		<titleShort>trainer</titleShort>
+		<description>[PAWN_nameDef] ran the most prestigious scrib circus in Mournhold. Dozens of Dunmer strolled past every day, completely oblivious to the supposed performance mere metres from them. Of course [PAWN_nameDef] was equally oblivious to the lack of attention, and simply enjoyed watching [PAWN_possessive] scrib thump away.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Animals>3</Animals>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="1">NaturalMood</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_AnimalsB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_AnimalsB</defName>
+		<title>netch rancher</title>
+		<titleShort>rancher</titleShort>
+		<description>[PAWN_nameDef] worked on a netch ranch for many years and suffered many stings during this time, While [PAWN_pronoun] learnt some basic medical skills in the thanks to the endless stream of wounds, [PAWN_nameDef] never learnt how to not annoy a netch.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Animals>3</Animals>
+			<Medicine>3</Medicine>
+		</skillGains>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_AnimalsC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_AnimalsC</defName>
+		<title>guar rancher</title>
+		<titleShort>rancher</titleShort>
+		<description>[PAWN_nameDef] used to ranch guar many moons ago. Many hours each day were spent herding the guar, whom often wound up getting their oversized heads stuck in strange places. [PAWN_nameDef] also spent most afternoons crafting new pairs of boots, as [PAWN_possessive] boots were often ruined whilst wandering the fields.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Animals>3</Animals>
+			<Crafting>3</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_Adulthood</li>
+		</spawnCategories>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_AnimalsD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_AnimalsD</defName>
+		<title>nix hound trainer</title>
+		<titleShort>trainer</titleShort>
+		<description>[PAWN_nameDef] used to own a quaint little hovel in Hla Oad, where [PAWN_pronoun] spent many hours each day training nix hound pups. Either [PAWN_pronoun] was rather good at this, or nix hounds were just that easy to train. Regardless, [PAWN_nameDef] eventually saved up enough drakes to start a new life, outside of that awful swamp.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Animals>4</Animals>
+			<Social>2</Social>
+		</skillGains>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_AnimalsE]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_AnimalsE</defName>
+		<title>skorati herder</title>
+		<titleShort>herder</titleShort>
+		<description>[PAWN_nameDef] tended a small herd of skorati. Peaceful creatures, that [PAWN_pronoun] was rather fond of. As an extra bonus, [PAWN_nameDef] could create clothing out of skorati fur, which fetched a decent price in the nearby towns.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Animals>2</Animals>
+			<Crafting>2</Crafting>
+			<Social>2</Social>
+		</skillGains>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_AnimalsF]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_AnimalsF</defName>
+		<title>St. Olms fishmonger</title>
+		<titleShort>fishmonger</titleShort>
+		<description>[PAWN_nameDef] was one of many that found work in the Brewers and Fishmongers Hall of the St. Olms canton. [PAWN_nameDef] looked forward to every day, mostly because [PAWN_pronoun] always knew there was a jug of sujamma with [PAWN_possessive] name on it, just a few steps away.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Animals>4</Animals>
+			<Social>3</Social>
+		</skillGains>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_AnimalsG]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_AnimalsG</defName>
+		<title>silt strider trainer</title>
+		<titleShort>strider trainer</titleShort>
+		<description>[PAWN_nameDef] once raised silt striders from nymph to adult. It was a long-winded process, as silt strider take a considerable time to reach to adulthood. But at the end of the day, [PAWN_nameDef] got to sit back and relax, listening to the soothing calls of the silt striders. </description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Animals>8</Animals>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<workDisables>
+			<li>Mining</li>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

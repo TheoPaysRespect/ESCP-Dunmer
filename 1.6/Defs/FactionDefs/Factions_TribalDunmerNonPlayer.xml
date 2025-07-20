@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerNonPlayerFaction_Base]========== -->
+	<FactionDef ParentName="ESCP_NonPlayerFactionBase_Tribal" Name="ESCP_DunmerNonPlayerFaction_Base" Abstract="True">
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<factionTags>
+					<li>ESCP_DunmerFaction</li>
+					<li>ESCP_DunmerFactionNonPlayer</li>
+				</factionTags>
+				<hireableFactionTags>
+					<li>ESCP_MoragTong</li>
+				</hireableFactionTags>
+			</li>
+		</modExtensions>
+		<categoryTag>ESCP_DunmerFaction</categoryTag>
+		<leaderTitle>archmaster</leaderTitle>
+		<factionNameMaker>ESCP_Dunmer_NamerFaction</factionNameMaker>
+		<settlementNameMaker>ESCP_Dunmer_NamerSettlement</settlementNameMaker>
+		<allowedCultures>
+			<li>ESCP_DunmerCulture</li>
+		</allowedCultures>
+		<structureMemeWeights>
+			<ESCP_Structure_OriginTribunal MayRequire="Ludeon.RimWorld.Ideology">15</ESCP_Structure_OriginTribunal>
+			<ESCP_Structure_OriginGoodDaedra MayRequire="Ludeon.RimWorld.Ideology">15</ESCP_Structure_OriginGoodDaedra>
+			<ESCP_Structure_OriginHouseOfTroubles MayRequire="Ludeon.RimWorld.Ideology">10</ESCP_Structure_OriginHouseOfTroubles>
+			<ESCP_Structure_OriginLorkhanCult MayRequire="Ludeon.RimWorld.Ideology">3</ESCP_Structure_OriginLorkhanCult>
+		</structureMemeWeights>
+		<requiredMemes/>
+		<caravanTraderKinds>
+			<li MayRequire="SirMashedPotato.Ashlands">ESCP_DunmerCaravan_AlcoholTrader</li>
+		</caravanTraderKinds>
+		<raidLootMaker>ESCP_DunmerRaidLootMaker</raidLootMaker>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights, ranged with melee mix-ins -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<ESCP_Dunmer_Tribal_Penitent>5</ESCP_Dunmer_Tribal_Penitent>
+					<ESCP_Dunmer_Tribal_Warrior>5</ESCP_Dunmer_Tribal_Warrior>
+					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
+					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
+					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_Dunmer_Tribal_NixHoundMaster>
+					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
+					<ESCP_Dunmer_Tribal_Berserker>5</ESCP_Dunmer_Tribal_Berserker>
+					<ESCP_Dunmer_Tribal_ChiefRanged>3</ESCP_Dunmer_Tribal_ChiefRanged>
+					<ESCP_Dunmer_Tribal_ChiefMelee>1.5</ESCP_Dunmer_Tribal_ChiefMelee>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, ranged only -->
+				<kindDef>Combat</kindDef>
+				<commonality>60</commonality>
+				<options>
+					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
+					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
+					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_Dunmer_Tribal_NixHoundMaster>
+					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
+					<ESCP_Dunmer_Tribal_ChiefRanged>5</ESCP_Dunmer_Tribal_ChiefRanged>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, melee only -->
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<ESCP_Dunmer_Tribal_Penitent>10</ESCP_Dunmer_Tribal_Penitent>
+					<ESCP_Dunmer_Tribal_Warrior>10</ESCP_Dunmer_Tribal_Warrior>
+					<ESCP_Dunmer_Tribal_Berserker>10</ESCP_Dunmer_Tribal_Berserker>
+					<ESCP_Dunmer_Tribal_ChiefMelee>5</ESCP_Dunmer_Tribal_ChiefMelee>
+				</options>
+			</li>
+			<li>
+				<!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
+				<kindDef>Combat</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<ESCP_Dunmer_Tribal_Penitent>5</ESCP_Dunmer_Tribal_Penitent>
+					<ESCP_Dunmer_Tribal_Warrior>5</ESCP_Dunmer_Tribal_Warrior>
+					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
+					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
+					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_Dunmer_Tribal_NixHoundMaster>
+					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
+					<ESCP_Dunmer_Tribal_Berserker>5</ESCP_Dunmer_Tribal_Berserker>
+					<ESCP_Dunmer_Tribal_ChiefRanged>3</ESCP_Dunmer_Tribal_ChiefRanged>
+					<ESCP_Dunmer_Tribal_ChiefMelee>1.5</ESCP_Dunmer_Tribal_ChiefMelee>
+				</options>
+			</li>
+			<li Class="VanillaPsycastsExpanded.PawnGroupMaker_PsycasterRaid" MayRequire="VanillaExpanded.VPsycastsE">
+				<!-- VE Psycaster raid -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<ESCP_Dunmer_Tribal_Penitent>5</ESCP_Dunmer_Tribal_Penitent>
+					<ESCP_Dunmer_Tribal_Warrior>5</ESCP_Dunmer_Tribal_Warrior>
+					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
+					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
+					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_Dunmer_Tribal_NixHoundMaster>
+					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
+					<ESCP_Dunmer_Tribal_Berserker>5</ESCP_Dunmer_Tribal_Berserker>
+					<ESCP_Dunmer_Tribal_ChiefRanged>3</ESCP_Dunmer_Tribal_ChiefRanged>
+					<ESCP_Dunmer_Tribal_ChiefMelee>1.5</ESCP_Dunmer_Tribal_ChiefMelee>
+					<ESCP_Dunmer_Tribal_PsycasterFire>0.3</ESCP_Dunmer_Tribal_PsycasterFire>
+				</options>
+			</li>
+			<li>
+				<!-- Peaceful -->
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<ESCP_Dunmer_Tribal_Warrior>20</ESCP_Dunmer_Tribal_Warrior>
+					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
+					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
+					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
+					<ESCP_Dunmer_Tribal_Berserker>5</ESCP_Dunmer_Tribal_Berserker>
+					<ESCP_Dunmer_Tribal_ChiefRanged>3</ESCP_Dunmer_Tribal_ChiefRanged>
+					<ESCP_Dunmer_Tribal_ChiefMelee>1.5</ESCP_Dunmer_Tribal_ChiefMelee>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<ESCP_Dunmer_Tribal_Trader>1</ESCP_Dunmer_Tribal_Trader>
+				</traders>
+				<carriers>
+					<!--<Mashed_Ashlands_Guar MayRequire="sirmashedpotato.ashlands">10</Mashed_Ashlands_Guar>-->
+					<!--<Mashed_Ashlands_NixOx MayRequire="sirmashedpotato.ashlands">5</Mashed_Ashlands_NixOx>-->
+					<Mashed_Ashlands_SiltStrider MayRequire="sirmashedpotato.ashlands">2</Mashed_Ashlands_SiltStrider>
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2.5</Alpaca>
+					<Elephant>2</Elephant>
+				</carriers>
+				<guards>
+					<ESCP_Dunmer_Tribal_Warrior>7</ESCP_Dunmer_Tribal_Warrior>
+					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
+					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
+					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
+					<ESCP_Dunmer_Tribal_Berserker>7</ESCP_Dunmer_Tribal_Berserker>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<ESCP_Dunmer_Tribal_Warrior>7</ESCP_Dunmer_Tribal_Warrior>
+					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
+					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
+					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_Dunmer_Tribal_NixHoundMaster>
+					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
+					<ESCP_Dunmer_Tribal_Berserker>7</ESCP_Dunmer_Tribal_Berserker>
+					<ESCP_Dunmer_Tribal_ChiefRanged>10</ESCP_Dunmer_Tribal_ChiefRanged>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement_RangedOnly</kindDef>
+				<options>
+					<ESCP_Dunmer_Tribal_Archer>10</ESCP_Dunmer_Tribal_Archer>
+					<ESCP_Dunmer_Tribal_Hunter>10</ESCP_Dunmer_Tribal_Hunter>
+					<ESCP_Dunmer_Tribal_NixHoundMaster MayRequire="sirmashedpotato.ashlands">4</ESCP_Dunmer_Tribal_NixHoundMaster>
+					<ESCP_Dunmer_Tribal_HeavyArcher>10</ESCP_Dunmer_Tribal_HeavyArcher>
+					<ESCP_Dunmer_Tribal_ChiefRanged>10</ESCP_Dunmer_Tribal_ChiefRanged>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<ESCP_Dunmer_Tribal_Miner>1</ESCP_Dunmer_Tribal_Miner>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<ESCP_Dunmer_Tribal_Hunter>1</ESCP_Dunmer_Tribal_Hunter>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<ESCP_Dunmer_Tribal_Logger>1</ESCP_Dunmer_Tribal_Logger>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<ESCP_Dunmer_Tribal_Farmer>1</ESCP_Dunmer_Tribal_Farmer>
+				</options>
+			</li>
+		</pawnGroupMakers>
+	</FactionDef>
+	<!-- ==========[ESCP_DunmerNonPlayerFaction_Honourable]========== -->
+	<FactionDef ParentName="ESCP_DunmerNonPlayerFaction_Base">
+		<defName>ESCP_DunmerNonPlayerFaction_Honourable</defName>
+		<label>honourable Great House</label>
+		<description>One of the Dunmer Great Houses. Dunmer are not exactly known for being welcoming to outsiders, though many Great Houses are willing to conduct trade if it benefits them.\n\nThis great houses values honour above all else, and is always willing to help those with similar ideals. Though they are just as willing to strike down those that get in their way.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.SettlementPreference">
+				<chance>1.0</chance>
+				<likedBiomeList>
+					<li>Mashed_Ashlands_VolcanicAshlands</li>
+					<li>Mashed_Ashlands_VolcanicBadlandAshlands</li>
+					<li>Mashed_Ashlands_VolcanicSulphurPitsAshlands</li>
+				</likedBiomeList>
+			</li>
+		</modExtensions>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementHonourable</factionIconPath>
+		<colorSpectrum>
+			<li>(0.65, 0.50, 0.20)</li>
+			<li>(0.75, 0.60, 0.50)</li>
+			<li>(0.85, 0.70, 0.60)</li>
+		</colorSpectrum>
+		<caravanTraderKinds>
+			<li MayRequire="sirmashedpotato.ashlands">ESCP_DunmerCaravan_Smith</li>
+		</caravanTraderKinds>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Bushido</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+		</disallowedMemes>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+	<!-- ==========[ESCP_DunmerNonPlayerFaction_Mercantile]========== -->
+	<FactionDef ParentName="ESCP_DunmerNonPlayerFaction_Base">
+		<defName>ESCP_DunmerNonPlayerFaction_Mercantile</defName>
+		<label>mercantile Great House</label>
+		<description>One of the Dunmer Great Houses. Dunmer are not exactly known for being welcoming to outsiders, though many Great Houses are willing to conduct trade if it benefits them.\n\nThis Great House values profit above all else, and is willing to do anything for a pouch of gold, even dealing in illicit goods and slaves.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.SettlementPreference">
+				<chance>1.0</chance>
+				<likedBiomeList>
+					<li>Mashed_Ashlands_Ashlands</li>
+					<li>Mashed_Ashlands_GrazelandAshlands</li>
+					<li>Mashed_Ashlands_SwampAshlands</li>
+
+					<li>TemperateForest</li>
+				</likedBiomeList>
+			</li>
+		</modExtensions>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementDiplomatic</factionIconPath>
+		<colorSpectrum>
+			<li>(0.6, 0.1, 0.8)</li>
+			<li>(0.7, 0.2, 0.6)</li>
+		</colorSpectrum>
+		<caravanTraderKinds>
+			<li>ESCP_DunmerCaravan_CamonnaTongFence</li>
+		</caravanTraderKinds>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Trader</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Abhorrent</li>
+		</disallowedPrecepts>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+	<!-- ==========[ESCP_DunmerNonPlayerFaction_Scientific]========== -->
+	<FactionDef ParentName="ESCP_DunmerNonPlayerFaction_Base">
+		<defName>ESCP_DunmerNonPlayerFaction_Scientific</defName>
+		<label>scientific Great House</label>
+		<description>One of the Dunmer Great Houses. Dunmer are not exactly known for being welcoming to outsiders, though many Great Houses are willing to conduct trade if it benefits them.\n\nThis Great House values knowledge above all else, and is willing to do anything for scientific progress. Members of this Great House are often inhospitable to outsiders, not because they hate them, but because they simply have more important matters to focus on.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.SettlementPreference">
+				<chance>1.0</chance>
+				<biomeKeyWords>
+					<li>Ashlands</li>
+				</biomeKeyWords>
+				<requiresWater>true</requiresWater>
+			</li>
+		</modExtensions>
+		<settlementNameMaker>ESCP_Dunmer_NamerSettlementTelvanni</settlementNameMaker>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementScientific</factionIconPath>
+		<colorSpectrum>
+			<li>(0.70, 0.65, 0.20)</li>
+			<li>(0.70, 0.75, 0.50)</li>
+			<li>(0.80, 0.85, 0.60)</li>
+		</colorSpectrum>
+		<caravanTraderKinds>
+			<li MayRequire="SirMashedPotato.TelvanniTechnology">MorrowRim_TelvanniTrader</li>
+		</caravanTraderKinds>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Abhorrent</li>
+		</disallowedPrecepts>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+	<!-- ==========[ESCP_DunmerNonPlayerFaction_Faithful]========== -->
+	<FactionDef ParentName="ESCP_DunmerNonPlayerFaction_Base">
+		<defName>ESCP_DunmerNonPlayerFaction_Faithful</defName>
+		<label>faithful Great House</label>
+		<description>One of the Dunmer Great Houses. Dunmer are not exactly known for being welcoming to outsiders, though many Great Houses are willing to conduct trade if it benefits them.\n\nThis Great House is ever faithful to the Tribunal, and is the source of all trained Ordinators. It would be best not to anger this great house, as it may bring the wrath of its beliefs upon you.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.SettlementPreference">
+				<chance>1.0</chance>
+				<likedBiomeList>
+					<!-- Thriving biomes -->
+					<li>Mashed_Ashlands_ForestAshlands</li>
+					<li>Mashed_Ashlands_MarshAshlands</li>
+					<li>Mashed_Ashlands_MeadowAshlands</li>
+				</likedBiomeList>
+			</li>
+		</modExtensions>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementFaithful</factionIconPath>
+		<colorSpectrum>
+			<li>(0.7, 1.0, 0.8)</li>
+			<li>(0.8, 1.0, 1.0)</li>
+		</colorSpectrum>
+		<caravanTraderKinds>
+			<li MayRequire="SirMashedPotato.Ashlands">ESCP_DunmerCaravan_TeaTrader</li>
+		</caravanTraderKinds>
+		<structureMemeWeights Inherit="False">
+			<ESCP_Structure_OriginTribunal MayRequire="Ludeon.RimWorld.Ideology">999</ESCP_Structure_OriginTribunal>
+		</structureMemeWeights>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_ExaltedPriesthood</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+		</disallowedMemes>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+	<!-- ==========[ESCP_DunmerNonPlayerFaction_Slaver]========== -->
+	<FactionDef ParentName="ESCP_DunmerNonPlayerFaction_Base">
+		<defName>ESCP_DunmerNonPlayerFaction_Slaver</defName>
+		<label>slaver Great House</label>
+		<description>One of the Dunmer Great Houses. Dunmer are not exactly known for being welcoming to outsiders, though many Great Houses are willing to conduct trade if it benefits them.\n\nThis Great House values profit above all else, and is willing to do anything for a pouch of gold, even dealing in illicit goods and slaves.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.SettlementPreference">
+				<chance>1.0</chance>
+				<useTemperatureRange>true</useTemperatureRange>
+				<temperatureRangeMin>0</temperatureRangeMin>
+				<temperatureRangeMax>45</temperatureRangeMax>
+				<useRainfallRange>true</useRainfallRange>
+				<rainfallRangeMin>800</rainfallRangeMin>
+				<rainfallRangeMax>5000</rainfallRangeMax>
+			</li>
+		</modExtensions>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementSlaver</factionIconPath>
+		<colorSpectrum>
+			<li>(0.3, 0.3, 0.5)</li>
+			<li>(0.5, 0.4, 0.3)</li>
+		</colorSpectrum>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Emancipation</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Disapproved</li>
+		</disallowedPrecepts>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+	<!-- ==========[ESCP_DunmerNonPlayerFaction_Reaver]========== -->
+	<FactionDef ParentName="ESCP_DunmerNonPlayerFaction_Base">
+		<defName>ESCP_DunmerNonPlayerFaction_Reaver</defName>
+		<label>Dunmer reavers</label>
+		<description>A loose confederation of those who, either by choice or by force, have left behind the Great Houses.\n\nUnder the guidance of their War Boss, they have managed to claim several settlements from the Great Houses. Even with these fine trophies, they are still eager to claim more land and wealth.\n\nReavers are driven by a blood-and-honor culture; you will not be able to ally with them!</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.SettlementPreference">
+				<chance>0.9</chance>
+				<biomeKeyWords>
+					<li>Ashlands</li>
+				</biomeKeyWords>
+				<IgnoreBiomeSelectionWeight>true</IgnoreBiomeSelectionWeight>
+			</li>
+		</modExtensions>
+		<colorSpectrum>
+			<li>(0.85, 0, 0)</li>
+			<li>(0.85, 0.7, 0.7)</li>
+		</colorSpectrum>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerReaverSettlement</factionIconPath>
+		<permanentEnemy>true</permanentEnemy>
+		<factionNameMaker>ESCP_Dunmer_NamerFactionRaider</factionNameMaker>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<configurationListOrderPriority>50</configurationListOrderPriority>
+	</FactionDef>
+</Defs>

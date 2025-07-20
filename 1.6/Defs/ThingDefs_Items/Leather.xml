@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="LeatherBase">
+		<defName>ESCP_LeatherDunmer</defName>
+		<label>Dunmer leather</label>
+		<description>Tanned, dried, scraped Dunmer skin. Most people find this material horrifying. Some find it fascinating. Relatively more protective from heat and less flammable than human leather.</description>
+		<graphicData>
+			<color>(87,103,107)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>4.4</MarketValue>
+			<Flammability>0.35</Flammability>
+			<StuffPower_Armor_Sharp>0.64</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>1.8</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(87,103,107)</color>
+			<commonality>0.0025</commonality>
+			<statFactors>
+				<Flammability>0.4</Flammability>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+</Defs>

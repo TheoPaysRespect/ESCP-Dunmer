@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+		<value>
+			<li>ESCP_DunmerPlayerFaction_Industrial</li>
+			<li>ESCP_DunmerPlayerFaction_Medieval</li>
+			<li>ESCP_DunmerPlayerFaction_Tribal</li>
+			<li>ESCP_DunmerAshlanderPlayerFaction_Industrial</li>
+			<li>ESCP_DunmerAshlanderPlayerFaction_Medieval</li>
+			<li>ESCP_DunmerAshlanderPlayerFaction_Tribal</li>
+		</value>
+	</Operation>
+</Patch>
+

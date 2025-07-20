@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <TraderKindDef>
+        <defName>ESCP_DunmerCaravan_Smith</defName>
+        <label>Dunmer smith</label>
+
+        <stockGenerators>
+
+            <!-- Resources -->
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>1000~2000</countRange>
+            </li>
+           <li Class="StockGenerator_SingleDef">
+                <thingDef>Mashed_Ashlands_Scuttle</thingDef>
+                <countRange>20~30</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineHerbal</thingDef>
+                <countRange>0~10</countRange>
+            </li>
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>Mashed_Ashlands_AshlandsMineral</tradeTag>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>75~150</countRange>
+            </li>
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>Mashed_Ashlands_AshlandsCrystal</tradeTag>
+                <thingDefCountRange>0~1</thingDefCountRange>
+                <countRange>50~100</countRange>
+            </li>
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>ESCP_Material</tradeTag>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>100~300</countRange>
+            </li>
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>ESCP_ExoticMetal</tradeTag>
+                <thingDefCountRange>-3~1</thingDefCountRange>
+                <totalPriceRange>2000~3000</totalPriceRange> <!--10-15-->
+            </li>
+
+            <!-- Techprints -->
+            <li Class="StockGenerator_Techprints">
+                <countChances>
+                    <li>
+                        <count>1</count>
+                        <chance>1</chance>
+                    </li>
+                </countChances>
+            </li>
+
+            <!-- Books -->
+            <!-- none -->
+
+            <!-- Weapons -->
+ 
+            <!-- Apparel -->
+
+            <!-- Implants -->
+            <!-- none -->
+
+            <!-- Buildings -->
+            <!-- none -->
+
+            <!-- Exotic -->
+            <!-- none -->
+
+            <!-- Slaves -->
+            <!-- none -->
+
+            <!-- Animals -->
+
+            <!-- Buying -->
+            <li Class="StockGenerator_BuySlaves"/>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Art</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>MusicalInstrument</tag>
+            </li>
+
+        </stockGenerators>
+
+
+
+    </TraderKindDef>
+</Defs>

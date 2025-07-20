@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MeleeA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_MeleeA</defName>
+		<title>ash yam masher</title>
+		<titleShort>masher</titleShort>
+		<description>[PAWN_nameDef] had always longed for one particular thing, potatoes, which proved somewhat difficult to obtain in Vvardenfell. [PAWN_pronoun] just wanted to feel them crumble beneath [PAWN_possessive] fists, to hear them cry out in pain as their life was extinguished, to smell their essence leave their shapeless forms. Sadly, ash yams would have to do.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Cooking>1</Cooking>
+			<Melee>3</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_Adulthood</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MeleeB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_MeleeB</defName>
+		<title>Arnesian War veteran</title>
+		<titleShort>veteran</titleShort>
+		<description>[PAWN_nameDef] was one of the many brave Dunmer who fought in the Arnesian War. [PAWN_pronoun] was one of many who heroically stormed Black Marsh. And one of the few left standing in land now belonging to Morrowind. In later days, [PAWN_nameDef] took up gardening, but is still surprisingly quick on [PAWN_possessive] feet.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Melee>6</Melee>
+			<Plants>4</Plants>
+		</skillGains>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+		<bioAgeRange>
+			<min>100</min>
+			<max>999</max>
+		</bioAgeRange>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MeleeC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_MeleeC</defName>
+		<title>ashlander</title>
+		<titleShort>ashlander</titleShort>
+		<description>[PAWN_nameDef] used to be an ashlander from the Ahemmusa Tribe. [PAWN_nameDef] enjoyed living a relatively simple life, where death awaited around every corner. Though [PAWN_pronoun] eventually got sick of all the ash and blight storms, and decided to look for greener pastures, with actual grass.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Melee>3</Melee>
+			<Shooting>2</Shooting>
+		</skillGains>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MeleeD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_MeleeD</defName>
+		<title>trophy hunter</title>
+		<titleShort>hunter</titleShort>
+		<description>There are many great beasts in Morrowind, and [PAWN_nameDef] has hunted them all. On a quest for new challenges, [PAWN_pronoun] set sail to Solstheim. [PAWN_nameDef] hunted everything [PAWN_pronoun] found, from rieklings to grahl, and even an uderfrykte. However there was one elusive beast left on [PAWN_possessive] list, the werewolf.</description>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<skillGains>
+			<Medicine>3</Medicine>
+			<Melee>4</Melee>
+			<Shooting>3</Shooting>
+		</skillGains>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MeleeE]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_MeleeE</defName>
+		<title>mud crab tracker</title>
+		<titleShort>tracker</titleShort>
+		<description>[PAWN_nameDef] set off on a grand adventure, to retrieve [PAWN_pronoun] bottle of vintage greef, which went missing on a stormy night many moons ago.\n\n[PAWN_possessive] neighbour swears they saw a mudcrab wander off with it. Obviously the idea of a mudcrab breaking into ones home, climbing up the stairs, and reaching up to a shelf, all while avoiding making a single sound, is simply preposterous. But maybe there was some truth to it.\n\nOn [PAWN_possessive] journey, [PAWN_nameDef] learnt that many others have had bottles of alcohol stolen in the middle of the night. And all of them believe that a mudcrab is the culprit.\n\nSo now, [PAWN_nameDef] wanders the ashen wastes, the putrid swamps, and the fungal forest, all in search of that mudcrab.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Melee>6</Melee>
+			<Social>4</Social>
+		</skillGains>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MeleeF]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_MeleeF</defName>
+		<title>reformed degenerate</title>
+		<titleShort>reformed</titleShort>
+		<description>[PAWN_nameDef] was once a filthy degenerate, who would do anything for skooma, even commit murder. While committing a heinous crime [PAWN_possessive] life was almost lost. [PAWN_nameDef] was saved in an act of unexpected kindness. Afterwards, [PAWN_pronoun] vowed to commit [PAWN_objective]self to one goal. The protection of the Dunmeri people from a hellish abomination.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Melee>6</Melee>
+			<Shooting>4</Shooting>
+		</skillGains>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MeleeG]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_MeleeG</defName>
+		<title>Dark Brother</title>
+		<titleShort>Dark Brother</titleShort>
+		<description>[PAWN_nameDef] was once a member of the Dark Brotherhood, and is one of the few surviving members of the Mournhold chapter. [PAWN_nameDef] remembers that horrific day well, seeing [PAWN_possessive] fellow Dark Brothers fall one after the other, all because some novice failed to deal with an important target.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>4</Intellectual>
+			<Melee>6</Melee>
+		</skillGains>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MeleeH]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_MeleeH</defName>
+		<title>Silken Ring assassin</title>
+		<titleShort>assassin</titleShort>
+		<description>Once a member of the Morag Tong, over time [PAWN_nameDef] grew disillusioned with the laws the Tong enforced. Eventually [PAWN_pronoun] was contacted by a former member of the Morag Tong, who had founded a new establishment, and was looking for members to join it.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Melee>4</Melee>
+			<Shooting>2</Shooting>
+		</skillGains>
+		<workDisables>
+			<li>Caring</li>
+			<li>ManualDumb</li>
+		</workDisables>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase" Name="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase" Abstract="True">
+		<spawnCategories>
+			<li>ESCP_DunmerGreatHouse_Dres_Adulthood</li>
+		</spawnCategories>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+		<forcedTraitsChance>
+			<li>
+				<defName>ESCP_Slaver</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT2Base]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase" Name="ESCP_DunmerBackstory_Adulthood_GreatHouseDresT2Base" Abstract="True">
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT3Base]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase" Name="ESCP_DunmerBackstory_Adulthood_GreatHouseDresT3Base" Abstract="True">
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Tier 1] ==================== -->
+		<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1A]========== -->
+<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1A</defName>
+		<title>Dres member</title>
+		<titleShort>member</titleShort>
+		<description>[PAWN_nameDef] was a fairly unremarkable member of Great House Dres, a traditionalist house famous for its slave plantations. Any Argonian in House Dres territory was a slave, and [PAWN_nameDef] liked it that way.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Animals>2</Animals>
+			<Melee>2</Melee>
+			<Social>2</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1B]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1B</defName>
+		<title>Dres wasp rider</title>
+		<titleShort>rider</titleShort>
+		<description>House Dres made great use of the gaint wasps that called the Deshaan Plains their home, and [PAWN_nameDef] was well versed in the art of riding one. [PAWN_pronoun] was often found patrolling the slave fields, keeping a close eye out for any attempted runaways.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Animals>5</Animals>
+			<Shooting>3</Shooting>
+		</skillGains>
+		<workDisables>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1C]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1C</defName>
+		<title>Dres slave hunter</title>
+		<titleShort>hunter</titleShort>
+		<description>[PAWN_nameDef] was one of the many slave hunters trained by House Dres. [PAWN_objective], and [PAWN_possessive] fellow hunters, would scour the outskirts of Black Marsh, looking for easy targets. If [PAWN_nameDef] couldn't find any, [PAWN_possessive] trained nix hounds would.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Animals>5</Animals>
+			<Melee>3</Melee>
+		</skillGains>
+		<workDisables>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1D]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1D</defName>
+		<title>Dres slave tender</title>
+		<titleShort>tender</titleShort>
+		<description>Sometimes slaves would suffer a bit of wear and tear, and seeing as good slaves are not easy to replace, someone has to get them back in working order. [PAWN_nameDef] was such person. Whether it was some scrapes, bruises, a broken rib, or missing fingers, [PAWN_pronoun] would get them all patched up, and back into the fields.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Cooking>3</Cooking>
+			<Medicine>5</Medicine>
+		</skillGains>
+		<workDisables>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1E]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1E</defName>
+		<title>Dres farmer</title>
+		<titleShort>farmer</titleShort>
+		<description>Not everyone living in Great House Dres territory had the luxury of relying on slaves. Some, like [PAWN_nameDef], had to work the fields themselves. This of course doesn't mean [PAWN_objective] was against slavery, quite the opposite in fact.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Cooking>2</Cooking>
+			<Plants>5</Plants>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Tier 2] ==================== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT2A]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresT2Base">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT2A</defName>
+		<title>Dres Mouth</title>
+		<titleShort>Mouth</titleShort>
+		<description>As the Mouth of an Overseer [PAWN_nameDef] spent most days running between plantations, collecting reports from one, delivering them to another. It was all incredibly exhausting, but every now and then [PAWN_nameDef] was able to yell at a slave, which made all the running worth while.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Melee>2</Melee>
+			<Social>4</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Tier 3] ==================== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT3A]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresT2Base">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT3A</defName>
+		<title>Dres Overseer</title>
+		<titleShort>Overseer</titleShort>
+		<description>As an Overseer in Great House Dres, [PAWN_nameDef] controlled several plantations, and the slaves that were used in them. While the title of Overseer may sound rather illustrious to most, the work it entailed was anything but. While much of it could be unloaded onto [PAWN_possessive] Mouth, [PAWN_nameDef] would still have to spend hours each day reading through incident reports.</description>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<skillGains>
+			<Intellectual>4</Intellectual>
+			<Social>8</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Special] ==================== -->
+</Defs>

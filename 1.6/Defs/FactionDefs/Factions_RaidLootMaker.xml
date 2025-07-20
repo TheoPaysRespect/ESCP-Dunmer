@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerRaidLootMaker]========== -->
+	<ThingSetMakerDef ParentName="ESCP_RaidLootMaker_Base">
+		<defName>ESCP_DunmerRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li MayRequire="ESCP.MorrowRim.SimpleBonemold">ESCP_BonemoldItem</li>
+						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_Scuttle</li>
+						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_VolcanicGlass</li>
+						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_VolcanicEbony</li>
+						<!--<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_KwamaEgg</li>--> <!--rip kwama eggs-->
+						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_NetchJelly</li>
+						<!-- Booze -->
+						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AlcoholSujamma</li>
+						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AlcoholShein</li>
+						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AlcoholMazte</li>
+						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AlcoholGreef</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+	<!-- ==========[ESCP_DunmerAshlanderRaidLootMaker]========== -->
+	<ThingSetMakerDef ParentName="ESCP_RaidLootMaker_Base">
+		<defName>ESCP_DunmerAshlanderRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_VolcanicGlass</li>
+						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_VolcanicEbony</li>
+						<!--<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_KwamaEgg</li>-->
+						<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_NetchJelly</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+</Defs>

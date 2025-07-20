@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ========== [ESCP_PlayerFactionBase_Industrial] ========== -->
+	<FactionDef ParentName="ESCP_PlayerFactionBase_Industrial">
+		<defName>ESCP_DunmerAshlanderPlayerFaction_Industrial</defName>
+		<label>New Dunmer Ashlander Arrivals</label>
+		<basicMemberKind>ESCP_DunmerAshlanderPlayerPawnKind_Outlander</basicMemberKind>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerAshlanderSettlement</factionIconPath>
+		<allowedCultures>
+			<li>ESCP_DunmerAshlanderCulture</li>
+		</allowedCultures>
+		<startingResearchTags>
+			<li>ESCP_DunmerAshlanderStart_Industrial</li>
+			<li MayRequire ="sirmashedpotato.ashlands">Mashed_Ashlands_AshlandBasic</li>
+		</startingResearchTags>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<factionTags>
+					<li>ESCP_DunmerAshlanderFaction</li>
+					<li>ESCP_DunmerAshlanderFactionPlayer</li>
+				</factionTags>
+			</li>
+		</modExtensions>
+	</FactionDef>
+	<!-- ========== [ESCP_DunmerAshlanderPlayerFaction_Medieval] ========== -->
+	<FactionDef ParentName="ESCP_PlayerFactionBase_Medieval">
+		<defName>ESCP_DunmerAshlanderPlayerFaction_Medieval</defName>
+		<label>New Dunmer Ashlander Kingdom</label>
+		<basicMemberKind>ESCP_DunmerAshlanderPlayerPawnKind_Medieval</basicMemberKind>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerAshlanderSettlement</factionIconPath>
+		<allowedCultures>
+			<li>ESCP_DunmerAshlanderCulture</li>
+		</allowedCultures>
+		<startingResearchTags>
+			<li>ESCP_DunmerAshlanderStart_Medieval</li>
+			<li MayRequire ="sirmashedpotato.ashlands">Mashed_Ashlands_AshlandBasic</li>
+		</startingResearchTags>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<factionTags>
+					<li>ESCP_DunmerAshlanderFaction</li>
+					<li>ESCP_DunmerAshlanderFactionPlayer</li>
+				</factionTags>
+			</li>
+		</modExtensions>
+	</FactionDef>
+	<!-- ========== [ESCP_DunmerAshlanderPlayerFactionBase_Tribal] ========== -->
+	<FactionDef ParentName="ESCP_PlayerFactionBase_Tribal">
+		<defName>ESCP_DunmerAshlanderPlayerFaction_Tribal</defName>
+		<label>New Dunmer Ashlander Tribe</label>
+		<basicMemberKind>ESCP_DunmerAshlanderPlayerPawnKind_Tribal</basicMemberKind>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerAshlanderSettlement</factionIconPath>
+		<allowedCultures>
+			<li>ESCP_DunmerAshlanderCulture</li>
+		</allowedCultures>
+		<startingResearchTags>
+			<li>ESCP_DunmerAshlanderStart_Tribal</li>
+			<li MayRequire ="sirmashedpotato.ashlands">Mashed_Ashlands_AshlandBasic</li>
+		</startingResearchTags>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<factionTags>
+					<li>ESCP_DunmerAshlanderFaction</li>
+					<li>ESCP_DunmerAshlanderFactionPlayer</li>
+				</factionTags>
+			</li>
+		</modExtensions>
+	</FactionDef>
+</Defs>

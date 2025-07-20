@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TattooDef>
+		<defName>ESCP_DunmerFace_TribunalHand</defName>
+		<label>Tribunal hand</label>
+		<texPath>Things/Pawn/Humanlike/ESCP_Tattoos/Face_DunmerTribunal/Face_DunmerTribunal</texPath>
+		<tattooType>Face</tattooType>
+		<category>ESCP_DunmerTribunal</category>
+		<visibleNorth>false</visibleNorth>
+		<styleTags>
+			<li>TattooFaceDunmer</li>
+			<li>TattooFaceDunmerTribunal</li>
+		</styleTags>
+	</TattooDef>
+</Defs>

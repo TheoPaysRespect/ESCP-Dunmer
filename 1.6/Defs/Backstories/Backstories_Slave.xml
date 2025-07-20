@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SlaveA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SlaveA</defName>
+		<title>plantation slave</title>
+		<titleShort>slave</titleShort>
+		<description>While most of the slaves found on Vvardenfell were either Argonian or Khajiit, some were Dunmer, and [PAWN_nameDef] was one of them. [PAWN_pronoun] spent many years being forced to grow saltrice against [PAWN_possessive] will.\n\n[PAWN_nameDef] was eventually freed by the Twin Lamps, and watched in horror as [PAWN_possessive] fellow slaves turned on their old masters.</description>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_Adulthood</li>
+			<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+		</spawnCategories>
+		<skillGains>
+			<Medicine>2</Medicine>
+			<Plants>4</Plants>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SlaveB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SlaveB</defName>
+		<title>ranch slave</title>
+		<titleShort>slave</titleShort>
+		<description>While most of the slaves found on Vvardenfell were either Argonian or Khajiit, some were Dunmer, and [PAWN_nameDef] was one of them. [PAWN_pronoun] spent many years being forced to care for guar against [PAWN_possessive] will.\n\nOne fateful day the sky turned a rather strange shade of red. The guar became increasingly aggressive as a storm set in, eventually breaking from their pens. [PAWN_nameDef] managed to escape in the ensuing chaos.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_Adulthood</li>
+			<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+		</spawnCategories>
+		<skillGains>
+			<Medicine>2</Medicine>
+			<Animals>4</Animals>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SlaveC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SlaveC</defName>
+		<title>mine slave</title>
+		<titleShort>slave</titleShort>
+		<description>While most of the slaves found on Vvardenfell were either Argonian or Khajiit, some were Dunmer, and [PAWN_nameDef] was one of them. [PAWN_pronoun] spent many years being forced to mine ebony against [PAWN_possessive] will.\n\n. The slave masters were greedy, and forced the slaves to dig too deep. Enraged by the blight, and the sudden intrusion into their nest, the kwama swarmed slaves and slave masters alike. [PAWN_nameDef] only narrowly escaped with [PAWN_possessive] life.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_Adulthood</li>
+			<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+		</spawnCategories>
+		<skillGains>
+			<Medicine>2</Medicine>
+			<Mining>4</Mining>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SlaveD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SlaveD</defName>
+		<title>argonian</title>
+		<titleShort>argonian</titleShort>
+		<description>Many moons ago, [PAWN_nameDef] was a slave master at one of the many plantations found in Morrowind. One day, [PAWN_nameDef] suffered a rather serious head injury. Luckily [PAWN_pronoun] awoke fairly quickly, however [PAWN_pronoun] awoke surrounded by Argonian slaves.\n\nDue to some mild brain damage, [PAWN_nameDef] has since believed that [PAWN_pronoun] is in fact an Argonian. [PAWN_pronoun] spent many months tending the fields, alongside [PAWN_possessive] former slaves, now turned brothers in arms.\n\nEventually the plantation owner took pity on [PAWN_nameDef], and set [PAWN_objective] free.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+			<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+		</spawnCategories>
+		<skillGains>
+			<Animals>3</Animals>
+			<Plants>3</Plants>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

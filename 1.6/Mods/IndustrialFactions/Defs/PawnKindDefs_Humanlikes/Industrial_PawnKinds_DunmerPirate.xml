@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_Industrial_DunmerDrifter]========== -->
+	<PawnKindDef ParentName="DrifterBase">
+		<defName>ESCP_Industrial_DunmerDrifter</defName>
+		<!-- Dunmer stuff -->
+		<race>ESCP_DunmerRace</race>
+		<defaultFactionType>ESCP_Industrial_DunmerNonPlayerFaction_Pirate</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>ESCP_DunmerBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodHighClass</li>
+					<li>ESCP_GenericBackstory_AdulthoodMage</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+					<li>ESCP_GenericBackstory_AdulthoodImperialFaction</li>
+					<li>ESCP_DunmerBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<!-- ==========[ESCP_Industrial_DunmerScavenger]========== -->
+	<PawnKindDef ParentName="ScavengerBase">
+		<defName>ESCP_Industrial_DunmerScavenger</defName>
+		<!-- Dunmer stuff -->
+		<race>ESCP_DunmerRace</race>
+		<defaultFactionType>ESCP_Industrial_DunmerNonPlayerFaction_Pirate</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>ESCP_DunmerBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodHighClass</li>
+					<li>ESCP_GenericBackstory_AdulthoodMage</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+					<li>ESCP_GenericBackstory_AdulthoodImperialFaction</li>
+					<li>ESCP_DunmerBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<!-- ==========[ESCP_Industrial_DunmerThrasher]========== -->
+	<PawnKindDef ParentName="ThrasherBase">
+		<defName>ESCP_Industrial_DunmerThrasher</defName>
+		<!-- Dunmer stuff -->
+		<race>ESCP_DunmerRace</race>
+		<defaultFactionType>ESCP_Industrial_DunmerNonPlayerFaction_Pirate</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>ESCP_DunmerBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodHighClass</li>
+					<li>ESCP_GenericBackstory_AdulthoodMage</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+					<li>ESCP_GenericBackstory_AdulthoodImperialFaction</li>
+					<li>ESCP_DunmerBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<!-- ==========[ESCP_Industrial_DunmerPirate]========== -->
+	<PawnKindDef ParentName="PirateKindBase">
+		<defName>ESCP_Industrial_DunmerPirate</defName>
+		<!-- Dunmer stuff -->
+		<race>ESCP_DunmerRace</race>
+		<defaultFactionType>ESCP_Industrial_DunmerNonPlayerFaction_Pirate</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>ESCP_DunmerBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodHighClass</li>
+					<li>ESCP_GenericBackstory_AdulthoodMage</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+					<li>ESCP_GenericBackstory_AdulthoodImperialFaction</li>
+					<li>ESCP_DunmerBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+</Defs>

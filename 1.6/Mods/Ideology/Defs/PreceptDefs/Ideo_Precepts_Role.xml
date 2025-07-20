@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PreceptDef ParentName="PreceptRoleSingleBase">
+		<defName>ESCP_Dunmer_IdeoRole_AncestorSpeaker</defName>
+		<label>Dunmer ancestor speaker</label>
+		<description>A special, Dunmer specific, ideoligious status focusing on calling upon the ancestors. This specialised role gives increased psychic sensitivity, and the ability to call upon the knowledge, and wroth, of the ancestors. Holders of this role will refuse to do many kinds of work.\n\nThis role is best suited for someone who is sensitive to the voices of the ancestors.</description>
+		<iconPath>UI/Roles/ESCP_DunmerSpecialistAncestorSpeaker</iconPath>
+		<nameMaker>ESCP_DunmerNamerRoleAncestorSpeaker</nameMaker>
+		<displayOrderInImpact>100</displayOrderInImpact>
+		<restrictToSupremeGenderChance>0.5</restrictToSupremeGenderChance>
+		<convertPowerFactor>2</convertPowerFactor>
+		<roleRequirements>
+			<li Class="RoleRequirement_MinSkillAny">
+				<skills>
+					<Social>8</Social>
+				</skills>
+			</li>
+			<li Class="ESCP_RaceTools.RoleRequirement_RaceMulti">
+				<races>
+					<li>ESCP_DunmerRace</li>
+					<li>ESCP_DunmerAshlanderRace</li>
+					<li MayRequire="ESCP.Chimer">ESCP_ChimerRace</li>
+				</races>
+			</li>
+		</roleRequirements>
+		<roleRequiredWorkTagAny>
+			<li>Social</li>
+		</roleRequiredWorkTagAny>
+		<roleTags>
+			<li>ESCP_Dunmer_IdeoRole_AncestorSpeaker</li>
+		</roleTags>
+		<requiredMemes>
+			<li>ESCP_Cursed</li>
+			<li>ESCP_Structure_OriginTribunal</li>
+			<li>ESCP_Structure_OriginGoodDaedra</li>
+			<li>ESCP_Structure_OriginHouseOfTroubles</li>
+			<li>ESCP_Structure_OriginNerevarine</li>
+			<li MayRequire="SirMashedPotato.MorrowRim.TheSixthHouse">MorrowRim_Structure_OriginDagothUr</li>
+		</requiredMemes>
+		<roleEffects>
+			<li Class="RoleEffect_PawnStatOffset">
+				<statDef>PsychicSensitivity</statDef>
+				<modifier>0.2</modifier>
+			</li>
+			<li Class="RoleEffect_PawnStatOffset">
+				<statDef>MentalBreakThreshold</statDef>
+				<modifier>-0.15</modifier>
+			</li>
+			<li Class="RoleEffect_PawnStatOffset">
+				<statDef>PainShockThreshold</statDef>
+				<modifier>0.15</modifier>
+			</li>
+		</roleEffects>
+		<grantedAbilities>
+			<li>ESCP_Dunmer_AncestralGuidance</li>
+			<li>ESCP_Dunmer_AncestralHealing</li>
+			<li>ESCP_Dunmer_AncestralProtection</li>
+			<li>ESCP_Dunmer_AncestralSight</li>
+			<li>ESCP_Dunmer_AncestralWisdom</li>
+			<li>ESCP_Dunmer_AncestralWrath</li>
+			<li MayRequire="SirMashedPotato.MorrowRim.Bonewalkers">MorrowRim_BonewalkerAbility_Pacify</li>
+			<li MayRequire="SirMashedPotato.MorrowRim.Bonewalkers">MorrowRim_BonewalkerAbility_PacifyMass</li>
+		</grantedAbilities>
+		<roleDisabledWorkTags>
+			<li>Mining</li>
+			<li>Constructing</li>
+		</roleDisabledWorkTags>
+		<!-- apparel stuff -->
+		<roleApparelRequirements>
+			<li MayRequire="Ludeon.RimWorld.Royalty">
+				<requirement>
+					<bodyPartGroupsMatchAny>
+						<li>Torso</li>
+					</bodyPartGroupsMatchAny>
+					<requiredTags>
+						<li>Cape</li>
+					</requiredTags>
+				</requirement>
+			</li>
+			<li>
+				<requirement>
+					<bodyPartGroupsMatchAny>
+						<li>FullHead</li>
+					</bodyPartGroupsMatchAny>
+					<requiredDefs>
+						<li>Apparel_WarVeil</li>
+					</requiredDefs>
+				</requirement>
+			</li>
+			<li>
+				<requirement>
+					<bodyPartGroupsMatchAny>
+						<li>UpperHead</li>
+						<li>FullHead</li>
+					</bodyPartGroupsMatchAny>
+					<requiredDefs>
+						<li>Apparel_HatHood</li>
+					</requiredDefs>
+				</requirement>
+			</li>
+			<li>
+				<requirement>
+					<bodyPartGroupsMatchAny>
+						<li>UpperHead</li>
+						<li>FullHead</li>
+					</bodyPartGroupsMatchAny>
+					<requiredDefs>
+						<li>Apparel_Headwrap</li>
+					</requiredDefs>
+				</requirement>
+			</li>
+			<li>
+				<requirement>
+					<bodyPartGroupsMatchAny>
+						<li>UpperHead</li>
+						<li>Neck</li>
+						<li>Shoulders</li>
+						<li>FullHead</li>
+					</bodyPartGroupsMatchAny>
+					<requiredDefs>
+						<li>Apparel_Broadwrap</li>
+					</requiredDefs>
+				</requirement>
+			</li>
+			<li>
+				<disallowedFactionCategoryTags>
+					<li>Tribal</li>
+				</disallowedFactionCategoryTags>
+				<anyMemeRequired>
+					<li>Transhumanist</li>
+				</anyMemeRequired>
+				<requirement>
+					<bodyPartGroupsMatchAny>
+						<li>UpperHead</li>
+						<li>FullHead</li>
+					</bodyPartGroupsMatchAny>
+					<requiredDefs>
+						<li>Apparel_Slicecap</li>
+					</requiredDefs>
+				</requirement>
+			</li>
+			<li>
+				<disallowedFactionCategoryTags>
+					<li>Tribal</li>
+				</disallowedFactionCategoryTags>
+				<requirement>
+					<bodyPartGroupsMatchAny>
+						<li>FullHead</li>
+					</bodyPartGroupsMatchAny>
+					<requiredDefs>
+						<li>Apparel_VisageMask</li>
+					</requiredDefs>
+				</requirement>
+			</li>
+		</roleApparelRequirements>
+		<roleApparelRequirementCountCurve>
+			<points>
+				<li>(0.5, 1)</li>
+				<li>(1.0, 2)</li>
+			</points>
+		</roleApparelRequirementCountCurve>
+	</PreceptDef>
+</Defs>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerGoodwillSituation_Base]========== -->
+	<GoodwillSituationDef Name="ESCP_DunmerGoodwillSituation_Base" Abstract="True">
+		<workerClass>ESCP_RaceTools.GoodWillWorker_UniversalFactionTagCompatibility</workerClass>
+	</GoodwillSituationDef>
+	<!-- ==========[ESCP_Ashlander_GreatHouse]========== -->
+	<GoodwillSituationDef ParentName="ESCP_DunmerGoodwillSituation_Base">
+		<defName>ESCP_Ashlander_GreatHouse</defName>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionGoodwillProperties">
+				<FactionTagA>ESCP_DunmerAshlander</FactionTagA>
+				<FactionTagB>ESCP_DunmerGreatHouse</FactionTagB>
+			</li>
+		</modExtensions>
+		<label>Ashlander vs Great House</label>
+		<naturalGoodwillOffset>-20</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+	<!-- ==========[ESCP_Ashlander_Ashlander]========== -->
+	<GoodwillSituationDef ParentName="ESCP_DunmerGoodwillSituation_Base">
+		<defName>ESCP_Ashlander_Ashlander</defName>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionGoodwillProperties">
+				<FactionTagA>ESCP_DunmerAshlander</FactionTagA>
+				<FactionTagB>ESCP_DunmerAshlander</FactionTagB>
+			</li>
+		</modExtensions>
+		<label>Ashlander kinship</label>
+		<naturalGoodwillOffset>10</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+	<!-- ==========[ESCP_GreatHouse_GreatHouse]========== -->
+	<GoodwillSituationDef ParentName="ESCP_DunmerGoodwillSituation_Base">
+		<defName>ESCP_GreatHouse_GreatHouse</defName>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionGoodwillProperties">
+				<FactionTagA>ESCP_DunmerGreatHouse</FactionTagA>
+				<FactionTagB>ESCP_DunmerGreatHouse</FactionTagB>
+			</li>
+		</modExtensions>
+		<label>Great House kinship</label>
+		<naturalGoodwillOffset>10</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+</Defs>

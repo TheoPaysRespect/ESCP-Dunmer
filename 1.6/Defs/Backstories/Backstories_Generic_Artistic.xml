@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_ArtisticA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_ArtisticA</defName>
+		<title>St. Delyn glassworker</title>
+		<titleShort>glassworker</titleShort>
+		<description>[PAWN_nameDef] was one of many that found work in the Glassworker's Hall of the St. Delyn canton. [PAWN_nameDef] was a bit annoyed when [PAWN_pronoun] realised they meant that kind of glass, but that did explain the pay, and [PAWN_nameDef] wasn't going to turn down the work.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Artistic>4</Artistic>
+			<Crafting>3</Crafting>
+		</skillGains>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_ArtisticB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_ArtisticB</defName>
+		<title>St. Olms dyer</title>
+		<titleShort>dyer</titleShort>
+		<description>[PAWN_nameDef] was one of many that found work in the Tailors and Dyers Hall of the St. Olms canton. [PAWN_pronoun] enjoyed working with all the dyes, in all their different colours, although there were a few colours [PAWN_nameDef] didn't much care for.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Artistic>3</Artistic>
+			<Crafting>2</Crafting>
+			<Social>2</Social>
+		</skillGains>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

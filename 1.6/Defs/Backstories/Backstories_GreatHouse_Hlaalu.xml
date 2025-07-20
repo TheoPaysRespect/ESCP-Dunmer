@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase" Name="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluBase" Abstract="True">
+		<spawnCategories>
+			<li>ESCP_DunmerGreatHouse_Hlaalu_Adulthood</li>
+		</spawnCategories>
+		<forcedTraitsChance>
+			<li>
+				<defName>Greedy</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Ascetic</defName>
+			</li>
+		</disallowedTraitsChance>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT2Base]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluBase" Name="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT2Base" Abstract="True">
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT3Base]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluBase" Name="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT3Base" Abstract="True">
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Tier 1] ==================== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT1A]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT1A</defName>
+		<title>Hlaalu member</title>
+		<titleShort>member</titleShort>
+		<description>[PAWN_nameDef] was a fairly unremarkable member of Great House Hlaalu. Members of this Great are notorious for valuing wealth above all else, even morals. [PAWN_nameDef] once thought [PAWN_pronoun] was different, now [PAWN_pronoun] is not so sure.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Melee>2</Melee>
+			<Social>5</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT1B]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT1B</defName>
+		<title>Hlaalu thug</title>
+		<titleShort>thug</titleShort>
+		<description>House Hlaalu made a great number of transactions each day, many of which were somewhat less-than-legal. [PAWN_nameDef] ensured these transactions always went as planned.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Melee>3</Melee>
+			<Social>3</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT1C]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT1C</defName>
+		<title>Hlaalu envoy</title>
+		<titleShort>envoy</titleShort>
+		<description>[PAWN_nameDef] was one of the many envoys that Hlaalu would send to talk things out with people. While [PAWN_pronoun] is rather good with words, sometimes words just aren't enough. That's what the 'bodyguards' sent with [PAWN_nameDef] were for.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Social>4</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Tier 2] ==================== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT2A]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT2A</defName>
+		<title>Hlaalu merchant</title>
+		<titleShort>merchant</titleShort>
+		<description>It was well known that merchants operating in House Hlaalu territory were very well off, and [PAWN_nameDef] took great advantage of this. [PAWN_pronoun] also took great advantage of House Hlaalu's connections with a certain criminal Tong.</description>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<skillGains>
+			<Social>9</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT2B]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT2B</defName>
+		<title>Hlaalu enforcer</title>
+		<titleShort>enforcer</titleShort>
+		<description>Whenever the thugs failed, [PAWN_nameDef] came knocking. Whether it be on a door, or on a head, the transactions were always completed.</description>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<skillGains>
+			<Melee>9</Melee>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT2C]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT2C</defName>
+		<title>Hlaalu arsonist</title>
+		<titleShort>arsonist</titleShort>
+		<description>[PAWN_nameDef] was rather skilled at starting fires, and very much enjoyed the sight of the flames flickering through someones house. Sometimes higher ranking members of Great House Hlaalu needed evidence to disappear, when that need arised, they would contact someone like [PAWN_nameDef].</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Crafting>3</Crafting>
+			<Shooting>3</Shooting>
+			<Social>3</Social>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Pyromaniac</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Firefighting</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT2D]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT2D</defName>
+		<title>Hlaalu foreman</title>
+		<titleShort>foreman</titleShort>
+		<description>[PAWN_nameDef] was one of the foreman in charge of overseeing the construction, and renovation, of strongholds in Hlaalu land. [PAWN_pronoun] made sure no expenses were spared, by keeping most of the coin safe in [PAWN_possessive] personal vault. Indefinitely.</description>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<skillGains>
+			<Construction>4</Construction>
+			<Social>5</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT2E]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT2E</defName>
+		<title>Hlaalu torturer</title>
+		<titleShort>torturer</titleShort>
+		<description>After spending years training in the arts of healing, [PAWN_nameDef] eventually discovered this knowledge could be used for more sinister purposes. [PAWN_pronoun] was rather fond of incorporating netch barbs into the process.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Animals>3</Animals>
+			<Intellectual>3</Intellectual>
+			<Medicine>3</Medicine>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Tier 3] ==================== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT3A]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresT2Base">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT3A</defName>
+		<title>Hlaalu Councilman</title>
+		<titleShort>Councilman</titleShort>
+		<description>[PAWN_nameDef] was once a Councilman of Great House Hlaalu. It was a nice job, as it involved doing basically nothing at all, while still making excessive amounts of money. At least it was, until someone investigated where all the drakes were going. Luckily [PAWN_nameDef] had saved up quite a reasonable amount, and was able to easily bribe the guards.</description>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<skillGains>
+			<Social>11</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Special] ==================== -->
+</Defs>

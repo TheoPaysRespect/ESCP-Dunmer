@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CraftingA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CraftingA</defName>
+		<title>chair crafter</title>
+		<titleShort>crafter</titleShort>
+		<description>[PAWN_nameDef] earned a living making and selling chairs, with the occasional table thrown in too. [PAWN_possessive] work even managed to catch the eye of a rather high ranking member of Great House Telvanni. One day [PAWN_nameDef] woke up, ready to fulfil the days orders, only to find every single chair, and table, missing.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Construction>2</Construction>
+			<Crafting>4</Crafting>
+		</skillGains>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CraftingB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CraftingB</defName>
+		<title>bonemold smith</title>
+		<titleShort>smith</titleShort>
+		<description>[PAWN_nameDef] was always fascinated with the process of constructing armour from bonemold. Following their lifelong dream, [PAWN_pronoun] decided to become one of the best bonemold smiths in Vivec. Sadly, [PAWN_possessive] fledgling business was in Camonna Tong territory. [PAWN_nameDef] barely saw a sliver of gold for [PAWN_possessive] hard work, but that never stopped [PAWN_possessive] from enjoying life.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Artistic>2</Artistic>
+			<Crafting>4</Crafting>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="1">NaturalMood</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CraftingC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CraftingC</defName>
+		<title>St. Delyn potter</title>
+		<titleShort>potter</titleShort>
+		<description>[PAWN_nameDef] was one of many that found work in the Potter's Hall of the St. Delyn canton. Admittedly the pay wasn't great, but the bed was cheap, and [PAWN_nameDef] enjoyed the work.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Artistic>3</Artistic>
+			<Crafting>4</Crafting>
+		</skillGains>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CraftingD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CraftingD</defName>
+		<title>St. Olms tailor</title>
+		<titleShort>tailor</titleShort>
+		<description>[PAWN_nameDef] was one of many that found work in the Tailors and Dyers Hall of the St. Olms canton. Days were varied enough, some days shirts, other days pants, maybe even some gloves thrown in there. But [PAWN_nameDef] did eventually grow tired of it, and decided to move on.</description>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Artistic>2</Artistic>
+			<Crafting>3</Crafting>
+			<Social>3</Social>
+		</skillGains>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CraftingE]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CraftingE</defName>
+		<title>St. Olms tanner</title>
+		<titleShort>tanner</titleShort>
+		<description>[PAWN_nameDef] was one of many that found work in the Tanners and Miners Hall of the St. Olms canton. Tanning hides was tiring and monotonous work, but conversations with the miners helped [PAWN_nameDef] through each day. [PAWN_nameDef] even picked up a few tricks from them.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>4</Crafting>
+			<Mining>3</Mining>
+		</skillGains>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CraftingF]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CraftingF</defName>
+		<title>clockwork tinkerer</title>
+		<titleShort>clockwork tinkerer</titleShort>
+		<description>One day [PAWN_nameDef] fished up a strange fish, a fish unlike any other, for it was a clockwork fish. That fateful moment sent [PAWN_possessive] on a several year journey, all to make sense of this strange fish. [PAWN_nameDef] learnt much from tinkering with the fish, so much in fact that upon reaching the Clockwork City, Sotha Sil actually welcomed [PAWN_nameDef], and even granted [PAWN_objective] some knowledge.</description>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>7</Crafting>
+			<Intellectual>5</Intellectual>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ESCP_Dunmer_SothaSilBlessing</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>
