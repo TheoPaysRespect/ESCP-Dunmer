@@ -90,6 +90,7 @@
 				<kindDef>Combat</kindDef>
 				<commonality>5</commonality>
 				<options>
+					<ESCP_DunmerAshlander_Tribal_Breacher>5</ESCP_DunmerAshlander_Tribal_Breacher>
 					<ESCP_DunmerAshlander_Tribal_Penitent>5</ESCP_DunmerAshlander_Tribal_Penitent>
 					<ESCP_DunmerAshlander_Tribal_Warrior>5</ESCP_DunmerAshlander_Tribal_Warrior>
 					<ESCP_DunmerAshlander_Tribal_Archer>10</ESCP_DunmerAshlander_Tribal_Archer>
