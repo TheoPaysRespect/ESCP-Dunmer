@@ -15,7 +15,6 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.0</staticSunShadowHeight>
 		<designationCategory>Misc</designationCategory>
-		<canGenerateDefaultDesignator MayRequire="Ludeon.RimWorld.Ideology">false</canGenerateDefaultDesignator>
 		<statBases>
 			<WorkToBuild>1000</WorkToBuild>
 			<MaxHitPoints>100</MaxHitPoints>
