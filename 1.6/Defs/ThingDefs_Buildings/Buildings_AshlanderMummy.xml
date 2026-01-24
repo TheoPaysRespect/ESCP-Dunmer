@@ -21,6 +21,7 @@
 		<statBases>
 			<WorkToBuild>0</WorkToBuild>
 			<MeditationFocusStrength>0.10</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
 		<passability>PassThroughOnly</passability>
 		<defaultPlacingRot>North</defaultPlacingRot>
@@ -61,6 +62,7 @@
 		</inspectorTabs>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Misc</designationCategory>
+		<canGenerateDefaultDesignator MayRequire="Ludeon.RimWorld.Ideology">false</canGenerateDefaultDesignator>
 		<comps>
 			<li Class="ESCP_RaceTools.CompProperties_DunmerGraveWhisper">
 				<soundDef>ESCP_DunmerGraveWhispering</soundDef>

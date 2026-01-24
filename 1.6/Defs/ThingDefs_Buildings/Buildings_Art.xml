@@ -25,6 +25,7 @@
 			<Flammability>1.0</Flammability>
 			<SellPriceFactor>1.10</SellPriceFactor>
 			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -141,6 +142,7 @@
 			<Mass>3</Mass>
 			<Beauty>50</Beauty>
 			<WorkToMake>18000</WorkToMake>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
 		<stuffCategories>
 			<li>Metallic</li>

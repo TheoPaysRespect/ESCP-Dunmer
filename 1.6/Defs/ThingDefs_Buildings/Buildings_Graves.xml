@@ -15,10 +15,12 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.0</staticSunShadowHeight>
 		<designationCategory>Misc</designationCategory>
+		<canGenerateDefaultDesignator MayRequire="Ludeon.RimWorld.Ideology">false</canGenerateDefaultDesignator>
 		<statBases>
 			<WorkToBuild>1000</WorkToBuild>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
 		<researchPrerequisites>
 			<li>ESCP_DunmerBurialPit</li>
@@ -137,6 +139,7 @@
 	<ThingDef ParentName="ESCP_Dunmer_Grave_Base">
 		<defName>ESCP_Dunmer_BurialUrn</defName>
 		<label>Dunmer burial urn</label>
+		<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_DunmerStyle</dominantStyleCategory>
 		<description>While Dunmer usually spread the ashes and bones of the deceased into burial pits, they do also make use of burial urns. These burial urns are often found reserved for those of higher standing, and are usually placed in family tombs.\n\nCorpses buried in these will be cremated in the process, leaving only their bones and ash behind. Any worn apparel and held items will be placed nearby.</description>
 		<modExtensions>
 			<li MayRequire="owlchemist.perspectivebuildings" Class="Perspective.Offsetter">
@@ -184,6 +187,7 @@
 		</thingCategories>
 		<statBases>
 			<Mass>3</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
 		<comps>
 			<li>
@@ -228,6 +232,7 @@
 			<WorkToBuild>1000</WorkToBuild>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
 		<costStuffCount>20</costStuffCount>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
@@ -258,6 +263,7 @@
 	<ThingDef ParentName="ESCP_Dunmer_AshBurialPit_Base">
 		<defName>ESCP_Dunmer_AshBurialPit_SquareCorner</defName>
 		<label>ash burial pit (squared corner)</label>
+		<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_DunmerStyle</dominantStyleCategory>
 		<graphicData>
 			<texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_SquareCorner_Atlas</texPath>
 		</graphicData>
@@ -275,6 +281,7 @@
 	<ThingDef ParentName="ESCP_Dunmer_AshBurialPit_Base">
 		<defName>ESCP_Dunmer_AshBurialPit_RoundedCorner</defName>
 		<label>ash burial pit (rounded corner)</label>
+		<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_DunmerStyle</dominantStyleCategory>
 		<graphicData>
 			<texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_RoundedCorner/ESCP_Dunmer_AshBurialPit_RoundedCorner_Atlas</texPath>
 		</graphicData>
