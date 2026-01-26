@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Only run this patch if Ideology DLC is active -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+
+    <match Class="PatchOperationSequence">
+      <operations>
+
+        <!-- Concrete def -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="ESCP_Dunmer_AshlanderMummy"]</xpath>
+		  <value>
+		  <canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
+		  </value>
+        </li>
+
+        <!-- Abstract parent def (uses @Name, not defName) -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[@Name="ESCP_Dunmer_Grave_Base"]</xpath>
+		  <value>
+		  <canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
+		  </value>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>
