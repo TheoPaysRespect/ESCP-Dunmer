@@ -9,12 +9,5 @@
 			<nameGeneratorFemale>ESCP_DunmerAshlander_NamerFemale</nameGeneratorFemale>
 			<useMeatFrom>ESCP_DunmerRace</useMeatFrom>
 		</race>
-		<alienRace>
-			<raceRestriction>
-				<buildingList>
-					<li>ESCP_Dunmer_AshlanderMummy</li>
-				</buildingList>
-			</raceRestriction>
-		</alienRace>
 	</AlienRace.ThingDef_AlienRace>
 </Defs>

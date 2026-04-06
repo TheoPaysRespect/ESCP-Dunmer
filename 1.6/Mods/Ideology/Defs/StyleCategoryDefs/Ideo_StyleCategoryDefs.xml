@@ -10,6 +10,14 @@
 		<thingDefStyles>
 
 		</thingDefStyles>
+		<addDesignators>
+		  <li>ESCP_Dunmer_SaintShrine</li>
+		  <li>ESCP_Dunmer_BurialUrn</li>
+		  <li>ESCP_Dunmer_AshBurialPit_SquareCorner</li>
+		  <li>ESCP_Dunmer_AshBurialPit_RoundedCorner</li>
+		</addDesignators>
+		<addDesignatorGroups>
+		</addDesignatorGroups>
 	</StyleCategoryDef>
 	<!-- ==========[ESCP_DunmerAshlanderStyle]========== -->
 	<StyleCategoryDef>
@@ -21,6 +29,11 @@
 		<thingDefStyles>
 
 		</thingDefStyles>
+		<addDesignators>
+		  <li>ESCP_Dunmer_AshlanderMummy</li>
+		</addDesignators>
+		<addDesignatorGroups>
+		</addDesignatorGroups>
 	</StyleCategoryDef>
 	<!-- ==========[ESCP_DunmerTribunal]========== -->
 	<StyleCategoryDef>
@@ -32,5 +45,9 @@
 		<thingDefStyles>
 
 		</thingDefStyles>
+		<addDesignators>
+		</addDesignators>
+		<addDesignatorGroups>
+		</addDesignatorGroups>
 	</StyleCategoryDef>
 </Defs>
